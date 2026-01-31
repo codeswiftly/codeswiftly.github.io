@@ -1,0 +1,67 @@
+name: Publish DocC
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: '6.2'
+
+      - name: Build DocC
+        run: |
+          set -euo pipefail
+          output_root="${GITHUB_WORKSPACE}/_site"
+          rm -rf "${output_root}"
+          mkdir -p "${output_root}"
+          docc convert "codeswiftly.docc" \
+            --output-path "${output_root}" \
+            --transform-for-static-hosting \
+            --hosting-base-path /
+          cp "docc-overrides.css" "${output_root}/css/docc-overrides.css"
+          find "${output_root}" -name index.html -print0 | xargs -0 perl -0pi -e 'if ($_ !~ /docc-overrides\.css/) { s#</head>#<link rel="stylesheet" href="/css/docc-overrides.css"></head># }'
+          touch "${output_root}/.nojekyll"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    needs: build
+    runs-on: ${{ matrix.os }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Print Deployed URL
+        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}"
