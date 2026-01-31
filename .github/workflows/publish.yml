@@ -40,8 +40,9 @@ jobs:
             --output-path "${output_root}" \
             --transform-for-static-hosting \
             --hosting-base-path /
+          echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/documentation/codeswiftly"></head></html>' > "${output_root}/index.html"
           cp "docc-overrides.css" "${output_root}/css/docc-overrides.css"
-          find "${output_root}" -name index.html -print0 | xargs -0 perl -0pi -e 'if ($_ !~ /docc-overrides.css/) { s#</head>#<link rel="stylesheet" href="/css/docc-overrides.css"></head># }'
+          find "${output_root}" -name index.html -print0 | xargs -0 perl -0pi -e 'if ($_ !~ /docc-overrides\.css/) { s#</head>#<link rel="stylesheet" href="/css/docc-overrides.css"></head># }'
           touch "${output_root}/.nojekyll"
 
       - name: Upload Pages artifact
@@ -57,11 +58,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}documentation/codeswiftly
     steps:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
 
       - name: Print Deployed URL
-        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}"
+        run: echo "Deployed to ${{ steps.deployment.outputs.page_url }}documentation/codeswiftly"
