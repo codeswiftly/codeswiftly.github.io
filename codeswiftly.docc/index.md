@@ -30,4 +30,4 @@ Code Swiftly is dedicated to the craft of Swift programming, exploring low-level
 
 ### Practice
 
-- <doc:swift-interview-guide>
+- <doc:index>
