@@ -1,0 +1,40 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-top-k-heap-practice-icon", alt: "Pattern 9 Top K with Heap icon")
+@PageImage(purpose: card, source: "doc-pattern-top-k-heap-practice-card", alt: "Pattern 9 Top K with Heap card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 9 - Top K with Heap") {
+        @Image(source: "doc-pattern-top-k-heap-practice-hero", alt: "Pattern 9 Top K with Heap hero")
+        Review fixed-size heaps for top-K selection without sorting everything.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Maintain a heap of size K where pushing a new candidate and popping the smallest keeps
+            only the most relevant items.
+        }
+        @Steps {
+            @Step {
+                Connect this pattern to <doc:leetcode-692-top-k-frequent-words> and <doc:leetcode-295-find-median-data-stream>.
+            }
+        }
+    }
+
+    @Section(title: "Problem: K Largest Numbers / Top K Frequent") {
+        @ContentAndMedia {
+            Use a min-heap of size K so the root is always the current Kth largest value.
+        }
+        @Steps {
+            @Step {
+                Annotate the `Heap` type and `topK`: `push` restores the heap property by bubbling
+                the new element up, `pop` swaps root with the last element and sifts down. In `topK`,
+                each new number triggers at most one `push` and sometimes a `pop`, and the heap never
+                grows beyond size `k`, giving `O(n log k)` time.
+                @Code(name: "TopKHeap.swift", file: "pattern-top-k-heap.swift")
+            }
+        }
+    }
+}

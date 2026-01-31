@@ -1,0 +1,42 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-graph-bfs-practice-icon", alt: "Pattern 12 Graph BFS (Shortest Path) icon")
+@PageImage(purpose: card, source: "doc-pattern-graph-bfs-practice-card", alt: "Pattern 12 Graph BFS (Shortest Path) card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 12 - Graph BFS (Shortest Path)") {
+        @Image(source: "doc-pattern-graph-bfs-practice-hero", alt: "Pattern 12 Graph BFS (Shortest Path) hero")
+        Review breadth-first search to compute unweighted shortest path lengths.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            BFS expands the frontier one distance layer at a time, guaranteeing the first time you
+            reach a node is via the shortest path.
+        }
+        @Steps {
+            @Step {
+                Map this reasoning to word ladder or grid shortest-path questions described in
+                <doc:top-15-patterns>.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Shortest Path Length in an Unweighted Graph") {
+        @ContentAndMedia {
+            Starting from a source node, compute the minimum number of edges needed to reach a
+            target.
+        }
+        @Steps {
+            @Step {
+                Annotate `shortestPathLength`: the queue stores `(node, distance)` pairs, the
+                `visited` set ensures you never enqueue the same node twice, and every time you pop
+                the target you know you have the minimal distance because BFS grows the frontier
+                one edge at a time.
+                @Code(name: "GraphBFS.swift", file: "pattern-graph-bfs.swift")
+            }
+        }
+    }
+}

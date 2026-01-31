@@ -1,0 +1,24 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-roman-to-integer-practice-icon", alt: "LeetCode 13 Roman to Integer icon")
+@PageImage(purpose: card, source: "doc-roman-to-integer-practice-card", alt: "LeetCode 13 Roman to Integer card")
+}
+
+@Tutorial(time: 8) {
+
+    @Intro(title: "LeetCode 13 - Roman to Integer") {
+        @Image(source: "doc-roman-to-integer-practice-hero", alt: "LeetCode 13 Roman to Integer hero")
+        Practice right-to-left traversal to add or subtract based on the last value.
+    }
+
+    @Section(title: "Traverse from the Right") {
+        @ContentAndMedia {
+            Compare each value to the last seen; subtract if smaller, else add.
+        }
+        @Steps {
+            @Step {
+                Mention O(n) time, O(1) space; note invalid-input handling in real APIs. See
+                article for code.
+            }
+        }
+    }
+}

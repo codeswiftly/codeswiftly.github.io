@@ -1,0 +1,59 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-tutorials-icon", alt: "Practice Loop icon")
+@PageImage(purpose: card, source: "doc-tutorials-card", alt: "Practice Loop card")
+}
+
+@Tutorials(name: "Swift Interview Guide") {
+
+    @Intro(title: "Practice Loop") {
+        @Image(source: "doc-tutorials-hero", alt: "Practice Loop hero")
+        Run the full Swift interview rehearsal: prep, coding, design, and behavioral.
+    }
+
+    @Chapter(name: "Algorithms") {
+        @Image(source: "icon-track-algorithms", alt: "Algorithms track")
+        @TutorialReference(tutorial: "tutorial:leetcode-26-remove-duplicates")
+        @TutorialReference(tutorial: "tutorial:leetcode-1207-unique-occurrences")
+        @TutorialReference(tutorial: "tutorial:linked-list-reversal-practice")
+        @TutorialReference(tutorial: "tutorial:quick-sort-algorithm")
+        @TutorialReference(tutorial: "tutorial:roman-to-integer-practice")
+        @TutorialReference(tutorial: "tutorial:longest-common-prefix")
+    }
+
+    @Chapter(name: "Patterns") {
+        @Image(source: "icon-track-algorithms", alt: "Patterns track")
+        @TutorialReference(tutorial: "tutorial:pattern-prefix-sum-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-two-pointers-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-sliding-window-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-overlapping-intervals-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-modified-binary-search-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-fast-slow-pointers-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-in-place-reversal-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-monotonic-stack-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-top-k-heap-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-tree-bfs-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-dfs-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-graph-bfs-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-matrix-traversal-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-backtracking-practice")
+        @TutorialReference(tutorial: "tutorial:pattern-dp-practice")
+    }
+
+    @Chapter(name: "CoderPad") {
+        @Image(source: "icon-track-practice", alt: "Practice track")
+        @TutorialReference(tutorial: "tutorial:coderpad-2048-bonacci-practice")
+        @TutorialReference(tutorial: "tutorial:coderpad-top-15-patterns-recall")
+    }
+
+    @Chapter(name: "Concurrency") {
+        @Image(source: "icon-track-concurrency", alt: "Concurrency track")
+        @TutorialReference(tutorial: "tutorial:concurrency-quiz")
+    }
+
+    @Chapter(name: "Wallet and PassKit") {
+        @Image(source: "icon-track-wallet", alt: "Wallet and PassKit track")
+        @TutorialReference(tutorial: "tutorial:wallet-add-pass-to-wallet")
+        @TutorialReference(tutorial: "tutorial:wallet-verify-with-wallet-identity")
+        @TutorialReference(tutorial: "tutorial:wallet-shareable-passes")
+    }
+}

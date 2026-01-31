@@ -1,0 +1,115 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-wallet-shareable-passes-icon", alt: "Shareable Passes in Apple Wallet icon")
+@PageImage(purpose: card, source: "doc-wallet-shareable-passes-card", alt: "Shareable Passes in Apple Wallet card")
+}
+
+@Tutorial(time: 45) {
+
+    @Intro(title: "Shareable Passes in Apple Wallet") {
+        @Image(source: "doc-wallet-shareable-passes-hero", alt: "Shareable Passes in Apple Wallet hero")
+        Configure and present shareable passes so people can share secure element credentials and
+        event passes safely through system-owned Wallet UI.
+    }
+
+    @Section(title: "Understand the Sharing Model") {
+        @ContentAndMedia {
+            Shareable passes let the system own the sharing UX while your app controls what kind of
+            sharing is allowed and how the shared pass looks.
+        }
+        @Steps {
+            @Step {
+                Remember that shareable passes are backed by secure element or event passes in
+                Wallet; your app configures what can be shared and Wallet owns the sharing UI.
+            }
+        }
+    }
+
+    @Section(title: "Create Share Metadata") {
+        @ContentAndMedia {
+            Use `PKShareablePassMetadata` to configure the title, description, and preview for the
+            share sheet.
+        }
+        @Steps {
+            @Step {
+                Create a small factory (for example, `ShareablePassMetadataFactory`) that returns a
+                `PKShareablePassMetadata` with localized title and description, plus any preview
+                image you want to show.
+                @Code(name: "ShareablePassMetadataFactory.swift", file: "wallet-shareable-pass-metadata-factory.swift")
+            }
+        }
+    }
+
+    @Section(title: "Configure the Shareable Pass") {
+        @ContentAndMedia {
+            Combine the underlying pass and metadata into a `PKAddShareablePassConfiguration` that
+            describes how Wallet should perform the share.
+        }
+        @Steps {
+            @Step {
+                Build a `PKAddShareablePassConfiguration` from a `PKSecureElementPass` and your
+                metadata, choosing a primary action (for example, `.add`) to describe what happens
+                when someone accepts the shared pass.
+            }
+            @Step {
+                In interviews, emphasize that the configuration encodes what sharing is allowed
+                while the system owns the actual sharing UI and transport.
+            }
+        }
+    }
+
+    @Section(title: "Present the Share UI and Handle Results") {
+        @ContentAndMedia {
+            Use `PKShareSecureElementPassViewController` to present the share flow and respond to
+            completion via its delegate.
+        }
+        @Steps {
+            @Step {
+                Present `PKShareSecureElementPassViewController` from a visible view controller with
+                your configuration, set its delegate, and handle `PKShareSecureElementPassResult`
+                to learn whether the user completed, canceled, or hit an error.
+                @Code(name: "ShareSecureElementPassCoordinator.swift", file: "wallet-share-secure-element-pass-coordinator.swift")
+            }
+            @Step {
+                Keep your own share buttons clearly labeled as Add to Wallet or Share via Wallet,
+                and use the result enum to drive analytics and user messaging rather than inferring
+                low-level details.
+            }
+        }
+    }
+
+    @Assessments {
+        @MultipleChoice {
+            Which type configures the title, description, and preview for a shareable pass?
+
+            @Choice(isCorrect: true) {
+                `PKShareablePassMetadata`
+                @Justification(reaction: "Correct - `PKShareablePassMetadata` describes how the shared pass appears in the share UI.")
+            }
+            @Choice(isCorrect: false) {
+                `PKAddShareablePassConfiguration`
+                @Justification(reaction: "The configuration combines the pass and metadata to describe the share behavior, but metadata itself lives in `PKShareablePassMetadata`.")
+            }
+            @Choice(isCorrect: false) {
+                `PKShareSecureElementPassViewController`
+                @Justification(reaction: "This view controller presents the sharing UI; it does not hold the title and description.")
+            }
+        }
+
+        @MultipleChoice {
+            Which controller presents the system UI for sharing a secure element pass?
+
+            @Choice(isCorrect: true) {
+                `PKShareSecureElementPassViewController`
+                @Justification(reaction: "Correct - this controller owns the share flow for secure element passes.")
+            }
+            @Choice(isCorrect: false) {
+                `PKAddPassesViewController`
+                @Justification(reaction: "`PKAddPassesViewController` presents Add to Wallet for passes, not the share flow for secure element passes.")
+            }
+            @Choice(isCorrect: false) {
+                `PKIdentityAuthorizationController`
+                @Justification(reaction: "`PKIdentityAuthorizationController` handles Verify with Wallet identity requests, not shareable passes.")
+            }
+        }
+    }
+}

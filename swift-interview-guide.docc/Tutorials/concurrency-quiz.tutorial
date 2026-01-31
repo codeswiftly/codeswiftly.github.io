@@ -1,0 +1,858 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-concurrency-quiz-icon", alt: "Concurrency Quiz Series icon")
+@PageImage(purpose: card, source: "doc-concurrency-quiz-card", alt: "Concurrency Quiz Series card")
+}
+
+@Tutorial(time: 60) {
+
+    @Intro(title: "Concurrency Quiz Series") {
+        @Image(source: "doc-concurrency-quiz-hero", alt: "Concurrency Quiz Series hero")
+        Practice GCD, OperationQueue, semaphores, barriers, QoS, UI threading, and dispatch
+        sources with focused quizzes that mirror the sections in the `ConcurrencyQuizDemo` app.
+        Each section is a separate tutorial "screen" with questions at the bottom.
+
+        Use this after reading:
+
+        - <doc:concurrency-beginners-guide>
+        - <doc:concurrency-dispatch-design>
+        - <doc:concurrency-gcd-deep-dive>
+    }
+
+    @Section(title: "Foundations and Mental Model") {
+        @ContentAndMedia {
+            Tighten your mental model of **concurrency vs parallelism**, **context switching**, and
+            why we rarely manage `Thread` objects directly in modern Swift code.
+        }
+
+        @Steps {
+            @Step {
+                Skim <doc:concurrency-beginners-guide>, focusing on the definitions of concurrency
+                and parallelism, and how time slicing works on a single-core CPU.
+            }
+            @Step {
+                Skim <doc:concurrency-gcd-deep-dive> for the overview of queues vs threads.
+            }
+            @Step {
+                Compare manual threads against queue-based concurrency in a small example.
+                @Code(name: "Foundations.swift", file: "concurrency-quiz-foundations.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "GCD Basics") {
+        @ContentAndMedia {
+            Practice reasoning about which **thread** your work runs on, how **sync vs async**
+            affect the caller, and how QoS and target queues shape behavior.
+        }
+
+        @Steps {
+            @Step {
+                Re-read the "Queues vs threads" and "QoS and targets" sections of
+                <doc:concurrency-gcd-deep-dive>.
+            }
+            @Step {
+                Walk through a concrete example of `sync` vs `async` on a serial queue and a
+                serial queue targeting a global queue.
+                @Code(name: "GcdBasics.swift", file: "concurrency-quiz-gcd-basics.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "Groups and Work Items") {
+        @ContentAndMedia {
+            Coordinate **independent tasks** with `DispatchGroup`, and debounce/cancel work with
+            `DispatchWorkItem`.
+        }
+
+        @Steps {
+            @Step {
+                Review the `DispatchGroup` examples in <doc:concurrency-dispatch-design>, focusing
+                on how `enter`/`leave` balance and how `wait` vs `notify` change behavior.
+            }
+            @Step {
+                Study a concrete example that joins profile and settings loads with a group and
+                debounces search requests with a cancellable work item.
+                @Code(name: "GroupsAndWorkItems.swift", file: "concurrency-quiz-groups-and-work-items.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "Semaphores and Barriers") {
+        @ContentAndMedia {
+            Practice the **reader-writer pattern**, mutual exclusion, and how semaphores can lead
+            to **priority inversion** if used carelessly.
+        }
+
+        @Steps {
+            @Step {
+                Review the "Semaphores" and "Barriers and reader-writer" sections in
+                <doc:concurrency-dispatch-design>.
+            }
+            @Step {
+                Explore a concrete example of a semaphore-as-mutex and a barrier-based
+                `ThreadSafeCache`.
+                @Code(name: "SemaphoresAndBarriers.swift", file: "concurrency-quiz-semaphores-and-barriers.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "Operations and Queues") {
+        @ContentAndMedia {
+            Move up a level to **OperationQueue**: dependencies, async operations, cancellation,
+            and how its model compares to raw GCD queues.
+        }
+
+        @Steps {
+            @Step {
+                Review the "Operations vs GCD" section in <doc:concurrency-gcd-deep-dive>.
+            }
+            @Step {
+                Study a serial-style `OperationQueue` with dependencies and an `AsyncOperation`
+                skeleton that manages `isAsynchronous`, `isExecuting`, and `isFinished`.
+                @Code(name: "OperationsAndQueues.swift", file: "concurrency-quiz-operations-and-queues.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "GCD Patterns and Performance") {
+        @ContentAndMedia {
+            Focus on **async vs sync**, global queues under load, and why GCD can be more efficient
+            than Operations for tiny units of work.
+        }
+
+        @Steps {
+            @Step {
+                Compare async and sync dispatch to a global queue in a minimal example.
+                @Code(name: "PatternsAndPerformance.swift", file: "concurrency-quiz-patterns-and-performance.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "UI and the Main Thread") {
+        @ContentAndMedia {
+            Confirm your understanding of why **all UI frameworks on Apple platforms require the
+            main thread**, and how to safely hop between background work and UI updates.
+        }
+
+        @Steps {
+            @Step {
+                Review the "Main queue and UI rules" section in
+                <doc:concurrency-dispatch-design>.
+            }
+            @Step {
+                Walk through a small view-controller example that fetches data off-main and
+                applies UI updates on the main queue.
+                @Code(name: "UIAndMainThread.swift", file: "concurrency-quiz-ui-and-main-thread.swift")
+            }
+        }
+
+    }
+
+    @Section(title: "Advanced - Dispatch Sources") {
+        @ContentAndMedia {
+            Stretch topic: reason about **DispatchSourceTimer** and why you would use it instead of
+            ad hoc loops or sleeps when scheduling repeated work.
+        }
+
+        @Steps {
+            @Step {
+                Inspect a minimal example of a repeating `DispatchSourceTimer` on a background
+                queue.
+                @Code(name: "DispatchSources.swift", file: "concurrency-quiz-dispatch-sources.swift")
+            }
+        }
+
+    }
+    @Assessments {
+        @MultipleChoice {
+            What is the primary distinction between concurrency and parallelism on a
+            single-core processor?
+
+            @Choice(isCorrect: false) {
+                A. Concurrency means tasks start at the same time but finish at different
+                times, while parallelism means they start and finish at the same time.
+                @Justification(reaction: "Start/finish timing is not the essence; it is about resource sharing vs true simultaneous execution.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. Concurrency is not possible on a single-core processor, while parallelism is
+                achieved through time slicing.
+                @Justification(reaction: "Concurrency is exactly what you get via time slicing on a single core; parallelism needs multiple cores.")
+            }
+
+            @Choice(isCorrect: true) {
+                C. On a single-core processor, concurrency is an illusion created by rapid
+                context switching, while true parallelism is impossible.
+                @Justification(reaction: "Correct - concurrency interleaves tasks on one core; parallelism requires multiple processing units.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. Concurrency uses multiple threads, whereas parallelism on a single-core
+                processor uses a single thread to manage multiple tasks.
+                @Justification(reaction: "Both concurrency and parallelism can involve multiple threads; the key is whether work runs literally at the same time.")
+            }
+        }
+
+        @MultipleChoice {
+            What is the role of **context switching** in enabling concurrency?
+
+            @Choice(isCorrect: false) {
+                A. It changes the priority of a task so more important tasks execute first.
+                @Justification(reaction: "Scheduling may change priorities, but context switching is about saving and restoring state.")
+            }
+
+            @Choice(isCorrect: true) {
+                B. It saves the CPU state of one task and restores that of another so the CPU
+                can rapidly alternate between them.
+                @Justification(reaction: "Correct - saving and restoring registers, stack, and program counter enables concurrency by time slicing.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. It allows two tasks to be merged and executed as a single, more efficient
+                task.
+                @Justification(reaction: "Tasks remain distinct; context switching just decides which runs at a time.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. It is only used when moving an app between foreground and background.
+                @Justification(reaction: "Foreground vs background is an app/OS notion; context switching happens at the scheduler level.")
+            }
+        }
+
+        @MultipleChoice {
+            Why is it generally a bad idea to create and manage `Thread` objects manually in
+            modern Swift code?
+
+            @Choice(isCorrect: false) {
+                A. The `Thread` class is deprecated and will be removed in future Swift
+                versions.
+                @Justification(reaction: "`Thread` is not deprecated; it is just low-level.")
+            }
+
+            @Choice(isCorrect: true) {
+                B. You become responsible for lifecycle, memory (autorelease pools), and
+                avoiding an explosion of threads, which is complex and inefficient compared to
+                GCD and OperationQueue.
+                @Justification(reaction: "Correct - GCD and OperationQueue manage thread pools, lifecycles, and memory more safely.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. Manually created threads cannot run concurrently with GCD-managed threads.
+                @Justification(reaction: "They can; the issue is management burden, not concurrency.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. Manual threads always run at a lower priority than work on GCD queues.
+                @Justification(reaction: "Priority is configurable; there is no inherent lower default.")
+            }
+        }
+
+        @MultipleChoice {
+            A developer submits a task to a global concurrent queue with a `.userInteractive`
+            QoS. Where does this work actually run?
+
+            @Choice(isCorrect: false) {
+                A. On a new, dedicated thread created just for this task so it can start
+                immediately.
+                @Justification(reaction: "GCD uses a shared pool of worker threads; it does not create a brand-new thread per task.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. On the main thread, but only if the main thread is currently idle.
+                @Justification(reaction: "Global concurrent queues are separate from the main queue; they do not run work on the main thread.")
+            }
+
+            @Choice(isCorrect: true) {
+                C. On a background worker thread from the global pool, scheduled with a high
+                priority appropriate for `.userInteractive`.
+                @Justification(reaction: "Correct - QoS influences scheduling, not whether work runs on the main thread.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. On whichever thread originally called `async`, because QoS only affects
+                priority.
+                @Justification(reaction: "The closure runs on the queue's threads, not the caller's.")
+            }
+        }
+
+        @MultipleChoice {
+            What is the key difference between dispatching a task **synchronously** vs
+            **asynchronously** to the same serial queue?
+
+            @Choice(isCorrect: false) {
+                A. Synchronous dispatch is for UI tasks; asynchronous dispatch is for background
+                tasks.
+                @Justification(reaction: "UI vs background is about which queue you use, not sync vs async.")
+            }
+
+            @Choice(isCorrect: true) {
+                B. Both run one task at a time on the serial queue, but `sync` blocks the caller
+                until the work completes, while `async` lets the caller continue immediately.
+                @Justification(reaction: "Correct - serial vs concurrent affects the destination queue; sync vs async affects whether the caller waits.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. `async` guarantees that the work runs on a different thread; `sync`
+                guarantees it runs on the current thread.
+                @Justification(reaction: "The work runs on the queue's threads; `sync` only controls blocking.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. There is no functional difference; `sync` is just older syntax.
+                @Justification(reaction: "They are separate APIs with different blocking semantics.")
+            }
+        }
+
+        @MultipleChoice {
+            A serial queue's target is set to `DispatchQueue.global(qos: .userInitiated)`. How
+            does this affect the queue's behavior?
+
+            @Choice(isCorrect: false) {
+                A. It becomes a concurrent queue because its target is concurrent.
+                @Justification(reaction: "Targeting does not change serial vs concurrent behavior.")
+            }
+
+            @Choice(isCorrect: true) {
+                B. It remains serial, but its work now executes with `.userInitiated` QoS on
+                threads from the global pool.
+                @Justification(reaction: "Correct - the queue still dequeues one item at a time; only scheduling context changes.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. It starts executing tasks directly on the main thread.
+                @Justification(reaction: "Global queues are separate from the main queue.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The configuration is invalid and will crash at runtime.
+                @Justification(reaction: "Serial queues can safely target concurrent queues; this is a common pattern.")
+            }
+        }
+
+        @MultipleChoice {
+            A developer calls `DispatchQueue.main.sync` from code already running on the main
+            thread. What happens?
+
+            @Choice(isCorrect: false) {
+                A. The block is queued to run on the next run-loop tick.
+                @Justification(reaction: "That would be an async-like behavior; `sync` waits for the work to finish.")
+            }
+
+            @Choice(isCorrect: true) {
+                B. A runtime deadlock occurs because the main thread is blocked waiting for work
+                that cannot start until the main thread is free.
+                @Justification(reaction: "Correct - this is the classic main-queue re-entrancy deadlock.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The compiler rejects this pattern with an error.
+                @Justification(reaction: "The compiler does not detect this; it is a runtime issue.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The block runs immediately and returns without incident.
+                @Justification(reaction: "That would defeat the point of queueing work.")
+            }
+        }
+
+        @MultipleChoice {
+            When using a `DispatchGroup`, what is the critical difference between `wait()` and
+            `notify(queue:execute:)`?
+
+            @Choice(isCorrect: true) {
+                A. `wait()` blocks the current thread until the group is empty, while `notify`
+                schedules a completion block asynchronously without blocking.
+                @Justification(reaction: "Correct - `wait()` is synchronous and blocking; `notify()` is asynchronous and non-blocking.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. `wait()` automatically manages `enter`/`leave`, but `notify()` requires
+                manual calls.
+                @Justification(reaction: "Both rely on the same group count; neither changes balancing semantics.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. `notify()` can only be used from the main thread.
+                @Justification(reaction: "Both can be used from or targeted to any queue.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. `wait()` can only be used with concurrent queues.
+                @Justification(reaction: "Groups are independent of queue type.")
+            }
+        }
+
+        @MultipleChoice {
+            What happens if you call `leave()` on a `DispatchGroup` more times than you call
+            `enter()`?
+
+            @Choice(isCorrect: false) {
+                A. Extra `leave()` calls are ignored and the group behaves normally.
+                @Justification(reaction: "The internal counter must never go negative; extra leaves are not ignored.")
+            }
+
+            @Choice(isCorrect: true) {
+                B. The application crashes at runtime with an error about an unbalanced group.
+                @Justification(reaction: "Correct - unbalanced `enter`/`leave` is treated as a programmer error.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The `notify` block runs early but the app continues.
+                @Justification(reaction: "The crash happens before treating the group as valid.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The group automatically resets its counter to zero.
+                @Justification(reaction: "There is no auto-reset; you must keep the count consistent.")
+            }
+        }
+
+        @MultipleChoice {
+            A text field performs a "live search" with debouncing. Why is wrapping the work in a
+            `DispatchWorkItem` more powerful than using `asyncAfter` with a plain closure?
+
+            @Choice(isCorrect: true) {
+                A. You can keep a reference to the pending `DispatchWorkItem` and cancel it when
+                the user types again, avoiding stale network calls.
+                @Justification(reaction: "Correct - cancellability is the main benefit in this pattern.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. `DispatchWorkItem` always executes with higher priority than a closure passed
+                to `asyncAfter`.
+                @Justification(reaction: "Priority comes from the queue and QoS, not the container type.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. `DispatchWorkItem` runs on the main thread by default.
+                @Justification(reaction: "It runs on whichever queue you submit it to.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. `asyncAfter` blocks the current thread until the delay elapses.
+                @Justification(reaction: "Both schedule work; neither blocks the current thread during the delay.")
+            }
+        }
+
+        @MultipleChoice {
+            Three tasks are added to a `DispatchGroup` and `wait(timeout: .now() + 3)` returns
+            `.timedOut`. What does this mean?
+
+            @Choice(isCorrect: true) {
+                A. At least one task did not call `leave()` before the timeout expired; the work
+                may still be running.
+                @Justification(reaction: "Correct - `.timedOut` only says the group was non-empty at the deadline.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. All tasks have failed or crashed.
+                @Justification(reaction: "Timeout does not imply failure; tasks may finish later.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. All tasks were cancelled automatically by the group.
+                @Justification(reaction: "Groups do not cancel work; they only track completion.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The group is now permanently invalid.
+                @Justification(reaction: "You can keep using the group as long as `enter`/`leave` remain balanced.")
+            }
+        }
+
+        @MultipleChoice {
+            What is the primary purpose of a `DispatchSemaphore` initialized with a value of 1?
+
+            @Choice(isCorrect: true) {
+                A. To allow only one thread at a time to enter a critical section, effectively
+                acting as a mutex.
+                @Justification(reaction: "Correct - a value-1 semaphore is a binary semaphore, often used for mutual exclusion.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. To signal the completion of a set of tasks, similar to a `DispatchGroup`.
+                @Justification(reaction: "Groups coordinate completion; semaphores gate access to resources.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. To change the QoS of a queue dynamically at runtime.
+                @Justification(reaction: "Semaphores do not alter queue priority.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. To guarantee FIFO ordering for all tasks on a concurrent queue.
+                @Justification(reaction: "Ordering is governed by the queue; semaphores only gate entry.")
+            }
+        }
+
+        @MultipleChoice {
+            On a custom concurrent queue, how does a task submitted with the `.barrier` flag
+            behave?
+
+            @Choice(isCorrect: true) {
+                A. It waits for all previously submitted tasks to finish, executes exclusively,
+                then allows later tasks to proceed.
+                @Justification(reaction: "Correct - the barrier forms a synchronization point.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. It runs concurrently with all other tasks because the queue is concurrent.
+                @Justification(reaction: "The whole point of a barrier is exclusive execution.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. It cancels all tasks that have not yet started.
+                @Justification(reaction: "Barriers do not cancel work; they serialize around it.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. It has no effect unless used on the main queue.
+                @Justification(reaction: "Barriers are for custom concurrent queues, not the global or main queues.")
+            }
+        }
+
+        @MultipleChoice {
+            In the classic reader-writer problem, why is a concurrent queue with barriers more
+            efficient than a pure serial queue?
+
+            @Choice(isCorrect: true) {
+                A. It allows many reads to run in parallel while still serializing writes with a
+                barrier.
+                @Justification(reaction: "Correct - this pattern unlocks parallel reads without sacrificing correctness for writes.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. A serial queue is not thread-safe, while a concurrent queue with a barrier
+                is.
+                @Justification(reaction: "Both can be thread-safe; the key difference is read parallelism.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. Serial queues are more likely to deadlock in practice.
+                @Justification(reaction: "A simple serial queue does not inherently deadlock.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. Barriers automatically detect and repair race conditions.
+                @Justification(reaction: "They only control ordering; correctness is still on you.")
+            }
+        }
+
+        @MultipleChoice {
+            What is **priority inversion** in the context of semaphores?
+
+            @Choice(isCorrect: true) {
+                A. A high-priority task is blocked waiting for a resource held by a
+                low-priority task, effectively flipping their priorities.
+                @Justification(reaction: "Correct - the low-priority task runs above the high-priority waiter until it releases the resource.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. Two tasks with the same priority deadlock when both wait on the same
+                semaphore.
+                @Justification(reaction: "That describes a potential deadlock, not inversion.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. A semaphore's internal counter becomes negative, causing a crash.
+                @Justification(reaction: "Negative counts are a programmer error but not the definition of inversion.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The system dynamically lowers the priority of any task that waits on a
+                semaphore for "too long."
+                @Justification(reaction: "Systems may boost priorities, but inversion is about a high-priority task being blocked by a lower-priority one.")
+            }
+        }
+
+        @MultipleChoice {
+            An `OperationQueue` is configured with `maxConcurrentOperationCount = 1`. How does
+            this compare to a custom serial `DispatchQueue`?
+
+            @Choice(isCorrect: true) {
+                A. They are functionally similar: both execute work serially in FIFO order.
+                @Justification(reaction: "Correct - with max concurrency 1 and no dependencies, the behavior matches a serial queue.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. The `OperationQueue` still attempts to run tasks concurrently, risking race
+                conditions.
+                @Justification(reaction: "The concurrency cap of 1 prevents parallel execution.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The `OperationQueue` always executes work faster because it is higher level.
+                @Justification(reaction: "Speed depends on workload; the model, not performance, is the point here.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The serial queue processes tasks randomly, while the operation queue uses
+                priorities.
+                @Justification(reaction: "Default behavior is effectively FIFO in both cases when you do not set priorities.")
+            }
+        }
+
+        @MultipleChoice {
+            A developer wraps an async network request inside a plain `Operation` subclass but
+            does not override any state properties. Why might dependents start before the
+            network call completes?
+
+            @Choice(isCorrect: true) {
+                A. `main()` returns immediately after starting the request, so the operation is
+                treated as finished even though the callback has not fired.
+                @Justification(reaction: "Correct - without managing `isExecuting`/`isFinished`, the queue thinks the work is done.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. `OperationQueue` ignores dependencies for async work.
+                @Justification(reaction: "Dependencies are honored; the issue is the reported finished state.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The queue's `maxConcurrentOperationCount` is greater than 1.
+                @Justification(reaction: "Concurrency level does not bypass dependency ordering.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The completion block needs to be set for dependencies to work.
+                @Justification(reaction: "Completion blocks are callbacks; they do not define when the operation is finished.")
+            }
+        }
+
+        @MultipleChoice {
+            For an async `Operation` subclass, which properties must you override and manage to
+            integrate correctly with `OperationQueue`?
+
+            @Choice(isCorrect: true) {
+                A. `isAsynchronous`, `isExecuting`, and `isFinished`.
+                @Justification(reaction: "Correct - these form the state machine the queue uses to track progress.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. Only `main()`, because that is where the work lives.
+                @Justification(reaction: "Overriding `main()` alone makes the operation appear synchronous.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. Only `isReady`, to indicate network availability.
+                @Justification(reaction: "You may override `isReady`, but it is not required for basic async operations.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. `start()` and `completionBlock`, but not any of the state flags.
+                @Justification(reaction: "You might override `start()`, but `completionBlock` is just a callback; the key is state flags.")
+            }
+        }
+
+        @MultipleChoice {
+            What is a key advantage of using `OperationQueue` instead of raw GCD for a set of
+            tasks that might need to be cancelled mid-flight?
+
+            @Choice(isCorrect: true) {
+                A. `OperationQueue` exposes `cancel()` and `isCancelled`, giving a uniform,
+                object-oriented cancellation model for pending and running work.
+                @Justification(reaction: "Correct - this is a core benefit of the operations model.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. GCD tasks cannot be cancelled once dispatched.
+                @Justification(reaction: "You can cancel a pending `DispatchWorkItem`; the difference is modeling and observability.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. Cancelling an `Operation` instantly frees all associated memory.
+                @Justification(reaction: "Memory is released when there are no references; cancellation does not shortcut ARC.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. `OperationQueue` always schedules work on the main thread.
+                @Justification(reaction: "Queues can be targeted anywhere; there is nothing main-thread-specific about OperationQueue.")
+            }
+        }
+
+        @MultipleChoice {
+            Which of these is **not** a primary benefit of `Operation` / `OperationQueue` over
+            GCD?
+
+            @Choice(isCorrect: true) {
+                A. Significantly better raw performance for executing a huge number of tiny
+                tasks.
+                @Justification(reaction: "Correct - GCD is often more efficient for many trivial tasks; operations shine in coordination features.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. Ability to model complex dependency graphs.
+                @Justification(reaction: "Dependencies are a core advantage of OperationQueue.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. Ability to cancel, pause, and resume queues of work.
+                @Justification(reaction: "You can suspend an OperationQueue and cancel operations.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. Encapsulating work and state into reusable objects.
+                @Justification(reaction: "Encapsulating work/state in Operation subclasses is a primary benefit.")
+            }
+        }
+
+        @MultipleChoice {
+            A function submits work with `DispatchQueue.global().async`. What does this imply
+            about the function's own execution?
+
+            @Choice(isCorrect: true) {
+                A. The function returns to its caller immediately after enqueueing the work.
+                @Justification(reaction: "Correct - `async` hands work to the queue and then returns.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. The function itself becomes part of the asynchronous task.
+                @Justification(reaction: "Only the closure passed to `async` is scheduled on the queue.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The function must be marked `async` in Swift.
+                @Justification(reaction: "GCD `async` is independent of Swift's `async` functions.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The function will block until the queued work completes.
+                @Justification(reaction: "That describes a synchronous dispatch, not `async`.")
+            }
+        }
+
+        @MultipleChoice {
+            On a heavily loaded device, a task is submitted to `DispatchQueue.global().async`.
+            What happens if all worker threads are busy?
+
+            @Choice(isCorrect: true) {
+                A. The task remains queued until a worker thread becomes available and the
+                scheduler grants it CPU time.
+                @Justification(reaction: "Correct - GCD does not throw or run work on the caller thread in this case.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. The dispatch call throws an error indicating saturation.
+                @Justification(reaction: "Dispatch APIs do not throw on saturation; they enqueue work.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The system automatically promotes the task to a higher QoS.
+                @Justification(reaction: "QoS is not auto-promoted simply because the system is busy.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The task is run synchronously on the calling thread.
+                @Justification(reaction: "The work still runs on the queue's worker threads when scheduled.")
+            }
+        }
+
+        @MultipleChoice {
+            Why can GCD be "comparatively faster" than `OperationQueue` for very trivial tasks?
+
+            @Choice(isCorrect: true) {
+                A. `Operation` is a reference type that incurs allocation and bookkeeping
+                overhead per task, while GCD submits lightweight closures.
+                @Justification(reaction: "Correct - for tiny tasks, object overhead can dominate actual work.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. GCD bypasses the operating system scheduler.
+                @Justification(reaction: "Both GCD and OperationQueue ultimately rely on the OS scheduler.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. `OperationQueue` always uses fewer threads, making it slower.
+                @Justification(reaction: "Both are backed by the same underlying thread pool.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. GCD automatically inlines small tasks into the caller thread.
+                @Justification(reaction: "Work still runs on the target queue's threads.")
+            }
+        }
+
+        @MultipleChoice {
+            If you submit work to `DispatchQueue.global().sync`, what happens?
+
+            @Choice(isCorrect: true) {
+                A. The calling thread blocks until the work completes on a background worker
+                thread.
+                @Justification(reaction: "Correct - `sync` always blocks the caller, even when targeting a concurrent queue.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. The work runs on the current thread without blocking.
+                @Justification(reaction: "That would be an inline call, not a queued one.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. A deadlock always occurs.
+                @Justification(reaction: "Sync-to-global is safe as long as you avoid re-entrancy deadlocks.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. The call is equivalent to `async`.
+                @Justification(reaction: "They have different blocking semantics.")
+            }
+        }
+
+        @MultipleChoice {
+            Why must all UIKit (and similar UI framework) updates occur on the main queue?
+
+            @Choice(isCorrect: true) {
+                A. UI frameworks are not thread-safe and are tied to the application's main run
+                loop, which processes events and drawing on the main thread.
+                @Justification(reaction: "Correct - touching UI from background threads risks race conditions and crashes.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. Only the main queue has access to the GPU.
+                @Justification(reaction: "Rendering is coordinated through the main run loop and frameworks, not a special GPU-only queue.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. The main queue always has the highest QoS.
+                @Justification(reaction: "QoS and thread safety are separate concerns.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. Background queues cannot schedule timers or input events.
+                @Justification(reaction: "They can schedule work; the key restriction is UI access.")
+            }
+        }
+
+        @MultipleChoice {
+            What is a key benefit of using a `DispatchSourceTimer` on a queue instead of a loop
+            that repeatedly sleeps and performs work?
+
+            @Choice(isCorrect: true) {
+                A. The timer integrates with GCD's scheduling, avoiding busy-waiting and letting
+                the system efficiently decide when to wake your work.
+                @Justification(reaction: "Correct - timers avoid manual sleep loops and cooperate with the scheduler.")
+            }
+
+            @Choice(isCorrect: false) {
+                B. A `DispatchSourceTimer` guarantees millisecond-perfect timing regardless of
+                system load.
+                @Justification(reaction: "Timers are subject to scheduling and leeway; they are not hard real-time.")
+            }
+
+            @Choice(isCorrect: false) {
+                C. Timers automatically move work to the main queue.
+                @Justification(reaction: "The timer runs on whichever queue you attach it to.")
+            }
+
+            @Choice(isCorrect: false) {
+                D. Using a timer prevents all forms of race conditions in your code.
+                @Justification(reaction: "Timers control when work runs, not how you synchronize shared state.")
+            }
+        }
+    }
+}

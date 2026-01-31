@@ -1,0 +1,76 @@
+{
+  "theme" : {
+    "colors" : {
+      "text" : {
+        "light" : "#0E151D",
+        "dark" : "#F2F6FA"
+      }
+    },
+    "docc" : {
+      "heading" : {
+        "color" : {
+          "light" : "#0E151D",
+          "dark" : "#F2F6FA"
+        }
+      },
+      "link" : {
+        "color" : {
+          "light" : "#0B7FD6",
+          "dark" : "#5AC8FF"
+        },
+        "hover" : {
+          "color" : {
+            "light" : "#FF6A3D",
+            "dark" : "#FF9A6A"
+          }
+        }
+      },
+      "code" : {
+        "bg" : {
+          "light" : "#F3F6FB",
+          "dark" : "#141B24"
+        },
+        "fg" : {
+          "light" : "#0E151D",
+          "dark" : "#F2F6FA"
+        },
+        "border" : {
+          "light" : "#D2DCE8",
+          "dark" : "#2B3443"
+        }
+      },
+      "callout" : {
+        "note" : {
+          "bg" : {
+            "light" : "#FFFFFF",
+            "dark" : "#141B24"
+          },
+          "border" : {
+            "light" : "#D2DCE8",
+            "dark" : "#2B3443"
+          }
+        },
+        "important" : {
+          "bg" : {
+            "light" : "#FFF4EC",
+            "dark" : "#1E1511"
+          },
+          "border" : {
+            "light" : "#FF6A3D",
+            "dark" : "#FF9A6A"
+          }
+        },
+        "warning" : {
+          "bg" : {
+            "light" : "#FFF3F2",
+            "dark" : "#1A1312"
+          },
+          "border" : {
+            "light" : "#E24E3A",
+            "dark" : "#FF7A5C"
+          }
+        }
+      }
+    }
+  }
+}

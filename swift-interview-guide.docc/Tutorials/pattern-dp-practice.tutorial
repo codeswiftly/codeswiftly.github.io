@@ -1,0 +1,39 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-dp-practice-icon", alt: "Pattern 15 Dynamic Programming icon")
+@PageImage(purpose: card, source: "doc-pattern-dp-practice-card", alt: "Pattern 15 Dynamic Programming card")
+}
+
+@Tutorial(time: 25) {
+
+    @Intro(title: "Pattern 15 - Dynamic Programming") {
+        @Image(source: "doc-pattern-dp-practice-hero", alt: "Pattern 15 Dynamic Programming hero")
+        Review overlapping subproblems with memoization or tabulation.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Identify a small set of state variables that fully describe a subproblem, then write a
+            recurrence that expresses that state in terms of smaller ones.
+        }
+        @Steps {
+            @Step {
+                Review the DP notes under <doc:top-15-patterns> and practice formulating recurrences before writing code.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Memoized Fibonacci") {
+        @ContentAndMedia {
+            Cache intermediate Fibonacci results in a dictionary to avoid exponential recomputation.
+        }
+        @Steps {
+            @Step {
+                Annotate `fib`: the base cases `number <= 1` stop recursion; the memo dictionary
+                caches intermediate results so each `n` is computed once, and the final assignment to
+                `fibMemo[number]` is what turns an exponential tree into a linear pass over states.
+                @Code(name: "DynamicProgrammingFib.swift", file: "pattern-dp.swift")
+            }
+        }
+    }
+}

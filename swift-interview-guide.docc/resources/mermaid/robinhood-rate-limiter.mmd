@@ -1,0 +1,27 @@
+sequenceDiagram
+    title Rate Limiter - Sliding Window
+    participant C as Client
+    participant RL as RateLimiter
+    participant D as Deque<TimeInterval>
+
+    C->>RL: isAllowed(user, now)
+    activate RL
+    RL->>D: Get deque for user
+    activate D
+    D-->>RL: Deque
+    deactivate D
+    RL->>RL: Evict old timestamps (now - ts >= window)
+    RL->>D: Check count
+    activate D
+    D-->>RL: Count
+    deactivate D
+    alt count < limit
+        RL->>D: Append 'now'
+        activate D
+        D-->>RL: 
+        deactivate D
+        RL-->>C: true
+    else
+        RL-->>C: false
+    end
+    deactivate RL

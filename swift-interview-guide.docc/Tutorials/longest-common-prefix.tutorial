@@ -1,0 +1,36 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-longest-common-prefix-icon", alt: "LeetCode 14 Longest Common Prefix icon")
+@PageImage(purpose: card, source: "doc-longest-common-prefix-card", alt: "LeetCode 14 Longest Common Prefix card")
+}
+
+@Tutorial(time: 8) {
+
+    @Intro(title: "LeetCode 14 - Longest Common Prefix") {
+        @Image(source: "doc-longest-common-prefix-hero", alt: "LeetCode 14 Longest Common Prefix hero")
+        Practice horizontal scanning to shrink the prefix across all strings.
+    }
+
+    @Section(title: "Use commonPrefix") {
+        @ContentAndMedia {
+            Treat the first string as the prefix; intersect with each next string.
+        }
+        @Steps {
+            @Step {
+                Explain O(L) time (total chars), O(1) space; early exit on empty prefix. See
+                article for code.
+            }
+        }
+    }
+
+    @Section(title: "Manual Character Scan") {
+        @ContentAndMedia {
+            Walk indices until mismatch to show comfort with String.Index.
+        }
+        @Steps {
+            @Step {
+                Call out String.Index handling and why converting to arrays is avoidable. See
+                article for code.
+            }
+        }
+    }
+}

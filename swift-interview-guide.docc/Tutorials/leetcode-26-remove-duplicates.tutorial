@@ -1,0 +1,25 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-leetcode-26-remove-duplicates-icon", alt: "LeetCode 26 Remove Duplicates from Sorted Array icon")
+@PageImage(purpose: card, source: "doc-leetcode-26-remove-duplicates-card", alt: "LeetCode 26 Remove Duplicates from Sorted Array card")
+}
+
+@Tutorial(time: 10) {
+
+    @Intro(title: "LeetCode 26 - Remove Duplicates from Sorted Array") {
+        @Image(source: "doc-leetcode-26-remove-duplicates-hero", alt: "LeetCode 26 Remove Duplicates from Sorted Array hero")
+        Practice the two-pointer in-place compression pattern for sorted arrays.
+    }
+
+    @Section(title: "Compress Uniques in Place") {
+        @ContentAndMedia {
+            Use read/write pointers; write advances only when a new unique is found.
+        }
+        @Steps {
+            @Step {
+                Narrate: sorted -> duplicates adjacent; read scans, write keeps uniques; O(n) time,
+                O(1) space. See article code for the full snippet.
+            }
+        }
+    }
+}

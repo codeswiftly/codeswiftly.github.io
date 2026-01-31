@@ -1,0 +1,41 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-tree-bfs-practice-icon", alt: "Pattern 10 Binary Tree BFS icon")
+@PageImage(purpose: card, source: "doc-pattern-tree-bfs-practice-card", alt: "Pattern 10 Binary Tree BFS card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 10 - Binary Tree BFS") {
+        @Image(source: "doc-pattern-tree-bfs-practice-hero", alt: "Pattern 10 Binary Tree BFS hero")
+        Review level-order traversal to compute widths, depths, and visibility.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Use a queue to store the next frontier of nodes and process all nodes at a given depth
+            together.
+        }
+        @Steps {
+            @Step {
+                Revisit tree basics in <doc:swift-tree-basics> and the BFS description in
+                <doc:top-15-patterns>.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Level Order Traversal / Visible Nodes") {
+        @ContentAndMedia {
+            Return the values of each tree level as a nested array.
+        }
+        @Steps {
+            @Step {
+                Annotate `levelOrder`: the outer `while` loop walks level by level, the inner loop
+                consumes all nodes currently in the queue to build one `currentLevel`, and children
+                are enqueued for the next pass. Highlight how this maps to "visible nodes from the
+                left/right" by picking the first or last value of each level.
+                @Code(name: "BinaryTreeBFS.swift", file: "pattern-tree-bfs.swift")
+            }
+        }
+    }
+}

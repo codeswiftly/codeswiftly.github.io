@@ -1,0 +1,36 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-quick-sort-algorithm-icon", alt: "Quick Sort icon")
+@PageImage(purpose: card, source: "doc-quick-sort-algorithm-card", alt: "Quick Sort card")
+}
+
+@Tutorial(time: 10) {
+
+    @Intro(title: "Quick Sort") {
+        @Image(source: "doc-quick-sort-algorithm-hero", alt: "Quick Sort hero")
+        Review functional and in-place partitioned quicksort in Swift.
+    }
+
+    @Section(title: "Functional (Simple)") {
+        @ContentAndMedia {
+            Demonstrate the readable filter-based version; note allocations.
+        }
+        @Steps {
+            @Step {
+                Mention clarity vs. extra space; average O(n log n), worst O(n^2) with bad pivots.
+                See article for code.
+            }
+        }
+    }
+
+    @Section(title: "In-Place Partition") {
+        @ContentAndMedia {
+            Use Lomuto partition; recurse on subarrays; reduces extra space.
+        }
+        @Steps {
+            @Step {
+                Call with var nums = [...]; quickSortInPlace(&nums, 0, nums.count - 1); note stack
+                usage. See article for code.
+            }
+        }
+    }
+}

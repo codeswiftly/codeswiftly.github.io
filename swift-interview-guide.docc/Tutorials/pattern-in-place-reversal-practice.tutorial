@@ -1,0 +1,40 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-in-place-reversal-practice-icon", alt: "Pattern 7 In Place Reversal icon")
+@PageImage(purpose: card, source: "doc-pattern-in-place-reversal-practice-card", alt: "Pattern 7 In Place Reversal card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 7 - In-Place Reversal") {
+        @Image(source: "doc-pattern-in-place-reversal-practice-hero", alt: "Pattern 7 In Place Reversal hero")
+        Review in-place reversal for linked lists or array segments using pointer rewiring.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Track `previous`, `current`, and `next` references while walking the list once, flipping
+            the direction of each pointer as you go.
+        }
+        @Steps {
+            @Step {
+                Review <doc:linked-list-reversal> and ensure you can write the iterative reversal from memory.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Reverse a Singly Linked List (206)") {
+        @ContentAndMedia {
+            Implement iterative reversal as a base case you can later adapt to K-group or sublist reversal.
+        }
+        @Steps {
+            @Step {
+                Annotate `reverseList`: at the top of each loop, `previousNode` is the head of the
+                already reversed prefix, `currentNode` is the next node to flip, and `nextNode`
+                preserves the tail. Reassigning `node.next = previousNode` reverses one edge at a
+                time while you walk forward.
+                @Code(name: "ReverseList.swift", file: "pattern-in-place-reversal.swift")
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-two-pointers-practice-icon", alt: "Pattern 2 Two Pointers icon")
+@PageImage(purpose: card, source: "doc-pattern-two-pointers-practice-card", alt: "Pattern 2 Two Pointers card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 2 - Two Pointers") {
+        @Image(source: "doc-pattern-two-pointers-practice-hero", alt: "Pattern 2 Two Pointers hero")
+        Review two-pointer traversals for arrays and strings without extra memory.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Maintain two indices with clear movement rules so that you either converge from both
+            ends or partition the array in-place.
+        }
+        @Steps {
+            @Step {
+                Review the summary for "Two Pointers" in <doc:top-15-patterns> and sketch a few
+                sample traversals by hand.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Palindrome Check") {
+        @ContentAndMedia {
+            Compare characters from both ends of the string, moving inward on each successful comparison.
+        }
+        @Steps {
+            @Step {
+                Annotate `isPalindrome`: `leftIndex` and `rightIndex` start at the edges, advance
+                toward each other, and the early `return false` documents the first mismatch. Point
+                out how the loop condition `leftIndex < rightIndex` avoids double-checking the
+                middle character.
+                @Code(name: "TwoPointers.swift", file: "pattern-two-pointers.swift")
+            }
+        }
+    }
+
+    @Section(title: "Problem: Remove Duplicates from Sorted Array (26)") {
+        @ContentAndMedia {
+            Use one pointer as a reader and one as a writer to compress a sorted array without
+            allocating a new one.
+        }
+        @Steps {
+            @Step {
+                Walk line by line through `removeDuplicatesFromSortedArray`: `writeIndex` marks the
+                end of the "compressed" prefix, while `readIndex` scans the array; when a new value
+                differs from `numbers[writeIndex - 1]`, it is copied forward and `writeIndex` is
+                incremented. The returned length is the number of valid elements at the front.
+                @Code(name: "TwoPointers.swift", file: "pattern-two-pointers.swift")
+            }
+        }
+    }
+}

@@ -1,0 +1,147 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-wallet-verify-with-wallet-identity-icon", alt: "Verify Identity with Apple Wallet icon")
+@PageImage(purpose: card, source: "doc-wallet-verify-with-wallet-identity-card", alt: "Verify Identity with Apple Wallet card")
+}
+
+@Tutorial(time: 60) {
+
+    @Intro(title: "Verify Identity with Apple Wallet") {
+        @Image(source: "doc-wallet-verify-with-wallet-identity-hero", alt: "Verify Identity with Apple Wallet hero")
+        Implement a full Verify with Wallet flow that requests identity attributes, presents system
+        UI, and hands results to your server for verification.
+    }
+
+    @Section(title: "Understand the Flow and Entitlements") {
+        @ContentAndMedia {
+            Verify with Wallet depends on a special entitlement and a split client-server design:
+            the app requests attributes, Wallet collects them, and your server verifies them.
+        }
+        @Steps {
+            @Step {
+                Request the in-app identity presentment entitlement: `com.apple.developer.in-app-identity-presentment`.
+            }
+            @Step {
+                Ensure your project uses iOS 16 or later and Xcode on macOS 13 or later.
+            }
+            @Step {
+                Decide which attributes you need (for example, age-over-21, full name, portrait).
+            }
+            @Step {
+                Plan your server endpoint that will issue nonces, decrypt payloads, verify ISO
+                18013-5 signatures, and persist only what your policy allows.
+            }
+        }
+    }
+
+    @Section(title: "Describe the Identity Document You Need") {
+        @ContentAndMedia {
+            Use `PKIdentityDriversLicenseDescriptor`, `PKIdentityNationalIDCardDescriptor`, or
+            related types to describe which fields you want and how long you may store them.
+        }
+        @Steps {
+            @Step {
+                Create a helper (for example, `IdentityDescriptorFactory`) that builds a
+                `PKIdentityDriversLicenseDescriptor` requesting `age(atLeast: 21)` with
+                `.willNotStore` and name fields with `.mayStore(days: 30)`.
+                @Code(name: "IdentityDescriptorFactory.swift", file: "wallet-verify-identity-descriptor-factory.swift")
+            }
+            @Step {
+                Call out interview notes: you cannot mix `age(atLeast:)` and `age` in the same
+                request, your entitlement limits which elements you can ask for, and `intentToStore`
+                must reflect real retention policy.
+            }
+        }
+    }
+
+    @Section(title: "Check Availability and Show the Verify with Wallet Button") {
+        @ContentAndMedia {
+            Before requesting identity data, check whether a suitable document exists and only
+            then show a Verify with Wallet button.
+        }
+        @Steps {
+            @Step {
+                Use `PKIdentityAuthorizationController.checkCanRequestDocument(_:)` to determine
+                whether an appropriate document exists, and expose a published `canRequestDocument`
+                flag to drive your UI.
+            }
+            @Step {
+                Present a `VerifyIdentityWithWalletButton` (or the UIKit `PKIdentityButton`) only
+                when `canRequestDocument` is true so users are not surprised by unavailable flows.
+            }
+        }
+    }
+
+    @Section(title: "Request the Document and Send Data to Your Server") {
+        @ContentAndMedia {
+            Create a `PKIdentityRequest`, call `requestDocument`, and forward the encrypted
+            payload, nonce, and context to your server.
+        }
+        @Steps {
+            @Step {
+                Build a `PKIdentityRequest` with your descriptor, merchant identifier, and a
+                server-issued nonce, then call `requestDocument` on
+                `PKIdentityAuthorizationController`.
+                @Code(name: "VerifyWithWalletCoordinator.swift", file: "wallet-verify-identity-coordinator.swift")
+            }
+            @Step {
+                When you receive a `PKIdentityDocument`, send `encryptedData`, the nonce, and any
+                session identifiers to your server for ISO 18013-5 verification and policy-driven
+                storage.
+            }
+        }
+    }
+
+    @Section(title: "Handle Errors and Edge Cases") {
+        @ContentAndMedia {
+            Gracefully handle cancellations, repeated requests, and environments where Wallet identity is unavailable.
+        }
+        @Steps {
+            @Step {
+                Map `PKIdentityError` codes like `.cancelled` and `.requestAlreadyInProgress` into
+                your own `VerifyWithWalletFlowError` enum so your UI can present clear, user-facing
+                messages.
+            }
+            @Step {
+                Keep an interview-ready checklist: only one request at a time, always explain what
+                you collect and how long you store it, and treat simulator or developer-profile IDs
+                as mocks, not real identity documents.
+            }
+        }
+    }
+
+    @Assessments {
+        @MultipleChoice {
+            Which entitlement allows an app to use the Verify with Wallet API?
+
+            @Choice(isCorrect: true) {
+                `com.apple.developer.in-app-identity-presentment`
+                @Justification(reaction: "Correct - this entitlement enables in-app presentation of IDs stored in Wallet.")
+            }
+            @Choice(isCorrect: false) {
+                `com.apple.developer.pass-type-identifiers`
+                @Justification(reaction: "This entitlement controls which pass types the app can access, not identity presentment.")
+            }
+            @Choice(isCorrect: false) {
+                `com.apple.developer.in-app-payments`
+                @Justification(reaction: "This entitlement is for Apple Pay merchant IDs, not Verify with Wallet.")
+            }
+        }
+
+        @MultipleChoice {
+            Where should ISO 18013-5 signature verification of the identity payload typically happen?
+
+            @Choice(isCorrect: true) {
+                On your backend server that receives the encrypted payload.
+                @Justification(reaction: "Correct - the app forwards `encryptedData` and the nonce to a server that performs verification and applies storage policy.")
+            }
+            @Choice(isCorrect: false) {
+                Entirely on the client app, without involving a server.
+                @Justification(reaction: "Client-only verification makes key management and auditing difficult; the documented flow assumes a server.")
+            }
+            @Choice(isCorrect: false) {
+                Inside the Wallet app with no visibility to your system.
+                @Justification(reaction: "Wallet collects attributes and signs the payload, but your system is responsible for verifying and deciding what to do with the data.")
+            }
+        }
+    }
+}

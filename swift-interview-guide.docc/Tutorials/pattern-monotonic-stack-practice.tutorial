@@ -1,0 +1,41 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-monotonic-stack-practice-icon", alt: "Pattern 8 Monotonic Stack icon")
+@PageImage(purpose: card, source: "doc-pattern-monotonic-stack-practice-card", alt: "Pattern 8 Monotonic Stack card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 8 - Monotonic Stack") {
+        @Image(source: "doc-pattern-monotonic-stack-practice-hero", alt: "Pattern 8 Monotonic Stack hero")
+        Review monotonic stacks for next greater/lesser and range-span queries in linear time.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Store indices in a stack such that their values are strictly increasing or decreasing;
+            each new value resolves all indices it invalidates.
+        }
+        @Steps {
+            @Step {
+                Revisit the "Monotonic Stack" entry in <doc:top-15-patterns> and draw the stack
+                evolution for a small array.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Next Greater Element") {
+        @ContentAndMedia {
+            For each index, find the first value to its right that is greater, or `-1` if none exists.
+        }
+        @Steps {
+            @Step {
+                Annotate `nextGreater`: the stack stores indices whose next greater element has not
+                yet been found; when a new `value` exceeds `nums[lastIndex]` you resolve that
+                position and pop it. Each index enters and leaves the stack once, so the whole
+                algorithm is linear.
+                @Code(name: "MonotonicStack.swift", file: "pattern-monotonic-stack.swift")
+            }
+        }
+    }
+}

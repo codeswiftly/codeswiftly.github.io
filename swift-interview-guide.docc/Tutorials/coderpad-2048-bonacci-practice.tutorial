@@ -1,0 +1,74 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-coderpad-2048-bonacci-practice-icon", alt: "CoderPad 2048 Bonacci icon")
+@PageImage(purpose: card, source: "doc-coderpad-2048-bonacci-practice-card", alt: "CoderPad 2048 Bonacci card")
+}
+
+@Tutorial(time: 12) {
+
+    @Intro(title: "CoderPad: 2048-Bonacci") {
+        @Image(source: "doc-coderpad-2048-bonacci-practice-hero", alt: "CoderPad 2048 Bonacci hero")
+        Practice sliding and fusing Fibonacci tiles on a 4x4 board in one push direction.
+    }
+
+    @Section(title: "Rules and Model") {
+        @ContentAndMedia {
+            Tiles are Fibonacci numbers (0 means empty). Push slides tiles; resolve fusions from the
+            back. Only consecutive Fibonacci values fuse into the next Fibonacci; fused tiles do
+            not fuse again this move.
+        }
+        @Steps {
+            @Step {
+                Anchor edge cases: no double-fuse, resolve from the far end of the push, 0s are empty.
+            }
+        }
+    }
+
+    @Section(title: "Line Processing") {
+        @ContentAndMedia {
+            Process one row/column as if pushing left: filter zeros, fuse adjacent consecutive Fib
+            values, pad zeros.
+        }
+        @Steps {
+            @Step {
+                Helpers: precompute fib list/map up to 2^16; isConsecutiveFib(a, b) checks
+                adjacency both directions.
+            }
+            @Step {
+                CodeListing("""
+                func compressAndFuse(_ line: [Int]) -> [Int] {
+                    var compact = line.filter { $0 != 0 }
+                    var result: [Int] = []
+                    var i = 0
+                    while i < compact.count {
+                        if i + 1 < compact.count && isConsecutiveFib(compact[i], compact[i + 1]) {
+                            let fused = nextFibValue(compact[i], compact[i + 1])
+                            result.append(fused)
+                            i += 2
+                        } else {
+                            result.append(compact[i])
+                            i += 1
+                        }
+                    }
+                    while result.count < 4 {
+                        result.append(0)
+                    }
+                    return result
+                }
+                """)
+            }
+        }
+    }
+
+    @Section(title: "Apply per Direction") {
+        @ContentAndMedia {
+            Extract rows/cols in push order; reverse for right/down, run compressAndFuse, reverse
+            back if needed, write into grid.
+        }
+        @Steps {
+            @Step {
+                Up/Down: iterate columns; Left/Right: iterate rows. Keep grid mutable; return final
+                4x4.
+            }
+        }
+    }
+}

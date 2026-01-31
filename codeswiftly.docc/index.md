@@ -27,3 +27,7 @@ Code Swiftly is dedicated to the craft of Swift programming, exploring low-level
 - **Performance**: Packing structs, minimizing inference, and measuring hit stats.
 - **Patterns**: Scalable architecture for large iOS applications.
 - **Tooling**: Building robust developer experiences.
+
+### Practice
+
+- <doc:swift-interview-guide>

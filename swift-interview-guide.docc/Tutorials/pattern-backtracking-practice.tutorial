@@ -1,0 +1,40 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-backtracking-practice-icon", alt: "Pattern 14 Backtracking icon")
+@PageImage(purpose: card, source: "doc-pattern-backtracking-practice-card", alt: "Pattern 14 Backtracking card")
+}
+
+@Tutorial(time: 25) {
+
+    @Intro(title: "Pattern 14 - Backtracking") {
+        @Image(source: "doc-pattern-backtracking-practice-hero", alt: "Pattern 14 Backtracking hero")
+        Review backtracking to explore combinations and permutations with undoable choices.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Represent each partial solution as a node in a decision tree and recurse on the
+            remaining choices, pruning paths that cannot lead to valid answers.
+        }
+        @Steps {
+            @Step {
+                Pair this with <doc:leetcode-39-combination-sum> and think about how to avoid duplicates.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Combination Sum (39)") {
+        @ContentAndMedia {
+            Choose numbers (with repetition allowed) that sum to a target, tracking your current path and remaining total.
+        }
+        @Steps {
+            @Step {
+                Annotate `combinationSum`: `path` holds the current combination, `start` prevents
+                revisiting earlier indices (so you do not generate permutations of the same set),
+                and `remaining` is the running target. You recurse after choosing a candidate and
+                undo the choice with `path.removeLast()` on the way back up.
+                @Code(name: "CombinationSumBacktracking.swift", file: "pattern-backtracking.swift")
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-linked-list-reversal-practice-icon", alt: "Reverse a Linked List icon")
+@PageImage(purpose: card, source: "doc-linked-list-reversal-practice-card", alt: "Reverse a Linked List card")
+}
+
+@Tutorial(time: 10) {
+
+    @Intro(title: "Reverse a Linked List") {
+        @Image(source: "doc-linked-list-reversal-practice-hero", alt: "Reverse a Linked List hero")
+        Practice iterative and recursive in-place reversals.
+    }
+
+    @Section(title: "Iterative Pointers") {
+        @ContentAndMedia {
+            Maintain prev/curr; save next; reverse curr.next; advance.
+        }
+        @Steps {
+            @Step {
+                Explain invariant: prev is reversed head; curr is node to process; O(n) time, O(1)
+                space. See article for code.
+            }
+        }
+    }
+
+    @Section(title: "Recursive Variant") {
+        @ContentAndMedia {
+            Reverse the tail, then attach head behind it; break old link.
+        }
+        @Steps {
+            @Step {
+                Mention stack space O(n); iterative is O(1) space. See article for code.
+            }
+        }
+    }
+}

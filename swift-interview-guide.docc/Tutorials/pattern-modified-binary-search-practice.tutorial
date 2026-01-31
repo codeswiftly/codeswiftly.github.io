@@ -1,0 +1,58 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-modified-binary-search-practice-icon", alt: "Pattern 5 Modified Binary Search icon")
+@PageImage(purpose: card, source: "doc-pattern-modified-binary-search-practice-card", alt: "Pattern 5 Modified Binary Search card")
+}
+
+@Tutorial(time: 25) {
+
+    @Intro(title: "Pattern 5 - Modified Binary Search") {
+        @Image(source: "doc-pattern-modified-binary-search-practice-hero", alt: "Pattern 5 Modified Binary Search hero")
+        Review modified binary search for rotated arrays and monotone predicates over an answer
+        space.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Standard binary search assumes a globally sorted array; modified forms either identify
+            which half is sorted or search over candidate answers while a predicate tells you to go
+            left or right.
+        }
+        @Steps {
+            @Step {
+                Read the "Modified Binary Search" entry in <doc:top-15-patterns> and list a few
+                monotone predicates from recent problems.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Search in Rotated Sorted Array (33)") {
+        @ContentAndMedia {
+            Use the fact that at least one half of a rotated sorted array is still sorted to decide which side to discard.
+        }
+        @Steps {
+            @Step {
+                Annotate `searchRotated`: the core is deciding whether the left half is sorted by
+                comparing `nums[leftIndex]` and `middleValue`; if it is, you check whether the target
+                falls inside that half, otherwise you discard it and keep the rotated side. Every
+                branch shrinks the search interval.
+                @Code(name: "ModifiedBinarySearch.swift", file: "pattern-modified-binary-search.swift")
+            }
+        }
+    }
+
+    @Section(title: "Problem: Search on Answer (Minimized Maximum, Capacity, etc.)") {
+        @ContentAndMedia {
+            Wrap binary search around a monotone `predicate` that represents feasibility instead of
+            directly comparing array elements.
+        }
+        @Steps {
+            @Step {
+                Walk through `firstTrue`: treat the answer range as a sorted boolean array, where the
+                predicate is `false` before the real answer and `true` from that point on. Each time
+                the predicate passes you tighten the upper bound and remember the candidate answer.
+                @Code(name: "ModifiedBinarySearch.swift", file: "pattern-modified-binary-search.swift")
+            }
+        }
+    }
+}

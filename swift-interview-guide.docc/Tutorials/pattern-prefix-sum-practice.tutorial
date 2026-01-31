@@ -1,0 +1,56 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-prefix-sum-practice-icon", alt: "Pattern 1 Prefix Sum icon")
+@PageImage(purpose: card, source: "doc-pattern-prefix-sum-practice-card", alt: "Pattern 1 Prefix Sum card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 1 - Prefix Sum") {
+        @Image(source: "doc-pattern-prefix-sum-practice-hero", alt: "Pattern 1 Prefix Sum hero")
+        Review prefix sums for range queries and subarray counting with linear preprocessing.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Convert the array into cumulative sums so that any range sum can be expressed as a difference of two prefix values.
+            This is the foundation of many `O(n)` subarray algorithms.
+        }
+        @Steps {
+            @Step {
+                Skim the overview in <doc:top-15-patterns> under "Prefix Sum" and rehearse when
+                prefix sums are better than nested loops.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Range Sum Queries") {
+        @ContentAndMedia {
+            Given an array and many `[start, end]` queries, precompute prefix sums so each range sum
+            is just `prefix[end + 1] - prefix[start]` instead of a fresh loop.
+        }
+        @Steps {
+            @Step {
+                Walk through `rangeSum` and call out that the `for` loop builds `prefixSums` where
+                `prefixSums[i]` holds the sum of the first `i` elements, and the final line subtracts
+                two prefix values to answer a query in `O(1)`.
+                @Code(name: "PrefixSum.swift", file: "pattern-prefix-sum.swift")
+            }
+        }
+    }
+
+    @Section(title: "Problem: Subarray Sum Equals K (560)") {
+        @ContentAndMedia {
+            Combine prefix sums with a dictionary of counts to avoid scanning all start indices explicitly.
+        }
+        @Steps {
+            @Step {
+                Annotate the `countSubarraysEqualToK` function: keep a running `prefix`, use
+                `counts[prefix - k]` to add all subarrays ending at the current index, and update the
+                dictionary with the new `prefix` count. Emphasize that initializing `counts[0] = 1`
+                accounts for subarrays that start at index `0`.
+                @Code(name: "PrefixSum.swift", file: "pattern-prefix-sum.swift")
+            }
+        }
+    }
+}

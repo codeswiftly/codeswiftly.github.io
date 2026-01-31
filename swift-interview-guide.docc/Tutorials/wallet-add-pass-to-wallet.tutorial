@@ -1,0 +1,121 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-wallet-add-pass-to-wallet-icon", alt: "Add a Pass to Apple Wallet icon")
+@PageImage(purpose: card, source: "doc-wallet-add-pass-to-wallet-card", alt: "Add a Pass to Apple Wallet card")
+}
+
+@Tutorial(time: 45) {
+
+    @Intro(title: "Add a Pass to Apple Wallet") {
+        @Image(source: "doc-wallet-add-pass-to-wallet-hero", alt: "Add a Pass to Apple Wallet hero")
+        Build an end-to-end flow to add a pass to Apple Wallet using PassKit, from capability
+        setup to presenting the Add to Wallet UI.
+    }
+
+    @Section(title: "Prepare Your Project and Entitlements") {
+        @ContentAndMedia {
+            Turn on the Wallet capability and configure pass type identifiers so your app can read and present passes safely.
+        }
+        @Steps {
+            @Step {
+                In Xcode, enable the Wallet capability and ensure your team has pass type IDs configured for Gymkhana.
+            }
+            @Step {
+                Confirm the `com.apple.developer.pass-type-identifiers` entitlement includes the pass types you expect.
+            }
+            @Step {
+                Import `PassKit` in files that work with Wallet so you can use `PKPass` and `PKPassLibrary`.
+            }
+        }
+    }
+
+    @Section(title: "Model a Pass and Access the Pass Library") {
+        @ContentAndMedia {
+            Use `PKPass` and `PKPassLibrary` to represent Wallet passes and to query, add, and remove them.
+        }
+        @Steps {
+            @Step {
+                Introduce a small helper (for example, `WalletPassManager`) that wraps
+                `PKPassLibrary` to list passes for a given `passTypeIdentifier` and to check whether
+                a specific pass is already in Wallet.
+                @Code(name: "WalletPassManager.swift", file: "wallet-add-pass-wallet-pass-manager.swift")
+            }
+            @Step {
+                In interviews, emphasize that `PKPass` represents a single pass (ticket, coupon,
+                etc.) and `PKPassLibrary` is the read/write interface into the user's Wallet.
+            }
+        }
+    }
+
+    @Section(title: "Present the Add to Wallet UI") {
+        @ContentAndMedia {
+            Use system-owned UI like `PKAddPassesViewController` or `AddPassToWalletButton` so the
+            user clearly understands they are interacting with Wallet.
+        }
+        @Steps {
+            @Step {
+                In UIKit, present `PKAddPassesViewController` with a `PKPass` to show the standard
+                Add to Wallet sheet.
+                @Code(name: "AddPassCoordinator.swift", file: "wallet-add-pass-add-pass-coordinator.swift")
+            }
+            @Step {
+                In SwiftUI, wrap that coordinator behind an `AddPassToWalletButton` and apply an
+                appropriate `AddPassToWalletButtonStyle` so your UI matches platform styling.
+                @Code(name: "AddPassToWalletView.swift", file: "wallet-add-pass-add-pass-to-wallet-view.swift")
+            }
+        }
+    }
+
+    @Section(title: "Handle Results and Update State") {
+        @ContentAndMedia {
+            Observe changes to Wallet and update your UI when the user adds, updates, or removes passes.
+        }
+        @Steps {
+            @Step {
+                Register for `PKPassLibraryDidChange` notifications and re-query `PKPassLibrary`
+                when Wallet changes so your UI stays in sync.
+                @Code(name: "WalletPassManager+Notifications.swift", file: "wallet-add-pass-wallet-pass-manager-notifications.swift")
+            }
+            @Step {
+                Keep a checklist: rely on system UI for Add to Wallet flows, avoid storing raw pass
+                data outside Wallet without a clear reason and consent, and use notifications or
+                `PKPassLibrary` queries to drive UI updates.
+            }
+        }
+    }
+
+    @Assessments {
+        @MultipleChoice {
+            Which type represents a single Wallet pass in PassKit?
+
+            @Choice(isCorrect: true) {
+                `PKPass`
+                @Justification(reaction: "Correct - `PKPass` models one pass such as a ticket, coupon, or card.")
+            }
+            @Choice(isCorrect: false) {
+                `PKPassLibrary`
+                @Justification(reaction: "`PKPassLibrary` is the interface to the user's Wallet, not an individual pass.")
+            }
+            @Choice(isCorrect: false) {
+                `PKAddPassesViewController`
+                @Justification(reaction: "`PKAddPassesViewController` is the system UI for adding passes, not the pass model.")
+            }
+        }
+
+        @MultipleChoice {
+            Which entitlement controls which pass types your app can read and present?
+
+            @Choice(isCorrect: true) {
+                `com.apple.developer.pass-type-identifiers`
+                @Justification(reaction: "Correct - this entitlement lists the Pass Type IDs your app is allowed to access.")
+            }
+            @Choice(isCorrect: false) {
+                `com.apple.developer.in-app-payments`
+                @Justification(reaction: "This entitlement is for merchant IDs used with Apple Pay, not pass types.")
+            }
+            @Choice(isCorrect: false) {
+                `com.apple.developer.in-app-identity-presentment`
+                @Justification(reaction: "This entitlement is for Verify with Wallet identity flows, not general passes.")
+            }
+        }
+    }
+}

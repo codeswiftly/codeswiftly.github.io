@@ -1,0 +1,208 @@
+@Metadata {
+@PageImage(purpose: icon, source: "doc-coderpad-top-15-patterns-recall-icon", alt: "CoderPad Top 15 Patterns Recall icon")
+@PageImage(purpose: card, source: "doc-coderpad-top-15-patterns-recall-card", alt: "CoderPad Top 15 Patterns Recall card")
+}
+
+@Tutorial(time: 45) {
+
+    @Intro(title: "CoderPad: Top 15 Patterns Recall") {
+        @Image(source: "doc-coderpad-top-15-patterns-recall-hero", alt: "CoderPad Top 15 Patterns Recall hero")
+        Practice recalling the 15 most common interview patterns from memory.
+    }
+
+    @Section(title: "How to Run This Drill") {
+        @ContentAndMedia {
+            Open CoderPad and create a single file called `Patterns.swift`.
+
+            For each step:
+            1. Write the pattern template from memory.
+            2. Say the invariant out loud (what must always be true).
+            3. Compare your answer to the solution snippet.
+
+            @Comment {
+                The order you write helper calls is rarely important; the invariant is.
+            }
+        }
+        @Steps {
+            @Step {
+                Keep each pattern to a repeatable 5-15 line template you can write under pressure.
+            }
+        }
+    }
+
+    @Section(title: "Array Scanning Foundations (1-3)") {
+        @ContentAndMedia {
+            These show up constantly in Wallet-style data processing: streaming inputs, maintaining
+            small state, and producing stable outputs.
+        }
+        @Steps {
+            @Step {
+                **1. Prefix Sum**: write the `rangeSum` template and (if you can) the
+                "subarrays equal to K" counting variant.
+
+                @Comment {
+                    Memorize the identity: `sum(start...end) = prefix[end + 1] - prefix[start]`.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-prefix-sum.swift", reset: true)
+            }
+
+            @Step {
+                **2. Two Pointers**: write a palindrome check (left/right converge).
+
+                @Comment {
+                    Be explicit about pointer movement rules so they always make progress.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-two-pointers.swift", reset: true)
+            }
+
+            @Step {
+                **3. Sliding Window**: write "longest substring without repeats".
+
+                @Comment {
+                    The invariant is "window has no duplicates"; move the left edge only when the
+                    invariant breaks.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-sliding-window.swift", reset: true)
+            }
+        }
+    }
+
+    @Section(title: "Sorting and Searching Patterns (4-6)") {
+        @ContentAndMedia {
+            These patterns are about pre-processing (sorting) and exploiting structure (monotone
+            predicates and rotations).
+        }
+        @Steps {
+            @Step {
+                **4. Overlapping Intervals**: write "merge intervals".
+
+                @Comment {
+                    Sort by start, then maintain the current merged interval.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-overlapping-intervals.swift", reset: true)
+            }
+
+            @Step {
+                **5. Modified Binary Search**: write "search rotated sorted array".
+
+                @Comment {
+                    Decide which half is sorted, then decide whether the target is inside it.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-modified-binary-search.swift", reset: true)
+            }
+
+            @Step {
+                **6. Fast and Slow Pointers**: write linked-list cycle detection.
+
+                @Comment {
+                    If `fast` ever equals `slow`, you have a cycle.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-fast-slow-pointers.swift", reset: true)
+            }
+        }
+    }
+
+    @Section(title: "Mutation, Stacks, and Heaps (7-9)") {
+        @ContentAndMedia {
+            These patterns are common in performance-sensitive paths: in-place transforms, "next
+            greater", and "top K".
+        }
+        @Steps {
+            @Step {
+                **7. In-Place Reversal**: write iterative list reversal.
+
+                @Comment {
+                    You always need `previous`, `current`, and a saved `next` before rewiring.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-in-place-reversal.swift", reset: true)
+            }
+
+            @Step {
+                **8. Monotonic Stack**: write "next greater element".
+
+                @Comment {
+                    Store indices, not values, so you can write answers back into the result.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-monotonic-stack.swift", reset: true)
+            }
+
+            @Step {
+                **9. Top K with Heap**: write a minimal heap plus `topK`.
+
+                @Comment {
+                    `O(n log k)` beats sorting when `k` is small.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-top-k-heap.swift", reset: true)
+            }
+        }
+    }
+
+    @Section(title: "Trees and Graphs (10-13)") {
+        @ContentAndMedia {
+            These are about traversal order, visited tracking, and careful neighbor enumeration.
+        }
+        @Steps {
+            @Step {
+                **10. Binary Tree BFS**: write level-order traversal.
+
+                @Comment {
+                    "One loop per level" is the easiest way to compute per-depth aggregates.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-tree-bfs.swift", reset: true)
+            }
+
+            @Step {
+                **11. DFS (Tree/Graph)**: write DFS over an adjacency list.
+
+                @Comment {
+                    Graphs require a `visited` set; trees usually do not.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-dfs.swift", reset: true)
+            }
+
+            @Step {
+                **12. Graph BFS (Shortest Path)**: write BFS with `(node, distance)`.
+
+                @Comment {
+                    Mark `visited` on enqueue so you do not enqueue duplicates.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-graph-bfs.swift", reset: true)
+            }
+
+            @Step {
+                **13. Matrix Traversal**: write flood fill (DFS or BFS).
+
+                @Comment {
+                    You do not need to remember the order; memorize the 4-neighbor set:
+                    `(-1, 0)`, `(1, 0)`, `(0, -1)`, `(0, 1)`.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-matrix-traversal.swift", reset: true)
+            }
+        }
+    }
+
+    @Section(title: "Search Space and Dynamic Programming (14-15)") {
+        @ContentAndMedia {
+            These are about exploring the solution space safely and avoiding recomputation.
+        }
+        @Steps {
+            @Step {
+                **14. Backtracking**: write combination sum.
+
+                @Comment {
+                    "Choose -> explore -> undo" is the entire template.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-backtracking.swift", reset: true)
+            }
+
+            @Step {
+                **15. Dynamic Programming**: write memoized Fibonacci as the simplest recurrence.
+
+                @Comment {
+                    Define state + recurrence + base cases; memoization is just caching.
+                }
+                @Code(name: "Patterns.swift", file: "pattern-dp.swift", reset: true)
+            }
+        }
+    }
+}

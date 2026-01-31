@@ -1,0 +1,42 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-sliding-window-practice-icon", alt: "Pattern 3 Sliding Window icon")
+@PageImage(purpose: card, source: "doc-pattern-sliding-window-practice-card", alt: "Pattern 3 Sliding Window card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 3 - Sliding Window") {
+        @Image(source: "doc-pattern-sliding-window-practice-hero", alt: "Pattern 3 Sliding Window hero")
+        Review sliding-window invariants such as "no duplicates" or "sum <= K".
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Think of the window as `[left, right]` and design rules for when to expand and when to
+            shrink so the invariant always holds.
+        }
+        @Steps {
+            @Step {
+                Revisit the "Sliding Window" section in <doc:top-15-patterns> and identify the
+                state you must track for each variant.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Longest Substring Without Repeating Characters (3)") {
+        @ContentAndMedia {
+            Track the last index where you saw each character and move the left edge past any
+            duplicates.
+        }
+        @Steps {
+            @Step {
+                Annotate `lengthOfLongestSubstring`: `windowStart` is the left edge, `currentIndex`
+                is the right; when a character was seen inside the current window you move
+                `windowStart` just past its last position. The `bestLength` update at the bottom of
+                the loop keeps track of the longest valid window seen so far.
+                @Code(name: "SlidingWindow.swift", file: "pattern-sliding-window.swift")
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-matrix-traversal-practice-icon", alt: "Pattern 13 Matrix Traversal icon")
+@PageImage(purpose: card, source: "doc-pattern-matrix-traversal-practice-card", alt: "Pattern 13 Matrix Traversal card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 13 - Matrix Traversal") {
+        @Image(source: "doc-pattern-matrix-traversal-practice-hero", alt: "Pattern 13 Matrix Traversal hero")
+        Review grid traversal as a graph and perform flood fill with DFS or BFS.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Each cell is a node with up to four neighbors; guard bounds and mark cells as visited
+            to avoid revisiting them.
+        }
+        @Steps {
+            @Step {
+                Re-read <doc:leetcode-200-number-of-islands> and note how BFS and DFS variants share
+                the same core traversal.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Flood Fill / Number of Islands") {
+        @ContentAndMedia {
+            Recolor a connected region starting from a seed cell while respecting the original
+            color.
+        }
+        @Steps {
+            @Step {
+                Annotate `floodFill`: the nested `dfs` stops on out-of-bounds cells or when the cell
+                is not the original color; otherwise it recolors and recurses to four neighbors.
+                Emphasize that this is the same traversal skeleton used in
+                <doc:leetcode-200-number-of-islands>.
+                @Code(name: "GridTraversal.swift", file: "pattern-matrix-traversal.swift")
+            }
+        }
+    }
+}

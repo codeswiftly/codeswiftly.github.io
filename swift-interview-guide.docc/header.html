@@ -1,0 +1,52 @@
+<!--
+  DocC custom template: injected into every page when building with
+  `--experimental-enable-custom-templates`.
+
+  Goal: allow in-page Article heroes (`@Image(source: \"...-hero\")` as first content)
+  to render as full-bleed rather than constrained to the fixed-width text column.
+-->
+<!--
+  [DISABLED] - This CSS forces 100vw which breaks layout when a sidebar is present.
+  We rely on standard DocC layout + width="100%" in the SVG itself.
+-->
+<!--
+<style>
+  /* Wrkstrm DocC: full-bleed article heroes */
+
+  /* Avoid horizontal scrollbars when we break out of the content column. */
+  @supports (overflow-x: clip) {
+    html,
+    body {
+      overflow-x: clip;
+    }
+  }
+  @supports not (overflow-x: clip) {
+    html,
+    body {
+      overflow-x: hidden;
+    }
+  }
+
+  /*
+    Standard: Articles place a hero `@Image(source: \"...-hero\")` as the first visible content.
+    This targets those image assets by name and makes them full-bleed.
+  */
+  img[src*="-hero."],
+  img[src*="-hero?"],
+  object[data*="-hero."],
+  object[data*="-hero?"],
+  embed[src*="-hero."],
+  embed[src*="-hero?"] {
+    display: block !important;
+    width: 100vw !important;
+    max-width: none !important;
+    height: auto !important;
+    margin: 0 0 1.25rem 0 !important;
+
+    /* More robust breakout than margin-calc alone (handles inline/centered wrappers). */
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+</style>
+-->

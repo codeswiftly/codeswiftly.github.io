@@ -1,0 +1,25 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-leetcode-1207-unique-occurrences-icon", alt: "LeetCode 1207 Unique Number of Occurrences icon")
+@PageImage(purpose: card, source: "doc-leetcode-1207-unique-occurrences-card", alt: "LeetCode 1207 Unique Number of Occurrences card")
+}
+
+@Tutorial(time: 8) {
+
+    @Intro(title: "LeetCode 1207 - Unique Number of Occurrences") {
+        @Image(source: "doc-leetcode-1207-unique-occurrences-hero", alt: "LeetCode 1207 Unique Number of Occurrences hero")
+        Practice counting frequencies with a dictionary and enforcing uniqueness with a set.
+    }
+
+    @Section(title: "Count and Dedupe") {
+        @ContentAndMedia {
+            Dictionary for counts; Set for uniqueness; compare sizes.
+        }
+        @Steps {
+            @Step {
+                Discuss O(n) time, O(k) space; negatives/zeros handled naturally. See article code
+                for the full snippet.
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-overlapping-intervals-practice-icon", alt: "Pattern 4 Overlapping Intervals icon")
+@PageImage(purpose: card, source: "doc-pattern-overlapping-intervals-practice-card", alt: "Pattern 4 Overlapping Intervals card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 4 - Overlapping Intervals") {
+        @Image(source: "doc-pattern-overlapping-intervals-practice-hero", alt: "Pattern 4 Overlapping Intervals hero")
+        Review interval merging and scheduling with a single linear pass after sorting.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            Once intervals are sorted by start time, you only need to compare each interval with
+            the last merged one to decide whether to extend or append.
+        }
+        @Steps {
+            @Step {
+                Read the interval notes in <doc:top-15-patterns> and be explicit about closed vs
+                half-open intervals in your explanation.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Merge Overlapping Intervals") {
+        @ContentAndMedia {
+            Implement the classic merge algorithm and reason about its `O(n log n)` time due to the sort.
+        }
+        @Steps {
+            @Step {
+                Annotate `mergeIntervals`: the initial sort is `O(n log n)`, then the loop maintains
+                `merged.last` as the current interval; if the next interval's start is within it you
+                extend the end, otherwise you append a new interval. This invariants-based view is
+                what interviewers look for.
+                @Code(name: "MergeIntervals.swift", file: "pattern-overlapping-intervals.swift")
+            }
+        }
+    }
+}

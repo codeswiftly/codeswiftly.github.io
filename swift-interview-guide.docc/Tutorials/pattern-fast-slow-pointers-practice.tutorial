@@ -1,0 +1,41 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-fast-slow-pointers-practice-icon", alt: "Pattern 6 Fast and Slow Pointers icon")
+@PageImage(purpose: card, source: "doc-pattern-fast-slow-pointers-practice-card", alt: "Pattern 6 Fast and Slow Pointers card")
+}
+
+@Tutorial(time: 15) {
+
+    @Intro(title: "Pattern 6 - Fast and Slow Pointers") {
+        @Image(source: "doc-pattern-fast-slow-pointers-practice-hero", alt: "Pattern 6 Fast and Slow Pointers hero")
+        Review fast and slow pointers for cycles and midpoints in linked structures.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            A fast pointer that moves two steps at a time will eventually lap a slow pointer if and
+            only if there is a cycle.
+        }
+        @Steps {
+            @Step {
+                Sketch a small cyclic list and simulate the pointer movements from the
+                "Fast and Slow Pointers" section in <doc:top-15-patterns>.
+            }
+        }
+    }
+
+    @Section(title: "Problem: Detect a Cycle in a Linked List") {
+        @ContentAndMedia {
+            Use Floyd's cycle detection to determine whether a singly linked list loops back on itself.
+        }
+        @Steps {
+            @Step {
+                Annotate `hasCycle`: both `slowNode` and `fastNode` start at the head; on each
+                iteration the slow pointer moves once, the fast twice. If there is a cycle, they must
+                eventually meet at the same node; if `fastNode` or its `next` becomes `nil`, the list
+                terminates and there is no cycle.
+                @Code(name: "FastSlowPointers.swift", file: "pattern-fast-slow-pointers.swift")
+            }
+        }
+    }
+}

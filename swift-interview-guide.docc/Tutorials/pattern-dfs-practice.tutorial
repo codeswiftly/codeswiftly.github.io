@@ -1,0 +1,41 @@
+
+@Metadata {
+@PageImage(purpose: icon, source: "doc-pattern-dfs-practice-icon", alt: "Pattern 11 DFS (Tree Graph) icon")
+@PageImage(purpose: card, source: "doc-pattern-dfs-practice-card", alt: "Pattern 11 DFS (Tree Graph) card")
+}
+
+@Tutorial(time: 20) {
+
+    @Intro(title: "Pattern 11 - DFS (Tree/Graph)") {
+        @Image(source: "doc-pattern-dfs-practice-hero", alt: "Pattern 11 DFS (Tree Graph) hero")
+        Review depth-first search to explore branches fully before backtracking.
+    }
+
+    @Section(title: "Mental Model") {
+        @ContentAndMedia {
+            For trees, DFS is naturally expressed recursively; for graphs, add a `visited` set to
+            avoid infinite loops.
+        }
+        @Steps {
+            @Step {
+                Connect this mental model with <doc:leetcode-1372-longest-zigzag-path> and other
+                DFS-heavy tree drills.
+            }
+        }
+    }
+
+    @Section(title: "Problem: DFS on an Adjacency-List Graph") {
+        @ContentAndMedia {
+            Implement a simple DFS that visits each node once and marks it in a `visited` set.
+        }
+        @Steps {
+            @Step {
+                Annotate `depthFirstSearch`: the early `if visited.contains(node)` guard prevents
+                infinite recursion, `visited.insert(node)` marks work as done, and the loop recurses
+                into each neighbor. This exact pattern underlies graph cloning and island-counting
+                problems.
+                @Code(name: "DepthFirstSearch.swift", file: "pattern-dfs.swift")
+            }
+        }
+    }
+}
