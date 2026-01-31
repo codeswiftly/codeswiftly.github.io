@@ -41,7 +41,7 @@ jobs:
             --transform-for-static-hosting \
             --hosting-base-path /
           cp "docc-overrides.css" "${output_root}/css/docc-overrides.css"
-          find "${output_root}" -name index.html -print0 | xargs -0 perl -0pi -e 'if ($_ !~ /docc-overrides\.css/) { s#</head>#<link rel="stylesheet" href="/css/docc-overrides.css"></head># }'
+          find "${output_root}" -name index.html -print0 | xargs -0 perl -0pi -e 'if ($_ !~ /docc-overrides.css/) { s#</head>#<link rel="stylesheet" href="/css/docc-overrides.css"></head># }'
           touch "${output_root}/.nojekyll"
 
       - name: Upload Pages artifact
