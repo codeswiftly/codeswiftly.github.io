@@ -3,6 +3,7 @@
 @Metadata {
   @PageKind(article)
   @PageColor(blue)
+  @TechnologyRoot
   @TitleHeading("Swift Engineering & Education")
   @PageImage(purpose: icon, source: "index-icon", alt: "Code Swiftly Icon")
   @PageImage(purpose: card, source: "index-card", alt: "Code Swiftly Card")
