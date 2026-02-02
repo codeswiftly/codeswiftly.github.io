@@ -460,8 +460,8 @@ Interview angle:
 
 Location:
 
-- `code/mono/orgs/swift-universal/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/SwiftDirectoryTools.swift`
-- `code/mono/orgs/swift-universal/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/Scanning/**`
+- `code/mono/orgs/swift-universal/public/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/SwiftDirectoryTools.swift`
+- `code/mono/orgs/swift-universal/public/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/Scanning/**`
 
 Purpose:
 
