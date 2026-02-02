@@ -38,7 +38,7 @@ Location:
 
 Purpose:
 
-- Read JSON triad files (`*.agent.json`, `*.agency.json`, `*.agenda.json`).
+- Read JSON triad files (`*.agent.triad.json`, `*.agency.triad.json`, `*.agenda.triad.json`).
 - Normalize structure and `schemaVersion` to `0.4.0`.
 - Detect structural-risk changes.
 - Optionally verify semantic equivalence using typed models.
@@ -460,8 +460,8 @@ Interview angle:
 
 Location:
 
-- `code/mono/apple/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/SwiftDirectoryTools.swift`
-- `code/mono/apple/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/Scanning/**`
+- `code/mono/orgs/swift-universal/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/SwiftDirectoryTools.swift`
+- `code/mono/orgs/swift-universal/spm/universal/domain/system/swift-directory-tools/Sources/SwiftDirectoryTools/Scanning/**`
 
 Purpose:
 
