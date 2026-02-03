@@ -2,7 +2,6 @@
 # Swift Interview Guide
 
 @Metadata {
-  @TechnologyRoot
   @PageColor(orange)
   @TitleHeading("Build a Swift Interview System")
   @PageImage(purpose: card, source: "swift-interview-guide-hero.codex", alt: "Swift Interview Guide card")
