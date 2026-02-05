@@ -120,7 +120,7 @@ Each article is a short checklist you can skim before a session.
       - <doc:foundational-interview-prep>
       - <doc:swift-gotchas>
       - <doc:algorithms-and-patterns>
-      - <doc:robinhood-interview-guide>
+      - <doc:finance-interview-guide>
     }
   }
   @Tab("Deep dives") {

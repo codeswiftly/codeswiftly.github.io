@@ -15,7 +15,7 @@
 
 Game‑focused LeetCode progression: model state, simulate rules, and prove correctness with small tests.
 
-This deep dive is used by the Apple company guide: <doc:apple-interview-guide>.
+This deep dive is used by the Apple company guide: <doc:os-interview-guide>.
 
 > Note: Say the invariant aloud first (what state do you maintain?).
 

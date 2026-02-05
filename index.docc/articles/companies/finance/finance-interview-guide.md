@@ -1,8 +1,8 @@
-# Robinhood Interview Guide
+# Finance Interview Guide
 
 
 @Metadata {
-  @TitleHeading("Robinhood Interview Guide")
+  @TitleHeading("Finance Interview Guide")
   @PageColor(green)
 }
 
@@ -12,7 +12,7 @@
 }
 
 
-Robinhood interviews emphasize market structure, low-latency systems, and correctness under load.
+Finance interviews emphasize market structure, low-latency systems, and correctness under load.
 Use this guide to surface the hardest problems early and map them to trading workflows.
 
 ## Quick Start

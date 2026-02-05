@@ -4,7 +4,7 @@
 @Metadata {
   @PageColor(gray)
   @TitleHeading("Review Company Guides Overview")
-  @CallToAction(url: "doc:apple-interview-guide", label: "Start with Apple")
+  @CallToAction(url: "doc:os-interview-guide", label: "Start with OS")
 }
 
 @Options {
@@ -25,11 +25,10 @@ Company-specific prep checklists and phone screen guides.
 
 @Links(visualStyle: detailedGrid) {
 
-- <doc:apple-interview-guide>
+- <doc:os-interview-guide>
 - <doc:apple-wallet-interview-guide>
-- <doc:google-interview-guide>
-- <doc:meta-interview-guide>
-- <doc:robinhood-interview-guide>
+- <doc:mobile-interview-guide>
+- <doc:finance-interview-guide>
 }
 
 ## Topics

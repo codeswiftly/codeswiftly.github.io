@@ -1,8 +1,8 @@
-# Meta Interview Guide
+# Mobile Interview Guide
 
 
 @Metadata {
-  @TitleHeading("Meta Interview Guide")
+  @TitleHeading("Mobile Interview Guide")
   @PageColor(blue)
 }
 
@@ -12,8 +12,8 @@
 }
 
 
-Meta interviews emphasize behavioral depth, system design reasoning, and coding clarity.
-Use this page as the entry point for the Meta track.
+Mobile interviews emphasize behavioral depth, system design reasoning, and coding clarity.
+This guide currently anchors the Meta mobile track.
 
 Meta’s internal loop names:
 
@@ -25,7 +25,7 @@ Meta’s internal loop names:
 
 - <doc:meta-24-hour-cram-plan>
 
-## How to Run the Meta Loop
+## How to Run the Mobile Loop
 
 One clean, repeatable rehearsal loop:
 
@@ -189,26 +189,6 @@ func findKClosestElements(_ nums: [Int], _ k: Int, _ x: Int) -> [Int] {
 
 ## Topics
 
-### Start Here
-
-
 ### Practice
 
 - <tutorial:concurrency-quiz>
-
-### Ninja (Coding)
-
-- <doc:meta-final-coding>
-- <doc:swift-main-data-structures>
-- <doc:custom-data-structures-reference>
-- <doc:leetcode-29-divide-two-integers>
-- <doc:leetcode-206-reverse-linked-list>
-- <doc:leetcode-560-subarray-sum-equals-k>
-- <doc:leetcode-33-search-rotated-sorted-array>
-
-### Pirate (System Design)
-
-- <doc:generic-ios-meta-system-design>
-- <doc:instagram-meta-system-design>
-- <doc:whatsapp-meta-system-design>
-- <doc:facebook-meta-system-design>

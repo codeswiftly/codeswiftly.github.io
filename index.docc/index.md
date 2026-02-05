@@ -91,7 +91,6 @@ A practical Swift interview guide for Code Swiftly practice: algorithms, Swift l
 ### Companies
 
 - <doc:company-guides>
-- <doc:apple-interview-guide>
-- <doc:meta-interview-guide>
-- <doc:robinhood-interview-guide>
-- <doc:google-interview-guide>
+- <doc:os-interview-guide>
+- <doc:mobile-interview-guide>
+- <doc:finance-interview-guide>
