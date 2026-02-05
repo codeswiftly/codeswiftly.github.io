@@ -1,8 +1,5 @@
 # Conflict Story Example: Quantify Risk and Negotiate Compromise
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0040-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0040-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0040-icon.codex", alt: "Placeholder icon")
 
 Strong conflict resolution uses evidence to reframe stakes and to reach a balanced decision.
 

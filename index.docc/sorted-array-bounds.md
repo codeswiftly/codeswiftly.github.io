@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review Searching First/Last Occurrence in a Sorted Array (from an Offset)")
-  @PageImage(purpose: icon, source: "sorted-array-bounds-icon.codex", alt: "Searching First Last Occurrence in a Sorted Array (from an Offset) icon")
-  @PageImage(purpose: card, source: "sorted-array-bounds-card.codex", alt: "Searching First Last Occurrence in a Sorted Array (from an Offset) card")
 }
 
-@Image(source: "sorted-array-bounds-hero.codex", alt: "Searching First Last Occurrence in a Sorted Array (from an Offset) hero")
 
 Find the first and last index of a target in a sorted `Array` using binary search, starting at a
 given offset. Works with `Comparable` elements; O(log n) time, O(1) space.

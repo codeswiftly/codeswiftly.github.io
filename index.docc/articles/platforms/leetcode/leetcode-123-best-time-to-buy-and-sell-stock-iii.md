@@ -1,20 +1,13 @@
 # LeetCode 123: Best Time to Buy and Sell Stock III
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-123-best-time-to-buy-and-sell-stock-iii-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-123-best-time-to-buy-and-sell-stock-iii-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-123-best-time-to-buy-and-sell-stock-iii-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-123-best-time-to-buy-and-sell-stock-iii-dsa-icon.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
-  @PageImage(purpose: card, source: "leetcode-123-best-time-to-buy-and-sell-stock-iii-dsa-card.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
   @CallToAction(url: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-123-best-time-to-buy-and-sell-stock-iii-dsa-hero.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
 
 > Warning: 1. This is the k=2 special case; do not over-allocate state. } > Warning: 2. Track two buys and two sells in order. } }
 
-@Image(source: "leetcode-123-best-time-to-buy-and-sell-stock-iii-dsa-top.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
 
 Maximize profit with at most two transactions.
 

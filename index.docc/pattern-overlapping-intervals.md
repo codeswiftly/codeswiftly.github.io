@@ -1,14 +1,10 @@
 # Pattern 04: Overlapping Intervals
 
-@Image(source: "pattern-overlapping-intervals-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Overlapping Intervals")
-  @PageImage(purpose: icon, source: "pattern-overlapping-intervals-icon.codex", alt: "Pattern 04: Overlapping Intervals icon")
-  @PageImage(purpose: card, source: "pattern-overlapping-intervals-card.codex", alt: "Pattern 04: Overlapping Intervals card")
 }
 
-@Image(source: "overlapping-intervals-diagram.codex", alt: "Merging overlapping intervals")
 
 Manage time blocks or ranges by sorting them to efficiently merge, count, or schedule overlapping events.
 
@@ -44,7 +40,6 @@ Wh  dealing with ranges `[start, end]`:
 
 Given an array of intervals, merge all overlapping intervals.
 
-@Image(source: "overlapping-intervals-merge-example.codex", alt: "Overlapping intervals merge before and after")
 
 ```swift
 func merge(_ intervals: [[Int]]) -> [[Int]] {
@@ -77,7 +72,6 @@ func merge(_ intervals: [[Int]]) -> [[Int]] {
 
 Insert a new interval into a sorted list of non-overlapping intervals and merge if necessary.
 
-@Image(source: "overlapping-intervals-insert-example.codex", alt: "Insert interval and merge result")
 
 ```swift
 func insert(_ intervals: [[Int]], _ newInterval: [Int]) -> [[Int]] {

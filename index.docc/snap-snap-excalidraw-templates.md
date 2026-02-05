@@ -1,16 +1,11 @@
 # Snapsnap Excalidraw Templates
 
-@PageImage(purpose: card, source: "snap-snap-excalidraw-templates-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "snap-snap-excalidraw-templates-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Mermaid templates for Excalidraw")
   @PageColor(red)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System design card")
 }
 
-@Image(source: "snap-snap-excalidraw-templates-hero.codex", alt: "Snapsnap excalidraw templates hero")
 
 Use these Mermaid blocks as Excalidraw-ready templates. Keep labels CamelCase with no spaces.
 Source files live in `Resources/mermaid/snapsnap-excalidraw-templates/` and rendered SVGs live in
@@ -29,7 +24,6 @@ flowchart LR
   GeoFenceTrigger --> PassiveSharing
 ```
 
-@Image(source: "system-at-a-glance.codex", alt: "System at a glance diagram")
 
 ## App Delegate Orchestration
 
@@ -39,7 +33,6 @@ flowchart LR
   AppDelegate --> InitialUserFlowFtue
 ```
 
-@Image(source: "app-delegate-orchestration.codex", alt: "App delegate orchestration diagram")
 
 ## Core Service Layers
 
@@ -53,7 +46,6 @@ flowchart TB
   LoggingMetricsFramework
 ```
 
-@Image(source: "core-service-layers.codex", alt: "Core service layers diagram")
 
 ## Permissions Services Protocol
 
@@ -64,7 +56,6 @@ flowchart LR
   Camera --> PermissibleProtocol
 ```
 
-@Image(source: "permissions-services-protocol.codex", alt: "Permissions services protocol diagram")
 
 ## One-shot Onboarding Flow
 
@@ -73,7 +64,6 @@ flowchart LR
   AppLaunchFirstTime --> AudienceTrigger --> FtueUi --> LoginScreen --> PassiveState
 ```
 
-@Image(source: "one-shot-onboarding-flow.codex", alt: "One-shot onboarding flow diagram")
 
 ## Core Loop: Foresight
 
@@ -82,7 +72,6 @@ flowchart LR
   PassiveState --> BackgroundUserFlow --> ForesightDataDownloading --> PassiveState
 ```
 
-@Image(source: "core-loop-foresight.codex", alt: "Core loop foresight diagram")
 
 ## Main Screen State-driven UI
 
@@ -91,7 +80,6 @@ flowchart LR
   HighState --> NearbyStateSingle --> NearbyStateFeed
 ```
 
-@Image(source: "main-screen-state-driven-ui.codex", alt: "Main screen state-driven UI diagram")
 
 ## Dependency Injection Weave
 
@@ -101,7 +89,6 @@ flowchart LR
   CoreServices --> UiViewControllerInitializersUiKit --> UiComponents
 ```
 
-@Image(source: "dependency-injection-weave.codex", alt: "Dependency injection weave diagram")
 
 ## Platform and Technology Stack
 
@@ -112,7 +99,6 @@ flowchart TB
   LocalStateManagement --> PrivacyCompliance
 ```
 
-@Image(source: "platform-technology-stack.codex", alt: "Platform and technology stack diagram")
 
 ## 45-Minute Tour Script
 

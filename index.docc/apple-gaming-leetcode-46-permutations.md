@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 46 — Permutations")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-46-permutations-icon.codex", alt: "Gaming Deep Dive — 46 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-46-permutations-card.codex", alt: "Gaming Deep Dive — 46 card")
   @CallToAction(url: "https://leetcode.com/problems/permutations/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-46-permutations-hero.codex", alt: "Gaming Deep Dive LeetCode 46 Permutations hero")
 
 ## Overview
 

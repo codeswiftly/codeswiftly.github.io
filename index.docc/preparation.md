@@ -1,14 +1,10 @@
 # Preparation
 
-@PageImage(purpose: icon, source: "preparation-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Preparation")
-  @PageImage(purpose: icon, source: "preparation-pencil-icon.codex", alt: "Preparation pencil icon")
-  @PageImage(purpose: card, source: "preparation-card.codex", alt: "Preparation card")
 }
 
-@Image(source: "preparation-hero.codex", alt: "Preparation hero")
 
 ## Working Rhythm
 

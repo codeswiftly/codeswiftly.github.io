@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 675: Cut Off Trees for Golf Event
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-675-cut-off-trees-for-golf-event-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-675-cut-off-trees-for-golf-event-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-675-cut-off-trees-for-golf-event-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 675 — Cut Off Trees for Golf Event")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-675-cut-off-trees-for-golf-event-icon.codex", alt: "Gaming Deep Dive — 675 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-675-cut-off-trees-for-golf-event-card.codex", alt: "Gaming Deep Dive — 675 card")
   @CallToAction(url: "https://leetcode.com/problems/cut-off-trees-for-golf-event/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-675-cut-off-trees-for-golf-event-hero.codex", alt: "Gaming Deep Dive LeetCode 675 Cut Off Trees for Golf Event hero")
 
 ## Overview
 

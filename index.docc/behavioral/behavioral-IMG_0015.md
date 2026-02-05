@@ -1,8 +1,5 @@
 # Personal Story Guardrails
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0015-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0015-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0015-icon.codex", alt: "Placeholder icon")
 
 Personal stories can be effective only when you truly lack professional examples (typically for
 junior candidates). Even then, the story must demonstrate ownership, initiative, and measurable

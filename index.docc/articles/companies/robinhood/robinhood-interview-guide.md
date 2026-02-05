@@ -1,14 +1,9 @@
 # Robinhood Interview Guide
 
-@PageImage(purpose: card, source: "companies-robinhood-robinhood-interview-guide-card.codex", alt: "Placeholder card")
-@Image(source: "companies-robinhood-robinhood-interview-guide-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-robinhood-robinhood-interview-guide-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Robinhood Interview Guide")
   @PageColor(green)
-  @PageImage(purpose: icon, source: "companies-robinhood-robinhood-interview-guide-icon.codex", alt: "Robinhood Interview Guide icon")
-  @PageImage(purpose: card, source: "companies-robinhood-robinhood-interview-guide-card.codex", alt: "Robinhood Interview Guide card")
 }
 
 @Options {
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "companies-robinhood-robinhood-interview-guide-hero.codex", alt: "Robinhood Interview Guide hero")
 
 Robinhood interviews emphasize market structure, low-latency systems, and correctness under load.
 Use this guide to surface the hardest problems early and map them to trading workflows.

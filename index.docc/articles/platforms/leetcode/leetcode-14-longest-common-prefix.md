@@ -1,19 +1,10 @@
 # LeetCode 14: Longest Common Prefix
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-14-longest-common-prefix-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-14-longest-common-prefix-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-14-longest-common-prefix-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-14-longest-common-prefix-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-14-longest-common-prefix-dsa-card.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-}
 
-@Image(source: "leetcode-14-longest-common-prefix-dsa-hero.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Given an array of strings, return the longest common prefix shared by all of them. If none exists, return an empty string.
 
-@Image(source: "leetcode-14-longest-common-prefix-dsa-top.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Solve Easy problem.
 

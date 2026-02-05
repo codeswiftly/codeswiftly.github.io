@@ -1,8 +1,5 @@
 # Conflict Stories: Proactive and Constructive Posture
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0036-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0036-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0036-icon.codex", alt: "Placeholder icon")
 
 Strong conflict stories show that you addressed the issue early and framed it as a constructive
 problem to solve.

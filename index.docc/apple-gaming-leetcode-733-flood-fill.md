@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 733 — Flood Fill")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-733-flood-fill-icon.codex", alt: "Gaming Deep Dive — 733 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-733-flood-fill-card.codex", alt: "Gaming Deep Dive — 733 card")
   @CallToAction(url: "https://leetcode.com/problems/flood-fill/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-733-flood-fill-hero.codex", alt: "Gaming Deep Dive LeetCode 733 Flood Fill hero")
 
 ## Overview
 

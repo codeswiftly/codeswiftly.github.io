@@ -1,14 +1,9 @@
 # System Design Challenges (Languages + Cross-platform)
 
-@PageImage(purpose: card, source: "system-design-mermaid-challenges-part-4-ios-language-xplat-card.codex", alt: "Placeholder card")
-@Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-4-ios-language-xplat-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Languages + cross-platform: 5 challenge diagrams")
   @PageColor(orange)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System Design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
 Use these diagrams to rehearse Part IV challenges.
@@ -22,7 +17,6 @@ flowchart LR
   Migration --> Training[Training]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-01-25-adopting-new-languages-and-frameworks.codex.svg", alt: "25) Adopting new languages and frameworks diagram")
 
 
 
@@ -35,7 +29,6 @@ flowchart LR
   Bridge --> Build[Build System]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-02-26-interop-reality-objective-c-c-c-rust.codex.svg", alt: "26) Interop reality (Objective-C/C/C++/Rust) diagram")
 
 
 
@@ -48,7 +41,6 @@ flowchart TD
   Client --> Contract[Contract Tests]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-03-27-cross-platform-feature-development-ios-native.codex.svg", alt: "27) Cross-platform feature development (iOS-native) diagram")
 
 
 
@@ -62,7 +54,6 @@ flowchart LR
   Native --> Costs
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-04-28-cross-platform-vs-native-decision.codex.svg", alt: "28) Cross-platform vs native decision diagram")
 
 
 
@@ -75,6 +66,5 @@ flowchart LR
   Web --> Cache[Latency + Caching]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-05-29-web-pwa-backend-driven-apps.codex.svg", alt: "29) Web/PWA & backend-driven apps diagram")
 
 

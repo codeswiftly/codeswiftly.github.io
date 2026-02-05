@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 778: Swim in Rising Water
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-778-swim-in-rising-water-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-778-swim-in-rising-water-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-778-swim-in-rising-water-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 778 — Swim in Rising Water")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-778-swim-in-rising-water-icon.codex", alt: "Gaming Deep Dive — 778 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-778-swim-in-rising-water-card.codex", alt: "Gaming Deep Dive — 778 card")
   @CallToAction(url: "https://leetcode.com/problems/swim-in-rising-water/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-778-swim-in-rising-water-hero.codex", alt: "Gaming Deep Dive LeetCode 778 Swim in Rising Water hero")
 
 ## Overview
 

@@ -1,14 +1,10 @@
 # Pattern 01: Prefix Sum
 
-@Image(source: "pattern-prefix-sum-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Prefix Sum")
-  @PageImage(purpose: icon, source: "pattern-prefix-sum-icon.codex", alt: "Pattern 01: Prefix Sum icon")
-  @PageImage(purpose: card, source: "pattern-prefix-sum-card.codex", alt: "Pattern 01: Prefix Sum card")
 }
 
-@Image(source: "prefix-sum-diagram.codex", alt: "Prefix sum calculation flow")
 
 Use prefix sums to precompute cumulative totals, enabling O(1) range queries or efficient subarray counting.
 

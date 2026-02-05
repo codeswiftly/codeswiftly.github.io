@@ -1,8 +1,5 @@
 # Learning Loops in Product Decisions
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0011-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0011-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0011-icon.codex", alt: "Placeholder icon")
 
 Great behavioral answers show how you learned and adapted after the results. This turns a story
 from "what I did" into "how I think and improve."

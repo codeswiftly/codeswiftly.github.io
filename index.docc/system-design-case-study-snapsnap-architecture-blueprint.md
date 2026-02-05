@@ -1,16 +1,11 @@
 # Snapsnap Architecture Blueprint (First Attempt)
 
-@PageImage(purpose: card, source: "system-design-case-study-snapsnap-architecture-blueprint-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "system-design-case-study-snapsnap-architecture-blueprint-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Example case study: first attempt")
   @PageColor(red)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System design card")
 }
 
-@Image(source: "system-design-case-study-snapsnap-architecture-blueprint-hero.codex", alt: "Snapsnap architecture blueprint (first attempt) hero")
 
 This is a first-pass architecture sketch used as a case study example.
 

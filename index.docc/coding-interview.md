@@ -3,11 +3,8 @@
 @Metadata {
   @PageColor(blue)
   @TitleHeading("Review Coding Interview")
-  @PageImage(purpose: icon, source: "coding-interview-icon.codex", alt: "Coding Interview icon")
-  @PageImage(purpose: card, source: "coding-interview-card.codex", alt: "Coding Interview card")
 }
 
-@Image(source: "coding-interview-hero.codex", alt: "Coding Interview hero")
 
 ## Approach
 

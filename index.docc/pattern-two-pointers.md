@@ -1,14 +1,10 @@
 # Pattern 02: Two Pointers
 
-@Image(source: "pattern-two-pointers-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Two Pointers")
-  @PageImage(purpose: icon, source: "pattern-two-pointers-icon.codex", alt: "Pattern 02: Two Pointers icon")
-  @PageImage(purpose: card, source: "pattern-two-pointers-card.codex", alt: "Pattern 02: Two Pointers card")
 }
 
-@Image(source: "two-pointers-diagram.codex", alt: "Two pointers converging logic")
 
 Use paired indices to traverse arrays or strings to perform comparisons, swaps, or searches in O(N) time and O(1) space.
 
@@ -44,7 +40,6 @@ Two pointers allows you to process a linear structure by maintaining two referen
 
 Validate a string is a palindrome by comparing characters from the outside moving inward.
 
-@Image(source: "two-pointers-palindrome-hero.codex", alt: "Palindrome check with two pointers")
 
 ```swift
 func isPalindrome(_ text: String) -> Bool {
@@ -66,7 +61,6 @@ func isPalindrome(_ text: String) -> Bool {
 
 Find two numbers that add up to a specific target number in a sorted array.
 
-@Image(source: "two-pointers-two-sum-visual.codex", alt: "Two pointers converging on a target sum")
 
 ```swift
 func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {

@@ -1,16 +1,10 @@
 # Quick Sheet
 
-@PageImage(purpose: card, source: "swift-swift-quick-sheet-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-quick-sheet-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-quick-sheet-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Quick Sheet")
-  @PageImage(purpose: icon, source: "swift-quick-sheet-icon.codex", alt: "Quick Sheet icon")
-  @PageImage(purpose: card, source: "swift-quick-sheet-card.codex", alt: "Quick Sheet card")
 }
 
-@Image(source: "swift-quick-sheet-hero.codex", alt: "Quick Sheet hero")
 
 Swift leans on value semantics, explicit mutability, and typed errors. Use these snippets to move
 fast in interviews without sacrificing safety.

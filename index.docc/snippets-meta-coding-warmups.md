@@ -1,14 +1,10 @@
 # Meta Coding Warmups (Snippets)
 
-@PageImage(purpose: card, source: "snippets-meta-coding-warmups-card.codex", alt: "Placeholder card")
-@Image(source: "snippets-meta-coding-warmups-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "snippets-meta-coding-warmups-icon.codex", alt: "Placeholder icon")
 
 Use these as short muscle-memory drills before the coding rounds.
 
 ## Binary Search Template
 
-![Binary search flow](binary-search-flow.codex)
 
 ```swift
 func binarySearch(_ nums: [Int], target: Int) -> Int {
@@ -31,7 +27,6 @@ func binarySearch(_ nums: [Int], target: Int) -> Int {
 
 ## BFS Template
 
-![BFS flow](bfs-flow.codex)
 
 ```swift
 struct Queue<Element> {
@@ -68,7 +63,6 @@ func bfs(start: Int, neighbors: (Int) -> [Int]) -> [Int] {
 
 ## Hash Map Counting Template
 
-![Hash map counting flow](hash-map-counting-flow.codex)
 
 ```swift
 func counts<T: Hashable>(_ values: [T]) -> [T: Int] {

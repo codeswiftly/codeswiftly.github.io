@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1275 — Find Winner on a Tic‑Tac‑Toe Game")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1275-find-winner-on-a-tic-tac-toe-game-icon.codex", alt: "Gaming Deep Dive — 1275 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1275-find-winner-on-a-tic-tac-toe-game-card.codex", alt: "Gaming Deep Dive — 1275 card")
   @CallToAction(url: "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1275-find-winner-on-a-tic-tac-toe-game-hero.codex", alt: "Gaming Deep Dive LeetCode 1275 Find Winner on a Tic Tac Toe Game hero")
 
 ## Overview
 

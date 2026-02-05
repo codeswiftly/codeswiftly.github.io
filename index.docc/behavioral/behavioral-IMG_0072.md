@@ -1,8 +1,5 @@
 # Adaptive Story Structure (RLCA) and Stake Framing
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0072-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0072-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0072-icon.codex", alt: "Placeholder icon")
 
 Once you know CARL, you can adapt structure to the signal the interviewer wants. One useful
 variant is RLCA: Results, Learnings, Context, Actions.

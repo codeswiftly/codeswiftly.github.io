@@ -1,14 +1,10 @@
 # Pattern 15: Dynamic Programming
 
-@Image(source: "pattern-dynamic-programming-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Dynamic Programming")
-  @PageImage(purpose: icon, source: "pattern-dynamic-programming-icon.codex", alt: "Pattern 15: Dynamic Programming icon")
-  @PageImage(purpose: card, source: "pattern-dynamic-programming-card.codex", alt: "Pattern 15: Dynamic Programming card")
 }
 
-@Image(source: "dynamic-programming-diagram.codex", alt: "Memoization tree")
 
 Solve complex problems by breaking them down into simpler subproblems and storing their solutions to avoid redundant work.
 

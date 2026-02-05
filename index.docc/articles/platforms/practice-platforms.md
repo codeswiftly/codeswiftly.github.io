@@ -1,15 +1,10 @@
 # Practice Platforms
 
-@PageImage(purpose: card, source: "platforms-practice-platforms-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-practice-platforms-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-practice-platforms-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(yellow)
   @TitleHeading("Review Practice Platforms")
-  @PageImage(purpose: icon, source: "track-practice-icon.codex", alt: "Practice platforms icon")
   @CallToAction(url: "doc:leetcode-platform", label: "Start a drill")
-  @PageImage(purpose: card, source: "practice-platforms-card.codex", alt: "Practice Platforms card")
 }
 
 @Options {
@@ -17,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "practice-platforms-hero.codex", alt: "Practice Platforms hero")
 
 Timed drills and platform-specific problem sets.
 

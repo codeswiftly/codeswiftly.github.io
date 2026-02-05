@@ -1,19 +1,12 @@
 # Meta Final Coding: Move Zeroes In-Place
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-move-zeroes-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-move-zeroes-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-move-zeroes-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Move zeroes to the end in place")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-move-zeroes-icon.codex", alt: "Move zeroes to the end in place icon")
-  @PageImage(purpose: card, source: "meta-final-coding-move-zeroes-card.codex", alt: "Move zeroes to the end in place card")
 }
 
-@Image(source: "meta-final-coding-move-zeroes-hero.codex", alt: "Meta Final Coding Move Zeroes In Place hero")
 
-@Image(source: "meta-final-coding-move-zeroes-diagram.codex", alt: "Stable move of non-zeroes left, zeroes right")
 
 ## Practice Context
 

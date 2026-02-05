@@ -1,20 +1,13 @@
 # LeetCode 46: Permutations
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-46-permutations-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-46-permutations-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-46-permutations-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-46-permutations-dsa-icon.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
-  @PageImage(purpose: card, source: "leetcode-46-permutations-dsa-card.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
   @CallToAction(url: "https://leetcode.com/problems/permutations/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-46-permutations-dsa-hero.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 > Warning: 1. Backtracking can blow up; keep the path and used markers tight. } > Warning: 2. Avoid mutating shared arrays without undoing changes. } }
 
-@Image(source: "leetcode-46-permutations-dsa-top.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 Return all permutations of a list of distinct integers.
 

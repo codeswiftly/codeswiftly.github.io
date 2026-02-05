@@ -1,14 +1,9 @@
 # System Design Challenges (iOS Practice + Scale)
 
-@PageImage(purpose: card, source: "system-design-mermaid-challenges-part-5-ios-practice-card.codex", alt: "Placeholder card")
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-5-ios-practice-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("iOS practice: 10 challenge diagrams")
   @PageColor(orange)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System Design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
 Use these diagrams to rehearse Part V challenges.
@@ -22,7 +17,6 @@ flowchart LR
   Experiments --> Rollout
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-01-30-experimentation-ios.codex.svg", alt: "30) Experimentation (iOS) diagram")
 
 
 
@@ -35,7 +29,6 @@ flowchart LR
   Flags --> Audit[Audit + Cleanup]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-02-31-feature-flag-hell-ios.codex.svg", alt: "31) Feature flag hell (iOS) diagram")
 
 
 
@@ -48,7 +41,6 @@ flowchart TD
   Fixes --> Budgets[Cold Start + Jank Budgets]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-03-32-performance-ios.codex.svg", alt: "32) Performance (iOS) diagram")
 
 
 
@@ -61,7 +53,6 @@ flowchart LR
   Alerts --> Oncall
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-04-33-analytics-monitoring-alerting-ios.codex.svg", alt: "33) Analytics, monitoring, alerting (iOS) diagram")
 
 
 
@@ -74,7 +65,6 @@ flowchart LR
   Mitigate --> Fix
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-05-34-mobile-oncall-ios.codex.svg", alt: "34) Mobile oncall (iOS) diagram")
 
 
 
@@ -87,7 +77,6 @@ flowchart LR
   CI --> APIBreaks[API Break Checks]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-06-35-advanced-code-quality-checks-ios.codex.svg", alt: "35) Advanced code quality checks (iOS) diagram")
 
 
 
@@ -100,7 +89,6 @@ flowchart LR
   Privacy --> Transport[TLS/Encryption]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-07-36-compliance-privacy-security-ios.codex.svg", alt: "36) Compliance, privacy, security (iOS) diagram")
 
 
 
@@ -112,7 +100,6 @@ flowchart LR
   Migration --> Tests[Migration Tests]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-08-37-client-side-data-migrations-ios.codex.svg", alt: "37) Client-side data migrations (iOS) diagram")
 
 
 
@@ -124,7 +111,6 @@ flowchart LR
   MinVersion --> Backend[Backend Compatibility]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-09-38-forced-upgrading-ios.codex.svg", alt: "38) Forced upgrading (iOS) diagram")
 
 
 
@@ -137,6 +123,5 @@ flowchart LR
   Size --> Linkage[Static vs Dynamic]
 ```
 
-@Image(source: "system-design-mermaid-challenges-part-5-ios-practice-10-39-app-size-ios.codex.svg", alt: "39) App size (iOS) diagram")
 
 

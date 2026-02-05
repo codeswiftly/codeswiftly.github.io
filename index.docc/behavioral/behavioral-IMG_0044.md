@@ -1,8 +1,5 @@
 # Conflict Example: Platform vs Feature Investment
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0044-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0044-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0044-icon.codex", alt: "Placeholder icon")
 
 This example shows a strategic conflict between platform stability and feature velocity. The
 signal is how you balance near-term competitiveness with long-term sustainability.

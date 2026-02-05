@@ -1,19 +1,12 @@
 # Meta Final Coding: Set with Count
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-set-with-count-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-set-with-count-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-set-with-count-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Implement a Set with count")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-set-with-count-icon.codex", alt: "Implement a Set with count icon")
-  @PageImage(purpose: card, source: "meta-final-coding-set-with-count-card.codex", alt: "Implement a Set with count card")
 }
 
-@Image(source: "meta-final-coding-set-with-count-hero.codex", alt: "Meta Final Coding Set With Count hero")
 
-@Image(source: "meta-final-coding-set-with-count-diagram.codex", alt: "Set operations and count")
 
 ## Practice Context
 

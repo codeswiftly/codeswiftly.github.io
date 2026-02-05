@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 1293: Shortest Path in a Grid with Obstacles Elimination
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1293-shortest-path-in-a-grid-with-obstacles-elimination-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-1293-shortest-path-in-a-grid-with-obstacles-elimination-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1293-shortest-path-in-a-grid-with-obstacles-elimination-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1293 — Shortest Path k‑Obstacle Elimination")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1293-shortest-path-in-a-grid-with-obstacles-elimination-icon.codex", alt: "Gaming Deep Dive — 1293 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1293-shortest-path-in-a-grid-with-obstacles-elimination-card.codex", alt: "Gaming Deep Dive — 1293 card")
   @CallToAction(url: "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1293-shortest-path-in-a-grid-with-obstacles-elimination-hero.codex", alt: "Gaming Deep Dive LeetCode 1293 Shortest Path in a Grid with Obstacles Elimination hero")
 
 ## Overview
 

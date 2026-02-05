@@ -1,21 +1,15 @@
 # Swift References
 
-@PageImage(purpose: card, source: "swift-swift-references-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-references-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-references-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
      @PageColor(gray)
    @TitleHeading("Review Swift references")
-   @PageImage(purpose: icon, source: "swift-references-icon.codex", alt: "Swift references icon")
-   @PageImage(purpose: card, source: "swift-references-card.codex", alt: "Swift references card")
 }
 
 @Options {
     @TopicsVisualStyle(detailedGrid)
 }
 
-@Image(source: "swift-references-hero.codex", alt: "Swift references hero")
 
 Fast recall pages for Swift syntax and language edge cases.
 

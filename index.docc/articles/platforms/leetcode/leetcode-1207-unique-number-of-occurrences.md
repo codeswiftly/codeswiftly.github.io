@@ -1,19 +1,10 @@
 # LeetCode 1207: Unique Number of Occurrences
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1207-unique-number-of-occurrences-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1207-unique-number-of-occurrences-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1207-unique-number-of-occurrences-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1207-unique-number-of-occurrences-dsa-icon.codex", alt: "Easy problem - Pattern 1 (Prefix Sum)")
-  @PageImage(purpose: card, source: "leetcode-1207-unique-number-of-occurrences-dsa-card.codex", alt: "Easy problem - Pattern 1 (Prefix Sum)")
-}
 
-@Image(source: "leetcode-1207-unique-number-of-occurrences-dsa-hero.codex", alt: "Easy problem - Pattern 1 (Prefix Sum)")
 
 Given an integer array `arr`, count the frequency of each distinct value. Return `true` if all frequencies are unique, otherwise `false`.
 
-@Image(source: "leetcode-1207-unique-number-of-occurrences-dsa-top.codex", alt: "Easy problem - Pattern 1 (Prefix Sum)")
 
 Solve Easy problem.
 

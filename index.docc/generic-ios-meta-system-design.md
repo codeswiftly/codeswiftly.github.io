@@ -1,16 +1,11 @@
 # Generic iOS Meta System Design
 
-@PageImage(purpose: card, source: "generic-ios-meta-system-design-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "generic-ios-meta-system-design-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Frame a Meta-scale iOS system design")
   @PageColor(orange)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System design card")
 }
 
-@Image(source: "generic-ios-meta-system-design-hero.codex", alt: "Generic iOS meta system design hero")
 
 A topic page for a baseline iOS mobile system design at Meta scale. Use this outline to structure
 interview answers; each section should become its own deeper page.
@@ -28,18 +23,14 @@ interview answers; each section should become its own deeper page.
 0:00 - 4:00: Problem framing (users, core job, constraints, success metrics).
 
 4:00 - 8:00: Architecture stack. Diagram: <doc:system-design-mermaid-prompts#Prompt-1-framework-stack>.
-@Image(source: "framework-stack.codex", alt: "Framework stack diagram")
 
 8:00 - 13:00: Primary data flow. Diagram: <doc:system-design-mermaid-prompts#Prompt-3-simple-API-flow>.
-@Image(source: "simple-api-flow.codex", alt: "Simple API flow diagram")
 
 13:00 - 17:00: Offline and sync plan. Diagram:
 <doc:system-design-mermaid-prompts#Prompt-4-storing-data-offline>.
-@Image(source: "storing-data-offline.codex", alt: "Storing data offline diagram")
 
 17:00 - 21:00: Protocol boundaries and test seams. Diagram:
 <doc:system-design-mermaid-prompts#Prompt-2-protocol-boundary>.
-@Image(source: "protocol-boundary.codex", alt: "Protocol boundary diagram")
 
 21:00 - 28:00: Scaling and performance (cache, pagination, fanout, rate limits).
 
@@ -75,13 +66,9 @@ interview answers; each section should become its own deeper page.
 Optional (only if asked):
 
 5) Feed ranking: <doc:system-design-mermaid-prompts#Prompt-8-feed-ranking>
-@Image(source: "feed-ranking.codex", alt: "Feed ranking diagram")
 6) Realtime messaging: <doc:system-design-mermaid-prompts#Prompt-7-realtime-messaging>
-@Image(source: "realtime-messaging.codex", alt: "Realtime messaging diagram")
 7) Media upload pipeline: <doc:system-design-mermaid-prompts#Prompt-5-media-upload-pipeline>
-@Image(source: "media-upload-pipeline.codex", alt: "Media upload pipeline diagram")
 8) Push notifications: <doc:system-design-mermaid-prompts#Prompt-6-push-notifications>
-@Image(source: "push-notifications.codex", alt: "Push notifications diagram")
 
 ## Architecture
 

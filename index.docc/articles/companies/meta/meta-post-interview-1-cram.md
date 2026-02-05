@@ -1,8 +1,5 @@
 # Meta Post-Interview 1: Tactical Cram Sheet
 
-@PageImage(purpose: card, source: "companies-meta-meta-post-interview-1-cram-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-meta-post-interview-1-cram-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-meta-post-interview-1-cram-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Meta Post-Interview 1: Tactical Cram Sheet")

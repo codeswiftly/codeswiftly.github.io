@@ -1,8 +1,5 @@
 # Resource Allocation Conflict: Options and Timeboxing
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0048-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0048-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0048-icon.codex", alt: "Placeholder icon")
 
 When leadership requests a critical resource, respond with data and alternatives rather than a
 flat no.

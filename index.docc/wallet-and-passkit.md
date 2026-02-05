@@ -1,13 +1,10 @@
 # Wallet and PassKit
 
-@PageImage(purpose: icon, source: "wallet-and-passkit-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(purple)
   @TitleHeading("Navigate Wallet and PassKit")
-  @PageImage(purpose: icon, source: "track-wallet-icon.codex", alt: "Wallet and PassKit icon")
   @CallToAction(url: "doc:apple-wallet-interview-guide", label: "Start with the overview")
-  @PageImage(purpose: card, source: "wallet-and-passkit-card.codex", alt: "Wallet and PassKit card")
 }
 
 @Options {
@@ -15,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "wallet-and-passkit-hero.codex", alt: "Wallet and PassKit hero")
 
 Apple Wallet, PassKit workflows, and identity design references.
 

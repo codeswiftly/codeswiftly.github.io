@@ -1,19 +1,10 @@
 # LeetCode 36: Valid Sudoku
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-36-valid-sudoku-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-36-valid-sudoku-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-36-valid-sudoku-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-36-valid-sudoku-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-36-valid-sudoku-dsa-card.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-}
 
-@Image(source: "leetcode-36-valid-sudoku-dsa-hero.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Given a 9x9 board partially filled with digits, determine if it is valid per Sudoku rules (rows, columns, 3x3 boxes contain digits 1-9 without repetition). Empty cells contain '.'.
 
-@Image(source: "leetcode-36-valid-sudoku-dsa-top.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Solve Medium problem.
 

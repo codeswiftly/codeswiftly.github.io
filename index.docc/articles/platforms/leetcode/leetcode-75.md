@@ -1,8 +1,5 @@
 # LeetCode 75
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-75-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-75-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-75-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("LeetCode 75")

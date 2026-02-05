@@ -1,14 +1,10 @@
 # Linked List Reversal (Iterative and Recursive)
 
-@PageImage(purpose: icon, source: "linked-list-reversal-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Linked List Reversal (Iterative and Recursive)")
-  @PageImage(purpose: icon, source: "linked-list-reversal.codex", alt: "Linked list reversal icon")
-  @PageImage(purpose: card, source: "linked-list-reversal-card.codex", alt: "Linked list reversal card")
 }
 
-@Image(source: "linked-list-reversal-hero.codex", alt: "Linked List Reversal (Iterative and Recursive) hero")
 
 ## Overview
 

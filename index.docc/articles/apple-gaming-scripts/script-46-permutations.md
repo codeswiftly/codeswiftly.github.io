@@ -1,14 +1,10 @@
 # Script — LeetCode 46: Permutations (3:00)
 
-@PageImage(purpose: card, source: "apple-gaming-scripts-script-46-permutations-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-scripts-script-46-permutations-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-scripts-script-46-permutations-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Script — 46 Permutations")
 }
 
-@Image(source: "script-46-permutations-hero.codex", alt: "Script LeetCode 46 Permutations (3 00) hero")
 
 Pattern Focus: Backtracking — choose → explore → unchoose. Track used elements. No duplicates in input.
 

@@ -3,8 +3,6 @@
 @Metadata {
   @PageColor(green)
   @TitleHeading("Finance Deep Dive")
-  @PageImage(purpose: icon, source: "finance-deep-dive-icon.codex", alt: "Finance Deep Dive icon")
-  @PageImage(purpose: card, source: "finance-deep-dive-card.codex", alt: "Finance Deep Dive card")
 }
 
 @Options {
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "finance-deep-dive-hero.codex", alt: "Finance Deep Dive hero")
 
 Finance interview prep is “state + queries” under adversarial update streams: prices, orders, fills,
 and constraints that force careful data structures.

@@ -1,20 +1,13 @@
 # LeetCode 348: Design Tic-Tac-Toe
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-348-design-tic-tac-toe-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-348-design-tic-tac-toe-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-348-design-tic-tac-toe-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-348-design-tic-tac-toe-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-348-design-tic-tac-toe-dsa-card.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/design-tic-tac-toe/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-348-design-tic-tac-toe-dsa-hero.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Avoid O(n^2) scans per move; keep constant-time updates. } > Warning: 2. Confirm diagonal indexing and player identifiers are consistent. } }
 
-@Image(source: "leetcode-348-design-tic-tac-toe-dsa-top.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Design a Tic-Tac-Toe class that reports a winner after each move.
 

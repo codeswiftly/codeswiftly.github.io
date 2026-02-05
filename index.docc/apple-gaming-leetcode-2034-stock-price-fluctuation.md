@@ -3,8 +3,6 @@
 @Metadata {
   @TitleHeading("Finance Deep Dive: LeetCode 2034 — Stock Price Fluctuation")
   @PageColor(green)
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-2034-stock-price-fluctuation-icon.codex", alt: "Finance Deep Dive — 2034 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-2034-stock-price-fluctuation-card.codex", alt: "Finance Deep Dive — 2034 card")
   @CallToAction(url: "https://leetcode.com/problems/stock-price-fluctuation/", label: "Solve on LeetCode")
 }
 
@@ -13,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-2034-stock-price-fluctuation-hero.codex", alt: "Finance Deep Dive LeetCode 2034 Stock Price Fluctuation hero")
 
 ## Overview
 

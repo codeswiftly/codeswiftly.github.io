@@ -1,19 +1,12 @@
 # Meta Final Coding: Valid Word Abbreviation
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-valid-word-abbreviation-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-valid-word-abbreviation-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-valid-word-abbreviation-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Valid word abbreviation")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-valid-word-abbreviation-icon.codex", alt: "Valid word abbreviation icon")
-  @PageImage(purpose: card, source: "meta-final-coding-valid-word-abbreviation-card.codex", alt: "Valid word abbreviation card")
 }
 
-@Image(source: "meta-final-coding-valid-word-abbreviation-hero.codex", alt: "Meta Final Coding Valid Word Abbreviation hero")
 
-@Image(source: "meta-final-coding-valid-word-abbreviation-diagram.codex", alt: "Abbreviation scanning with skips")
 
 ## Practice Context
 
@@ -32,7 +25,6 @@ Given a word and an abbreviation, verify whether the abbreviation is valid.
 - Time: O(N + M)
 - Space: O(1)
 
-![Valid word abbreviation flow](meta-final-coding-valid-word-abbreviation-flow.codex)
 
 ## Swift Starter
 

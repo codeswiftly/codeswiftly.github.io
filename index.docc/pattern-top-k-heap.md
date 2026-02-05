@@ -1,14 +1,10 @@
 # Pattern 09: Top K with Heap
 
-@Image(source: "pattern-top-k-heap-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Top K with Heap")
-  @PageImage(purpose: icon, source: "pattern-top-k-heap-icon.codex", alt: "Pattern 09: Top K with Heap icon")
-  @PageImage(purpose: card, source: "pattern-top-k-heap-card.codex", alt: "Pattern 09: Top K with Heap card")
 }
 
-@Image(source: "top-k-heap-diagram.codex", alt: "Min heap maintaining top k elements")
 
 Use a binary heap to manage a subset of the largest or smallest elements in a dataset without sorting the entire collection.
 

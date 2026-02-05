@@ -1,15 +1,11 @@
 # Typing Practice: Script-46-permutations
 
-@PageImage(purpose: card, source: "typing-from-script-46-permutations-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "typing-from-script-46-permutations-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(blue)
   @TitleHeading("Typing practice: script-46-permutations")
-  @PageImage(purpose: icon, source: "cantina-system-design.codex", alt: "Typing practice icon")
 }
 
-@Image(source: "typing-from-script-46-permutations-hero.codex", alt: "Typing practice script 46 permutations hero")
 
 This page pulls code blocks directly from script-46-permutations.md and renders them as centered, Xcode‑like typing panels.
 

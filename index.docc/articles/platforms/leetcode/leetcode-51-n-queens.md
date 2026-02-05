@@ -1,20 +1,13 @@
 # LeetCode 51: N-Queens
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-51-n-queens-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-51-n-queens-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-51-n-queens-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-51-n-queens-dsa-icon.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
-  @PageImage(purpose: card, source: "leetcode-51-n-queens-dsa-card.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
   @CallToAction(url: "https://leetcode.com/problems/n-queens/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-51-n-queens-dsa-hero.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
 
 > Warning: 1. Prune invalid placements early using column and diagonal sets. } > Warning: 2. Avoid generating duplicate boards by enforcing row-by-row placement. } }
 
-@Image(source: "leetcode-51-n-queens-dsa-top.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
 
 Return all valid placements of n queens on an n x n chessboard.
 

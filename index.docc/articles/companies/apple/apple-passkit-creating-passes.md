@@ -1,16 +1,10 @@
 # Creating Passes for Apple Wallet (PassKit)
 
-@PageImage(purpose: card, source: "companies-apple-apple-passkit-creating-passes-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-passkit-creating-passes-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-passkit-creating-passes-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Creating Passes for Apple Wallet (PassKit)")
-  @PageImage(purpose: icon, source: "apple-passkit-creating-passes-icon.codex", alt: "Creating Passes for Apple Wallet (PassKit) icon")
-  @PageImage(purpose: card, source: "apple-passkit-creating-passes-card.codex", alt: "Creating Passes for Apple Wallet (PassKit) card")
 }
 
-@Image(source: "apple-passkit-creating-passes-hero.codex", alt: "Creating Passes for Apple Wallet (PassKit) hero")
 
 ## Overview
 

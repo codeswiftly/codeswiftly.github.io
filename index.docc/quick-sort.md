@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review Quick Sort (Swift)")
-  @PageImage(purpose: icon, source: "quick-sort-icon.codex", alt: "Quick Sort (Swift) icon")
-  @PageImage(purpose: card, source: "quick-sort-card.codex", alt: "Quick Sort (Swift) card")
 }
 
-@Image(source: "quick-sort-hero.codex", alt: "Quick Sort (Swift) hero")
 
 ## Overview
 

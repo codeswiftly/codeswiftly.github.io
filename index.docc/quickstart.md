@@ -1,11 +1,6 @@
 # Swift Interview Guide — Quick Preview
 
-@Metadata {
-  @PageImage(purpose: icon, source: "quickstart-icon.codex", alt: "Swift Interview Guide Quick Preview icon")
-  @PageImage(purpose: card, source: "quickstart-card.codex", alt: "Swift Interview Guide Quick Preview card")
-}
 
-@Image(source: "quickstart-hero.codex", alt: "Swift Interview Guide Quick Preview hero")
 
 Serve this DocC bundle locally with the in‑process preview CLI.
 

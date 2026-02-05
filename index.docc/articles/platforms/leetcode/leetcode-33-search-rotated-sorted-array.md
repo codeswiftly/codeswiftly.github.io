@@ -1,19 +1,10 @@
 # LeetCode 33: Search in Rotated Sorted Array
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-33-search-rotated-sorted-array-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-33-search-rotated-sorted-array-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-33-search-rotated-sorted-array-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-33-search-rotated-sorted-array-dsa-icon.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
-  @PageImage(purpose: card, source: "leetcode-33-search-rotated-sorted-array-dsa-card.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
-}
 
-@Image(source: "leetcode-33-search-rotated-sorted-array-dsa-hero.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
 
 Given a strictly increasing array that has been rotated at an unknown pivot and a target value, return the index of the target (or `-1` if absent). Array contains no duplicates.
 
-@Image(source: "leetcode-33-search-rotated-sorted-array-dsa-top.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
 
 Solve Medium problem.
 

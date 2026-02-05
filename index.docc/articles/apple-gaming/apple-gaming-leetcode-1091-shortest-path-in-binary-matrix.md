@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 1091: Shortest Path in Binary Matrix
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1091 — Shortest Path in Binary Matrix")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-icon.codex", alt: "Gaming Deep Dive — 1091 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-card.codex", alt: "Gaming Deep Dive — 1091 card")
   @CallToAction(url: "https://leetcode.com/problems/shortest-path-in-binary-matrix/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-hero.codex", alt: "Gaming Deep Dive LeetCode 1091 Shortest Path in Binary Matrix hero")
 
 ## Overview
 

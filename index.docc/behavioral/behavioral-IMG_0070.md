@@ -1,8 +1,5 @@
 # Organizational and Cultural Challenge Prompts
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0070-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0070-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0070-icon.codex", alt: "Placeholder icon")
 
 Behavioral questions often probe your ability to navigate team dynamics and organizational
 complexity. Prepare stories that address these common areas.

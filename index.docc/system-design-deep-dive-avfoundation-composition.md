@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review System Design Deep Dive -- AVFoundation Composition")
-  @PageImage(purpose: icon, source: "system-design-deep-dive-avfoundation-composition-icon.codex", alt: "System Design Deep Dive AVFoundation Composition icon")
-  @PageImage(purpose: card, source: "system-design-deep-dive-avfoundation-composition-card.codex", alt: "System Design Deep Dive AVFoundation Composition card")
 }
 
-@Image(source: "system-design-deep-dive-avfoundation-composition-hero.codex", alt: "System Design Deep Dive AVFoundation Composition hero")
 
 This deep dive covers how to **merge multiple audio and video sources** on iOS using
 `AVFoundation`, with a focus on system design patterns you can reuse across products:

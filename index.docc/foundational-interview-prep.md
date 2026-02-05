@@ -3,9 +3,7 @@
 @Metadata {
   @PageColor(green)
   @TitleHeading("Review Foundational Interview Prep")
-  @PageImage(purpose: icon, source: "track-foundational-interview-prep-icon.codex", alt: "Foundational interview prep icon")
   @CallToAction(url: "doc:preparation", label: "Start preparation")
-  @PageImage(purpose: card, source: "foundational-interview-prep-card.codex", alt: "Foundational Interview Prep card")
 }
 
 @Options {
@@ -13,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "foundational-interview-prep-hero.codex", alt: "Foundational Interview Prep hero")
 
 Start here for planning, pacing, and interview framing.
 

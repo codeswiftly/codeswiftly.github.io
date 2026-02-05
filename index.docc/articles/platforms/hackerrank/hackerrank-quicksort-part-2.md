@@ -1,16 +1,10 @@
 # HackerRank -- Quicksort (Part 2)
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-quicksort-part-2-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-quicksort-part-2-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-quicksort-part-2-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Quicksort (Part 2)")
-  @PageImage(purpose: icon, source: "difficulty-medium.codex", alt: "Medium problem")
-  @PageImage(purpose: card, source: "hackerrank-quicksort-part-2-card.codex", alt: "HackerRank Quicksort (Part 2) card")
 }
 
-@Image(source: "hackerrank-quicksort-part-2-hero.codex", alt: "HackerRank Quicksort (Part 2) hero")
 
 ## Problem Restatement
 

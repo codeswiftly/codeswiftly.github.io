@@ -3,8 +3,6 @@
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1535: Find the Winner of an Array Game")
   @CallToAction(url: "https://leetcode.com/problems/find-the-winner-of-an-array-game/", label: "Solve on LeetCode")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1535-find-the-winner-of-an-array-game-icon.codex", alt: "Gaming Deep Dive LeetCode 1535 Find the Winner of an Array Game icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1535-find-the-winner-of-an-array-game-card.codex", alt: "Gaming Deep Dive LeetCode 1535 Find the Winner of an Array Game card")
 }
 
 @Options {
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1535-find-the-winner-of-an-array-game-hero.codex", alt: "Gaming Deep Dive LeetCode 1535 Find the Winner of an Array Game hero")
 
 ## Overview
 

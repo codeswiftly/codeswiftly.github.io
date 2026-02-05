@@ -1,19 +1,12 @@
 # Meta Final Coding: K Nearest Friends
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-k-nearest-friends-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-k-nearest-friends-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-k-nearest-friends-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("K nearest friends by distance")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-k-nearest-friends-icon.codex", alt: "K nearest friends by distance icon")
-  @PageImage(purpose: card, source: "meta-final-coding-k-nearest-friends-card.codex", alt: "K nearest friends by distance card")
 }
 
-@Image(source: "meta-final-coding-k-nearest-friends-hero.codex", alt: "Meta Final Coding K Nearest Friends hero")
 
-@Image(source: "meta-final-coding-k-nearest-friends-diagram.codex", alt: "Nearest points to the origin")
 
 ## Practice Context
 
@@ -29,7 +22,6 @@ Given friend locations (x, y), return the nearest K friends.
 
 Heap visualization:
 
-@Image(source: "meta-final-coding-k-nearest-friends-heap.codex", alt: "Max-heap keeping the k closest points")
 
 ### Complexity
 

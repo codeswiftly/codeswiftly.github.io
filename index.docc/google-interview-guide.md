@@ -1,11 +1,8 @@
 # Google Interview Guide
 
-@PageImage(purpose: icon, source: "google-interview-guide-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Google Interview Guide")
-  @PageImage(purpose: icon, source: "company-google-icon.codex", alt: "Google icon")
-  @PageImage(purpose: card, source: "google-interview-guide-card.codex", alt: "Google Interview Guide card")
 }
 
 @Options {
@@ -13,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "google-interview-guide-hero.codex", alt: "Google Interview Guide hero")
 
 Google interviews often emphasize clean problem solving, clear communication, and correctness under
 constraints.

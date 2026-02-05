@@ -1,10 +1,6 @@
 # Apple Wallet Credential Store vs System APIs
 
-@PageImage(purpose: card, source: "companies-apple-apple-wallet-credential-store-apis-comparison-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-wallet-credential-store-apis-comparison-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-wallet-credential-store-apis-comparison-icon.codex", alt: "Placeholder icon")
 
-@Image(source: "apple-wallet-credential-store-apis-comparison-hero.codex", alt: "Apple Wallet credential store vs system APIs hero")
 
 Use this as a quick reference when talking about how our credential store (WrkstrmSecrets) compares to Apple’s Wallet / PassKit APIs in interviews.
 

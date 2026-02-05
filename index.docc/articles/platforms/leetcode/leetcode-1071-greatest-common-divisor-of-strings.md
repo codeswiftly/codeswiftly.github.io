@@ -1,19 +1,10 @@
 # LeetCode 1071: Greatest Common Divisor of Strings
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1071-greatest-common-divisor-of-strings-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1071-greatest-common-divisor-of-strings-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1071-greatest-common-divisor-of-strings-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1071-greatest-common-divisor-of-strings-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-1071-greatest-common-divisor-of-strings-dsa-card.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-}
 
-@Image(source: "leetcode-1071-greatest-common-divisor-of-strings-dsa-hero.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Return the largest string `x` that divides both `str1` and `str2`, where division means the string repeats some number of times to form the target string.
 
-@Image(source: "leetcode-1071-greatest-common-divisor-of-strings-dsa-top.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Solve Easy problem.
 

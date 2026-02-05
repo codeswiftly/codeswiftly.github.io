@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 1345: Jump Game IV
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1345-jump-game-iv-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-1345-jump-game-iv-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1345-jump-game-iv-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1345 — Jump Game IV")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1345-jump-game-iv-icon.codex", alt: "Gaming Deep Dive — 1345 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1345-jump-game-iv-card.codex", alt: "Gaming Deep Dive — 1345 card")
   @CallToAction(url: "https://leetcode.com/problems/jump-game-iv/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1345-jump-game-iv-hero.codex", alt: "Gaming Deep Dive LeetCode 1345 Jump Game IV hero")
 
 ## Overview
 

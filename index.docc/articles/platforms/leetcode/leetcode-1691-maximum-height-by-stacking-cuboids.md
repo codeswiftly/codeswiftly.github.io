@@ -1,20 +1,13 @@
 # LeetCode 1691: Maximum Height by Stacking Cuboids
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1691-maximum-height-by-stacking-cuboids-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1691-maximum-height-by-stacking-cuboids-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1691-maximum-height-by-stacking-cuboids-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1691-maximum-height-by-stacking-cuboids-dsa-icon.codex", alt: "Hard problem - Pattern 4 (Overlapping Intervals)")
-  @PageImage(purpose: card, source: "leetcode-1691-maximum-height-by-stacking-cuboids-dsa-card.codex", alt: "Hard problem - Pattern 4 (Overlapping Intervals)")
   @CallToAction(url: "https://leetcode.com/problems/maximum-height-by-stacking-cuboids/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1691-maximum-height-by-stacking-cuboids-dsa-hero.codex", alt: "Hard problem - Pattern 4 (Overlapping Intervals)")
 
 > Warning: 1. Sort dimensions per cuboid before global sorting. } > Warning: 2. Use DP to avoid O(2^n) stacking combinations. } }
 
-@Image(source: "leetcode-1691-maximum-height-by-stacking-cuboids-dsa-top.codex", alt: "Hard problem - Pattern 4 (Overlapping Intervals)")
 
 Stack cuboids to maximize total height with rotation allowed.
 

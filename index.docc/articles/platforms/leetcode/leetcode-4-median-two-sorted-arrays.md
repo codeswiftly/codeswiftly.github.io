@@ -1,19 +1,10 @@
 # LeetCode 4: Median of Two Sorted Arrays
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-4-median-two-sorted-arrays-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-4-median-two-sorted-arrays-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-4-median-two-sorted-arrays-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-4-median-two-sorted-arrays-dsa-icon.codex", alt: "Hard problem - Pattern 5 (Modified Binary Search)")
-  @PageImage(purpose: card, source: "leetcode-4-median-two-sorted-arrays-dsa-card.codex", alt: "Hard problem - Pattern 5 (Modified Binary Search)")
-}
 
-@Image(source: "leetcode-4-median-two-sorted-arrays-dsa-hero.codex", alt: "Hard problem - Pattern 5 (Modified Binary Search)")
 
 Given two sorted arrays `nums1` and `nums2`, return the median of the combined multiset in `O(log(m+n))` time.
 
-@Image(source: "leetcode-4-median-two-sorted-arrays-dsa-top.codex", alt: "Hard problem - Pattern 5 (Modified Binary Search)")
 
 Solve Hard problem.
 

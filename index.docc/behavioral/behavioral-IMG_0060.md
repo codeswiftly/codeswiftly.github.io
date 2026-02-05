@@ -1,8 +1,5 @@
 # Question Strategy: Tailor, Specific, and Forward-looking
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0060-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0060-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0060-icon.codex", alt: "Placeholder icon")
 
 Good interviewer questions are tailored to what you care about and asked in a way that yields real
 information.

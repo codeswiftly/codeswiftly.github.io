@@ -1,16 +1,10 @@
 # CoderPad Rounds (Apple, Meta)
 
-@PageImage(purpose: card, source: "platforms-coderpad-coderpad-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-coderpad-coderpad-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-coderpad-coderpad-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review CoderPad Rounds (Apple, Meta)")
-  @PageImage(purpose: icon, source: "coderpad-icon.codex", alt: "CoderPad Rounds (Apple Meta) icon")
-  @PageImage(purpose: card, source: "coderpad-card.codex", alt: "CoderPad Rounds (Apple Meta) card")
 }
 
-@Image(source: "coderpad-hero.codex", alt: "CoderPad Rounds (Apple Meta) hero")
 
 Short, camera-on coding rounds with shared pads. Aim for clarity, steady narration, and runnable
 snippets.

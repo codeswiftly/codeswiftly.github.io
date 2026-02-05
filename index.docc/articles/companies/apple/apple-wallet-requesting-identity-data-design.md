@@ -1,16 +1,10 @@
 # API Design: Requesting Identity Data from a Wallet Pass
 
-@PageImage(purpose: card, source: "companies-apple-apple-wallet-requesting-identity-data-design-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-wallet-requesting-identity-data-design-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-wallet-requesting-identity-data-design-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review API Design: Requesting Identity Data from a Wallet Pass")
-  @PageImage(purpose: icon, source: "apple-wallet-requesting-identity-data-design-icon.codex", alt: "API Design Requesting Identity Data from a Wallet Pass icon")
-  @PageImage(purpose: card, source: "apple-wallet-requesting-identity-data-design-card.codex", alt: "API Design Requesting Identity Data from a Wallet Pass card")
 }
 
-@Image(source: "apple-wallet-requesting-identity-data-design-hero.codex", alt: "API Design Requesting Identity Data from a Wallet Pass hero")
 
 ## Mental Model and Roles
 

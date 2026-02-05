@@ -1,8 +1,5 @@
 # Tailoring Questions to the Interviewer
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0059-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0059-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0059-icon.codex", alt: "Placeholder icon")
 
 Different interviewers can answer different types of questions. Target your questions so you get
 the highest-signal information.

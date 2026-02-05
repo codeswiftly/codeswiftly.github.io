@@ -1,16 +1,11 @@
 # System Design Mermaid Prompts
 
-@PageImage(purpose: card, source: "system-design-mermaid-prompts-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "system-design-mermaid-prompts-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Sketch fast, explain tradeoffs")
   @PageColor(red)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
-@Image(source: "system-design-mermaid-prompts-hero.codex", alt: "System design mermaid prompts hero")
 
 Use these quick Mermaid prompts to sketch **mobile iOS** system design answers in Excalidraw.
 Each prompt targets the highest-signal architecture and tradeoffs in minutes, with Meta
@@ -32,7 +27,6 @@ flowchart LR
   Db[(Database)]
 ```
 
-@Image(source: "system-design-mermaid-prompts-01-shape-references.codex.svg", alt: "Shape references diagram")
 
 
 
@@ -43,7 +37,6 @@ flowchart LR
   Db@{ shape: cyl, label: "Database" }
 ```
 
-@Image(source: "system-design-mermaid-prompts-02-shape-references.codex.svg", alt: "Shape references diagram")
 
 
 
@@ -59,7 +52,6 @@ classDiagram
   classG ..> classH
 ```
 
-@Image(source: "system-design-mermaid-prompts-03-shape-references.codex.svg", alt: "Shape references diagram")
 
 
 
@@ -80,11 +72,9 @@ flowchart TB
   Services --> Infra
 ```
 
-@Image(source: "system-design-mermaid-prompts-04-prompt-1-framework-stack.codex.svg", alt: "Prompt 1: framework stack diagram")
 
 
 
-@Image(source: "framework-stack.codex", alt: "Framework stack diagram")
 
 Use for: layered architecture and separation of concerns.
 
@@ -103,11 +93,9 @@ flowchart LR
   Protocol --> Mock
 ```
 
-@Image(source: "system-design-mermaid-prompts-05-prompt-2-protocol-boundary.codex.svg", alt: "Prompt 2: protocol boundary diagram")
 
 
 
-@Image(source: "protocol-boundary.codex", alt: "Protocol boundary diagram")
 
 Use for: testability, dependency injection, and clean interfaces.
 
@@ -126,11 +114,9 @@ flowchart LR
   Service --> Db
 ```
 
-@Image(source: "system-design-mermaid-prompts-06-prompt-3-simple-api-flow.codex.svg", alt: "Prompt 3: simple API flow diagram")
 
 
 
-@Image(source: "simple-api-flow.codex", alt: "Simple API flow diagram")
 
 Use for: basic client-server interactions and persistence.
 
@@ -149,11 +135,9 @@ flowchart LR
   SyncSvc --> Db
 ```
 
-@Image(source: "system-design-mermaid-prompts-07-prompt-4-storing-data-offline.codex.svg", alt: "Prompt 4: storing data (offline) diagram")
 
 
 
-@Image(source: "storing-data-offline.codex", alt: "Storing data offline diagram")
 
 Use for: offline-first writes and background sync.
 
@@ -173,11 +157,9 @@ flowchart LR
   Transcode --> Cdn
 ```
 
-@Image(source: "system-design-mermaid-prompts-08-prompt-5-media-upload-pipeline.codex.svg", alt: "Prompt 5: media upload pipeline diagram")
 
 
 
-@Image(source: "media-upload-pipeline.codex", alt: "Media upload pipeline diagram")
 
 Use for: uploads, transcoding, and distribution.
 
@@ -197,11 +179,9 @@ flowchart LR
   Apns --> Device
 ```
 
-@Image(source: "system-design-mermaid-prompts-09-prompt-6-push-notifications.codex.svg", alt: "Prompt 6: push notifications diagram")
 
 
 
-@Image(source: "push-notifications.codex", alt: "Push notifications diagram")
 
 Use for: delivery fanout, device tokens, and platform transport.
 
@@ -220,11 +200,9 @@ flowchart LR
   FanoutSvc --> MessageDb
 ```
 
-@Image(source: "system-design-mermaid-prompts-10-prompt-7-realtime-messaging.codex.svg", alt: "Prompt 7: realtime messaging diagram")
 
 
 
-@Image(source: "realtime-messaging.codex", alt: "Realtime messaging diagram")
 
 Use for: low-latency transport, fanout, and persistence.
 
@@ -243,11 +221,9 @@ flowchart LR
   Ranker --> FeedCache
 ```
 
-@Image(source: "system-design-mermaid-prompts-11-prompt-8-feed-ranking.codex.svg", alt: "Prompt 8: feed ranking diagram")
 
 
 
-@Image(source: "feed-ranking.codex", alt: "Feed ranking diagram")
 
 Use for: feed ordering, scoring, and cache strategy.
 
@@ -266,11 +242,9 @@ flowchart LR
   SessionSvc --> Keychain
 ```
 
-@Image(source: "system-design-mermaid-prompts-12-prompt-9-auth-session-refresh.codex.svg", alt: "Prompt 9: auth + session refresh diagram")
 
 
 
-@Image(source: "auth-session-refresh.codex", alt: "Auth session refresh diagram")
 
 Use for: login, token refresh, and session storage.
 
@@ -289,11 +263,9 @@ flowchart LR
   RateLimiter --> Service
 ```
 
-@Image(source: "system-design-mermaid-prompts-13-prompt-10-rate-limiting-backoff.codex.svg", alt: "Prompt 10: rate limiting + backoff diagram")
 
 
 
-@Image(source: "rate-limiting-backoff.codex", alt: "Rate limiting backoff diagram")
 
 Use for: request throttling, backoff, and abuse control.
 
@@ -312,11 +284,9 @@ flowchart LR
   Index --> Ranker
 ```
 
-@Image(source: "system-design-mermaid-prompts-14-prompt-11-search-explore.codex.svg", alt: "Prompt 11: search + explore diagram")
 
 
 
-@Image(source: "search-explore.codex", alt: "Search explore diagram")
 
 Use for: query flow, indexing, and ranking.
 
@@ -335,11 +305,9 @@ flowchart LR
   Cache --> Player
 ```
 
-@Image(source: "system-design-mermaid-prompts-15-prompt-12-media-playback-pipeline.codex.svg", alt: "Prompt 12: media playback pipeline diagram")
 
 
 
-@Image(source: "media-playback-pipeline.codex", alt: "Media playback pipeline diagram")
 
 Use for: playback flow, caching, and buffering.
 

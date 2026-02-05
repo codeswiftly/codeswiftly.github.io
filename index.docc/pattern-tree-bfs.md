@@ -1,14 +1,10 @@
 # Pattern 10: Binary Tree BFS
 
-@Image(source: "pattern-tree-bfs-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Binary Tree BFS")
-  @PageImage(purpose: icon, source: "pattern-tree-bfs-icon.codex", alt: "Pattern 10: Binary Tree BFS icon")
-  @PageImage(purpose: card, source: "pattern-tree-bfs-card.codex", alt: "Pattern 10: Binary Tree BFS card")
 }
 
-@Image(source: "tree-bfs-diagram.codex", alt: "Level by level traversal")
 
 Use a queue to visit nodes level-by-level, often to find the shortest path in a tree or to process nodes by depth.
 

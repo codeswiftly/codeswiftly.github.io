@@ -1,8 +1,5 @@
 # Use AI to Practice, But Not to Replace People
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0062-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0062-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0062-icon.codex", alt: "Placeholder icon")
 
 AI can expand your practice surface area, but it cannot fully simulate real interview pressure.
 

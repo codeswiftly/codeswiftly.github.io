@@ -1,14 +1,10 @@
 # Pattern 07: In-Place Reversal
 
-@Image(source: "pattern-in-place-reversal-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice In-Place Reversal")
-  @PageImage(purpose: icon, source: "pattern-in-place-reversal-icon.codex", alt: "Pattern 07: In-Place Reversal icon")
-  @PageImage(purpose: card, source: "pattern-in-place-reversal-card.codex", alt: "Pattern 07: In-Place Reversal card")
 }
 
-@Image(source: "in-place-reversal-diagram.codex", alt: "Reversing pointers in a linked list")
 
 Manipulate pointer references to reverse linked lists or array segments without allocating new memory.
 
@@ -44,7 +40,6 @@ Instead of creating a new list, you iterate through the existing list and change
 
 Reverse a singly linked list.
 
-@Image(source: "in-place-reversal-full-example.codex", alt: "Linked list reversed in place")
 
 ```swift
 func reverseList(_ head: ListNode?) -> ListNode? {
@@ -66,7 +61,6 @@ func reverseList(_ head: ListNode?) -> ListNode? {
 
 Reverse a linked list from position `left` to `right`.
 
-@Image(source: "in-place-reversal-sublist-example.codex", alt: "Sublist reversed within a linked list")
 
 The key idea is to keep a fixed `prev` node before the sublist, then repeatedly move the `then`
 node to the front of the sublist. Each iteration shortens the remaining sublist and grows the

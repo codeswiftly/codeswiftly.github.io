@@ -1,19 +1,10 @@
 # LeetCode 200: Number of Islands
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-200-number-of-islands-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-200-number-of-islands-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-200-number-of-islands-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-200-number-of-islands-dsa-icon.codex", alt: "Medium problem - Pattern 11 (DFS)")
-  @PageImage(purpose: card, source: "leetcode-200-number-of-islands-dsa-card.codex", alt: "Medium problem - Pattern 11 (DFS)")
-}
 
-@Image(source: "leetcode-200-number-of-islands-dsa-hero.codex", alt: "Medium problem - Pattern 11 (DFS)")
 
 Given an `m x n` grid of '1's (land) and '0's (water), count the number of islands (4-directionally connected land).
 
-@Image(source: "leetcode-200-number-of-islands-dsa-top.codex", alt: "Medium problem - Pattern 11 (DFS)")
 
 Solve Medium problem.
 
@@ -84,4 +75,3 @@ class Solution {
 
 ## Visualization
 
-![A diagram illustrating the 'number of islands' problem.](number-of-islands.codex.svg)

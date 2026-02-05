@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Timed Demo Script")
   @PageImage(
     purpose: icon,
-    source: "swiftui-timed-demo-script-icon.codex",
     alt: "SwiftUI Timed Demo Script icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-timed-demo-script-card.codex",
     alt: "SwiftUI Timed Demo Script card"
   )
 }
 
-@Image(source: "swiftui-timed-demo-script-hero.codex", alt: "SwiftUI Timed Demo Script hero")
 
 A tight 10-minute sequence to demonstrate SwiftUI craft without overbuilding.
 

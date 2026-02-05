@@ -1,20 +1,13 @@
 # LeetCode 289: Game of Life
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-289-game-of-life-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-289-game-of-life-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-289-game-of-life-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-289-game-of-life-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-289-game-of-life-dsa-card.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/game-of-life/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-289-game-of-life-dsa-hero.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Update in place with state encoding to avoid extra memory. } > Warning: 2. Count neighbors carefully at the grid edges. } }
 
-@Image(source: "leetcode-289-game-of-life-dsa-top.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Compute the next state of the board based on neighbor counts.
 

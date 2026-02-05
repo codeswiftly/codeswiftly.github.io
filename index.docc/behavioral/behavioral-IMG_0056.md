@@ -1,8 +1,5 @@
 # Wrong-for-the-right-reasons Stories
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0056-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0056-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0056-icon.codex", alt: "Placeholder icon")
 
 If you tell a story where you were wrong, make sure your initial position was defensible and your
 learning was deep.

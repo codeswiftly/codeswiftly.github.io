@@ -1,19 +1,12 @@
 # Meta Final Coding: First Bad Version
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-first-bad-version-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-first-bad-version-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-first-bad-version-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("First bad version")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-first-bad-version-icon.codex", alt: "First bad version icon")
-  @PageImage(purpose: card, source: "meta-final-coding-first-bad-version-card.codex", alt: "First bad version card")
 }
 
-@Image(source: "meta-final-coding-first-bad-version-hero.codex", alt: "Meta Final Coding First Bad Version hero")
 
-@Image(source: "meta-final-coding-first-bad-version-diagram.codex", alt: "Binary search narrowing to first bad")
 
 ## Practice Context
 

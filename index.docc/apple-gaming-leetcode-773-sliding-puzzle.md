@@ -3,8 +3,6 @@
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 773: Sliding Puzzle")
   @CallToAction(url: "https://leetcode.com/problems/sliding-puzzle/", label: "Solve on LeetCode")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-773-sliding-puzzle-icon.codex", alt: "Gaming Deep Dive LeetCode 773 Sliding Puzzle icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-773-sliding-puzzle-card.codex", alt: "Gaming Deep Dive LeetCode 773 Sliding Puzzle card")
 }
 
 @Options {
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-773-sliding-puzzle-hero.codex", alt: "Gaming Deep Dive LeetCode 773 Sliding Puzzle hero")
 
 ## Overview
 

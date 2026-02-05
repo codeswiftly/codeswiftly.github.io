@@ -1,13 +1,10 @@
 # Stockmarket Rate Limiter
 
-@PageImage(purpose: icon, source: "stockmarket-rate-limiter-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Stockmarket rate limiter")
-  @PageImage(purpose: card, source: "stockmarket-rate-limiter-card.codex", alt: "Stockmarket rate limiter card")
 }
 
-@Image(source: "stockmarket-rate-limiter-hero.codex", alt: "Stockmarket rate limiter hero")
 
 ## Overview
 

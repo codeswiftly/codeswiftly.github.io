@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 2682 — Find the Losers of the Circular Game")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-2682-find-the-losers-of-the-circular-game-icon.codex", alt: "Gaming Deep Dive — 2682 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-2682-find-the-losers-of-the-circular-game-card.codex", alt: "Gaming Deep Dive — 2682 card")
   @CallToAction(url: "https://leetcode.com/problems/find-the-losers-of-the-circular-game/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-2682-find-the-losers-of-the-circular-game-hero.codex", alt: "Gaming Deep Dive LeetCode 2682 Find the Losers of the Circular Game hero")
 
 ## Overview
 

@@ -1,15 +1,11 @@
 # Typing Practice
 
-@PageImage(purpose: card, source: "typing-practice-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "typing-practice-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "cantina-system-design.codex", alt: "Typing practice icon")
   @TitleHeading("Typing practice")
 }
 
-@Image(source: "typing-practice-hero.codex", alt: "Typing practice hero")
 
 Centered, Xcode-like typing area for code drills. No JS required; this page uses DocC-safe HTML + CSS to mimic Xcode’s editor chrome and monospace face.
 

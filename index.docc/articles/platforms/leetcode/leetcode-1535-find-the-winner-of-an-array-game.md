@@ -1,20 +1,13 @@
 # LeetCode 1535: Find the Winner of An Array Game
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1535-find-the-winner-of-an-array-game-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1535-find-the-winner-of-an-array-game-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1535-find-the-winner-of-an-array-game-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1535-find-the-winner-of-an-array-game-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-1535-find-the-winner-of-an-array-game-dsa-card.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
   @CallToAction(url: "https://leetcode.com/problems/find-the-winner-of-an-array-game/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1535-find-the-winner-of-an-array-game-dsa-hero.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 > Warning: 1. Stop once a value wins k times or becomes the maximum element. } > Warning: 2. Avoid simulating full rotations once the max is at front. } }
 
-@Image(source: "leetcode-1535-find-the-winner-of-an-array-game-dsa-top.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Find the winner in an array game where the front element must win k rounds.
 

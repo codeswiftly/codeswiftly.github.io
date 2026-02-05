@@ -1,19 +1,10 @@
 # LeetCode 20: Valid Parentheses
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-20-valid-parentheses-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-20-valid-parentheses-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-20-valid-parentheses-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-20-valid-parentheses-dsa-icon.codex", alt: "Easy problem - Pattern 8 (Monotonic Stack)")
-  @PageImage(purpose: card, source: "leetcode-20-valid-parentheses-dsa-card.codex", alt: "Easy problem - Pattern 8 (Monotonic Stack)")
-}
 
-@Image(source: "leetcode-20-valid-parentheses-dsa-hero.codex", alt: "Easy problem - Pattern 8 (Monotonic Stack)")
 
 Given a string containing parentheses/braces/brackets, determine if the string is valid: closes match opens in correct order and types.
 
-@Image(source: "leetcode-20-valid-parentheses-dsa-top.codex", alt: "Easy problem - Pattern 8 (Monotonic Stack)")
 
 Solve Easy problem.
 
@@ -73,8 +64,6 @@ class Solution {
 
 ### Valid Case: `"{[]}"`
 
-![A diagram illustrating the stack-based approach for the 'valid parentheses' problem.](valid-parentheses.codex.svg)
 
 ### Invalid Case: `"{[)]}"`
 
-![A diagram illustrating a mismatch in the 'valid parentheses' problem.](valid-parentheses-mismatch.codex.svg)

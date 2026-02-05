@@ -1,16 +1,10 @@
 # Strings: Gotchas and Patterns
 
-@PageImage(purpose: card, source: "swift-swift-strings-gotchas-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-strings-gotchas-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-strings-gotchas-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Strings: Gotchas and Patterns")
-  @PageImage(purpose: icon, source: "swift-strings-gotchas-icon.codex", alt: "Strings Gotchas and Patterns icon")
-  @PageImage(purpose: card, source: "swift-strings-gotchas-card.codex", alt: "Strings Gotchas and Patterns card")
 }
 
-@Image(source: "swift-strings-gotchas-hero.codex", alt: "Strings Gotchas and Patterns hero")
 
 Avoid common pitfalls when working with Swift `String`, `Substring`, and `CharacterSet`.
 

@@ -1,19 +1,10 @@
 # LeetCode - Roman to Integer (Apple-Style)
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-roman-to-integer-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-roman-to-integer-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-roman-to-integer-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-roman-to-integer-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-roman-to-integer-dsa-card.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-}
 
-@Image(source: "leetcode-roman-to-integer-dsa-hero.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Given a Roman numeral `s`, return its integer value. Symbols: I(1), V(5), X(10), L(50), C(100), D(500), M(1000). Subtractive pairs occur when a smaller symbol precedes a larger one (IV, IX, XL, XC, CD, CM).
 
-@Image(source: "leetcode-roman-to-integer-dsa-top.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Solve Easy problem.
 

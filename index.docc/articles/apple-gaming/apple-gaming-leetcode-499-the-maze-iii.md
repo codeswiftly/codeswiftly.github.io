@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 499: The Maze III
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-499-the-maze-iii-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-499-the-maze-iii-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-499-the-maze-iii-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 499 — The Maze III")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-499-the-maze-iii-icon.codex", alt: "Gaming Deep Dive — 499 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-499-the-maze-iii-card.codex", alt: "Gaming Deep Dive — 499 card")
   @CallToAction(url: "https://leetcode.com/problems/the-maze-iii/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-499-the-maze-iii-hero.codex", alt: "Gaming Deep Dive LeetCode 499 The Maze III hero")
 
 ## Overview
 

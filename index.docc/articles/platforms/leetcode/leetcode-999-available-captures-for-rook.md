@@ -1,20 +1,13 @@
 # LeetCode 999: Available Captures for Rook
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-999-available-captures-for-rook-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-999-available-captures-for-rook-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-999-available-captures-for-rook-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-999-available-captures-for-rook-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-999-available-captures-for-rook-dsa-card.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/available-captures-for-rook/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-999-available-captures-for-rook-dsa-hero.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Stop scanning in a direction once you hit a piece. } > Warning: 2. Watch for bounds when moving along rows and columns. } }
 
-@Image(source: "leetcode-999-available-captures-for-rook-dsa-top.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 Count the pawns a rook can capture on a chessboard.
 

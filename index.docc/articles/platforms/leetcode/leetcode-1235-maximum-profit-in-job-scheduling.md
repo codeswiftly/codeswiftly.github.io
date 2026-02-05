@@ -1,19 +1,10 @@
 # LeetCode 1235: Maximum Profit in Job Scheduling
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1235-maximum-profit-in-job-scheduling-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1235-maximum-profit-in-job-scheduling-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1235-maximum-profit-in-job-scheduling-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1235-maximum-profit-in-job-scheduling-dsa-icon.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
-  @PageImage(purpose: card, source: "leetcode-1235-maximum-profit-in-job-scheduling-dsa-card.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
-}
 
-@Image(source: "leetcode-1235-maximum-profit-in-job-scheduling-dsa-hero.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
 
 Pick non-overlapping jobs to maximize total profit.
 
-@Image(source: "leetcode-1235-maximum-profit-in-job-scheduling-dsa-top.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")
 
 Solve Hard problem.
 

@@ -1,16 +1,10 @@
 # PassKit Common API Practices
 
-@PageImage(purpose: card, source: "companies-apple-apple-passkit-common-api-practices-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-passkit-common-api-practices-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-passkit-common-api-practices-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review PassKit Common API Practices")
-  @PageImage(purpose: icon, source: "apple-passkit-common-api-practices-icon.codex", alt: "PassKit Common API Practices icon")
-  @PageImage(purpose: card, source: "apple-passkit-common-api-practices-card.codex", alt: "PassKit Common API Practices card")
 }
 
-@Image(source: "apple-passkit-common-api-practices-hero.codex", alt: "PassKit Common API Practices hero")
 
 ## Overview
 

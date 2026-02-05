@@ -1,20 +1,13 @@
 # LeetCode 1823: Find the Winner of the Circular Game
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1823-find-the-winner-of-the-circular-game-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1823-find-the-winner-of-the-circular-game-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1823-find-the-winner-of-the-circular-game-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1823-find-the-winner-of-the-circular-game-dsa-icon.codex", alt: "Medium problem - Pattern 6 (Fast/Slow Pointers)")
-  @PageImage(purpose: card, source: "leetcode-1823-find-the-winner-of-the-circular-game-dsa-card.codex", alt: "Medium problem - Pattern 6 (Fast/Slow Pointers)")
   @CallToAction(url: "https://leetcode.com/problems/find-the-winner-of-the-circular-game/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1823-find-the-winner-of-the-circular-game-dsa-hero.codex", alt: "Medium problem - Pattern 6 (Fast/Slow Pointers)")
 
 > Warning: 1. Be careful with index math as the circle shrinks. } > Warning: 2. Use 0-based indexing internally and convert to 1-based output. } }
 
-@Image(source: "leetcode-1823-find-the-winner-of-the-circular-game-dsa-top.codex", alt: "Medium problem - Pattern 6 (Fast/Slow Pointers)")
 
 Simulate eliminating every k-th player until one remains.
 

@@ -1,8 +1,5 @@
 # Research-led Problem Reframing
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0010-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0010-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0010-icon.codex", alt: "Placeholder icon")
 
 Strong behavioral stories show you used evidence to change the problem definition, not just to
 validate a solution you already wanted.

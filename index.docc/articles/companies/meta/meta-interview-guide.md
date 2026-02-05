@@ -1,14 +1,9 @@
 # Meta Interview Guide
 
-@PageImage(purpose: card, source: "companies-meta-meta-interview-guide-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-meta-interview-guide-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-meta-interview-guide-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Meta Interview Guide")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-interview-guide-icon.codex", alt: "Meta Interview Guide icon")
-  @PageImage(purpose: card, source: "meta-interview-guide-card.codex", alt: "Meta Interview Guide card")
 }
 
 @Options {
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "meta-interview-guide-hero.codex", alt: "Meta Interview Guide hero")
 
 Meta interviews emphasize behavioral depth, system design reasoning, and coding clarity.
 Use this page as the entry point for the Meta track.

@@ -1,13 +1,9 @@
 # Swift Skill Map
 
-@PageImage(purpose: card, source: "swift-swift-skill-map-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-skill-map-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-skill-map-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(blue)
   @TitleHeading("Reference: what to know")
-  @PageImage(purpose: icon, source: "track-swift-icon.codex", alt: "Swift skill map icon")
 }
 
 @Options {
@@ -15,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "swift-skill-map-hero.codex", alt: "Swift Skill Map hero")
 
 A reference index of Swift concepts to be fluent with.
 Use the interview playbook for pacing and rehearsal: <doc:preparation>, <doc:coding-interview>, and <doc:day-of>.

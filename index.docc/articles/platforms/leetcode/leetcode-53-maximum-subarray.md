@@ -1,19 +1,10 @@
 # LeetCode 53: Maximum Subarray
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-53-maximum-subarray-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-53-maximum-subarray-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-53-maximum-subarray-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-53-maximum-subarray-dsa-icon.codex", alt: "Medium problem - Pattern 15 (Dynamic Programming)")
-  @PageImage(purpose: card, source: "leetcode-53-maximum-subarray-dsa-card.codex", alt: "Medium problem - Pattern 15 (Dynamic Programming)")
-}
 
-@Image(source: "leetcode-53-maximum-subarray-dsa-hero.codex", alt: "Medium problem - Pattern 15 (Dynamic Programming)")
 
 Return the largest sum over all contiguous subarrays of `nums`.
 
-@Image(source: "leetcode-53-maximum-subarray-dsa-top.codex", alt: "Medium problem - Pattern 15 (Dynamic Programming)")
 
 Solve Medium problem.
 

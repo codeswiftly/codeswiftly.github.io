@@ -1,8 +1,5 @@
 # High-scale System Migration Signals
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0013-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0013-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0013-icon.codex", alt: "Placeholder icon")
 
 Large migrations are a classic staff-level behavioral story. The goal is to show how you connect
 technical architecture to business outcomes and risk management.

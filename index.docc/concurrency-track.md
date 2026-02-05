@@ -1,13 +1,10 @@
 # Concurrency and Queues
 
-@PageImage(purpose: icon, source: "concurrency-track-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(blue)
   @TitleHeading("Train concurrency instincts")
-  @PageImage(purpose: icon, source: "track-concurrency-icon.codex", alt: "Concurrency track icon")
   @CallToAction(url: "doc:concurrency-beginners-guide", label: "Start with the basics")
-  @PageImage(purpose: card, source: "concurrency-track-card.codex", alt: "Concurrency and Queues card")
 }
 
 @Options {
@@ -15,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "concurrency-track-hero.codex", alt: "Concurrency and Queues hero")
 
 Mental models, GCD design, and concurrency drills that hold up in interviews.
 

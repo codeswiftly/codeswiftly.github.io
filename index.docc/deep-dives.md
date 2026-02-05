@@ -1,12 +1,9 @@
 # Deep Dives
 
-@PageImage(purpose: card, source: "deep-dives-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "deep-dives-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(purple)
   @TitleHeading("Go deep on hard systems")
-  @PageImage(purpose: icon, source: "swift-interview-guide-icon.codex", alt: "Deep dives icon")
 }
 
 @Options {
@@ -14,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "deep-dives-hero.codex", alt: "Deep dives hero")
 
 Deep dives are where you practice the “why” behind the APIs: constraints, failure modes, and tradeoffs.
 

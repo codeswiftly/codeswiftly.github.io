@@ -1,19 +1,10 @@
 # LeetCode 295: Find Median from Data Stream
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-295-find-median-data-stream-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-295-find-median-data-stream-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-295-find-median-data-stream-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-295-find-median-data-stream-dsa-icon.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
-  @PageImage(purpose: card, source: "leetcode-295-find-median-data-stream-dsa-card.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
-}
 
-@Image(source: "leetcode-295-find-median-data-stream-dsa-hero.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
 
 Design a data structure that supports `addNum(Int)` and `findMedian()` in near `O(log n)` per insert.
 
-@Image(source: "leetcode-295-find-median-data-stream-dsa-top.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
 
 Solve Hard problem.
 

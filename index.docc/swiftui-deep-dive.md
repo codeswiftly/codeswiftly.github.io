@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Deep Dive - Quick Implementations")
   @PageImage(
     purpose: icon,
-    source: "swiftui-deep-dive-icon.codex",
     alt: "SwiftUI Deep Dive Quick Implementations icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-deep-dive-card.codex",
     alt: "SwiftUI Deep Dive Quick Implementations card"
   )
 }
 
-@Image(source: "swiftui-deep-dive-hero.codex", alt: "SwiftUI Deep Dive Quick Implementations hero")
 
 This deep dive is a fast-moving SwiftUI playbook for interview demos. It focuses on
 high-signal UI tricks that look custom but stay low-risk and easy to explain.

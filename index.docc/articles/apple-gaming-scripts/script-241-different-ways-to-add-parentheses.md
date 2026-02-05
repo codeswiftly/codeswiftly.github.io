@@ -1,14 +1,10 @@
 # Script — LeetCode 241: Different Ways to Add Parentheses (3:00)
 
-@PageImage(purpose: card, source: "apple-gaming-scripts-script-241-different-ways-to-add-parentheses-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-scripts-script-241-different-ways-to-add-parentheses-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-scripts-script-241-different-ways-to-add-parentheses-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Script — 241 Different Ways to Add Parentheses")
 }
 
-@Image(source: "script-241-different-ways-to-add-parentheses-hero.codex", alt: "Script LeetCode 241 Different Ways to Add Parentheses (3 00) hero")
 
 Pattern Focus: Divide and conquer with memoization — split on operator, combine left×right results.
 

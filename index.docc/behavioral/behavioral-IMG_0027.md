@@ -1,8 +1,5 @@
 # Favorite Project: Why it Matters
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0027-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0027-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0027-icon.codex", alt: "Placeholder icon")
 
 The favorite project question is usually the most important behavioral signal. It reveals how you
 operate over time and whether you can deliver meaningful outcomes.

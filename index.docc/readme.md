@@ -1,11 +1,6 @@
 # Swift Interview Guide — DocC Preview
 
-@Metadata {
-  @PageImage(purpose: icon, source: "readme-icon.codex", alt: "Swift Interview Guide DocC Preview icon")
-  @PageImage(purpose: card, source: "readme-card.codex", alt: "Swift Interview Guide DocC Preview card")
-}
 
-@Image(source: "readme-hero.codex", alt: "Swift Interview Guide DocC Preview hero")
 
 Quick steps to build and serve this DocC bundle locally with the in‑process preview CLI.
 

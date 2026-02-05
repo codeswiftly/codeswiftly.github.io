@@ -1,8 +1,5 @@
 # The Big Three Behavioral Questions
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0017-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0017-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0017-icon.codex", alt: "Placeholder icon")
 
 You cannot predict every behavioral prompt, but three questions appear in almost every loop.
 Prepare polished responses for these so you can deliver confidently under pressure.

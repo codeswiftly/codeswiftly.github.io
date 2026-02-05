@@ -1,19 +1,10 @@
 # LeetCode 42: Trapping Rain Water
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-42-trapping-rain-water-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-42-trapping-rain-water-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-42-trapping-rain-water-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-42-trapping-rain-water-dsa-icon.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
-  @PageImage(purpose: card, source: "leetcode-42-trapping-rain-water-dsa-card.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
-}
 
-@Image(source: "leetcode-42-trapping-rain-water-dsa-hero.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
 
 Given non-negative heights representing bars, compute total water trapped after raining.
 
-@Image(source: "leetcode-42-trapping-rain-water-dsa-top.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
 
 Solve Hard problem.
 

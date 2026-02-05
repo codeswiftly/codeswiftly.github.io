@@ -1,19 +1,12 @@
 # Meta Final Coding: Deep Copy Friends Graph
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-deep-copy-graph-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-deep-copy-graph-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-deep-copy-graph-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Deep copy a Friend graph")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-deep-copy-graph-icon.codex", alt: "Deep copy a Friend graph icon")
-  @PageImage(purpose: card, source: "meta-final-coding-deep-copy-graph-card.codex", alt: "Deep copy a Friend graph card")
 }
 
-@Image(source: "meta-final-coding-deep-copy-graph-hero.codex", alt: "Meta Final Coding Deep Copy Friends Graph hero")
 
-@Image(source: "meta-final-coding-deep-copy-graph-diagram.codex", alt: "Friend graph copied with a visited map")
 
 ## Practice Context
 

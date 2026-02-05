@@ -1,16 +1,10 @@
 # HackerRank -- Queue Using Two Stacks
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-queue-using-two-stacks-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-queue-using-two-stacks-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-queue-using-two-stacks-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Queue Using Two Stacks")
-  @PageImage(purpose: icon, source: "difficulty-medium.codex", alt: "Medium problem")
-  @PageImage(purpose: card, source: "hackerrank-queue-using-two-stacks-card.codex", alt: "HackerRank Queue Using Two Stacks card")
 }
 
-@Image(source: "hackerrank-queue-using-two-stacks-hero.codex", alt: "HackerRank Queue Using Two Stacks hero")
 
 ## Problem Restatement
 

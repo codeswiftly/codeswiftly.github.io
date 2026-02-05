@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 354 — Russian Doll Envelopes")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-354-russian-doll-envelopes-icon.codex", alt: "Gaming Deep Dive — 354 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-354-russian-doll-envelopes-card.codex", alt: "Gaming Deep Dive — 354 card")
   @CallToAction(url: "https://leetcode.com/problems/russian-doll-envelopes/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-354-russian-doll-envelopes-hero.codex", alt: "Gaming Deep Dive LeetCode 354 Russian Doll Envelopes hero")
 
 ## Overview
 

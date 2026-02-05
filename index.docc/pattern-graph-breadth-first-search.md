@@ -1,14 +1,10 @@
 # Pattern 12: Graph Breadth-First Search
 
-@Image(source: "pattern-graph-breadth-first-search-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Graph Breadth-First Search")
-  @PageImage(purpose: icon, source: "pattern-graph-breadth-first-search-icon.codex", alt: "Pattern 12: Graph Breadth-First Search icon")
-  @PageImage(purpose: card, source: "pattern-graph-breadth-first-search-card.codex", alt: "Pattern 12: Graph Breadth-First Search card")
 }
 
-@Image(source: "graph-breadth-first-search-diagram.codex", alt: "BFS expanding in layers")
 
 Find the shortest path in an unweighted graph by visiting nodes in concentric circles outward from the start.
 

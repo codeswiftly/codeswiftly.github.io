@@ -1,18 +1,14 @@
 # Top 15 Interview Patterns
 
-@PageImage(purpose: icon, source: "top-15-patterns-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Patterns by Category")
-  @PageImage(purpose: icon, source: "top-15-patterns-card.codex", alt: "Top 15 patterns grid")
-  @PageImage(purpose: card, source: "top-15-patterns-card.codex", alt: "Top 15 patterns grid")
 }
 
 @Options {
   @TopicsVisualStyle(compactGrid)
 }
 
-@Image(source: "top-15-patterns-hero.codex", alt: "Top 15 Interview Patterns hero")
 
 Swift-friendly patterns to code and explain under time pressure. Use this hub to jump into each
 pattern page and drill the examples.

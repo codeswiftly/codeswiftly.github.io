@@ -1,16 +1,10 @@
 # Apple Wallet Credential Store Design
 
-@PageImage(purpose: card, source: "companies-apple-apple-wallet-credential-store-design-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-wallet-credential-store-design-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-wallet-credential-store-design-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Apple Wallet Credential Store Design")
-  @PageImage(purpose: icon, source: "apple-wallet-credential-store-design-icon.codex", alt: "Apple Wallet Credential Store Design icon")
-  @PageImage(purpose: card, source: "apple-wallet-credential-store-design-card.codex", alt: "Apple Wallet Credential Store Design card")
 }
 
-@Image(source: "apple-wallet-credential-store-design-hero.codex", alt: "Apple Wallet Credential Store Design hero")
 
 ## Overview
 

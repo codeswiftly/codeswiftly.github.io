@@ -1,14 +1,10 @@
 # Pattern 08: Monotonic Stack
 
-@Image(source: "pattern-monotonic-stack-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Monotonic Stack")
-  @PageImage(purpose: icon, source: "pattern-monotonic-stack-icon.codex", alt: "Pattern 08: Monotonic Stack icon")
-  @PageImage(purpose: card, source: "pattern-monotonic-stack-card.codex", alt: "Pattern 08: Monotonic Stack card")
 }
 
-@Image(source: "monotonic-stack-diagram.codex", alt: "Finding next greater element with a stack")
 
 Maintain a stack where elements are always sorted (increasing or decreasing) to efficiently find the "next greater" or "next smaller" element.
 

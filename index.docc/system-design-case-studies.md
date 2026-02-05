@@ -1,13 +1,9 @@
 # System Design Case Studies
 
-@PageImage(purpose: card, source: "system-design-case-studies-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "system-design-case-studies-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Study full design narratives")
   @PageColor(red)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System design card")
 }
 
 @Options {
@@ -15,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-design-case-studies-hero.codex", alt: "System design case studies hero")
 
 Use these case studies to rehearse complete system design stories with diagrams and tradeoffs.
 

@@ -1,17 +1,11 @@
 # Meta Final Coding Prompts
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Meta final coding prompts")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-icon.codex", alt: "Meta final coding prompts icon")
-  @PageImage(purpose: card, source: "meta-final-coding-card.codex", alt: "Meta final coding prompts card")
 }
 
-@Image(source: "meta-final-coding-hero.codex", alt: "Meta final coding prompts hero")
 
 Use these prompts as the final coding drill set for Meta. Each topic includes a diagram,
 complexity notes, and a Swift solution.

@@ -1,16 +1,10 @@
 # HackerRank -- Cycle Detection in a Linked List
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-detect-cycle-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-detect-cycle-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-detect-cycle-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Cycle Detection in a Linked List")
-  @PageImage(purpose: icon, source: "difficulty-easy.codex", alt: "Easy problem")
-  @PageImage(purpose: card, source: "hackerrank-detect-cycle-card.codex", alt: "HackerRank Cycle Detection in a Linked List card")
 }
 
-@Image(source: "hackerrank-detect-cycle-hero.codex", alt: "HackerRank Cycle Detection in a Linked List hero")
 
 ## Problem Restatement
 

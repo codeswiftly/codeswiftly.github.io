@@ -1,16 +1,11 @@
 # Instagram Meta System Design
 
-@PageImage(purpose: card, source: "instagram-meta-system-design-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "instagram-meta-system-design-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Instagram-style system design (Meta)")
   @PageColor(orange)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System design card")
 }
 
-@Image(source: "instagram-meta-system-design-hero.codex", alt: "Instagram meta system design hero")
 
 Use this scaffold to rehearse an Instagram-style system design answer with Meta interview pacing.
 Anchor on <doc:generic-ios-meta-system-design>.

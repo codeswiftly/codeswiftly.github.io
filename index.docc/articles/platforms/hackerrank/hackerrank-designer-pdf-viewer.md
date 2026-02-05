@@ -1,16 +1,10 @@
 # HackerRank -- Designer Pdf Viewer
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-designer-pdf-viewer-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-designer-pdf-viewer-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-designer-pdf-viewer-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Designer Pdf Viewer")
-  @PageImage(purpose: icon, source: "difficulty-easy.codex", alt: "Easy problem")
-  @PageImage(purpose: card, source: "hackerrank-designer-pdf-viewer-card.codex", alt: "HackerRank Designer Pdf Viewer card")
 }
 
-@Image(source: "hackerrank-designer-pdf-viewer-hero.codex", alt: "HackerRank Designer Pdf Viewer hero")
 
 ## Problem Restatement
 

@@ -1,20 +1,13 @@
 # LeetCode 1106: Parsing a Boolean Expression
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1106-parsing-a-boolean-expression-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1106-parsing-a-boolean-expression-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1106-parsing-a-boolean-expression-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1106-parsing-a-boolean-expression-dsa-icon.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
-  @PageImage(purpose: card, source: "leetcode-1106-parsing-a-boolean-expression-dsa-card.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
   @CallToAction(url: "https://leetcode.com/problems/parsing-a-boolean-expression/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1106-parsing-a-boolean-expression-dsa-hero.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
 
 > Warning: 1. Nested expressions require a reliable stack or recursion. } > Warning: 2. Keep operators and operands separated to avoid parsing errors. } }
 
-@Image(source: "leetcode-1106-parsing-a-boolean-expression-dsa-top.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")
 
 Evaluate a boolean expression with operators !, &, and |.
 

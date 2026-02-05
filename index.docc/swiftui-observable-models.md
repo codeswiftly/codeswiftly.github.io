@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Observable Models")
   @PageImage(
     purpose: icon,
-    source: "swiftui-observable-models-icon.codex",
     alt: "SwiftUI Observable Models icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-observable-models-card.codex",
     alt: "SwiftUI Observable Models card"
   )
 }
 
-@Image(source: "swiftui-observable-models-hero.codex", alt: "SwiftUI Observable Models hero")
 
 Use reference models when state is shared across multiple views or needs business logic.
 SwiftUI expects you to declare who owns the model and who observes it.

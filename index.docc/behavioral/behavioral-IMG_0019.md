@@ -1,8 +1,5 @@
 # Tell Me About Yourself (TMAY) Goals and Structure
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0019-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0019-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0019-icon.codex", alt: "Placeholder icon")
 
 TMAY is not a formality. It shapes the tone of the interview and positions you for the rest of the
 loop.

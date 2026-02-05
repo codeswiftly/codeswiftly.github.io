@@ -1,13 +1,10 @@
 # Swift Interview Guide
 
-@PageImage(purpose: card, source: "swift-interview-guide-card.codex", alt: "Placeholder card")
 
 @Metadata {
   @PageColor(orange)
   @TitleHeading("Build a Swift Interview System")
-  @PageImage(purpose: card, source: "swift-interview-guide-hero.codex", alt: "Swift Interview Guide card")
   @CallToAction(url: "doc:preparation", label: "Start the prep plan")
-  @PageImage(purpose: icon, source: "swift-interview-guide-icon.codex", alt: "Swift Interview Guide icon")
 }
 
 @Options {
@@ -15,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "swift-interview-guide-hero.codex", alt: "Swift Interview Guide hero")
 
 A curated prep system for Swift interviews that scales as you add new content.
 

@@ -1,9 +1,6 @@
 # Unity + AI/LLM Graphics and Video Guide
 
-@PageImage(purpose: card, source: "unity-ai-llm-graphics-guide-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "unity-ai-llm-graphics-guide-icon.codex", alt: "Placeholder icon")
 
-@Image(source: "unity-ai-llm-graphics-guide-hero.codex", alt: "Unity + AI LLM graphics and video guide hero")
 
 This note collects patterns for integrating **Unity** with **AI/LLM systems** in
 graphics- and video-heavy apps, with a focus on:

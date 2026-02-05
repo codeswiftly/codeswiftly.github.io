@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 847: Shortest Path Visiting All Nodes
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 847 — Shortest Path Visiting All Nodes")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-icon.codex", alt: "Gaming Deep Dive — 847 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-card.codex", alt: "Gaming Deep Dive — 847 card")
   @CallToAction(url: "https://leetcode.com/problems/shortest-path-visiting-all-nodes/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-hero.codex", alt: "Gaming Deep Dive LeetCode 847 Shortest Path Visiting All Nodes hero")
 
 ## Overview
 

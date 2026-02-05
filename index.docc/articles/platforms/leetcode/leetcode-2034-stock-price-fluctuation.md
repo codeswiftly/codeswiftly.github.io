@@ -1,20 +1,13 @@
 # LeetCode 2034: Stock Price Fluctuation
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-2034-stock-price-fluctuation-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-2034-stock-price-fluctuation-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-2034-stock-price-fluctuation-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-2034-stock-price-fluctuation-dsa-icon.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
-  @PageImage(purpose: card, source: "leetcode-2034-stock-price-fluctuation-dsa-card.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
   @CallToAction(url: "https://leetcode.com/problems/stock-price-fluctuation/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-2034-stock-price-fluctuation-dsa-hero.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
 
 > Warning: 1. Updates can override timestamps; keep latest per timestamp. } > Warning: 2. Use heaps plus a map to lazily discard stale values. } }
 
-@Image(source: "leetcode-2034-stock-price-fluctuation-dsa-top.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
 
 Support updates and return current, max, and min prices.
 

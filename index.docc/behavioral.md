@@ -3,11 +3,8 @@
 @Metadata {
   @TitleHeading("Behavioral Interview Prep")
   @PageColor(green)
-  @PageImage(purpose: icon, source: "behavioral-icon.codex", alt: "Behavioral icon")
-  @PageImage(purpose: card, source: "behavioral-card.codex", alt: "Behavioral card")
 }
 
-@Image(source: "behavioral-hero.codex", alt: "Behavioral hero")
 
 ## Story Prep
 

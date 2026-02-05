@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Custom data structures reference")
-  @PageImage(purpose: icon, source: "custom-data-structures-reference-icon.codex", alt: "Custom data structures reference icon")
-  @PageImage(purpose: card, source: "custom-data-structures-reference-card.codex", alt: "Custom data structures reference card")
 }
 
-@Image(source: "custom-data-structures-reference-hero.codex", alt: "Custom data structures reference hero")
 
 Swift interview solutions are usually written on top of Swift Main primitives (`Array`,
 `Dictionary`, `Set`, `String`), but many data structures that show up in problem statements are

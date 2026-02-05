@@ -3,11 +3,8 @@
 @Metadata {
   @TitleHeading("Review Concurrent Design with Dispatch")
     @PageColor(blue)
-  @PageImage(purpose: icon, source: "concurrency-dispatch-design-icon.codex", alt: "Concurrent Design with Dispatch icon")
-  @PageImage(purpose: card, source: "concurrency-dispatch-design-card.codex", alt: "Concurrent Design with Dispatch card")
 }
 
-@Image(source: "concurrency-dispatch-design-hero.codex", alt: "Concurrent Design with Dispatch hero")
 
 ## Overview
 

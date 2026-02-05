@@ -1,14 +1,10 @@
 # Pattern 03: Sliding Window
 
-@Image(source: "pattern-sliding-window-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Sliding Window")
-  @PageImage(purpose: icon, source: "pattern-sliding-window-icon.codex", alt: "Pattern 03: Sliding Window icon")
-  @PageImage(purpose: card, source: "pattern-sliding-window-card.codex", alt: "Pattern 03: Sliding Window card")
 }
 
-@Image(source: "sliding-window-diagram.codex", alt: "Sliding window expanding and shrinking")
 
 Maintain a dynamic range (window) over an array or string to find the longest, shortest, or optimal subarray satisfying a condition.
 
@@ -43,7 +39,6 @@ Instead of recomputing data for every subarray (O(N^2)), use a "window" defined 
 
 Find the length of the longest substring with unique characters.
 
-@Image(source: "sliding-window-longest-unique.codex", alt: "Sliding window for longest unique substring")
 
 ```swift
 func lengthOfLongestSubstring(_ s: String) -> Int {
@@ -69,7 +64,6 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
 
 Find the minimal length of a contiguous subarray of which the sum is greater than or equal to `target`.
 
-@Image(source: "sliding-window-min-subarray-sum.codex", alt: "Sliding window shrinking to minimum subarray sum")
 
 ```swift
 func minSubArrayLen(_ target: Int, _ nums: [Int]) -> Int {

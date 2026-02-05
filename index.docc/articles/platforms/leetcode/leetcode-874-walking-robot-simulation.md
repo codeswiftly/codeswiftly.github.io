@@ -1,20 +1,13 @@
 # LeetCode 874: Walking Robot Simulation
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-874-walking-robot-simulation-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-874-walking-robot-simulation-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-874-walking-robot-simulation-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-874-walking-robot-simulation-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-874-walking-robot-simulation-dsa-card.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/walking-robot-simulation/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-874-walking-robot-simulation-dsa-hero.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Represent obstacles in a hash set for O(1) checks. } > Warning: 2. Carefully update direction and position for each command. } }
 
-@Image(source: "leetcode-874-walking-robot-simulation-dsa-top.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Simulate a robot on a grid with obstacles and return the max distance squared.
 

@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1106 — Parsing a Boolean Expression")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1106-parsing-a-boolean-expression-icon.codex", alt: "Gaming Deep Dive — 1106 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1106-parsing-a-boolean-expression-card.codex", alt: "Gaming Deep Dive — 1106 card")
   @CallToAction(url: "https://leetcode.com/problems/parsing-a-boolean-expression/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1106-parsing-a-boolean-expression-hero.codex", alt: "Gaming Deep Dive LeetCode 1106 Parsing a Boolean Expression hero")
 
 ## Overview
 

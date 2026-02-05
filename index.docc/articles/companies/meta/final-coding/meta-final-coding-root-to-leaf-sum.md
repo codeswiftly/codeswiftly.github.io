@@ -1,19 +1,12 @@
 # Meta Final Coding: Sum Root-to-Leaf Numbers
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-root-to-leaf-sum-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-root-to-leaf-sum-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-root-to-leaf-sum-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Sum of root-to-leaf numbers")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-root-to-leaf-sum-icon.codex", alt: "Sum of root-to-leaf numbers icon")
-  @PageImage(purpose: card, source: "meta-final-coding-root-to-leaf-sum-card.codex", alt: "Sum of root-to-leaf numbers card")
 }
 
-@Image(source: "meta-final-coding-root-to-leaf-sum-hero.codex", alt: "Meta Final Coding Sum Root to Leaf Numbers hero")
 
-@Image(source: "meta-final-coding-root-to-leaf-sum-diagram.codex", alt: "Root to leaf paths forming numbers")
 
 ## Practice Context
 
@@ -30,7 +23,6 @@ root-to-leaf paths.
 
 Recursion stack visualization:
 
-@Image(source: "meta-final-coding-root-to-leaf-stack.codex", alt: "Recursion stack building the path value")
 
 ### Complexity
 

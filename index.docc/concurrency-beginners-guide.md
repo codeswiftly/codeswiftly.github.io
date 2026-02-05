@@ -1,15 +1,11 @@
 # A Beginner's Guide to Concurrency in iOS
 
-@PageImage(purpose: card, source: "concurrency-beginners-guide-card.codex", alt: "Placeholder card")
 
 @Metadata {
   @TitleHeading("Review A Beginner's Guide to Concurrency in iOS")
   @PageColor(blue)
-  @PageImage(purpose: card, source: "hero-concurrency-beginners.codex", alt: "Concurrency guide hero")
-  @PageImage(purpose: icon, source: "concurrency-beginners-guide-icon.codex", alt: "A Beginner s Guide to Concurrency in iOS icon")
 }
 
-@Image(source: "concurrency-beginners-guide-hero.codex", alt: "A Beginner s Guide to Concurrency in iOS hero")
 
 ## Introduction: Why This Matters for Every iOS Developer
 

@@ -1,20 +1,13 @@
 # LeetCode 901: Online Stock Span
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-901-online-stock-span-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-901-online-stock-span-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-901-online-stock-span-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-901-online-stock-span-dsa-icon.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
-  @PageImage(purpose: card, source: "leetcode-901-online-stock-span-dsa-card.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
   @CallToAction(url: "https://leetcode.com/problems/online-stock-span/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-901-online-stock-span-dsa-hero.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
 
 > Warning: 1. Naive scanning is too slow for long streams. } > Warning: 2. Use a monotonic stack to compress spans. } }
 
-@Image(source: "leetcode-901-online-stock-span-dsa-top.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")
 
 For each price, return the span of consecutive days with price <= current.
 

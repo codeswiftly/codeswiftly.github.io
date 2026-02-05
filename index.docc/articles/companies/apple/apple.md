@@ -1,13 +1,8 @@
 # Apple
 
-@PageImage(purpose: card, source: "companies-apple-apple-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Apple")
-  @PageImage(purpose: icon, source: "company-apple-icon.codex", alt: "Apple icon")
-  @PageImage(purpose: card, source: "apple-card.codex", alt: "Apple card")
 }
 
 @Options {
@@ -15,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-hero.codex", alt: "Apple hero")
 
 ## Overview
 

@@ -3,8 +3,6 @@
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 723: Candy Crush")
   @CallToAction(url: "https://leetcode.com/problems/candy-crush/", label: "Solve on LeetCode")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-723-candy-crush-icon.codex", alt: "Gaming Deep Dive LeetCode 723 Candy Crush icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-723-candy-crush-card.codex", alt: "Gaming Deep Dive LeetCode 723 Candy Crush card")
 }
 
 @Options {
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-723-candy-crush-hero.codex", alt: "Gaming Deep Dive LeetCode 723 Candy Crush hero")
 
 ## Overview
 

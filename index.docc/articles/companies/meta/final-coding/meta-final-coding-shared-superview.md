@@ -1,19 +1,12 @@
 # Meta Final Coding: Shared Superview
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-shared-superview-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-shared-superview-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-shared-superview-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Shared superview in a UIView hierarchy")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-shared-superview-icon.codex", alt: "Shared superview in a UIView hierarchy icon")
-  @PageImage(purpose: card, source: "meta-final-coding-shared-superview-card.codex", alt: "Shared superview in a UIView hierarchy card")
 }
 
-@Image(source: "meta-final-coding-shared-superview-hero.codex", alt: "Meta Final Coding Shared Superview hero")
 
-@Image(source: "meta-final-coding-shared-superview-diagram.codex", alt: "Two views converging to a shared superview")
 
 ## Practice Context
 
@@ -32,7 +25,6 @@ Follow-up: What happens if the hierarchy is very deep (thousands of layers)? How
 
 Pointer movement visualization:
 
-@Image(source: "meta-final-coding-shared-superview-pointers.codex", alt: "Pointers walking up to the shared superview")
 
 ### Complexity
 

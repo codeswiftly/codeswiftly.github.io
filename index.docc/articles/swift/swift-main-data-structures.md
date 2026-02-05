@@ -1,14 +1,9 @@
 # Swift Main Data Structures
 
-@PageImage(purpose: card, source: "swift-swift-main-data-structures-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-main-data-structures-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-main-data-structures-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(blue)
   @TitleHeading("Swift Main data structures")
-  @PageImage(purpose: icon, source: "swift-main-data-structures-icon.codex", alt: "Swift Main data structures icon")
-  @PageImage(purpose: card, source: "swift-main-data-structures-card.codex", alt: "Swift Main data structures card")
 }
 
 @Options {
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "swift-main-data-structures-hero.codex", alt: "Swift Main data structures hero")
 
 Swift’s standard library gives you strong primitives (`Array`, `Dictionary`, `Set`, `String`).
 For interview problems, most of your correctness and complexity story comes from using these

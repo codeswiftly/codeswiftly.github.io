@@ -1,20 +1,13 @@
 # LeetCode 502: IPO
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-502-ipo-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-502-ipo-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-502-ipo-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-502-ipo-dsa-icon.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
-  @PageImage(purpose: card, source: "leetcode-502-ipo-dsa-card.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
   @CallToAction(url: "https://leetcode.com/problems/ipo/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-502-ipo-dsa-hero.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
 
 > Warning: 1. Greedy selection needs two heaps: one by capital, one by profit. } > Warning: 2. Stop early if no projects are affordable. } }
 
-@Image(source: "leetcode-502-ipo-dsa-top.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
 
 Choose at most k projects to maximize capital with capital constraints.
 

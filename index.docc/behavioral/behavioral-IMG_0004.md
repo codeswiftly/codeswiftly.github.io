@@ -1,8 +1,5 @@
 # CARL Story Scaffolding
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0004-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0004-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0004-icon.codex", alt: "Placeholder icon")
 
 Behavioral answers land best when you have a scaffold. You will not recite a story, but you will
 sound crisp when you already know the transitions and the core beats. CARL (Context, Action,

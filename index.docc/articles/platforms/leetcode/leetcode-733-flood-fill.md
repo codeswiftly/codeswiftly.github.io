@@ -1,20 +1,13 @@
 # LeetCode 733: Flood Fill
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-733-flood-fill-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-733-flood-fill-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-733-flood-fill-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-733-flood-fill-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-733-flood-fill-dsa-card.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/flood-fill/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-733-flood-fill-dsa-hero.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Avoid infinite loops by checking the original color. } > Warning: 2. Use bounds checks on every neighbor visit. } }
 
-@Image(source: "leetcode-733-flood-fill-dsa-top.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 Recolor all connected pixels starting from a seed cell.
 

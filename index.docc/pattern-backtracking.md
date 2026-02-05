@@ -1,14 +1,10 @@
 # Pattern 14: Backtracking
 
-@Image(source: "pattern-backtracking-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Backtracking")
-  @PageImage(purpose: icon, source: "pattern-backtracking-icon.codex", alt: "Pattern 14: Backtracking icon")
-  @PageImage(purpose: card, source: "pattern-backtracking-card.codex", alt: "Pattern 14: Backtracking card")
 }
 
-@Image(source: "backtracking-diagram.codex", alt: "Decision tree exploration")
 
 Systematically search for a solution by building candidates incrementally and abandoning ("backtracking") partial candidates that cannot lead to a valid solution.
 

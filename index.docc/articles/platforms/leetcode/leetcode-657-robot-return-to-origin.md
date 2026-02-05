@@ -1,20 +1,13 @@
 # LeetCode 657: Robot Return to Origin
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-657-robot-return-to-origin-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-657-robot-return-to-origin-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-657-robot-return-to-origin-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-657-robot-return-to-origin-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-657-robot-return-to-origin-dsa-card.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/robot-return-to-origin/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-657-robot-return-to-origin-dsa-hero.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Do not overthink; a simple coordinate accumulator is enough. } > Warning: 2. Pay attention to uppercase direction letters. } }
 
-@Image(source: "leetcode-657-robot-return-to-origin-dsa-top.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 Given a sequence of moves, determine if the robot returns to (0, 0).
 

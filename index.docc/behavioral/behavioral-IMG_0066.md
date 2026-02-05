@@ -1,8 +1,5 @@
 # Post-interview Conflict Review
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0066-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0066-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0066-icon.codex", alt: "Placeholder icon")
 
 Conflict stories deserve a dedicated review because they are a decisive signal.
 

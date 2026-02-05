@@ -1,8 +1,5 @@
 # Conflict Story Structure (Three-act CARL)
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0038-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0038-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0038-icon.codex", alt: "Placeholder icon")
 
 Conflict stories are most effective when they follow a clear narrative arc.
 

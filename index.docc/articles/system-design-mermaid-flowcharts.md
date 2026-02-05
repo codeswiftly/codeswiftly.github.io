@@ -1,14 +1,9 @@
 # Mermaid Flowcharts (System Design)
 
-@PageImage(purpose: card, source: "system-design-mermaid-flowcharts-card.codex", alt: "Placeholder card")
-@Image(source: "system-design-mermaid-flowcharts-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "system-design-mermaid-flowcharts-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Mermaid flowcharts reference")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System Design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
 Use this reference for the valid Mermaid flowchart shapes and syntax when building system design
@@ -36,7 +31,6 @@ flowchart LR
     id
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-01-nodes.codex.svg", alt: "Nodes diagram")
 
 
 
@@ -47,7 +41,6 @@ flowchart LR
     id1[This is the text in the box]
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-02-nodes.codex.svg", alt: "Nodes diagram")
 
 
 
@@ -60,7 +53,6 @@ flowchart LR
     id["This <3 Unicode"]
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-03-nodes.codex.svg", alt: "Nodes diagram")
 
 
 
@@ -80,7 +72,6 @@ flowchart LR
     markdown --> newLines
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-04-nodes.codex.svg", alt: "Nodes diagram")
 
 
 
@@ -91,7 +82,6 @@ flowchart TD
     Start --> Stop
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-05-direction.codex.svg", alt: "Direction diagram")
 
 
 
@@ -100,7 +90,6 @@ flowchart LR
     Start --> Stop
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-06-direction.codex.svg", alt: "Direction diagram")
 
 
 
@@ -125,7 +114,6 @@ flowchart LR
     doubleCircle(((This is the text in the circle)))
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-07-classic-node-shapes.codex.svg", alt: "Classic node shapes diagram")
 
 
 
@@ -138,7 +126,6 @@ flowchart TD
     A@{ shape: rect, label: "This is a process" }
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-08-expanded-node-shapes-mermaid-v11-3-0.codex.svg", alt: "Expanded node shapes (Mermaid v11.3.0+) diagram")
 
 
 
@@ -203,7 +190,6 @@ flowchart TD
     A@{ icon: "fa:user", form: "square", label: "User Icon", pos: "t", h: 60 }
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-09-special-shapes-icon-image.codex.svg", alt: "Special shapes (icon, image) diagram")
 
 
 
@@ -216,7 +202,6 @@ flowchart TD
     A@{ img: "https://mermaid.js.org/favicon.svg", label: "Image Label", pos: "t", h: 60, constraint: "on" }
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-10-special-shapes-icon-image.codex.svg", alt: "Special shapes (icon, image) diagram")
 
 
 
@@ -234,7 +219,6 @@ flowchart LR
     A ~~~ B
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-11-links-between-nodes.codex.svg", alt: "Links between nodes diagram")
 
 
 
@@ -246,7 +230,6 @@ flowchart LR
     A --x B
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-12-links-between-nodes.codex.svg", alt: "Links between nodes diagram")
 
 
 
@@ -259,7 +242,6 @@ flowchart LR
     C x--x D
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-13-links-between-nodes.codex.svg", alt: "Links between nodes diagram")
 
 
 
@@ -271,7 +253,6 @@ flowchart LR
   e1@{ animate: true }
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-14-links-between-nodes.codex.svg", alt: "Links between nodes diagram")
 
 
 
@@ -281,7 +262,6 @@ flowchart LR
   e1@{ animation: fast }
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-15-links-between-nodes.codex.svg", alt: "Links between nodes diagram")
 
 
 
@@ -298,7 +278,6 @@ flowchart TB
     end
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-16-subgraphs.codex.svg", alt: "Subgraphs diagram")
 
 
 
@@ -315,7 +294,6 @@ flowchart LR
   end
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-17-subgraphs.codex.svg", alt: "Subgraphs diagram")
 
 
 
@@ -335,7 +313,6 @@ flowchart LR
   end
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-18-markdown-strings.codex.svg", alt: "Markdown strings diagram")
 
 
 
@@ -350,7 +327,6 @@ graph LR
     Interaction
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-19-markdown-strings.codex.svg", alt: "Markdown strings diagram")
 
 
 
@@ -364,7 +340,6 @@ flowchart LR
     click B "https://www.github.com" "This is a tooltip for a link"
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-20-interaction.codex.svg", alt: "Interaction diagram")
 
 
 
@@ -379,7 +354,6 @@ flowchart LR
     style id2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-21-styling-and-classes.codex.svg", alt: "Styling and classes diagram")
 
 
 
@@ -389,7 +363,6 @@ flowchart LR
     classDef someclass fill:#f96
 ```
 
-@Image(source: "system-design-mermaid-flowcharts-22-styling-and-classes.codex.svg", alt: "Styling and classes diagram")
 
 
 

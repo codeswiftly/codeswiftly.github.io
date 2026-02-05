@@ -1,8 +1,5 @@
 # Choosing the Right Conflict Story
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0032-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0032-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0032-icon.codex", alt: "Placeholder icon")
 
 Pick conflicts that show real stakes and your ability to drive a resolution. Low-stakes
 preferences or minor disagreements do not communicate seniority.

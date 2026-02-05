@@ -1,8 +1,5 @@
 # Post-interview Story Audit
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0065-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0065-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0065-icon.codex", alt: "Placeholder icon")
 
 After each interview, evaluate whether you chose the right stories and emphasized the right
 signals.

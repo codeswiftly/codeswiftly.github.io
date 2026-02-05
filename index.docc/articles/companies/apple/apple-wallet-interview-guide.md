@@ -1,14 +1,9 @@
 # Apple Wallet Interview Guide
 
-@PageImage(purpose: card, source: "companies-apple-apple-wallet-interview-guide-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-wallet-interview-guide-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-wallet-interview-guide-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(red)
   @TitleHeading("Review Apple Wallet Interview Guide")
-  @PageImage(purpose: icon, source: "company-apple-icon.codex", alt: "Apple icon")
-  @PageImage(purpose: card, source: "apple-wallet-interview-guide-card.codex", alt: "Apple Wallet Interview Guide card")
 }
 
 @Options {
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-wallet-interview-guide-hero.codex", alt: "Apple Wallet Interview Guide hero")
 
 ## Overview
 

@@ -1,16 +1,10 @@
 # HackerRank -- Snakes and Ladders: The Quickest Way Up
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-snakes-and-ladders-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-snakes-and-ladders-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-snakes-and-ladders-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Snakes and Ladders: the Quickest Way Up")
-  @PageImage(purpose: icon, source: "difficulty-medium.codex", alt: "Medium problem")
-  @PageImage(purpose: card, source: "hackerrank-snakes-and-ladders-card.codex", alt: "HackerRank Snakes and Ladders the Quickest Way Up card")
 }
 
-@Image(source: "hackerrank-snakes-and-ladders-hero.codex", alt: "HackerRank Snakes and Ladders the Quickest Way Up hero")
 
 ## Problem Restatement
 

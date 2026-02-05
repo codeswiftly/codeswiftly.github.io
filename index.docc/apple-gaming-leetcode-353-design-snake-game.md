@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 353 — Design Snake Game")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-353-design-snake-game-icon.codex", alt: "Gaming Deep Dive — 353 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-353-design-snake-game-card.codex", alt: "Gaming Deep Dive — 353 card")
   @CallToAction(url: "https://leetcode.com/problems/design-snake-game/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-353-design-snake-game-hero.codex", alt: "Gaming Deep Dive LeetCode 353 Design Snake Game hero")
 
 ## Overview
 

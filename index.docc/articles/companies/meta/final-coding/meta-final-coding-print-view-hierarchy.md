@@ -1,19 +1,12 @@
 # Meta Final Coding: Print View Hierarchy Without Superview
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-print-view-hierarchy-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-print-view-hierarchy-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-print-view-hierarchy-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Print view hierarchy without superview")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-print-view-hierarchy-icon.codex", alt: "Print view hierarchy without superview icon")
-  @PageImage(purpose: card, source: "meta-final-coding-print-view-hierarchy-card.codex", alt: "Print view hierarchy without superview card")
 }
 
-@Image(source: "meta-final-coding-print-view-hierarchy-hero.codex", alt: "Meta Final Coding Print View Hierarchy Without Superview hero")
 
-@Image(source: "meta-final-coding-print-view-hierarchy-diagram.codex", alt: "Sorting views using isSubview")
 
 ## Practice Context
 

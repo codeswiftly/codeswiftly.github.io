@@ -1,19 +1,10 @@
 # LeetCode 206: Reverse Linked List
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-206-reverse-linked-list-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-206-reverse-linked-list-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-206-reverse-linked-list-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-206-reverse-linked-list-dsa-icon.codex", alt: "Easy problem - Pattern 7 (In-Place Reversal)")
-  @PageImage(purpose: card, source: "leetcode-206-reverse-linked-list-dsa-card.codex", alt: "Easy problem - Pattern 7 (In-Place Reversal)")
-}
 
-@Image(source: "leetcode-206-reverse-linked-list-dsa-hero.codex", alt: "Easy problem - Pattern 7 (In-Place Reversal)")
 
 Reverse a singly linked list iteratively or recursively.
 
-@Image(source: "leetcode-206-reverse-linked-list-dsa-top.codex", alt: "Easy problem - Pattern 7 (In-Place Reversal)")
 
 Solve Easy problem.
 

@@ -1,20 +1,13 @@
 # LeetCode 1801: Number of Orders in the Backlog
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1801-number-of-orders-in-the-backlog-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1801-number-of-orders-in-the-backlog-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1801-number-of-orders-in-the-backlog-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1801-number-of-orders-in-the-backlog-dsa-icon.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
-  @PageImage(purpose: card, source: "leetcode-1801-number-of-orders-in-the-backlog-dsa-card.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
   @CallToAction(url: "https://leetcode.com/problems/number-of-orders-in-the-backlog/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1801-number-of-orders-in-the-backlog-dsa-hero.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
 
 > Warning: 1. Match buy and sell orders in price order using heaps. } > Warning: 2. Apply modulo at the end to avoid overflow. } }
 
-@Image(source: "leetcode-1801-number-of-orders-in-the-backlog-dsa-top.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
 
 Process buy/sell orders and return remaining backlog size.
 

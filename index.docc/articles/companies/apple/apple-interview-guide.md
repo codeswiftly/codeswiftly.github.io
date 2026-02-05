@@ -1,13 +1,8 @@
 # Apple Interview Guide
 
-@PageImage(purpose: card, source: "companies-apple-apple-interview-guide-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-interview-guide-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-interview-guide-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Apple Interview Guide")
-  @PageImage(purpose: icon, source: "company-apple-icon.codex", alt: "Apple icon")
-  @PageImage(purpose: card, source: "apple-interview-guide-card.codex", alt: "Apple Interview Guide card")
 }
 
 @Options {
@@ -15,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-interview-guide-hero.codex", alt: "Apple Interview Guide hero")
 
 Apple interviews often emphasize API design, concurrency reasoning, and practical system tradeoffs.
 

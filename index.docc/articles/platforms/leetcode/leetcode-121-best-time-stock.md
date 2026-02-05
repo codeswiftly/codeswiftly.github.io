@@ -1,20 +1,13 @@
 # LeetCode 121: Best Time to Buy and Sell Stock
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-121-best-time-stock-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-121-best-time-stock-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-121-best-time-stock-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-121-best-time-stock-dsa-icon.codex", alt: "Easy problem - Pattern 3 (Sliding Window)")
-  @PageImage(purpose: card, source: "leetcode-121-best-time-stock-dsa-card.codex", alt: "Easy problem - Pattern 3 (Sliding Window)")
   @CallToAction(url: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-121-best-time-stock-dsa-hero.codex", alt: "Easy problem - Pattern 3 (Sliding Window)")
 
 Given daily stock prices, buy once and sell once later to maximize profit. Return that maximum (0 if no profit possible).
 
-@Image(source: "leetcode-121-best-time-stock-dsa-top.codex", alt: "Easy problem - Pattern 3 (Sliding Window)")
 
 Solve Easy problem.
 

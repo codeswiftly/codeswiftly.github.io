@@ -4,8 +4,6 @@
   @TitleHeading("Finance Deep Dive: LeetCode 901: Online Stock Span")
   @PageColor(green)
   @CallToAction(url: "https://leetcode.com/problems/online-stock-span/", label: "Solve on LeetCode")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-901-online-stock-span-icon.codex", alt: "Finance Deep Dive LeetCode 901 Online Stock Span icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-901-online-stock-span-card.codex", alt: "Finance Deep Dive LeetCode 901 Online Stock Span card")
 }
 
 @Options {
@@ -13,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-901-online-stock-span-hero.codex", alt: "Finance Deep Dive LeetCode 901 Online Stock Span hero")
 
 ## Overview
 

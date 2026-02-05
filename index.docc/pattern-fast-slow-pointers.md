@@ -1,14 +1,10 @@
 # Pattern 06: Fast and Slow Pointers
 
-@Image(source: "pattern-fast-slow-pointers-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Fast and Slow Pointers")
-  @PageImage(purpose: icon, source: "pattern-fast-slow-pointers-icon.codex", alt: "Pattern 06: Fast and Slow Pointers icon")
-  @PageImage(purpose: card, source: "pattern-fast-slow-pointers-card.codex", alt: "Pattern 06: Fast and Slow Pointers card")
 }
 
-@Image(source: "fast-slow-pointers-diagram.codex", alt: "Tortoise and Hare algorithm")
 
 Use two pointers moving at different speeds (usually 1x and 2x) to detect cycles or find list midpoints without extra storage.
 
@@ -43,7 +39,6 @@ Also known as the **Floyd's Tortoise and Hare** algorithm.
 
 Determine if a linked list has a cycle.
 
-@Image(source: "fast-slow-cycle-example.codex", alt: "Fast and slow pointers meeting in a cycle")
 
 ```swift
 public class ListNode {
@@ -77,7 +72,6 @@ func hasCycle(_ head: ListNode?) -> Bool {
 
 Find the middle node.
 
-@Image(source: "fast-slow-middle-example.codex", alt: "Fast pointer ends while slow points to the middle")
 
 ```swift
 func middleNode(_ head: ListNode?) -> ListNode? {

@@ -1,20 +1,13 @@
 # LeetCode 47: Permutations II
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-47-permutations-ii-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-47-permutations-ii-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-47-permutations-ii-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-47-permutations-ii-dsa-icon.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
-  @PageImage(purpose: card, source: "leetcode-47-permutations-ii-dsa-card.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
   @CallToAction(url: "https://leetcode.com/problems/permutations-ii/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-47-permutations-ii-dsa-hero.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 > Warning: 1. Duplicate values require pruning to avoid repeated permutations. } > Warning: 2. Sort input before recursion to detect duplicates. } }
 
-@Image(source: "leetcode-47-permutations-ii-dsa-top.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 Return all unique permutations for a list that may contain duplicates.
 

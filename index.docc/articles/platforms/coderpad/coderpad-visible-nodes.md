@@ -1,16 +1,10 @@
 # CoderPad: Visible Nodes from the Left (Binary Tree)
 
-@PageImage(purpose: card, source: "platforms-coderpad-coderpad-visible-nodes-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-coderpad-coderpad-visible-nodes-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-coderpad-coderpad-visible-nodes-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review CoderPad: Visible Nodes from the Left (Binary Tree)")
-  @PageImage(purpose: icon, source: "difficulty-medium.codex", alt: "Medium problem")
-  @PageImage(purpose: card, source: "coderpad-visible-nodes-card.codex", alt: "CoderPad Visible Nodes from the Left (Binary Tree) card")
 }
 
-@Image(source: "coderpad-visible-nodes-hero.codex", alt: "CoderPad Visible Nodes from the Left (Binary Tree) hero")
 
 ## Restate
 

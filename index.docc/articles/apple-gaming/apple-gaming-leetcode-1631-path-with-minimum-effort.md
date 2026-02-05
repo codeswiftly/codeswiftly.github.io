@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 1631: Path with Minimum Effort
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1631-path-with-minimum-effort-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-1631-path-with-minimum-effort-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1631-path-with-minimum-effort-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1631 — Path With Minimum Effort")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1631-path-with-minimum-effort-icon.codex", alt: "Gaming Deep Dive — 1631 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1631-path-with-minimum-effort-card.codex", alt: "Gaming Deep Dive — 1631 card")
   @CallToAction(url: "https://leetcode.com/problems/path-with-minimum-effort/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1631-path-with-minimum-effort-hero.codex", alt: "Gaming Deep Dive LeetCode 1631 Path With Minimum Effort hero")
 
 ## Overview
 

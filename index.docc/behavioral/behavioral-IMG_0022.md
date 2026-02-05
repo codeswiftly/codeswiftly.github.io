@@ -1,8 +1,5 @@
 # TMAY Examples by Career Stage (New Grad, Mid-level)
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0022-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0022-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0022-icon.codex", alt: "Placeholder icon")
 
 TMAY should sound different depending on experience. The structure stays the same, but the proof
 points change.

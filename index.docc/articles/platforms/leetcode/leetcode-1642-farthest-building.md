@@ -1,19 +1,10 @@
 # LeetCode 1642: Farthest Building You Can Reach
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1642-farthest-building-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1642-farthest-building-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1642-farthest-building-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1642-farthest-building-dsa-icon.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
-  @PageImage(purpose: card, source: "leetcode-1642-farthest-building-dsa-card.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
-}
 
-@Image(source: "leetcode-1642-farthest-building-dsa-hero.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
 
 Given building heights and limited bricks and ladders, determine the farthest index reachable by climbing sequentially. Use bricks for smaller climbs, ladders for largest climbs.
 
-@Image(source: "leetcode-1642-farthest-building-dsa-top.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
 
 Solve Medium problem.
 

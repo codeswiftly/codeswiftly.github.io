@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI State and Binding")
   @PageImage(
     purpose: icon,
-    source: "swiftui-state-and-binding-icon.codex",
     alt: "SwiftUI State and Binding icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-state-and-binding-card.codex",
     alt: "SwiftUI State and Binding card"
   )
 }
 
-@Image(source: "swiftui-state-and-binding-hero.codex", alt: "SwiftUI State and Binding hero")
 
 `@State` owns local value state. `@Binding` passes a mutable reference to that state into
 children. Use this pair for UI toggles, selections, and quick edits.

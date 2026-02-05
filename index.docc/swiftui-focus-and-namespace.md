@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Focus and Namespace")
   @PageImage(
     purpose: icon,
-    source: "swiftui-focus-and-namespace-icon.codex",
     alt: "SwiftUI Focus and Namespace icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-focus-and-namespace-card.codex",
     alt: "SwiftUI Focus and Namespace card"
   )
 }
 
-@Image(source: "swiftui-focus-and-namespace-hero.codex", alt: "SwiftUI Focus and Namespace hero")
 
 `@FocusState` manages text focus, while `@Namespace` anchors matched-geometry animations.
 These wrappers make multi-field forms and hero transitions feel intentional.

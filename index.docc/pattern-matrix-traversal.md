@@ -1,14 +1,10 @@
 # Pattern 13: Matrix Traversal
 
-@Image(source: "pattern-matrix-traversal-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Matrix Traversal")
-  @PageImage(purpose: icon, source: "pattern-matrix-traversal-icon.codex", alt: "Pattern 13: Matrix Traversal icon")
-  @PageImage(purpose: card, source: "pattern-matrix-traversal-card.codex", alt: "Pattern 13: Matrix Traversal card")
 }
 
-@Image(source: "matrix-traversal-diagram.codex", alt: "Grid connectivity")
 
 Treat a 2D grid as a graph where each cell is a node and neighbors (up, down, left, right) are edges.
 

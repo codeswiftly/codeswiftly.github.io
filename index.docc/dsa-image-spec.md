@@ -1,9 +1,6 @@
 # DSA Image Spec
 
-@PageImage(purpose: card, source: "dsa-image-spec-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "dsa-image-spec-icon.codex", alt: "Placeholder icon")
 
-@Image(source: "dsa-image-spec-hero.codex", alt: "DSA image spec hero")
 
 Use this spec for DocC images attached to LeetCode DSA problem pages. This is the baseline for
 LeetCode only; HackerRank/CoderPad will follow the same conventions with different prefixes.

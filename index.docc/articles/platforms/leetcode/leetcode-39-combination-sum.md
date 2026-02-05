@@ -1,19 +1,10 @@
 # LeetCode 39: Combination Sum
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-39-combination-sum-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-39-combination-sum-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-39-combination-sum-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-39-combination-sum-dsa-icon.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
-  @PageImage(purpose: card, source: "leetcode-39-combination-sum-dsa-card.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
-}
 
-@Image(source: "leetcode-39-combination-sum-dsa-hero.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 Given candidates (distinct positive ints) and target, return all unique combinations where numbers sum to target. Same number may be chosen unlimited times; order of combinations does not matter.
 
-@Image(source: "leetcode-39-combination-sum-dsa-top.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 Solve Medium problem.
 

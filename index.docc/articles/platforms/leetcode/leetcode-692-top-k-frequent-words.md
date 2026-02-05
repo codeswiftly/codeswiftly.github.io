@@ -1,19 +1,10 @@
 # LeetCode 692: Top K Frequent Words
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-692-top-k-frequent-words-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-692-top-k-frequent-words-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-692-top-k-frequent-words-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-692-top-k-frequent-words-dsa-icon.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
-  @PageImage(purpose: card, source: "leetcode-692-top-k-frequent-words-dsa-card.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
-}
 
-@Image(source: "leetcode-692-top-k-frequent-words-dsa-hero.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
 
 Given an array of strings and integer `k`, return the `k` most frequent words sorted by frequency and lexicographical order (higher frequency first; ties broken by smaller lexicographic value).
 
-@Image(source: "leetcode-692-top-k-frequent-words-dsa-top.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")
 
 Solve Medium problem.
 

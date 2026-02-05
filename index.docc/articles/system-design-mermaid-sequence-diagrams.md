@@ -1,14 +1,9 @@
 # Mermaid Sequence Diagrams (System Design)
 
-@PageImage(purpose: card, source: "system-design-mermaid-sequence-diagrams-card.codex", alt: "Placeholder card")
-@Image(source: "system-design-mermaid-sequence-diagrams-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "system-design-mermaid-sequence-diagrams-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Mermaid sequence diagrams reference")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System Design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
 Use this reference for Mermaid sequence diagrams when modeling interactions and message flow.
@@ -27,7 +22,6 @@ sequenceDiagram
     Alice-)John: See you later!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-01-basic-example.codex.svg", alt: "Basic example diagram")
 
 
 
@@ -48,7 +42,6 @@ sequenceDiagram
     Alice->>Bob: Hi Bob
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-02-participants.codex.svg", alt: "Participants diagram")
 
 
 
@@ -62,7 +55,6 @@ sequenceDiagram
     Bob->>Alice: Hi Alice
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-03-participants.codex.svg", alt: "Participants diagram")
 
 
 
@@ -81,7 +73,6 @@ sequenceDiagram
     Service-->>Client: Response
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-04-participants.codex.svg", alt: "Participants diagram")
 
 
 
@@ -95,7 +86,6 @@ sequenceDiagram
     J->>A: Great!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-05-participants.codex.svg", alt: "Participants diagram")
 
 
 
@@ -115,7 +105,6 @@ sequenceDiagram
     Bob->>Alice: I agree
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-06-actor-creation-and-destruction-v10-3-0.codex.svg", alt: "Actor creation and destruction (v10.3.0+) diagram")
 
 
 
@@ -137,7 +126,6 @@ sequenceDiagram
     B->>C: Hello Charley, how are you?
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-07-grouping-boxes.codex.svg", alt: "Grouping / boxes diagram")
 
 
 
@@ -155,7 +143,6 @@ sequenceDiagram
     Alice--)John: Dotted async
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-08-message-types.codex.svg", alt: "Message types diagram")
 
 
 
@@ -167,7 +154,6 @@ sequenceDiagram
     Alice<<-->>John: Dotted bidirectional
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-09-message-types.codex.svg", alt: "Message types diagram")
 
 
 
@@ -179,7 +165,6 @@ sequenceDiagram
     John-->>-Alice: Great!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-10-activations.codex.svg", alt: "Activations diagram")
 
 
 
@@ -193,7 +178,6 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-11-activations.codex.svg", alt: "Activations diagram")
 
 
 
@@ -205,7 +189,6 @@ sequenceDiagram
     Note right of John: Text in note
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-12-notes.codex.svg", alt: "Notes diagram")
 
 
 
@@ -217,7 +200,6 @@ sequenceDiagram
     Note over Alice,John: A typical interaction
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-13-notes.codex.svg", alt: "Notes diagram")
 
 
 
@@ -229,7 +211,6 @@ sequenceDiagram
     Note over Alice,John: A typical interaction<br/>But now in two lines
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-14-line-breaks.codex.svg", alt: "Line breaks diagram")
 
 
 
@@ -241,7 +222,6 @@ sequenceDiagram
     Alice->John: Hello John,<br/>how are you?
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-15-line-breaks.codex.svg", alt: "Line breaks diagram")
 
 
 
@@ -255,7 +235,6 @@ sequenceDiagram
     end
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-16-loops.codex.svg", alt: "Loops diagram")
 
 
 
@@ -274,7 +253,6 @@ sequenceDiagram
     end
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-17-alt-opt.codex.svg", alt: "Alt / opt diagram")
 
 
 
@@ -291,7 +269,6 @@ sequenceDiagram
     John-->>Alice: Hi Alice!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-18-parallel.codex.svg", alt: "Parallel diagram")
 
 
 
@@ -308,7 +285,6 @@ sequenceDiagram
     end
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-19-critical-region.codex.svg", alt: "Critical region diagram")
 
 
 
@@ -324,7 +300,6 @@ sequenceDiagram
     API-->BillingService: Start billing process
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-20-break.codex.svg", alt: "Break diagram")
 
 
 
@@ -346,7 +321,6 @@ sequenceDiagram
     end
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-21-background-highlighting.codex.svg", alt: "Background highlighting diagram")
 
 
 
@@ -359,7 +333,6 @@ sequenceDiagram
     John-->>Alice: Great!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-22-comments.codex.svg", alt: "Comments diagram")
 
 
 
@@ -371,7 +344,6 @@ sequenceDiagram
     B->>A: I #9829; you #infin; times more!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-23-entity-codes.codex.svg", alt: "Entity codes diagram")
 
 
 
@@ -388,7 +360,6 @@ sequenceDiagram
     John-->>Alice: Great!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-24-sequence-numbers.codex.svg", alt: "Sequence numbers diagram")
 
 
 
@@ -406,7 +377,6 @@ sequenceDiagram
     John-->>Alice: Great!
 ```
 
-@Image(source: "system-design-mermaid-sequence-diagrams-25-actor-menus.codex.svg", alt: "Actor menus diagram")
 
 
 

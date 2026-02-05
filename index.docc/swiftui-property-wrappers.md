@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Property Wrappers")
   @PageImage(
     purpose: icon,
-    source: "swiftui-property-wrappers-icon.codex",
     alt: "SwiftUI Property Wrappers icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-property-wrappers-card.codex",
     alt: "SwiftUI Property Wrappers card"
   )
 }
 
-@Image(source: "swiftui-property-wrappers-hero.codex", alt: "SwiftUI Property Wrappers hero")
 
 Property wrappers define ownership and data flow. In interviews, the right wrapper choice shows
 clarity about lifecycle, performance, and architecture boundaries.

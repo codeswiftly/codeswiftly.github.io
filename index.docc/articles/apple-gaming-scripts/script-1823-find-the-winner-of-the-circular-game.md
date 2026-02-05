@@ -1,14 +1,10 @@
 # Script — LeetCode 1823: Find the Winner of the Circular Game (3:00)
 
-@PageImage(purpose: card, source: "apple-gaming-scripts-script-1823-find-the-winner-of-the-circular-game-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-scripts-script-1823-find-the-winner-of-the-circular-game-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-scripts-script-1823-find-the-winner-of-the-circular-game-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Script — 1823 Find the Winner of the Circular Game")
 }
 
-@Image(source: "script-1823-find-the-winner-of-the-circular-game-hero.codex", alt: "Script LeetCode 1823 Find the Winner of the Circular Game (3 00) hero")
 
 Pattern Focus: Josephus recurrence — `J(n,k) = (J(n-1,k) + k) % n` with base 0; add 1 for 1‑indexing.
 

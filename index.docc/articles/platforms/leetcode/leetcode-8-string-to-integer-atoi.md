@@ -1,19 +1,10 @@
 # LeetCode 8: String to Integer (Atoi)
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-8-string-to-integer-atoi-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-8-string-to-integer-atoi-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-8-string-to-integer-atoi-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-8-string-to-integer-atoi-dsa-icon.codex", alt: "Medium problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-8-string-to-integer-atoi-dsa-card.codex", alt: "Medium problem - Pattern 2 (Two Pointers)")
-}
 
-@Image(source: "leetcode-8-string-to-integer-atoi-dsa-hero.codex", alt: "Medium problem - Pattern 2 (Two Pointers)")
 
 Convert a string to a 32-bit signed integer with these rules: skip leading spaces, read an optional sign, consume consecutive digits (skipping leading zeros is fine), stop at the first non-digit, and clamp the result...
 
-@Image(source: "leetcode-8-string-to-integer-atoi-dsa-top.codex", alt: "Medium problem - Pattern 2 (Two Pointers)")
 
 Solve Medium problem.
 

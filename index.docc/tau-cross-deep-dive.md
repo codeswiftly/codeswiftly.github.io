@@ -1,14 +1,9 @@
 # Tau Cross Deep Dive
 
-@PageImage(purpose: card, source: "tau-cross-deep-dive-card.codex", alt: "Placeholder card")
-@Image(source: "tau-cross-deep-dive-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "tau-cross-deep-dive-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(green)
   @TitleHeading("Tau Cross Deep Dive")
-  @PageImage(purpose: icon, source: "robinhood-stock-tracker-icon.codex", alt: "Tau Cross Deep Dive icon")
-  @PageImage(purpose: card, source: "robinhood-stock-tracker-card.codex", alt: "Tau Cross Deep Dive card")
 }
 
 Tau Cross is a Robinhood-style trading client case study. Use it to practice real-time quotes,

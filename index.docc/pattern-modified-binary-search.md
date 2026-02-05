@@ -1,14 +1,10 @@
 # Pattern 05: Modified Binary Search
 
-@Image(source: "pattern-modified-binary-search-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Modified Binary Search")
-  @PageImage(purpose: icon, source: "pattern-modified-binary-search-icon.codex", alt: "Pattern 05: Modified Binary Search icon")
-  @PageImage(purpose: card, source: "pattern-modified-binary-search-card.codex", alt: "Pattern 05: Modified Binary Search card")
 }
 
-@Image(source: "modified-binary-search-diagram.codex", alt: "Binary search on rotated array")
 
 Adapt binary search to handle rotated arrays, infinite streams, or solution spaces defined by a monotonic predicate.
 
@@ -41,7 +37,6 @@ Standard binary search divides a sorted range in half. Modified binary search ha
 
 ### 1. Search in Rotated Sorted Array
 
-@Image(source: "modified-binary-search-rotated-example.codex", alt: "Rotated array search with a sorted half")
 
 ```swift
 func search(_ nums: [Int], _ target: Int) -> Int {
@@ -76,7 +71,6 @@ func search(_ nums: [Int], _ target: Int) -> Int {
 
 Find the first version that fails a quality check, minimizing calls to the API.
 
-@Image(source: "modified-binary-search-first-bad-version.codex", alt: "Binary search shrinking range to first bad version")
 
 ```swift
 // Mock API

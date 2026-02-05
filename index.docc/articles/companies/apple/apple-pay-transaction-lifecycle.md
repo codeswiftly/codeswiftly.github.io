@@ -1,16 +1,10 @@
 # Apple Pay Transaction Lifecycle
 
-@PageImage(purpose: card, source: "companies-apple-apple-pay-transaction-lifecycle-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-pay-transaction-lifecycle-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-pay-transaction-lifecycle-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Apple Pay Transaction Lifecycle")
-  @PageImage(purpose: icon, source: "apple-pay-transaction-lifecycle-icon.codex", alt: "Apple Pay Transaction Lifecycle icon")
-  @PageImage(purpose: card, source: "apple-pay-transaction-lifecycle-card.codex", alt: "Apple Pay Transaction Lifecycle card")
 }
 
-@Image(source: "apple-pay-transaction-lifecycle-hero.codex", alt: "Apple Pay Transaction Lifecycle hero")
 
 ## Overview
 
@@ -20,7 +14,6 @@ device-bound network token (DPAN) plus a per-transaction cryptogram.
 This article is a high-level mental model for interviews; card networks and issuers implement the
 details.
 
-![Apple Pay transaction lifecycle diagram](apple-pay-transaction-lifecycle.codex.svg)
 
 ## Actors and Responsibilities
 

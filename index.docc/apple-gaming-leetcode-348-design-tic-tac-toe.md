@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 348 — Design Tic‑Tac‑Toe")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-348-design-tic-tac-toe-icon.codex", alt: "Gaming Deep Dive — 348 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-348-design-tic-tac-toe-card.codex", alt: "Gaming Deep Dive — 348 card")
   @CallToAction(url: "https://leetcode.com/problems/design-tic-tac-toe/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-348-design-tic-tac-toe-hero.codex", alt: "Gaming Deep Dive LeetCode 348 Design Tic Tac Toe hero")
 
 ## Overview
 

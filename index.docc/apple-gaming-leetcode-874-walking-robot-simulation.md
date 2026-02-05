@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 874 — Walking Robot Simulation")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-874-walking-robot-simulation-icon.codex", alt: "Gaming Deep Dive — 874 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-874-walking-robot-simulation-card.codex", alt: "Gaming Deep Dive — 874 card")
   @CallToAction(url: "https://leetcode.com/problems/walking-robot-simulation/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-874-walking-robot-simulation-hero.codex", alt: "Gaming Deep Dive LeetCode 874 Walking Robot Simulation hero")
 
 ## Overview
 

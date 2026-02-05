@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review Heaps vs. Sorted Arrays")
-  @PageImage(purpose: icon, source: "heaps-vs-sorted-arrays-icon.codex", alt: "Heaps vs Sorted Arrays icon")
-  @PageImage(purpose: card, source: "heaps-vs-sorted-arrays-card.codex", alt: "Heaps vs Sorted Arrays card")
 }
 
-@Image(source: "heaps-vs-sorted-arrays-hero.codex", alt: "Heaps vs Sorted Arrays hero")
 
 A common point of confusion is the difference between a Min-Heap and a sorted array, especially since heaps are often implemented using an array. However, their goals, structures, and performance trade-offs are fundamentally different.
 

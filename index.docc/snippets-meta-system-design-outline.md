@@ -1,8 +1,5 @@
 # Meta System Design Outline (Snippet)
 
-@PageImage(purpose: card, source: "snippets-meta-system-design-outline-card.codex", alt: "Placeholder card")
-@Image(source: "snippets-meta-system-design-outline-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "snippets-meta-system-design-outline-icon.codex", alt: "Placeholder icon")
 
 Use this as a typing drill so the “Pirate” interview structure is automatic.
 

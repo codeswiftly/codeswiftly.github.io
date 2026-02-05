@@ -1,14 +1,9 @@
 # Gaming Deep Dive
 
-@PageImage(purpose: card, source: "gaming-deep-dive-card.codex", alt: "Placeholder card")
-@Image(source: "gaming-deep-dive-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "gaming-deep-dive-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(purple)
   @TitleHeading("Gaming Deep Dive")
-  @PageImage(purpose: icon, source: "track-algorithms-icon.codex", alt: "Algorithms icon")
-  @PageImage(purpose: card, source: "apple-gaming-card.codex", alt: "Gaming Deep Dive card")
   @CallToAction(url: "doc:apple-gaming-leetcode-1275-find-winner-on-a-tic-tac-toe-game", label: "Start warmup: Tic‑Tac‑Toe")
 }
 
@@ -17,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-hero.codex", alt: "Gaming Deep Dive hero")
 
 Game‑focused LeetCode progression: model state, simulate rules, and prove correctness with small tests.
 

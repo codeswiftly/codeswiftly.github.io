@@ -3,11 +3,8 @@
 @Metadata {
   @TitleHeading("Own The Day-Of")
   @PageColor(green)
-  @PageImage(purpose: icon, source: "day-of-icon.codex", alt: "Day Of icon")
-  @PageImage(purpose: card, source: "day-of-card.codex", alt: "Day Of card")
 }
 
-@Image(source: "day-of-hero.codex", alt: "Day Of hero")
 
 This is the day your prep becomes presence. Keep the pace calm, the signal high, and your tone
 steady. You do not need to be perfect. You need to be clear, honest, and easy to follow.

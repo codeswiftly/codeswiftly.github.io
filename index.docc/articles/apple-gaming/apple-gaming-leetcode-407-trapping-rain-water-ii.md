@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 407: Trapping Rain Water II
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-407-trapping-rain-water-ii-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-407-trapping-rain-water-ii-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-407-trapping-rain-water-ii-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 407 — Trapping Rain Water II")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-407-trapping-rain-water-ii-icon.codex", alt: "Gaming Deep Dive — 407 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-407-trapping-rain-water-ii-card.codex", alt: "Gaming Deep Dive — 407 card")
   @CallToAction(url: "https://leetcode.com/problems/trapping-rain-water-ii/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-407-trapping-rain-water-ii-hero.codex", alt: "Gaming Deep Dive LeetCode 407 Trapping Rain Water II hero")
 
 ## Overview
 

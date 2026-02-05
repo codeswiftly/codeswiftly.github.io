@@ -1,19 +1,10 @@
 # LeetCode 273: Integer to English Words
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-273-integer-to-english-words-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-273-integer-to-english-words-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-273-integer-to-english-words-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-273-integer-to-english-words-dsa-icon.codex", alt: "Hard problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-273-integer-to-english-words-dsa-card.codex", alt: "Hard problem - Pattern 2 (Two Pointers)")
-}
 
-@Image(source: "leetcode-273-integer-to-english-words-dsa-hero.codex", alt: "Hard problem - Pattern 2 (Two Pointers)")
 
 Convert a non-negative integer `num <= 2^31 - 1` to its English words representation.
 
-@Image(source: "leetcode-273-integer-to-english-words-dsa-top.codex", alt: "Hard problem - Pattern 2 (Two Pointers)")
 
 Solve Hard problem.
 

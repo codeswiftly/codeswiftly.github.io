@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review Lru Cache with an Array (Simple Version)")
-  @PageImage(purpose: icon, source: "lru-cache-array-primer-icon.codex", alt: "Lru Cache with an Array (Simple Version) icon")
-  @PageImage(purpose: card, source: "lru-cache-array-primer-card.codex", alt: "Lru Cache with an Array (Simple Version) card")
 }
 
-@Image(source: "lru-cache-array-primer-hero.codex", alt: "Lru Cache with an Array (Simple Version) hero")
 
 Sometimes you do not need the full complexity of a dictionary + doubly linked list LRU cache. When
 the capacity is small (for example, 16–64 entries), an **array-based** design is often simpler to

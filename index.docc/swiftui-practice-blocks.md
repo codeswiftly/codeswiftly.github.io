@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Practice Blocks")
   @PageImage(
     purpose: icon,
-    source: "swiftui-practice-blocks-icon.codex",
     alt: "SwiftUI Practice Blocks icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-practice-blocks-card.codex",
     alt: "SwiftUI Practice Blocks card"
   )
 }
 
-@Image(source: "swiftui-practice-blocks-hero.codex", alt: "SwiftUI Practice Blocks hero")
 
 Each block isolates one concept you can drill quickly. Copy a block, type it from memory, and
 then explain the tradeoffs out loud.

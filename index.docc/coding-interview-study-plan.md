@@ -3,11 +3,8 @@
 @Metadata {
   @PageColor(blue)
   @TitleHeading("Review Coding Interview Study Plan")
-  @PageImage(purpose: icon, source: "coding-interview-study-plan-icon.codex", alt: "Coding Interview Study Plan icon")
-  @PageImage(purpose: card, source: "coding-interview-study-plan-card.codex", alt: "Coding Interview Study Plan card")
 }
 
-@Image(source: "coding-interview-study-plan-hero.codex", alt: "Coding Interview Study Plan hero")
 
 A 12-week prep plan based on the Tech Interview Handbook study plan. Use it as a template and
 adjust the pacing for your timeline and available hours.

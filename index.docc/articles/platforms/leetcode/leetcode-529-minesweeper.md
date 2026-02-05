@@ -1,20 +1,13 @@
 # LeetCode 529: Minesweeper
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-529-minesweeper-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-529-minesweeper-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-529-minesweeper-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-529-minesweeper-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-529-minesweeper-dsa-card.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/minesweeper/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-529-minesweeper-dsa-hero.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Reveal stops on non-zero adjacent mine counts. } > Warning: 2. Do not revisit cells; track visited or update in place. } }
 
-@Image(source: "leetcode-529-minesweeper-dsa-top.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Reveal squares on a minesweeper board after a click.
 

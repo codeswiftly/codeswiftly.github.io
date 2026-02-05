@@ -1,19 +1,10 @@
 # LeetCode 1372: Longest Zigzag Path in a Binary Tree
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1372-longest-zigzag-path-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1372-longest-zigzag-path-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1372-longest-zigzag-path-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1372-longest-zigzag-path-dsa-icon.codex", alt: "Medium problem - Pattern 10 (Tree BFS)")
-  @PageImage(purpose: card, source: "leetcode-1372-longest-zigzag-path-dsa-card.codex", alt: "Medium problem - Pattern 10 (Tree BFS)")
-}
 
-@Image(source: "leetcode-1372-longest-zigzag-path-dsa-hero.codex", alt: "Medium problem - Pattern 10 (Tree BFS)")
 
 Given the root of a binary tree, return the length (number of edges) of the longest path such that adjacent edges alternate between going left and right. Paths can start at any node and move only downward.
 
-@Image(source: "leetcode-1372-longest-zigzag-path-dsa-top.codex", alt: "Medium problem - Pattern 10 (Tree BFS)")
 
 Solve Medium problem.
 

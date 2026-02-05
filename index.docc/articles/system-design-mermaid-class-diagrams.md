@@ -1,14 +1,9 @@
 # Mermaid Class Diagrams (System Design)
 
-@PageImage(purpose: card, source: "system-design-mermaid-class-diagrams-card.codex", alt: "Placeholder card")
-@Image(source: "system-design-mermaid-class-diagrams-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "system-design-mermaid-class-diagrams-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Mermaid class diagrams reference")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System Design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
 Use this reference for Mermaid class diagrams when modeling object-oriented system design.
@@ -49,7 +44,6 @@ classDiagram
     }
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-01-basic-example.codex.svg", alt: "Basic example diagram")
 
 
 
@@ -63,7 +57,6 @@ classDiagram
     Vehicle <|-- Car
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-02-class-definition.codex.svg", alt: "Class definition diagram")
 
 
 
@@ -78,7 +71,6 @@ classDiagram
     Animal --> Car
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-03-class-labels.codex.svg", alt: "Class labels diagram")
 
 
 
@@ -91,7 +83,6 @@ classDiagram
     `Animal Class!` --> `Car Class`
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-04-class-labels.codex.svg", alt: "Class labels diagram")
 
 
 
@@ -108,7 +99,6 @@ BankAccount : +deposit(amount)
 BankAccount : +withdrawal(amount)
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-05-members.codex.svg", alt: "Members diagram")
 
 
 
@@ -124,7 +114,6 @@ class BankAccount{
 }
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-06-members.codex.svg", alt: "Members diagram")
 
 
 
@@ -140,7 +129,6 @@ class BankAccount{
 }
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-07-members.codex.svg", alt: "Members diagram")
 
 
 
@@ -161,7 +149,6 @@ Square : +getMessages() List~string~
 Square : +getDistanceMatrix() List~List~int~~
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-08-members.codex.svg", alt: "Members diagram")
 
 
 
@@ -193,7 +180,6 @@ classM <|.. classN
 classO .. classP
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-09-relationships.codex.svg", alt: "Relationships diagram")
 
 
 
@@ -211,7 +197,6 @@ classM ..|> classN : Realization
 classO .. classP : Link(Dashed)
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-10-relationships.codex.svg", alt: "Relationships diagram")
 
 
 
@@ -222,7 +207,6 @@ classDiagram
   bar ()-- foo
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-11-relationships.codex.svg", alt: "Relationships diagram")
 
 
 
@@ -239,7 +223,6 @@ namespace BaseShapes {
 }
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-12-namespaces.codex.svg", alt: "Namespaces diagram")
 
 
 
@@ -252,7 +235,6 @@ classDiagram
     Galaxy --> "many" Star : Contains
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-13-cardinality-multiplicity.codex.svg", alt: "Cardinality / multiplicity diagram")
 
 
 
@@ -267,7 +249,6 @@ classDiagram
   <<interface>> Shape
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-14-annotations.codex.svg", alt: "Annotations diagram")
 
 
 
@@ -290,7 +271,6 @@ class Color{
 }
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-15-annotations.codex.svg", alt: "Annotations diagram")
 
 
 
@@ -304,7 +284,6 @@ classDiagram
     }
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-16-notes.codex.svg", alt: "Notes diagram")
 
 
 
@@ -323,7 +302,6 @@ classDiagram
   Student "1" --o "1" IdCard : carries
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-17-direction.codex.svg", alt: "Direction diagram")
 
 
 
@@ -337,7 +315,6 @@ class Shape2
 click Shape2 href "https://www.github.com" "This is a tooltip for a link"
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-18-interaction.codex.svg", alt: "Interaction diagram")
 
 
 
@@ -351,7 +328,6 @@ classDiagram
   style Mineral fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-19-styling.codex.svg", alt: "Styling diagram")
 
 
 
@@ -361,7 +337,6 @@ classDiagram
     classDef someclass fill:#f96
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-20-styling.codex.svg", alt: "Styling diagram")
 
 
 
@@ -376,7 +351,6 @@ classDiagram
   classDef pink color:#f9f
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-21-styling.codex.svg", alt: "Styling diagram")
 
 
 
@@ -394,5 +368,4 @@ classDiagram
   class Duck
 ```
 
-@Image(source: "system-design-mermaid-class-diagrams-22-configuration.codex.svg", alt: "Configuration diagram")
 

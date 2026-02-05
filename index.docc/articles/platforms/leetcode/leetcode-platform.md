@@ -1,14 +1,9 @@
 # LeetCode Platform Guide
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-platform-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-platform-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-platform-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(orange)
   @TitleHeading("Review LeetCode Platform Guide")
-  @PageImage(purpose: icon, source: "leetcode-platform-icon.codex", alt: "LeetCode Platform Guide icon")
-  @PageImage(purpose: card, source: "leetcode-platform-card.codex", alt: "LeetCode Platform Guide card")
 }
 
 @Options {

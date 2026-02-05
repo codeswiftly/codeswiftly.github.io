@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review Mastering iOS Concurrency: a GCD Deep Dive")
-  @PageImage(purpose: icon, source: "concurrency-gcd-deep-dive-icon.codex", alt: "Mastering iOS Concurrency a GCD Deep Dive icon")
-  @PageImage(purpose: card, source: "concurrency-gcd-deep-dive-card.codex", alt: "Mastering iOS Concurrency a GCD Deep Dive card")
 }
 
-@Image(source: "concurrency-gcd-deep-dive-hero.codex", alt: "Mastering iOS Concurrency a GCD Deep Dive hero")
 
 ## Overview
 

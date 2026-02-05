@@ -1,8 +1,5 @@
 # User Feedback vs Usage Reality
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0057-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0057-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0057-icon.codex", alt: "Placeholder icon")
 
 Some of the best learnings come from when user feedback contradicts user behavior. This is a
 high-signal story if you show how you adapted.

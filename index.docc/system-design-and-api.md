@@ -1,13 +1,10 @@
 # System Design and API
 
-@PageImage(purpose: icon, source: "system-design-and-api-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(red)
   @TitleHeading("Map system design tradeoffs")
-  @PageImage(purpose: icon, source: "track-system-design-icon.codex", alt: "System design icon")
   @CallToAction(url: "doc:system-design", label: "Start with the framework")
-  @PageImage(purpose: card, source: "system-design-and-api-card.codex", alt: "System Design and API card")
 }
 
 @Options {
@@ -15,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "system-design-and-api-hero.codex", alt: "System Design and API hero")
 
 Architecture notes and API tradeoffs for mobile and service design.
 

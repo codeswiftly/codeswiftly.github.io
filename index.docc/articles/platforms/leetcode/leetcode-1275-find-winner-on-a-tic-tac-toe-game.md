@@ -1,20 +1,13 @@
 # LeetCode 1275: Find Winner on a Tic Tac Toe Game
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1275-find-winner-on-a-tic-tac-toe-game-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1275-find-winner-on-a-tic-tac-toe-game-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1275-find-winner-on-a-tic-tac-toe-game-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1275-find-winner-on-a-tic-tac-toe-game-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-1275-find-winner-on-a-tic-tac-toe-game-dsa-card.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1275-find-winner-on-a-tic-tac-toe-game-dsa-hero.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Avoid rescanning the board after every move; update counts incrementally. } > Warning: 2. Stop early once a winner is detected. } }
 
-@Image(source: "leetcode-1275-find-winner-on-a-tic-tac-toe-game-dsa-top.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 Given a sequence of moves on a 3x3 board, return the game result.
 

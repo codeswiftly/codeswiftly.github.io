@@ -1,8 +1,5 @@
 # Conflict Learnings: Balancing Tech Debt and Strategy
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0046-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0046-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0046-icon.codex", alt: "Placeholder icon")
 
 This learning emphasizes how to distinguish between debt that can be managed incrementally and
 foundational architecture problems that require dedicated investment.

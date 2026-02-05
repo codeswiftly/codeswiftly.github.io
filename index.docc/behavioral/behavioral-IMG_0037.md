@@ -1,8 +1,5 @@
 # Conflict Resolution Playbook
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0037-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0037-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0037-icon.codex", alt: "Placeholder icon")
 
 The best conflict stories show a sequence of actions that led to clarity and maintained
 relationships.

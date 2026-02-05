@@ -1,14 +1,9 @@
 # Meta Jedi Framework
 
-@PageImage(purpose: card, source: "companies-meta-meta-jedi-framework-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-meta-jedi-framework-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-meta-jedi-framework-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Mastering the Meta Behavioral (Jedi) Interview")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-jedi-framework-icon.codex", alt: "Meta Jedi Framework icon")
-  @PageImage(purpose: card, source: "meta-jedi-framework-card.codex", alt: "Meta Jedi Framework card")
 }
 
 @Options {
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "meta-jedi-framework-hero.codex", alt: "Meta Jedi Framework hero")
 
 Meta's behavioral interview (often called "Jedi") focuses on how you handle conflict, drive impact, and navigate ambiguity. To avoid downleveling, you must demonstrate **Senior/Staff** traits: identifying problems proactively, resolving conflict with data, and owning outcomes.
 

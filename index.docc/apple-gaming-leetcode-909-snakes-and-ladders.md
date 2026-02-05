@@ -3,8 +3,6 @@
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 909: Snakes and Ladders")
   @CallToAction(url: "https://leetcode.com/problems/snakes-and-ladders/", label: "Solve on LeetCode")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-909-snakes-and-ladders-icon.codex", alt: "Gaming Deep Dive LeetCode 909 Snakes and Ladders icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-909-snakes-and-ladders-card.codex", alt: "Gaming Deep Dive LeetCode 909 Snakes and Ladders card")
 }
 
 @Options {
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-909-snakes-and-ladders-hero.codex", alt: "Gaming Deep Dive LeetCode 909 Snakes and Ladders hero")
 
 ## Overview
 

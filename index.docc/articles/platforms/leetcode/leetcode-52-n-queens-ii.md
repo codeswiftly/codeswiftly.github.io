@@ -1,20 +1,13 @@
 # LeetCode 52: N-Queens II
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-52-n-queens-ii-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-52-n-queens-ii-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-52-n-queens-ii-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-52-n-queens-ii-dsa-icon.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
-  @PageImage(purpose: card, source: "leetcode-52-n-queens-ii-dsa-card.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
   @CallToAction(url: "https://leetcode.com/problems/n-queens-ii/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-52-n-queens-ii-dsa-hero.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
 
 > Warning: 1. Counting solutions still needs the same pruning as the full board version. } > Warning: 2. Use integer counters instead of storing boards. } }
 
-@Image(source: "leetcode-52-n-queens-ii-dsa-top.codex", alt: "Hard problem - Pattern 14 (Backtracking)")
 
 Return the count of valid n-queens placements.
 

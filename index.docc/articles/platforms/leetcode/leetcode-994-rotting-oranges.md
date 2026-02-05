@@ -1,8 +1,5 @@
 # LeetCode 994: Rotting Oranges
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-994-rotting-oranges-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-994-rotting-oranges-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-994-rotting-oranges-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @CallToAction(url: "https://leetcode.com/problems/rotting-oranges/", label: "Solve on LeetCode")

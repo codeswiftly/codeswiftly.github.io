@@ -1,16 +1,10 @@
 # HackerRank -- Insertion Sort (Part 2)
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-insertion-sort-part-2-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-insertion-sort-part-2-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-insertion-sort-part-2-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Insertion Sort (Part 2)")
-  @PageImage(purpose: icon, source: "difficulty-easy.codex", alt: "Easy problem")
-  @PageImage(purpose: card, source: "hackerrank-insertion-sort-part-2-card.codex", alt: "HackerRank Insertion Sort (Part 2) card")
 }
 
-@Image(source: "hackerrank-insertion-sort-part-2-hero.codex", alt: "HackerRank Insertion Sort (Part 2) hero")
 
 ## Problem Restatement
 

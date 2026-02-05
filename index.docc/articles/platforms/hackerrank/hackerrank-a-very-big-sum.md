@@ -1,16 +1,10 @@
 # HackerRank -- a Very Big Sum
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-a-very-big-sum-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-a-very-big-sum-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-a-very-big-sum-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- a Very Big Sum")
-  @PageImage(purpose: icon, source: "difficulty-easy.codex", alt: "Easy problem")
-  @PageImage(purpose: card, source: "hackerrank-a-very-big-sum-card.codex", alt: "HackerRank a Very Big Sum card")
 }
 
-@Image(source: "hackerrank-a-very-big-sum-hero.codex", alt: "HackerRank a Very Big Sum hero")
 
 ## Problem Restatement
 

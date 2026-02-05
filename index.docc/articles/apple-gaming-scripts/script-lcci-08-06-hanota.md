@@ -1,14 +1,10 @@
 # Script — LCCI 08.06: Hanota (Towers of Hanoi) (3:00)
 
-@PageImage(purpose: card, source: "apple-gaming-scripts-script-lcci-08-06-hanota-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-scripts-script-lcci-08-06-hanota-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-scripts-script-lcci-08-06-hanota-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Script — LCCI 08.06 Hanota")
 }
 
-@Image(source: "script-lcci-08-06-hanota-hero.codex", alt: "Script LCCI 08 06 Hanota (Towers of Hanoi) (3 00) hero")
 
 Pattern Focus: Recursion with invariant — move n‑1 to aux, move bottom to target, move n‑1 from aux to target.
 

@@ -3,11 +3,8 @@
 @Metadata {
   @TitleHeading("Review System Design")
     @PageColor(orange)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System Design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System Design card")
 }
 
-@Image(source: "system-design-hero.codex", alt: "System Design hero")
 
 ## Mobile-focused Prompts
 

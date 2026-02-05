@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 657 — Robot Return to Origin")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-657-robot-return-to-origin-icon.codex", alt: "Gaming Deep Dive — 657 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-657-robot-return-to-origin-card.codex", alt: "Gaming Deep Dive — 657 card")
   @CallToAction(url: "https://leetcode.com/problems/robot-return-to-origin/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-657-robot-return-to-origin-hero.codex", alt: "Gaming Deep Dive LeetCode 657 Robot Return to Origin hero")
 
 ## Overview
 

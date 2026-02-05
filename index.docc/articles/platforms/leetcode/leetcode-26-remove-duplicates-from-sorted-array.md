@@ -1,19 +1,10 @@
 # LeetCode 26: Remove Duplicates from Sorted Array
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-26-remove-duplicates-from-sorted-array-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-26-remove-duplicates-from-sorted-array-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-26-remove-duplicates-from-sorted-array-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-26-remove-duplicates-from-sorted-array-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-  @PageImage(purpose: card, source: "leetcode-26-remove-duplicates-from-sorted-array-dsa-card.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
-}
 
-@Image(source: "leetcode-26-remove-duplicates-from-sorted-array-dsa-hero.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Given a non-decreasing array `nums`, remove duplicates in-place so each unique element appears once. Return `k` = number of unique elements. The first `k` positions must hold the uniques; contents after `k` are...
 
-@Image(source: "leetcode-26-remove-duplicates-from-sorted-array-dsa-top.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")
 
 Solve Easy problem.
 

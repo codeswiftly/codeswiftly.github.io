@@ -1,8 +1,5 @@
 # Conflict Learnings: Business Framing and Solution-first
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0043-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0043-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0043-icon.codex", alt: "Placeholder icon")
 
 The strongest learning from conflict stories is the ability to translate technical risk into
 business consequences and to propose a solution alongside the problem.

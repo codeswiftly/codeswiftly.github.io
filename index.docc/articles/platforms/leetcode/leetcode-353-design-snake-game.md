@@ -1,20 +1,13 @@
 # LeetCode 353: Design Snake Game
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-353-design-snake-game-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-353-design-snake-game-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-353-design-snake-game-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-353-design-snake-game-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-353-design-snake-game-dsa-card.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/design-snake-game/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-353-design-snake-game-dsa-hero.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Use a queue and set for O(1) body updates and collision checks. } > Warning: 2. Remove the tail before checking self-collision on non-food moves. } }
 
-@Image(source: "leetcode-353-design-snake-game-dsa-top.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")
 
 Design a Snake game that reports score after each move.
 

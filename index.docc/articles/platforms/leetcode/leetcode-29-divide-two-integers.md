@@ -1,19 +1,10 @@
 # LeetCode 29: Divide Two Integers
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-29-divide-two-integers-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-29-divide-two-integers-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-29-divide-two-integers-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-29-divide-two-integers-dsa-icon.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
-  @PageImage(purpose: card, source: "leetcode-29-divide-two-integers-dsa-card.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
-}
 
-@Image(source: "leetcode-29-divide-two-integers-dsa-hero.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
 
 Divide two 32-bit signed integers without using multiplication, division, or mod. Truncate toward zero. If the result overflows 32-bit (`> Int32.max` or `< Int32.min`), clamp to `Int32.max`.
 
-@Image(source: "leetcode-29-divide-two-integers-dsa-top.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")
 
 Solve Medium problem.
 

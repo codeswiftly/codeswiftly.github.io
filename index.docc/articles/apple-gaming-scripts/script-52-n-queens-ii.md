@@ -1,14 +1,10 @@
 # Script — LeetCode 52: N‑Queens II (3:00)
 
-@PageImage(purpose: card, source: "apple-gaming-scripts-script-52-n-queens-ii-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-scripts-script-52-n-queens-ii-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-scripts-script-52-n-queens-ii-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Script — 52 N‑Queens II")
 }
 
-@Image(source: "script-52-n-queens-ii-hero.codex", alt: "Script LeetCode 52 N Queens II (3 00) hero")
 
 Pattern Focus: Same as 51 but count solutions only; use bitmasks for speed if desired.
 

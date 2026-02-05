@@ -1,20 +1,13 @@
 # LeetCode 909: Snakes and Ladders
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-909-snakes-and-ladders-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-909-snakes-and-ladders-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-909-snakes-and-ladders-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-909-snakes-and-ladders-dsa-icon.codex", alt: "Medium problem - Pattern 12 (Graph BFS)")
-  @PageImage(purpose: card, source: "leetcode-909-snakes-and-ladders-dsa-card.codex", alt: "Medium problem - Pattern 12 (Graph BFS)")
   @CallToAction(url: "https://leetcode.com/problems/snakes-and-ladders/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-909-snakes-and-ladders-dsa-hero.codex", alt: "Medium problem - Pattern 12 (Graph BFS)")
 
 > Warning: 1. Map 1-based squares to board coordinates correctly. } > Warning: 2. Use BFS to guarantee minimum moves. } }
 
-@Image(source: "leetcode-909-snakes-and-ladders-dsa-top.codex", alt: "Medium problem - Pattern 12 (Graph BFS)")
 
 Return the minimum number of moves to reach the final square.
 

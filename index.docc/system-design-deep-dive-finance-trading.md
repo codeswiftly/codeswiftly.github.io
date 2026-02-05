@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review System Design Deep Dive -- Trading // Finance (Robinhood-Style)")
-  @PageImage(purpose: icon, source: "system-design-deep-dive-finance-trading-icon.codex", alt: "System Design Deep Dive Trading Finance (Robinhood Style) icon")
-  @PageImage(purpose: card, source: "system-design-deep-dive-finance-trading-card.codex", alt: "System Design Deep Dive Trading Finance (Robinhood Style) card")
 }
 
-@Image(source: "system-design-deep-dive-finance-trading-hero.codex", alt: "System Design Deep Dive Trading Finance (Robinhood Style) hero")
 
 This deep dive uses Robinhood-style interview problems (order book, rate limiter, fractional
 shares, stock tracker) to outline how to design **retail trading systems**:

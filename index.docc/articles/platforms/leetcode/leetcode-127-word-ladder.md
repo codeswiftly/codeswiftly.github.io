@@ -1,19 +1,10 @@
 # LeetCode 127: Word Ladder
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-127-word-ladder-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-127-word-ladder-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-127-word-ladder-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-127-word-ladder-dsa-icon.codex", alt: "Hard problem - Pattern 12 (Graph BFS)")
-  @PageImage(purpose: card, source: "leetcode-127-word-ladder-dsa-card.codex", alt: "Hard problem - Pattern 12 (Graph BFS)")
-}
 
-@Image(source: "leetcode-127-word-ladder-dsa-hero.codex", alt: "Hard problem - Pattern 12 (Graph BFS)")
 
 Find the shortest transformation sequence from `beginWord` to `endWord` using one-letter changes.
 
-@Image(source: "leetcode-127-word-ladder-dsa-top.codex", alt: "Hard problem - Pattern 12 (Graph BFS)")
 
 Solve Hard problem.
 

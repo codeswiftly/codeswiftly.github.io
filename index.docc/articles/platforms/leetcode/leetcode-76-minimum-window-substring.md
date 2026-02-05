@@ -1,19 +1,10 @@
 # LeetCode 76: Minimum Window Substring
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-76-minimum-window-substring-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-76-minimum-window-substring-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-76-minimum-window-substring-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-76-minimum-window-substring-dsa-icon.codex", alt: "Hard problem - Pattern 3 (Sliding Window)")
-  @PageImage(purpose: card, source: "leetcode-76-minimum-window-substring-dsa-card.codex", alt: "Hard problem - Pattern 3 (Sliding Window)")
-}
 
-@Image(source: "leetcode-76-minimum-window-substring-dsa-hero.codex", alt: "Hard problem - Pattern 3 (Sliding Window)")
 
 Find the smallest substring of `s` that contains all characters of `t` (including duplicates).
 
-@Image(source: "leetcode-76-minimum-window-substring-dsa-top.codex", alt: "Hard problem - Pattern 3 (Sliding Window)")
 
 Solve Hard problem.
 

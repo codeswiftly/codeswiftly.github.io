@@ -1,19 +1,12 @@
 # Meta Final Coding: Validate Number String
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-validate-number-string-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-validate-number-string-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-validate-number-string-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Validate a numeric string")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-validate-number-string-icon.codex", alt: "Validate a numeric string icon")
-  @PageImage(purpose: card, source: "meta-final-coding-validate-number-string-card.codex", alt: "Validate a numeric string card")
 }
 
-@Image(source: "meta-final-coding-validate-number-string-hero.codex", alt: "Meta Final Coding Validate Number String hero")
 
-@Image(source: "meta-final-coding-validate-number-string-diagram.codex", alt: "Parsing digits and decimal")
 
 ## Practice Context
 
@@ -30,7 +23,6 @@ Validate whether a string represents a number (examples: `123.0`, `-79.0`).
 
 Validation states:
 
-@Image(source: "meta-final-coding-validate-number-string-states.codex", alt: "Simple validation state flow")
 
 ### Complexity
 

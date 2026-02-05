@@ -1,16 +1,10 @@
 # Processing Iso 18013-5 Identity Data
 
-@PageImage(purpose: card, source: "companies-apple-apple-wallet-iso18013-data-processing-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-wallet-iso18013-data-processing-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-wallet-iso18013-data-processing-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Processing Iso 18013-5 Identity Data")
-  @PageImage(purpose: icon, source: "apple-wallet-iso18013-data-processing-icon.codex", alt: "Processing Iso 18013 5 Identity Data icon")
-  @PageImage(purpose: card, source: "apple-wallet-iso18013-data-processing-card.codex", alt: "Processing Iso 18013 5 Identity Data card")
 }
 
-@Image(source: "apple-wallet-iso18013-data-processing-hero.codex", alt: "Processing Iso 18013 5 Identity Data hero")
 
 ## Overview
 

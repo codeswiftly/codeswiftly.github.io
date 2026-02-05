@@ -3,8 +3,6 @@
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1823: Find the Winner of the Circular Game")
   @CallToAction(url: "https://leetcode.com/problems/find-the-winner-of-the-circular-game/", label: "Solve on LeetCode")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1823-find-the-winner-of-the-circular-game-icon.codex", alt: "Gaming Deep Dive LeetCode 1823 Find the Winner of the Circular Game icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1823-find-the-winner-of-the-circular-game-card.codex", alt: "Gaming Deep Dive LeetCode 1823 Find the Winner of the Circular Game card")
 }
 
 @Options {
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1823-find-the-winner-of-the-circular-game-hero.codex", alt: "Gaming Deep Dive LeetCode 1823 Find the Winner of the Circular Game hero")
 
 ## Overview
 

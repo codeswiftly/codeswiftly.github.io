@@ -1,16 +1,10 @@
 # CoderPad: 2048-Bonacci
 
-@PageImage(purpose: card, source: "platforms-coderpad-coderpad-2048-bonacci-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-coderpad-coderpad-2048-bonacci-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-coderpad-coderpad-2048-bonacci-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review CoderPad: 2048-Bonacci")
-  @PageImage(purpose: icon, source: "difficulty-medium.codex", alt: "Medium problem")
-  @PageImage(purpose: card, source: "coderpad-2048-bonacci-card.codex", alt: "CoderPad 2048 Bonacci card")
 }
 
-@Image(source: "coderpad-2048-bonacci-hero.codex", alt: "CoderPad 2048 Bonacci hero")
 
 ## Overview
 

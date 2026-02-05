@@ -1,17 +1,11 @@
 # Swift Data Processing Pipelines in `Code/Mono`
 
-@PageImage(purpose: card, source: "swift-swift-data-processing-pipelines-in-mono-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-data-processing-pipelines-in-mono-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-data-processing-pipelines-in-mono-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Swift Data Processing Pipelines in `Code/Mono`")
     @PageColor(blue)
-  @PageImage(purpose: icon, source: "swift-data-processing-pipelines-in-mono-icon.codex", alt: "Swift Data Processing Pipelines in Code Mono icon")
-  @PageImage(purpose: card, source: "swift-data-processing-pipelines-in-mono-card.codex", alt: "Swift Data Processing Pipelines in Code Mono card")
 }
 
-@Image(source: "swift-data-processing-pipelines-in-mono-hero.codex", alt: "Swift Data Processing Pipelines in Code Mono hero")
 
 Use this sheet to talk through concrete, real-world data processing pipelines from the `code/mono`
 workspace. Each example shows:

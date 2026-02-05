@@ -1,13 +1,10 @@
 # Algorithms and Patterns
 
-@PageImage(purpose: icon, source: "algorithms-and-patterns-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(orange)
   @TitleHeading("Review Algorithms and Patterns")
-  @PageImage(purpose: icon, source: "track-algorithms-icon.codex", alt: "Algorithms and patterns icon")
   @CallToAction(url: "doc:top-15-patterns", label: "Start with patterns")
-  @PageImage(purpose: card, source: "algorithms-and-patterns-card.codex", alt: "Algorithms and Patterns card")
 }
 
 @Options {
@@ -15,7 +12,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "algorithms-and-patterns-hero.codex", alt: "Algorithms and Patterns hero")
 
 Core data structures, patterns, and reusable algorithm scaffolds.
 

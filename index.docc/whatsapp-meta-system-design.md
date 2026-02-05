@@ -1,16 +1,11 @@
 # Whatsapp Meta System Design
 
-@PageImage(purpose: card, source: "whatsapp-meta-system-design-card.codex", alt: "Placeholder card")
-@PageImage(purpose: icon, source: "whatsapp-meta-system-design-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("WhatsApp-style system design (Meta)")
   @PageColor(orange)
-  @PageImage(purpose: icon, source: "system-design-icon.codex", alt: "System design icon")
-  @PageImage(purpose: card, source: "system-design-card.codex", alt: "System design card")
 }
 
-@Image(source: "whatsapp-meta-system-design-hero.codex", alt: "Whatsapp meta system design hero")
 
 Use this scaffold to rehearse a WhatsApp-style system design answer with Meta interview pacing.
 Anchor on <doc:generic-ios-meta-system-design>.

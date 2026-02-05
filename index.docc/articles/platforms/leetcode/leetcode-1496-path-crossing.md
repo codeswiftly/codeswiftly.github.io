@@ -1,20 +1,13 @@
 # LeetCode 1496: Path Crossing
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-1496-path-crossing-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-1496-path-crossing-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1496-path-crossing-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
-  @PageImage(purpose: icon, source: "leetcode-1496-path-crossing-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
-  @PageImage(purpose: card, source: "leetcode-1496-path-crossing-dsa-card.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
   @CallToAction(url: "https://leetcode.com/problems/path-crossing/", label: "Solve on LeetCode")
 }
 
-@Image(source: "leetcode-1496-path-crossing-dsa-hero.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 > Warning: 1. Track every visited coordinate, not just turns. } > Warning: 2. Use a hash set to detect revisits quickly. } }
 
-@Image(source: "leetcode-1496-path-crossing-dsa-top.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")
 
 Determine if a path crosses itself while moving on a grid.
 

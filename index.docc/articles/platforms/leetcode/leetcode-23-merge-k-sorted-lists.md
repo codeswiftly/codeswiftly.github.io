@@ -1,19 +1,10 @@
 # LeetCode 23: Merge K Sorted Lists
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-23-merge-k-sorted-lists-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-23-merge-k-sorted-lists-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-23-merge-k-sorted-lists-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-23-merge-k-sorted-lists-dsa-icon.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
-  @PageImage(purpose: card, source: "leetcode-23-merge-k-sorted-lists-dsa-card.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
-}
 
-@Image(source: "leetcode-23-merge-k-sorted-lists-dsa-hero.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
 
 Merge `k` sorted linked lists into one sorted list.
 
-@Image(source: "leetcode-23-merge-k-sorted-lists-dsa-top.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")
 
 Solve Hard problem.
 

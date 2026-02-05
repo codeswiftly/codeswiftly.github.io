@@ -1,14 +1,10 @@
 # Pattern 11: Depth-First Search
 
-@Image(source: "pattern-depth-first-search-hero.codex", alt: "Placeholder hero")
 
 @Metadata {
   @TitleHeading("Practice Depth-First Search")
-  @PageImage(purpose: icon, source: "pattern-depth-first-search-icon.codex", alt: "Pattern 11: Depth-First Search icon")
-  @PageImage(purpose: card, source: "pattern-depth-first-search-card.codex", alt: "Pattern 11: Depth-First Search card")
 }
 
-@Image(source: "depth-first-search-diagram.codex", alt: "DFS exploration path")
 
 Explore as far as possible along each branch before backtracking.
 

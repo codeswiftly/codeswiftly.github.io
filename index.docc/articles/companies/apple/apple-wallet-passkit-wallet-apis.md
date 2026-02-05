@@ -1,16 +1,10 @@
 # Wallet Apis in PassKit
 
-@PageImage(purpose: card, source: "companies-apple-apple-wallet-passkit-wallet-apis-card.codex", alt: "Placeholder card")
-@Image(source: "companies-apple-apple-wallet-passkit-wallet-apis-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-apple-apple-wallet-passkit-wallet-apis-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Wallet Apis in PassKit")
-  @PageImage(purpose: icon, source: "apple-wallet-passkit-wallet-apis-icon.codex", alt: "Wallet Apis in PassKit icon")
-  @PageImage(purpose: card, source: "apple-wallet-passkit-wallet-apis-card.codex", alt: "Wallet Apis in PassKit card")
 }
 
-@Image(source: "apple-wallet-passkit-wallet-apis-hero.codex", alt: "Wallet Apis in PassKit hero")
 
 ## Overview
 

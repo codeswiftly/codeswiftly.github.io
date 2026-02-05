@@ -1,8 +1,5 @@
 # Takeaway-driven Table of Contents
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0008-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0008-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0008-icon.codex", alt: "Placeholder icon")
 
 A table of contents is not just a list of phases. It is a framing device that tells the
 interviewer what to conclude about you after each section.

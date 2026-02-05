@@ -1,19 +1,10 @@
 # LeetCode 560: Subarray Sum Equals K
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-560-subarray-sum-equals-k-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-560-subarray-sum-equals-k-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-560-subarray-sum-equals-k-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-560-subarray-sum-equals-k-dsa-icon.codex", alt: "Medium problem - Pattern 1 (Prefix Sum)")
-  @PageImage(purpose: card, source: "leetcode-560-subarray-sum-equals-k-dsa-card.codex", alt: "Medium problem - Pattern 1 (Prefix Sum)")
-}
 
-@Image(source: "leetcode-560-subarray-sum-equals-k-dsa-hero.codex", alt: "Medium problem - Pattern 1 (Prefix Sum)")
 
 Given an integer array `nums` and integer `k`, return the number of contiguous subarrays whose sum equals `k`.
 
-@Image(source: "leetcode-560-subarray-sum-equals-k-dsa-top.codex", alt: "Medium problem - Pattern 1 (Prefix Sum)")
 
 Solve Medium problem.
 

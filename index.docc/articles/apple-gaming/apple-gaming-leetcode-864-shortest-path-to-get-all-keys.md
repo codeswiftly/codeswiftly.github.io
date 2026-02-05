@@ -1,13 +1,8 @@
 # Gaming Deep Dive — LeetCode 864: Shortest Path to Get All Keys
 
-@PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-864-shortest-path-to-get-all-keys-card.codex", alt: "Placeholder card")
-@Image(source: "apple-gaming-apple-gaming-leetcode-864-shortest-path-to-get-all-keys-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-864-shortest-path-to-get-all-keys-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 864 — Shortest Path to Get All Keys")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-864-shortest-path-to-get-all-keys-icon.codex", alt: "Gaming Deep Dive — 864 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-864-shortest-path-to-get-all-keys-card.codex", alt: "Gaming Deep Dive — 864 card")
   @CallToAction(url: "https://leetcode.com/problems/shortest-path-to-get-all-keys/", label: "Solve on LeetCode")
 }
 
@@ -16,7 +11,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-864-shortest-path-to-get-all-keys-hero.codex", alt: "Gaming Deep Dive LeetCode 864 Shortest Path to Get All Keys hero")
 
 ## Overview
 

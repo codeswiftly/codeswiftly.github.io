@@ -5,17 +5,14 @@
   @TitleHeading("Review SwiftUI Environment and Storage")
   @PageImage(
     purpose: icon,
-    source: "swiftui-environment-and-storage-icon.codex",
     alt: "SwiftUI Environment and Storage icon"
   )
   @PageImage(
     purpose: card,
-    source: "swiftui-environment-and-storage-card.codex",
     alt: "SwiftUI Environment and Storage card"
   )
 }
 
-@Image(source: "swiftui-environment-and-storage-hero.codex", alt: "SwiftUI Environment and Storage hero")
 
 `@Environment` and storage wrappers are about read-only context and persistence. Use them to
 avoid prop drilling and to keep user preferences stable across launches.

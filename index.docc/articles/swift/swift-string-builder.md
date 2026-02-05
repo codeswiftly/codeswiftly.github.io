@@ -1,16 +1,10 @@
 # Swift String Builder Patterns
 
-@PageImage(purpose: card, source: "swift-swift-string-builder-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-string-builder-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-string-builder-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Swift String Builder Patterns")
-  @PageImage(purpose: icon, source: "swift-string-builder-icon.codex", alt: "Swift String Builder Patterns icon")
-  @PageImage(purpose: card, source: "swift-string-builder-card.codex", alt: "Swift String Builder Patterns card")
 }
 
-@Image(source: "swift-string-builder-hero.codex", alt: "Swift String Builder Patterns hero")
 
 Build strings predictably without wasting memory or time, especially in interview settings where
 you need clear intent.

@@ -1,16 +1,10 @@
 # HackerRank -- Array Left Rotation
 
-@PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-rot-left-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-hackerrank-hackerrank-rot-left-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-rot-left-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Array Left Rotation")
-  @PageImage(purpose: icon, source: "difficulty-easy.codex", alt: "Easy problem")
-  @PageImage(purpose: card, source: "hackerrank-rot-left-card.codex", alt: "HackerRank Array Left Rotation card")
 }
 
-@Image(source: "hackerrank-rot-left-hero.codex", alt: "HackerRank Array Left Rotation hero")
 
 ## Problem Restatement
 

@@ -1,19 +1,10 @@
 # LeetCode 297: Serialize and Deserialize Binary Tree
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-297-serialize-and-deserialize-binary-tree-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-297-serialize-and-deserialize-binary-tree-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-297-serialize-and-deserialize-binary-tree-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-297-serialize-and-deserialize-binary-tree-dsa-icon.codex", alt: "Hard problem - Pattern 11 (DFS)")
-  @PageImage(purpose: card, source: "leetcode-297-serialize-and-deserialize-binary-tree-dsa-card.codex", alt: "Hard problem - Pattern 11 (DFS)")
-}
 
-@Image(source: "leetcode-297-serialize-and-deserialize-binary-tree-dsa-hero.codex", alt: "Hard problem - Pattern 11 (DFS)")
 
 Serialize a binary tree to a string and restore it back to the same structure.
 
-@Image(source: "leetcode-297-serialize-and-deserialize-binary-tree-dsa-top.codex", alt: "Hard problem - Pattern 11 (DFS)")
 
 Solve Hard problem.
 

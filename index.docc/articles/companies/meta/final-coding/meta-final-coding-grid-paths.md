@@ -1,19 +1,12 @@
 # Meta Final Coding: Grid Paths
 
-@PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-grid-paths-card.codex", alt: "Placeholder card")
-@Image(source: "companies-meta-final-coding-meta-final-coding-grid-paths-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-grid-paths-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("All paths in an N x N grid")
   @PageColor(blue)
-  @PageImage(purpose: icon, source: "meta-final-coding-grid-paths-icon.codex", alt: "All paths in an N x N grid icon")
-  @PageImage(purpose: card, source: "meta-final-coding-grid-paths-card.codex", alt: "All paths in an N x N grid card")
 }
 
-@Image(source: "meta-final-coding-grid-paths-hero.codex", alt: "Meta Final Coding Grid Paths hero")
 
-@Image(source: "meta-final-coding-grid-paths-diagram.codex", alt: "Grid paths using D and R steps")
 
 ## Practice Context
 

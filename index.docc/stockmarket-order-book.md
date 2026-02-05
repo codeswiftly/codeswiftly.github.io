@@ -1,13 +1,10 @@
 # Stockmarket Order Book
 
-@PageImage(purpose: icon, source: "stockmarket-order-book-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Stockmarket order book")
-  @PageImage(purpose: card, source: "stockmarket-order-book-card.codex", alt: "Stockmarket order book card")
 }
 
-@Image(source: "stockmarket-order-book-hero.codex", alt: "Stockmarket order book hero")
 
 ## Overview
 

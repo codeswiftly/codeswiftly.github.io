@@ -1,19 +1,10 @@
 # LeetCode LCCI 08.06: Hanota
 
-@PageImage(purpose: card, source: "platforms-leetcode-leetcode-lcci-08-06-hanota-card.codex", alt: "Placeholder card")
-@Image(source: "platforms-leetcode-leetcode-lcci-08-06-hanota-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "platforms-leetcode-leetcode-lcci-08-06-hanota-icon.codex", alt: "Placeholder icon")
 
-@Metadata {
-  @PageImage(purpose: icon, source: "leetcode-lcci-08-06-hanota-dsa-icon.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
-  @PageImage(purpose: card, source: "leetcode-lcci-08-06-hanota-dsa-card.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
-}
 
-@Image(source: "leetcode-lcci-08-06-hanota-dsa-hero.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 > Warning: 1. Ensure the recursion base case moves exactly one disk. } > Warning: 2. Do not mutate stacks out of order. } }
 
-@Image(source: "leetcode-lcci-08-06-hanota-dsa-top.codex", alt: "Medium problem - Pattern 14 (Backtracking)")
 
 Link: <https://leetcode.cn/problems/hanota-lcci/> Move disks between pegs following the classic Towers of Hanoi rules.
 

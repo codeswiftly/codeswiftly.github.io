@@ -1,8 +1,5 @@
 # Conflict Stories Across Cultural Contexts
 
-@PageImage(purpose: card, source: "behavioral-behavioral-img_0054-card.codex", alt: "Placeholder card")
-@Image(source: "behavioral-behavioral-img_0054-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "behavioral-behavioral-img_0054-icon.codex", alt: "Placeholder icon")
 
 Not every workplace rewards direct conflict. If your prior organization was hierarchical or
 conflict-avoidant, add context so the interviewer can interpret your choices correctly.

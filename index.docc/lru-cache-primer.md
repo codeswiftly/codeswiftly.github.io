@@ -2,11 +2,8 @@
 
 @Metadata {
   @TitleHeading("Review Lru Cache Primer (Dictionary ++ Linked List)")
-  @PageImage(purpose: icon, source: "lru-cache-primer-icon.codex", alt: "Lru Cache Primer (Dictionary ++ Linked List) icon")
-  @PageImage(purpose: card, source: "lru-cache-primer-card.codex", alt: "Lru Cache Primer (Dictionary ++ Linked List) card")
 }
 
-@Image(source: "lru-cache-primer-hero.codex", alt: "Lru Cache Primer (Dictionary ++ Linked List) hero")
 
 Use this as a mental model and code template for designing a classic **Least Recently Used (LRU)
 cache** in Swift using a dictionary and a doubly linked list.

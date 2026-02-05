@@ -1,16 +1,10 @@
 # Tree Basics and Traversals
 
-@PageImage(purpose: card, source: "swift-swift-tree-basics-card.codex", alt: "Placeholder card")
-@Image(source: "swift-swift-tree-basics-hero.codex", alt: "Placeholder hero")
-@PageImage(purpose: icon, source: "swift-swift-tree-basics-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Tree Basics and Traversals")
-  @PageImage(purpose: icon, source: "swift-tree-basics.codex", alt: "Tree basics icon")
-  @PageImage(purpose: card, source: "swift-tree-basics-card.codex", alt: "Tree basics card")
 }
 
-@Image(source: "swift-tree-basics-hero.codex", alt: "Tree Basics and Traversals hero")
 
 ## Simple Binary Tree Node
 

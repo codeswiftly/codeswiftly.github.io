@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1691 — Maximum Height by Stacking Cuboids")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-1691-maximum-height-by-stacking-cuboids-icon.codex", alt: "Gaming Deep Dive — 1691 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-1691-maximum-height-by-stacking-cuboids-card.codex", alt: "Gaming Deep Dive — 1691 card")
   @CallToAction(url: "https://leetcode.com/problems/maximum-height-by-stacking-cuboids/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-1691-maximum-height-by-stacking-cuboids-hero.codex", alt: "Gaming Deep Dive LeetCode 1691 Maximum Height by Stacking Cuboids hero")
 
 ## Overview
 

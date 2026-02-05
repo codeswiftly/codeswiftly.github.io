@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 52 — N‑Queens II")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-52-n-queens-ii-icon.codex", alt: "Gaming Deep Dive — 52 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-52-n-queens-ii-card.codex", alt: "Gaming Deep Dive — 52 card")
   @CallToAction(url: "https://leetcode.com/problems/n-queens-ii/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-52-n-queens-ii-hero.codex", alt: "Gaming Deep Dive LeetCode 52 N Queens II hero")
 
 ## Overview
 

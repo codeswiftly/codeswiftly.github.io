@@ -2,8 +2,6 @@
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 529 — Minesweeper")
-  @PageImage(purpose: icon, source: "apple-gaming-leetcode-529-minesweeper-icon.codex", alt: "Gaming Deep Dive — 529 icon")
-  @PageImage(purpose: card, source: "apple-gaming-leetcode-529-minesweeper-card.codex", alt: "Gaming Deep Dive — 529 card")
   @CallToAction(url: "https://leetcode.com/problems/minesweeper/", label: "Solve on LeetCode")
 }
 
@@ -12,7 +10,6 @@
   @AutomaticSeeAlso(disabled)
 }
 
-@Image(source: "apple-gaming-leetcode-529-minesweeper-hero.codex", alt: "Gaming Deep Dive LeetCode 529 Minesweeper hero")
 
 ## Overview
 
