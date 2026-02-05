@@ -22,15 +22,15 @@ interview answers; each section should become its own deeper page.
 
 0:00 - 4:00: Problem framing (users, core job, constraints, success metrics).
 
-4:00 - 8:00: Architecture stack. Diagram: <doc:system-design-mermaid-prompts#Prompt-1-framework-stack>.
+4:00 - 8:00: Architecture stack. Diagram: <doc:system-design-mermaid-prompts#prompt-1-framework-stack>.
 
-8:00 - 13:00: Primary data flow. Diagram: <doc:system-design-mermaid-prompts#Prompt-3-simple-API-flow>.
+8:00 - 13:00: Primary data flow. Diagram: <doc:system-design-mermaid-prompts#prompt-3-simple-api-flow>.
 
 13:00 - 17:00: Offline and sync plan. Diagram:
-<doc:system-design-mermaid-prompts#Prompt-4-storing-data-offline>.
+<doc:system-design-mermaid-prompts#prompt-4-storing-data-offline>.
 
 17:00 - 21:00: Protocol boundaries and test seams. Diagram:
-<doc:system-design-mermaid-prompts#Prompt-2-protocol-boundary>.
+<doc:system-design-mermaid-prompts#prompt-2-protocol-boundary>.
 
 21:00 - 28:00: Scaling and performance (cache, pagination, fanout, rate limits).
 
@@ -65,10 +65,10 @@ interview answers; each section should become its own deeper page.
 
 Optional (only if asked):
 
-5) Feed ranking: <doc:system-design-mermaid-prompts#Prompt-8-feed-ranking>
-6) Realtime messaging: <doc:system-design-mermaid-prompts#Prompt-7-realtime-messaging>
-7) Media upload pipeline: <doc:system-design-mermaid-prompts#Prompt-5-media-upload-pipeline>
-8) Push notifications: <doc:system-design-mermaid-prompts#Prompt-6-push-notifications>
+5) Feed ranking: <doc:system-design-mermaid-prompts#prompt-8-feed-ranking>
+6) Realtime messaging: <doc:system-design-mermaid-prompts#prompt-7-realtime-messaging>
+7) Media upload pipeline: <doc:system-design-mermaid-prompts#prompt-5-media-upload-pipeline>
+8) Push notifications: <doc:system-design-mermaid-prompts#prompt-6-push-notifications>
 
 ## Architecture
 

@@ -106,47 +106,47 @@ flowchart TB
 
 4:00 - 9:00: System overview.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#System-at-a-glance>
+- Diagram: <doc:snap-snap-excalidraw-templates#system-at-a-glance>
 - Walk the entry points, service layers, user flows, and main screen.
 
 9:00 - 13:00: Startup orchestration.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#App-delegate-orchestration>
+- Diagram: <doc:snap-snap-excalidraw-templates#app-delegate-orchestration>
 - Explain how AppDelegate initializes core services and routes FTUE.
 
 13:00 - 18:00: Core service layers.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#Core-service-layers>
+- Diagram: <doc:snap-snap-excalidraw-templates#core-service-layers>
 - Name each service and why it is single-responsibility.
 
 18:00 - 22:00: Permissions protocol.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#Permissions-services-protocol>
+- Diagram: <doc:snap-snap-excalidraw-templates#permissions-services-protocol>
 - Problem and solution: unify permission state for UI clarity.
 
 22:00 - 26:00: One-shot onboarding.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#One-shot-onboarding-flow>
+- Diagram: <doc:snap-snap-excalidraw-templates#one-shot-onboarding-flow>
 - Explain the single flow and why it reduces friction.
 
 26:00 - 30:00: Passive loop and foresight.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#Core-loop-foresight>
+- Diagram: <doc:snap-snap-excalidraw-templates#core-loop-foresight>
 - Show proactive downloads and why they unlock relevance.
 
 30:00 - 34:00: Main screen UI states.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#Main-screen-state-driven-UI>
+- Diagram: <doc:snap-snap-excalidraw-templates#main-screen-state-driven-ui>
 - Map states to content density and explain UI determinism.
 
 34:00 - 38:00: Dependency injection.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#Dependency-injection-weave>
+- Diagram: <doc:snap-snap-excalidraw-templates#dependency-injection-weave>
 - Show service injection into SwiftUI/UIKit for testability.
 
 38:00 - 42:00: Platform choices.
 
-- Diagram: <doc:snap-snap-excalidraw-templates#Platform-and-technology-stack>
+- Diagram: <doc:snap-snap-excalidraw-templates#platform-and-technology-stack>
 - Call out SwiftUI, sync, local state, and privacy compliance.
 
 42:00 - 45:00: Questions and tradeoffs.
