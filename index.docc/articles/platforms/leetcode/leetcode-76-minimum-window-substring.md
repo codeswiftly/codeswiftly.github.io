@@ -1,7 +1,8 @@
+# LeetCode 76: Minimum Window Substring
+
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-76-minimum-window-substring-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-76-minimum-window-substring-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-76-minimum-window-substring-icon.codex", alt: "Placeholder icon")
-# LeetCode 76: Minimum Window Substring
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-76-minimum-window-substring-dsa-icon.codex", alt: "Hard problem - Pattern 3 (Sliding Window)")

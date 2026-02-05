@@ -1,8 +1,8 @@
+# LeetCode 692: Top K Frequent Words
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-692-top-k-frequent-words-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-692-top-k-frequent-words-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-692-top-k-frequent-words-icon.codex", alt: "Placeholder icon")
-# LeetCode 692: Top K Frequent Words
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-692-top-k-frequent-words-dsa-icon.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")

@@ -1,8 +1,8 @@
+# LeetCode 121: Best Time to Buy and Sell Stock
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-121-best-time-stock-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-121-best-time-stock-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-121-best-time-stock-icon.codex", alt: "Placeholder icon")
-# LeetCode 121: Best Time to Buy and Sell Stock
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-121-best-time-stock-dsa-icon.codex", alt: "Easy problem - Pattern 3 (Sliding Window)")

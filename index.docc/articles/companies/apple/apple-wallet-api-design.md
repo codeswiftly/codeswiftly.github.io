@@ -1,7 +1,8 @@
+# Apple Wallet API Design
+
 @PageImage(purpose: card, source: "companies-apple-apple-wallet-api-design-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-wallet-api-design-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-wallet-api-design-icon.codex", alt: "Placeholder icon")
-# Apple Wallet API Design
 
 @Metadata {
   @TitleHeading("Review Apple Wallet API Design")

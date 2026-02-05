@@ -1,7 +1,8 @@
+# Swift String Builder Patterns
+
 @PageImage(purpose: card, source: "swift-swift-string-builder-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-string-builder-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-string-builder-icon.codex", alt: "Placeholder icon")
-# Swift String Builder Patterns
 
 @Metadata {
   @TitleHeading("Review Swift String Builder Patterns")

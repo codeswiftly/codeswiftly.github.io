@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "google-interview-guide-icon.codex", alt: "Placeholder icon")
 # Google Interview Guide
+
+@PageImage(purpose: icon, source: "google-interview-guide-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Google Interview Guide")

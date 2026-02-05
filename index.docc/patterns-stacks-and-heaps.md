@@ -1,7 +1,7 @@
+# Stacks and Heaps
 
 @PageImage(purpose: card, source: "patterns-stacks-and-heaps-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-stacks-and-heaps-hero.codex", alt: "Placeholder hero")
-# Stacks and Heaps
 
 @Metadata {
   @TitleHeading("Browse Stack and Heap Patterns")

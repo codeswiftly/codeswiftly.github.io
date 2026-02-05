@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 675: Cut Off Trees for Golf Event
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-675-cut-off-trees-for-golf-event-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-675-cut-off-trees-for-golf-event-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-675-cut-off-trees-for-golf-event-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 675: Cut Off Trees for Golf Event
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 675 — Cut Off Trees for Golf Event")

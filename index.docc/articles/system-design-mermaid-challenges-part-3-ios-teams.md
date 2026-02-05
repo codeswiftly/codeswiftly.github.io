@@ -1,7 +1,8 @@
+# System Design Challenges (Large iOS Teams)
+
 @PageImage(purpose: card, source: "system-design-mermaid-challenges-part-3-ios-teams-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-challenges-part-3-ios-teams-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-3-ios-teams-icon.codex", alt: "Placeholder icon")
-# System Design Challenges (Large iOS Teams)
 
 @Metadata {
   @TitleHeading("Large iOS teams: 7 challenge diagrams")

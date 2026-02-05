@@ -1,8 +1,8 @@
+# LeetCode 26: Remove Duplicates from Sorted Array
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-26-remove-duplicates-from-sorted-array-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-26-remove-duplicates-from-sorted-array-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-26-remove-duplicates-from-sorted-array-icon.codex", alt: "Placeholder icon")
-# LeetCode 26: Remove Duplicates from Sorted Array
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-26-remove-duplicates-from-sorted-array-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")

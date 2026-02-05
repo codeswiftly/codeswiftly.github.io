@@ -1,8 +1,8 @@
+# LeetCode 8: String to Integer (Atoi)
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-8-string-to-integer-atoi-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-8-string-to-integer-atoi-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-8-string-to-integer-atoi-icon.codex", alt: "Placeholder icon")
-# LeetCode 8: String to Integer (Atoi)
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-8-string-to-integer-atoi-dsa-icon.codex", alt: "Medium problem - Pattern 2 (Two Pointers)")

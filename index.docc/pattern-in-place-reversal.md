@@ -1,6 +1,6 @@
+# Pattern 07: In-Place Reversal
 
 @Image(source: "pattern-in-place-reversal-hero.codex", alt: "Placeholder hero")
-# Pattern 07: In-Place Reversal
 
 @Metadata {
   @TitleHeading("Practice In-Place Reversal")

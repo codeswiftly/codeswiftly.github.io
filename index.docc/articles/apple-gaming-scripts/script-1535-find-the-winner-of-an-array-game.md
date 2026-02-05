@@ -1,7 +1,8 @@
+# Script — LeetCode 1535: Find the Winner of An Array Game (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-1535-find-the-winner-of-an-array-game-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-1535-find-the-winner-of-an-array-game-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-1535-find-the-winner-of-an-array-game-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 1535: Find the Winner of An Array Game (3:00)
 
 @Metadata {
   @TitleHeading("Script — 1535 Find the Winner of an Array Game")

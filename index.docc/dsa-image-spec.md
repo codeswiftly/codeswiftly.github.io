@@ -1,6 +1,7 @@
+# DSA Image Spec
+
 @PageImage(purpose: card, source: "dsa-image-spec-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "dsa-image-spec-icon.codex", alt: "Placeholder icon")
-# DSA Image Spec
 
 @Image(source: "dsa-image-spec-hero.codex", alt: "DSA image spec hero")
 

@@ -1,7 +1,7 @@
+# Linear Patterns
 
 @PageImage(purpose: card, source: "patterns-linear-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-linear-hero.codex", alt: "Placeholder hero")
-# Linear Patterns
 
 @Metadata {
   @TitleHeading("Browse Linear Patterns")

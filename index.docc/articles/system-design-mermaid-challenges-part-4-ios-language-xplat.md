@@ -1,7 +1,8 @@
+# System Design Challenges (Languages + Cross-platform)
+
 @PageImage(purpose: card, source: "system-design-mermaid-challenges-part-4-ios-language-xplat-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-challenges-part-4-ios-language-xplat-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-4-ios-language-xplat-icon.codex", alt: "Placeholder icon")
-# System Design Challenges (Languages + Cross-platform)
 
 @Metadata {
   @TitleHeading("Languages + cross-platform: 5 challenge diagrams")

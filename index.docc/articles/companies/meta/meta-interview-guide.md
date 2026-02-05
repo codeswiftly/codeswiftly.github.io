@@ -1,7 +1,8 @@
+# Meta Interview Guide
+
 @PageImage(purpose: card, source: "companies-meta-meta-interview-guide-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-meta-interview-guide-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-meta-interview-guide-icon.codex", alt: "Placeholder icon")
-# Meta Interview Guide
 
 @Metadata {
   @TitleHeading("Meta Interview Guide")

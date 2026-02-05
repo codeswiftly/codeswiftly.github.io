@@ -1,7 +1,8 @@
+# Swift Main Data Structures
+
 @PageImage(purpose: card, source: "swift-swift-main-data-structures-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-main-data-structures-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-main-data-structures-icon.codex", alt: "Placeholder icon")
-# Swift Main Data Structures
 
 @Metadata {
   @PageColor(blue)

@@ -1,8 +1,8 @@
+# LeetCode 909: Snakes and Ladders
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-909-snakes-and-ladders-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-909-snakes-and-ladders-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-909-snakes-and-ladders-icon.codex", alt: "Placeholder icon")
-# LeetCode 909: Snakes and Ladders
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-909-snakes-and-ladders-dsa-icon.codex", alt: "Medium problem - Pattern 12 (Graph BFS)")

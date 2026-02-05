@@ -1,7 +1,7 @@
+# Sorting and Intervals
 
 @PageImage(purpose: card, source: "patterns-sorting-and-intervals-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-sorting-and-intervals-hero.codex", alt: "Placeholder hero")
-# Sorting and Intervals
 
 @Metadata {
   @TitleHeading("Browse Interval Patterns")

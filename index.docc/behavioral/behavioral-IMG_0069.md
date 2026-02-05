@@ -1,7 +1,8 @@
+# Managing Detail with Fast Interviewers
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0069-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0069-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0069-icon.codex", alt: "Placeholder icon")
-# Managing Detail with Fast Interviewers
 
 When interviewers move quickly, your goal is to deliver value immediately and redirect when
 needed.

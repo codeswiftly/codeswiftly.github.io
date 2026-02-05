@@ -1,7 +1,8 @@
+# Conflict Resolution Signals
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0031-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0031-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0031-icon.codex", alt: "Placeholder icon")
-# Conflict Resolution Signals
 
 Interviewers want proof that you can handle disagreement with professionalism and outcomes in
 mind. These are the behaviors they look for.

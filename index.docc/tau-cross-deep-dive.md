@@ -1,7 +1,8 @@
+# Tau Cross Deep Dive
+
 @PageImage(purpose: card, source: "tau-cross-deep-dive-card.codex", alt: "Placeholder card")
 @Image(source: "tau-cross-deep-dive-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "tau-cross-deep-dive-icon.codex", alt: "Placeholder icon")
-# Tau Cross Deep Dive
 
 @Metadata {
   @PageColor(green)

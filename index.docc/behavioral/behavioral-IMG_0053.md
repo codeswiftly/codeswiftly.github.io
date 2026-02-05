@@ -1,7 +1,8 @@
+# Results Include Relationships
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0053-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0053-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0053-icon.codex", alt: "Placeholder icon")
-# Results Include Relationships
 
 In conflict stories, success is not only delivery. It is also whether the relationship survived and
 remained productive.

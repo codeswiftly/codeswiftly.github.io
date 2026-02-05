@@ -1,8 +1,8 @@
+# LeetCode 53: Maximum Subarray
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-53-maximum-subarray-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-53-maximum-subarray-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-53-maximum-subarray-icon.codex", alt: "Placeholder icon")
-# LeetCode 53: Maximum Subarray
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-53-maximum-subarray-dsa-icon.codex", alt: "Medium problem - Pattern 15 (Dynamic Programming)")

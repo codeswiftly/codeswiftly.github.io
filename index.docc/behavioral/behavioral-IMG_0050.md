@@ -1,7 +1,8 @@
+# Empathetic Framing in Conflict Stories
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0050-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0050-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0050-icon.codex", alt: "Placeholder icon")
-# Empathetic Framing in Conflict Stories
 
 Conflict stories can include difficult people or tense moments. The goal is to show maturity and
 empathy, not to cast yourself as the hero against a villain.

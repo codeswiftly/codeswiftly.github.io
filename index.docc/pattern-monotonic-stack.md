@@ -1,6 +1,6 @@
+# Pattern 08: Monotonic Stack
 
 @Image(source: "pattern-monotonic-stack-hero.codex", alt: "Placeholder hero")
-# Pattern 08: Monotonic Stack
 
 @Metadata {
   @TitleHeading("Practice Monotonic Stack")

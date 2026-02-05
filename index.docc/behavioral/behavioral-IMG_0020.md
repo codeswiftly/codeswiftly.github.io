@@ -1,7 +1,8 @@
+# TMAY Structure: Summary, Accomplishments, Forward Look
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0020-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0020-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0020-icon.codex", alt: "Placeholder icon")
-# TMAY Structure: Summary, Accomplishments, Forward Look
 
 A strong "Tell me about yourself" answer follows a simple arc: who you are now, proof you can
 perform, and where you want to go next.

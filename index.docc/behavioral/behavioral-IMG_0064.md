@@ -1,7 +1,8 @@
+# Interpreting Follow-ups and Engagement
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0064-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0064-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0064-icon.codex", alt: "Placeholder icon")
-# Interpreting Follow-ups and Engagement
 
 Follow-up questions are signals. They help you infer how your story was landing.
 

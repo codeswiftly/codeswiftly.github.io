@@ -1,7 +1,8 @@
+# Apple
+
 @PageImage(purpose: card, source: "companies-apple-apple-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-icon.codex", alt: "Placeholder icon")
-# Apple
 
 @Metadata {
   @TitleHeading("Review Apple")

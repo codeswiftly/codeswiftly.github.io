@@ -1,8 +1,8 @@
+# LeetCode 1372: Longest Zigzag Path in a Binary Tree
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1372-longest-zigzag-path-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1372-longest-zigzag-path-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1372-longest-zigzag-path-icon.codex", alt: "Placeholder icon")
-# LeetCode 1372: Longest Zigzag Path in a Binary Tree
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1372-longest-zigzag-path-dsa-icon.codex", alt: "Medium problem - Pattern 10 (Tree BFS)")

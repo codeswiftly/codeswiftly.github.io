@@ -1,7 +1,8 @@
+# System Design Challenges (iOS Practice + Scale)
+
 @PageImage(purpose: card, source: "system-design-mermaid-challenges-part-5-ios-practice-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-challenges-part-5-ios-practice-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-5-ios-practice-icon.codex", alt: "Placeholder icon")
-# System Design Challenges (iOS Practice + Scale)
 
 @Metadata {
   @TitleHeading("iOS practice: 10 challenge diagrams")

@@ -1,7 +1,8 @@
+# Meta Final Coding: Print View Hierarchy Without Superview
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-print-view-hierarchy-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-print-view-hierarchy-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-print-view-hierarchy-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Print View Hierarchy Without Superview
 
 @Metadata {
   @TitleHeading("Print view hierarchy without superview")

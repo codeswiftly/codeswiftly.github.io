@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "company-guides-icon.codex", alt: "Placeholder icon")
 # Company Guides Overview
+
+@PageImage(purpose: icon, source: "company-guides-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(gray)

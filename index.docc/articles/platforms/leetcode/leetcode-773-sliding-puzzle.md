@@ -1,8 +1,8 @@
+# LeetCode 773: Sliding Puzzle
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-773-sliding-puzzle-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-773-sliding-puzzle-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-773-sliding-puzzle-icon.codex", alt: "Placeholder icon")
-# LeetCode 773: Sliding Puzzle
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-773-sliding-puzzle-dsa-icon.codex", alt: "Hard problem - Pattern 12 (Graph BFS)")

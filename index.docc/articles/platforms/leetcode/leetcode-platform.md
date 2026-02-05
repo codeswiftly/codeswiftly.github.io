@@ -1,8 +1,8 @@
+# LeetCode Platform Guide
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-platform-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-platform-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-platform-icon.codex", alt: "Placeholder icon")
-# LeetCode Platform Guide
 
 @Metadata {
   @PageColor(orange)

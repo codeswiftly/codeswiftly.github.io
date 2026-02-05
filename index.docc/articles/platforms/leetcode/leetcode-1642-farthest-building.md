@@ -1,8 +1,8 @@
+# LeetCode 1642: Farthest Building You Can Reach
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1642-farthest-building-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1642-farthest-building-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1642-farthest-building-icon.codex", alt: "Placeholder icon")
-# LeetCode 1642: Farthest Building You Can Reach
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1642-farthest-building-dsa-icon.codex", alt: "Medium problem - Pattern 9 (Top-K Heap)")

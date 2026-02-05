@@ -1,6 +1,7 @@
+# UIKit Common Types
+
 @PageImage(purpose: card, source: "snippets-uikit-common-types-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "snippets-uikit-common-types-icon.codex", alt: "Placeholder icon")
-# UIKit Common Types
 
 @Image(source: "snippets-uikit-common-types-hero.codex", alt: "UIKit common types hero")
 

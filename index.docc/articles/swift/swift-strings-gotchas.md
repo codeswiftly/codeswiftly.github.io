@@ -1,7 +1,8 @@
+# Strings: Gotchas and Patterns
+
 @PageImage(purpose: card, source: "swift-swift-strings-gotchas-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-strings-gotchas-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-strings-gotchas-icon.codex", alt: "Placeholder icon")
-# Strings: Gotchas and Patterns
 
 @Metadata {
   @TitleHeading("Review Strings: Gotchas and Patterns")

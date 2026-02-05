@@ -1,7 +1,8 @@
+# Conflict Story Example: Data Quality vs Timeline
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0039-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0039-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0039-icon.codex", alt: "Placeholder icon")
-# Conflict Story Example: Data Quality vs Timeline
 
 This example shows how to quantify technical risk in business terms and find a compromise that
 protects both quality and speed.

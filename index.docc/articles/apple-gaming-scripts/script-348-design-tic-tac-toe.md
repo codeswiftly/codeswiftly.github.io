@@ -1,7 +1,8 @@
+# Script — LeetCode 348: Design Tic‑Tac‑Toe (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-348-design-tic-tac-toe-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-348-design-tic-tac-toe-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-348-design-tic-tac-toe-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 348: Design Tic‑Tac‑Toe (3:00)
 
 @Metadata {
   @TitleHeading("Script — 348 Design Tic‑Tac‑Toe")

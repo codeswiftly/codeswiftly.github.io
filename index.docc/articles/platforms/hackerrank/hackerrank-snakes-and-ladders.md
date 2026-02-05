@@ -1,8 +1,8 @@
+# HackerRank -- Snakes and Ladders: The Quickest Way Up
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-snakes-and-ladders-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-snakes-and-ladders-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-snakes-and-ladders-icon.codex", alt: "Placeholder icon")
-# HackerRank -- Snakes and Ladders: The Quickest Way Up
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Snakes and Ladders: the Quickest Way Up")

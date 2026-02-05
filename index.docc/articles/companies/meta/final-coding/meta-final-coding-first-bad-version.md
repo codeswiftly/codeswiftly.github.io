@@ -1,7 +1,8 @@
+# Meta Final Coding: First Bad Version
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-first-bad-version-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-first-bad-version-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-first-bad-version-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: First Bad Version
 
 @Metadata {
   @TitleHeading("First bad version")

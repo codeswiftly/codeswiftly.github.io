@@ -1,8 +1,8 @@
+# LeetCode 14: Longest Common Prefix
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-14-longest-common-prefix-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-14-longest-common-prefix-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-14-longest-common-prefix-icon.codex", alt: "Placeholder icon")
-# LeetCode 14: Longest Common Prefix
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-14-longest-common-prefix-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")

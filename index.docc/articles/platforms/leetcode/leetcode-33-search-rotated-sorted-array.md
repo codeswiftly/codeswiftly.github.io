@@ -1,8 +1,8 @@
+# LeetCode 33: Search in Rotated Sorted Array
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-33-search-rotated-sorted-array-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-33-search-rotated-sorted-array-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-33-search-rotated-sorted-array-icon.codex", alt: "Placeholder icon")
-# LeetCode 33: Search in Rotated Sorted Array
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-33-search-rotated-sorted-array-dsa-icon.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")

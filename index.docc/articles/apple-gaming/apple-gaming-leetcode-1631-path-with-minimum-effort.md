@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 1631: Path with Minimum Effort
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1631-path-with-minimum-effort-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-1631-path-with-minimum-effort-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1631-path-with-minimum-effort-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 1631: Path with Minimum Effort
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1631 — Path With Minimum Effort")

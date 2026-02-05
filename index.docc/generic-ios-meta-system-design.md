@@ -1,6 +1,7 @@
+# Generic iOS Meta System Design
+
 @PageImage(purpose: card, source: "generic-ios-meta-system-design-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "generic-ios-meta-system-design-icon.codex", alt: "Placeholder icon")
-# Generic iOS Meta System Design
 
 @Metadata {
   @TitleHeading("Frame a Meta-scale iOS system design")

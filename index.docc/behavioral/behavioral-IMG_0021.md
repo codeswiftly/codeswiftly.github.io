@@ -1,7 +1,8 @@
+# TMAY Accomplishments That Invite Follow-ups
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0021-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0021-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0021-icon.codex", alt: "Placeholder icon")
-# TMAY Accomplishments That Invite Follow-ups
 
 In TMAY, accomplishments are not the full story. They are teasers that invite the interviewer to
 ask for more.

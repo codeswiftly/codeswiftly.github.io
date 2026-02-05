@@ -1,7 +1,7 @@
+# Dynamic Programming Patterns
 
 @PageImage(purpose: card, source: "patterns-dynamic-programming-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-dynamic-programming-hero.codex", alt: "Placeholder hero")
-# Dynamic Programming Patterns
 
 @Metadata {
   @TitleHeading("Browse Dynamic Programming Patterns")

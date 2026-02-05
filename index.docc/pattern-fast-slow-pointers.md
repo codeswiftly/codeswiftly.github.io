@@ -1,6 +1,6 @@
+# Pattern 06: Fast and Slow Pointers
 
 @Image(source: "pattern-fast-slow-pointers-hero.codex", alt: "Placeholder hero")
-# Pattern 06: Fast and Slow Pointers
 
 @Metadata {
   @TitleHeading("Practice Fast and Slow Pointers")

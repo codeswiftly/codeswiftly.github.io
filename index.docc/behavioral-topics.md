@@ -1,7 +1,8 @@
+# Behavioral Topic Index
+
 @PageImage(purpose: card, source: "behavioral-topics-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-topics-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-topics-icon.codex", alt: "Placeholder icon")
-# Behavioral Topic Index
 
 This page links every behavioral topic extracted from the OCR import.
 

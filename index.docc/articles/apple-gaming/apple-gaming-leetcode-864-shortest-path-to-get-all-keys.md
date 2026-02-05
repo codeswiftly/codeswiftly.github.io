@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 864: Shortest Path to Get All Keys
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-864-shortest-path-to-get-all-keys-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-864-shortest-path-to-get-all-keys-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-864-shortest-path-to-get-all-keys-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 864: Shortest Path to Get All Keys
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 864 — Shortest Path to Get All Keys")

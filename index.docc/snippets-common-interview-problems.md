@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "snippets-common-interview-problems-icon.codex", alt: "Common interview snippets icon")
 # Common Interview Snippets
+
+@PageImage(purpose: icon, source: "snippets-common-interview-problems-icon.codex", alt: "Common interview snippets icon")
 
 @Metadata {
   @PageColor(orange)

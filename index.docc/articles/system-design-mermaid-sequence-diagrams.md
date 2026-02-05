@@ -1,7 +1,8 @@
+# Mermaid Sequence Diagrams (System Design)
+
 @PageImage(purpose: card, source: "system-design-mermaid-sequence-diagrams-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-sequence-diagrams-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-sequence-diagrams-icon.codex", alt: "Placeholder icon")
-# Mermaid Sequence Diagrams (System Design)
 
 @Metadata {
   @TitleHeading("Mermaid sequence diagrams reference")

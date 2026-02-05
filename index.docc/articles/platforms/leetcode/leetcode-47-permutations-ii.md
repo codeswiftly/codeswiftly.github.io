@@ -1,8 +1,8 @@
+# LeetCode 47: Permutations II
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-47-permutations-ii-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-47-permutations-ii-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-47-permutations-ii-icon.codex", alt: "Placeholder icon")
-# LeetCode 47: Permutations II
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-47-permutations-ii-dsa-icon.codex", alt: "Medium problem - Pattern 14 (Backtracking)")

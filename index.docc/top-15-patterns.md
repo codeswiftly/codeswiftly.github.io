@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "top-15-patterns-icon.codex", alt: "Placeholder icon")
 # Top 15 Interview Patterns
+
+@PageImage(purpose: icon, source: "top-15-patterns-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Patterns by Category")

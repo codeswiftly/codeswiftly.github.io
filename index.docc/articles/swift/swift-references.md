@@ -1,7 +1,8 @@
+# Swift References
+
 @PageImage(purpose: card, source: "swift-swift-references-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-references-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-references-icon.codex", alt: "Placeholder icon")
-# Swift References
 
 @Metadata {
      @PageColor(gray)

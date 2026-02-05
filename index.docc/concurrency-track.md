@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "concurrency-track-icon.codex", alt: "Placeholder icon")
 # Concurrency and Queues
+
+@PageImage(purpose: icon, source: "concurrency-track-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(blue)

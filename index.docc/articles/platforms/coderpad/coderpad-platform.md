@@ -1,7 +1,8 @@
+# CoderPad Platform Guide
+
 @PageImage(purpose: card, source: "platforms-coderpad-coderpad-platform-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-coderpad-coderpad-platform-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-coderpad-coderpad-platform-icon.codex", alt: "Placeholder icon")
-# CoderPad Platform Guide
 
 @Metadata {
     @PageColor(blue)

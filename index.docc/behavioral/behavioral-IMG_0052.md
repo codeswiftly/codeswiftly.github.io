@@ -1,7 +1,8 @@
+# Make the Conflict Explicit
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0052-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0052-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0052-icon.codex", alt: "Placeholder icon")
-# Make the Conflict Explicit
 
 If your story sounds like harmony, it is not a conflict story. The interviewer needs to hear the
 real tension and how you navigated it.

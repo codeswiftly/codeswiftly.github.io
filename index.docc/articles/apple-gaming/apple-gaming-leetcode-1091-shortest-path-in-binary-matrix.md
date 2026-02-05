@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 1091: Shortest Path in Binary Matrix
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1091-shortest-path-in-binary-matrix-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 1091: Shortest Path in Binary Matrix
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1091 — Shortest Path in Binary Matrix")

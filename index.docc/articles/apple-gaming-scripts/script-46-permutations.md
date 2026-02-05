@@ -1,7 +1,8 @@
+# Script — LeetCode 46: Permutations (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-46-permutations-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-46-permutations-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-46-permutations-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 46: Permutations (3:00)
 
 @Metadata {
   @TitleHeading("Script — 46 Permutations")

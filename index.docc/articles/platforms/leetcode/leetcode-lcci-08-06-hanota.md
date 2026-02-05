@@ -1,8 +1,8 @@
+# LeetCode LCCI 08.06: Hanota
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-lcci-08-06-hanota-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-lcci-08-06-hanota-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-lcci-08-06-hanota-icon.codex", alt: "Placeholder icon")
-# LeetCode LCCI 08.06: Hanota
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-lcci-08-06-hanota-dsa-icon.codex", alt: "Medium problem - Pattern 14 (Backtracking)")

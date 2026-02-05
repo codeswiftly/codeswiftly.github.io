@@ -1,7 +1,8 @@
+# Robinhood Interview Guide
+
 @PageImage(purpose: card, source: "companies-robinhood-robinhood-interview-guide-card.codex", alt: "Placeholder card")
 @Image(source: "companies-robinhood-robinhood-interview-guide-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-robinhood-robinhood-interview-guide-icon.codex", alt: "Placeholder icon")
-# Robinhood Interview Guide
 
 @Metadata {
   @TitleHeading("Robinhood Interview Guide")

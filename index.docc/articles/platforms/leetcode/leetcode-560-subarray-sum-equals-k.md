@@ -1,8 +1,8 @@
+# LeetCode 560: Subarray Sum Equals K
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-560-subarray-sum-equals-k-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-560-subarray-sum-equals-k-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-560-subarray-sum-equals-k-icon.codex", alt: "Placeholder icon")
-# LeetCode 560: Subarray Sum Equals K
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-560-subarray-sum-equals-k-dsa-icon.codex", alt: "Medium problem - Pattern 1 (Prefix Sum)")

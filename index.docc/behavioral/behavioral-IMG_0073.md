@@ -1,7 +1,8 @@
+# Front-load Value, Then Back it with Examples
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0073-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0073-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0073-icon.codex", alt: "Placeholder icon")
-# Front-load Value, Then Back it with Examples
 
 Some questions benefit from starting with the outcome and then adding proof. This approach makes
 it easy for the interviewer to capture the signal quickly.

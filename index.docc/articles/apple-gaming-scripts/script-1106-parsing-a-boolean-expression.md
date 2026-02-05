@@ -1,7 +1,8 @@
+# Script — LeetCode 1106: Parsing a Boolean Expression (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-1106-parsing-a-boolean-expression-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-1106-parsing-a-boolean-expression-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-1106-parsing-a-boolean-expression-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 1106: Parsing a Boolean Expression (3:00)
 
 @Metadata {
   @TitleHeading("Script — 1106 Parsing a Boolean Expression")

@@ -1,7 +1,8 @@
+# LeetCode 84: Largest Rectangle in Histogram
+
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-84-largest-rectangle-in-histogram-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-84-largest-rectangle-in-histogram-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-84-largest-rectangle-in-histogram-icon.codex", alt: "Placeholder icon")
-# LeetCode 84: Largest Rectangle in Histogram
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-84-largest-rectangle-in-histogram-dsa-icon.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")

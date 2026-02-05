@@ -1,7 +1,8 @@
+# The Menu Technique for Ambiguous Questions
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0074-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0074-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0074-icon.codex", alt: "Placeholder icon")
-# The Menu Technique for Ambiguous Questions
 
 When a question could be answered multiple ways, offer a short menu of story options and let the
 interviewer choose.

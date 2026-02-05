@@ -1,8 +1,8 @@
+# LeetCode 2682: Find the Losers of the Circular Game
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-2682-find-the-losers-of-the-circular-game-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-2682-find-the-losers-of-the-circular-game-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-2682-find-the-losers-of-the-circular-game-icon.codex", alt: "Placeholder icon")
-# LeetCode 2682: Find the Losers of the Circular Game
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-2682-find-the-losers-of-the-circular-game-dsa-icon.codex", alt: "Easy problem - Pattern 6 (Fast/Slow Pointers)")

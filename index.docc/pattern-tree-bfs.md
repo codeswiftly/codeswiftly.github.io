@@ -1,6 +1,6 @@
+# Pattern 10: Binary Tree BFS
 
 @Image(source: "pattern-tree-bfs-hero.codex", alt: "Placeholder hero")
-# Pattern 10: Binary Tree BFS
 
 @Metadata {
   @TitleHeading("Practice Binary Tree BFS")

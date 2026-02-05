@@ -1,6 +1,7 @@
+# Foundation Common Types
+
 @PageImage(purpose: card, source: "snippets-foundation-common-types-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "snippets-foundation-common-types-icon.codex", alt: "Placeholder icon")
-# Foundation Common Types
 
 @Image(source: "snippets-foundation-common-types-hero.codex", alt: "Foundation common types hero")
 

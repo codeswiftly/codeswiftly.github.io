@@ -1,8 +1,8 @@
+# LeetCode 36: Valid Sudoku
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-36-valid-sudoku-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-36-valid-sudoku-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-36-valid-sudoku-icon.codex", alt: "Placeholder icon")
-# LeetCode 36: Valid Sudoku
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-36-valid-sudoku-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

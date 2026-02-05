@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 490: The Maze
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-490-the-maze-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-490-the-maze-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-490-the-maze-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 490: The Maze
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 490 — The Maze")

@@ -1,5 +1,6 @@
-@PageImage(purpose: card, source: "swift-interview-guide-card.codex", alt: "Placeholder card")
 # Swift Interview Guide
+
+@PageImage(purpose: card, source: "swift-interview-guide-card.codex", alt: "Placeholder card")
 
 @Metadata {
   @PageColor(orange)

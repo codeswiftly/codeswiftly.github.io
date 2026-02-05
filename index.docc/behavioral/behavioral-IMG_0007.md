@@ -1,7 +1,8 @@
+# Inflection Point Storytelling
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0007-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0007-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0007-icon.codex", alt: "Placeholder icon")
-# Inflection Point Storytelling
 
 Some projects are best told through the inflection points that changed the trajectory. This style
 is a thematic structure that emphasizes the moments where your judgment mattered most.

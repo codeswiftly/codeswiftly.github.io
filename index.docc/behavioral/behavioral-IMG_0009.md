@@ -1,7 +1,8 @@
+# Story Quality Checks and Control Points
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0009-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0009-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0009-icon.codex", alt: "Placeholder icon")
-# Story Quality Checks and Control Points
 
 Before you practice a story, validate it with a few quality checks. These checks prevent weak
 context, vague signals, or missing conclusions.

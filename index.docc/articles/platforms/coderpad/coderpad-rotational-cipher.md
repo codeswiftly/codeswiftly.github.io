@@ -1,7 +1,8 @@
+# CoderPad: Rotational Cipher (Facebook)
+
 @PageImage(purpose: card, source: "platforms-coderpad-coderpad-rotational-cipher-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-coderpad-coderpad-rotational-cipher-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-coderpad-coderpad-rotational-cipher-icon.codex", alt: "Placeholder icon")
-# CoderPad: Rotational Cipher (Facebook)
 
 @Metadata {
   @TitleHeading("Review CoderPad: Rotational Cipher (Facebook)")

@@ -1,8 +1,8 @@
+# Apple-Focused LeetCode Mediums
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-apple-mediums-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-apple-mediums-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-apple-mediums-icon.codex", alt: "Placeholder icon")
-# Apple-Focused LeetCode Mediums
 
 @Metadata {
   @TitleHeading("Review Apple-Focused LeetCode Mediums")

@@ -1,8 +1,8 @@
+# LeetCode 999: Available Captures for Rook
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-999-available-captures-for-rook-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-999-available-captures-for-rook-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-999-available-captures-for-rook-icon.codex", alt: "Placeholder icon")
-# LeetCode 999: Available Captures for Rook
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-999-available-captures-for-rook-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")

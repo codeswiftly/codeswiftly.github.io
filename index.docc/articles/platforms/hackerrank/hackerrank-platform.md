@@ -1,8 +1,8 @@
+# HackerRank Platform Guide
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-platform-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-platform-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-platform-icon.codex", alt: "Placeholder icon")
-# HackerRank Platform Guide
 
 @Metadata {
     @PageColor(yellow)

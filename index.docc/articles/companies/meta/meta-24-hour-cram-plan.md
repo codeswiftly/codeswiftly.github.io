@@ -1,7 +1,8 @@
+# Meta 24-Hour Cram Plan
+
 @PageImage(purpose: card, source: "companies-meta-meta-24-hour-cram-plan-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-meta-24-hour-cram-plan-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-meta-24-hour-cram-plan-icon.codex", alt: "Placeholder icon")
-# Meta 24-Hour Cram Plan
 
 @Metadata {
   @TitleHeading("Meta 24-hour cram plan")

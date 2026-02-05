@@ -1,6 +1,6 @@
+# Pattern 12: Graph Breadth-First Search
 
 @Image(source: "pattern-graph-breadth-first-search-hero.codex", alt: "Placeholder hero")
-# Pattern 12: Graph Breadth-First Search
 
 @Metadata {
   @TitleHeading("Practice Graph Breadth-First Search")

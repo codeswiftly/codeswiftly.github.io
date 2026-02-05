@@ -1,7 +1,7 @@
+# Graph Patterns
 
 @PageImage(purpose: card, source: "patterns-graph-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-graph-hero.codex", alt: "Placeholder hero")
-# Graph Patterns
 
 @Metadata {
   @TitleHeading("Browse Graph Patterns")

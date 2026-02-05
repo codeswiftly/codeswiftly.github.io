@@ -1,6 +1,7 @@
+# Typing Practice
+
 @PageImage(purpose: card, source: "typing-practice-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "typing-practice-icon.codex", alt: "Placeholder icon")
-# Typing Practice
 
 @Metadata {
   @PageColor(blue)

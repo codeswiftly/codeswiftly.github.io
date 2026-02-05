@@ -1,7 +1,8 @@
+# Gaming Deep Dive
+
 @PageImage(purpose: card, source: "gaming-deep-dive-card.codex", alt: "Placeholder card")
 @Image(source: "gaming-deep-dive-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "gaming-deep-dive-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive
 
 @Metadata {
   @PageColor(purple)

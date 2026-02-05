@@ -1,8 +1,8 @@
+# LeetCode 3: Longest Substring Without Repeating Characters
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-3-longest-substring-no-repeat-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-3-longest-substring-no-repeat-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-3-longest-substring-no-repeat-icon.codex", alt: "Placeholder icon")
-# LeetCode 3: Longest Substring Without Repeating Characters
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-3-longest-substring-no-repeat-dsa-icon.codex", alt: "Medium problem - Pattern 3 (Sliding Window)")

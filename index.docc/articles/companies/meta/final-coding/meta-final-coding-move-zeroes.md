@@ -1,7 +1,8 @@
+# Meta Final Coding: Move Zeroes In-Place
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-move-zeroes-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-move-zeroes-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-move-zeroes-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Move Zeroes In-Place
 
 @Metadata {
   @TitleHeading("Move zeroes to the end in place")

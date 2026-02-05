@@ -1,8 +1,8 @@
+# LeetCode 1106: Parsing a Boolean Expression
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1106-parsing-a-boolean-expression-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1106-parsing-a-boolean-expression-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1106-parsing-a-boolean-expression-icon.codex", alt: "Placeholder icon")
-# LeetCode 1106: Parsing a Boolean Expression
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1106-parsing-a-boolean-expression-dsa-icon.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")

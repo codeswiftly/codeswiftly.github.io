@@ -1,7 +1,8 @@
+# Gaming Deep Dive — Phase List
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-index-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-index-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-index-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — Phase List
 
 @Image(source: "apple-gaming-index-hero.codex", alt: "Gaming Deep Dive Phase List hero")
 

@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "wallet-and-passkit-icon.codex", alt: "Placeholder icon")
 # Wallet and PassKit
+
+@PageImage(purpose: icon, source: "wallet-and-passkit-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(purple)

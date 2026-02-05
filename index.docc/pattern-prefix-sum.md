@@ -1,6 +1,6 @@
+# Pattern 01: Prefix Sum
 
 @Image(source: "pattern-prefix-sum-hero.codex", alt: "Placeholder hero")
-# Pattern 01: Prefix Sum
 
 @Metadata {
   @TitleHeading("Practice Prefix Sum")

@@ -1,7 +1,8 @@
+# LeetCode 297: Serialize and Deserialize Binary Tree
+
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-297-serialize-and-deserialize-binary-tree-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-297-serialize-and-deserialize-binary-tree-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-297-serialize-and-deserialize-binary-tree-icon.codex", alt: "Placeholder icon")
-# LeetCode 297: Serialize and Deserialize Binary Tree
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-297-serialize-and-deserialize-binary-tree-dsa-icon.codex", alt: "Hard problem - Pattern 11 (DFS)")

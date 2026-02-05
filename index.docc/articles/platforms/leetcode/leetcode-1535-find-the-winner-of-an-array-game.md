@@ -1,8 +1,8 @@
+# LeetCode 1535: Find the Winner of An Array Game
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1535-find-the-winner-of-an-array-game-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1535-find-the-winner-of-an-array-game-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1535-find-the-winner-of-an-array-game-icon.codex", alt: "Placeholder icon")
-# LeetCode 1535: Find the Winner of An Array Game
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1535-find-the-winner-of-an-array-game-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")

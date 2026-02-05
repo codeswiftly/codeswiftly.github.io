@@ -1,8 +1,8 @@
+# LeetCode 723: Candy Crush
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-723-candy-crush-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-723-candy-crush-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-723-candy-crush-icon.codex", alt: "Placeholder icon")
-# LeetCode 723: Candy Crush
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-723-candy-crush-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

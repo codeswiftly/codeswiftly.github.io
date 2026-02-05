@@ -1,7 +1,8 @@
+# Practice Platforms
+
 @PageImage(purpose: card, source: "platforms-practice-platforms-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-practice-platforms-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-practice-platforms-icon.codex", alt: "Placeholder icon")
-# Practice Platforms
 
 @Metadata {
   @PageColor(yellow)

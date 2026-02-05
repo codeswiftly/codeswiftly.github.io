@@ -1,8 +1,8 @@
+# HackerRank -- a Very Big Sum
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-a-very-big-sum-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-a-very-big-sum-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-a-very-big-sum-icon.codex", alt: "Placeholder icon")
-# HackerRank -- a Very Big Sum
 
 @Metadata {
   @TitleHeading("Review HackerRank -- a Very Big Sum")

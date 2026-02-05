@@ -1,7 +1,8 @@
+# Swift Gotchas
+
 @PageImage(purpose: card, source: "swift-swift-gotchas-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-gotchas-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-gotchas-icon.codex", alt: "Placeholder icon")
-# Swift Gotchas
 
 @Metadata {
   @PageColor(blue)

@@ -1,7 +1,8 @@
+# Meta Final Coding: Grid Paths
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-grid-paths-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-grid-paths-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-grid-paths-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Grid Paths
 
 @Metadata {
   @TitleHeading("All paths in an N x N grid")

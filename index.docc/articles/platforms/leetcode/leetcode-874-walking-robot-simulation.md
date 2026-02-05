@@ -1,8 +1,8 @@
+# LeetCode 874: Walking Robot Simulation
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-874-walking-robot-simulation-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-874-walking-robot-simulation-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-874-walking-robot-simulation-icon.codex", alt: "Placeholder icon")
-# LeetCode 874: Walking Robot Simulation
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-874-walking-robot-simulation-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

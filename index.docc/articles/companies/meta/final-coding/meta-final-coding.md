@@ -1,7 +1,8 @@
+# Meta Final Coding Prompts
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding Prompts
 
 @Metadata {
   @TitleHeading("Meta final coding prompts")

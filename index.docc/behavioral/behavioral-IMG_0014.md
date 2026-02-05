@@ -1,7 +1,8 @@
+# Stakeholder Alignment with Quantified Impact
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0014-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0014-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0014-icon.codex", alt: "Placeholder icon")
-# Stakeholder Alignment with Quantified Impact
 
 A high-signal behavioral story shows you gathered evidence and used it to align senior
 stakeholders who had competing priorities.

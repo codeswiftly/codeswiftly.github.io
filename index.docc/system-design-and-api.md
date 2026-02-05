@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "system-design-and-api-icon.codex", alt: "Placeholder icon")
 # System Design and API
+
+@PageImage(purpose: icon, source: "system-design-and-api-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(red)

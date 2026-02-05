@@ -1,5 +1,6 @@
-@PageImage(purpose: card, source: "concurrency-beginners-guide-card.codex", alt: "Placeholder card")
 # A Beginner's Guide to Concurrency in iOS
+
+@PageImage(purpose: card, source: "concurrency-beginners-guide-card.codex", alt: "Placeholder card")
 
 @Metadata {
   @TitleHeading("Review A Beginner's Guide to Concurrency in iOS")

@@ -1,8 +1,8 @@
+# LeetCode 752: Open the Lock
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-752-open-the-lock-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-752-open-the-lock-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-752-open-the-lock-icon.codex", alt: "Placeholder icon")
-# LeetCode 752: Open the Lock
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-752-open-the-lock-dsa-icon.codex", alt: "Medium problem - Pattern 12 (Graph BFS)")

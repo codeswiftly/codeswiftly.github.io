@@ -1,8 +1,8 @@
+# HackerRank -- Cycle Detection in a Linked List
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-detect-cycle-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-detect-cycle-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-detect-cycle-icon.codex", alt: "Placeholder icon")
-# HackerRank -- Cycle Detection in a Linked List
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Cycle Detection in a Linked List")

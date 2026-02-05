@@ -1,8 +1,8 @@
+# HackerRank -- Insert a Node at a Specific Position in a Linked List
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-insert-node-at-position-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-insert-node-at-position-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-insert-node-at-position-icon.codex", alt: "Placeholder icon")
-# HackerRank -- Insert a Node at a Specific Position in a Linked List
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Insert a Node at a Specific Position in a Linked List")

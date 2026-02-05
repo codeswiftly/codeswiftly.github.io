@@ -1,6 +1,7 @@
+# System Design Case Studies
+
 @PageImage(purpose: card, source: "system-design-case-studies-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "system-design-case-studies-icon.codex", alt: "Placeholder icon")
-# System Design Case Studies
 
 @Metadata {
   @TitleHeading("Study full design narratives")

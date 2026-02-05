@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "passkit-raw-index-icon.codex", alt: "Placeholder icon")
 # PassKit Raw Reference
+
+@PageImage(purpose: icon, source: "passkit-raw-index-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
     @PageColor(gray)

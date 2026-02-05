@@ -1,7 +1,8 @@
+# Meta Coding Warmups (Snippets)
+
 @PageImage(purpose: card, source: "snippets-meta-coding-warmups-card.codex", alt: "Placeholder card")
 @Image(source: "snippets-meta-coding-warmups-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "snippets-meta-coding-warmups-icon.codex", alt: "Placeholder icon")
-# Meta Coding Warmups (Snippets)
 
 Use these as short muscle-memory drills before the coding rounds.
 

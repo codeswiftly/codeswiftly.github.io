@@ -1,8 +1,8 @@
+# HackerRank -- Designer Pdf Viewer
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-designer-pdf-viewer-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-designer-pdf-viewer-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-designer-pdf-viewer-icon.codex", alt: "Placeholder icon")
-# HackerRank -- Designer Pdf Viewer
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Designer Pdf Viewer")

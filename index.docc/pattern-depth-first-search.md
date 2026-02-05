@@ -1,6 +1,6 @@
+# Pattern 11: Depth-First Search
 
 @Image(source: "pattern-depth-first-search-hero.codex", alt: "Placeholder hero")
-# Pattern 11: Depth-First Search
 
 @Metadata {
   @TitleHeading("Practice Depth-First Search")

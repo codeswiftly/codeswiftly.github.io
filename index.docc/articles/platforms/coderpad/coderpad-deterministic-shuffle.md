@@ -1,7 +1,8 @@
+# CoderPad: Deterministic “Top/Bottom” Shuffle
+
 @PageImage(purpose: card, source: "platforms-coderpad-coderpad-deterministic-shuffle-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-coderpad-coderpad-deterministic-shuffle-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-coderpad-coderpad-deterministic-shuffle-icon.codex", alt: "Placeholder icon")
-# CoderPad: Deterministic “Top/Bottom” Shuffle
 
 @Metadata {
   @TitleHeading("Review CoderPad: Deterministic “Top/Bottom” Shuffle")

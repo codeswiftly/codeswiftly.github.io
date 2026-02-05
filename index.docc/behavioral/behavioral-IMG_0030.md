@@ -1,7 +1,8 @@
+# Conflict Stories: Why They Are Decisive
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0030-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0030-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0030-icon.codex", alt: "Placeholder icon")
-# Conflict Stories: Why They Are Decisive
 
 Conflict resolution is one of the strongest indicators of seniority. Interviewers use these
 stories to judge maturity, judgment, and cultural fit.

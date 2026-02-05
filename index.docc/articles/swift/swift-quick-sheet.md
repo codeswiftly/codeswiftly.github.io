@@ -1,7 +1,8 @@
+# Quick Sheet
+
 @PageImage(purpose: card, source: "swift-swift-quick-sheet-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-quick-sheet-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-quick-sheet-icon.codex", alt: "Placeholder icon")
-# Quick Sheet
 
 @Metadata {
   @TitleHeading("Review Quick Sheet")

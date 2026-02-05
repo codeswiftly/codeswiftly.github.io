@@ -1,8 +1,8 @@
+# LeetCode 289: Game of Life
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-289-game-of-life-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-289-game-of-life-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-289-game-of-life-icon.codex", alt: "Placeholder icon")
-# LeetCode 289: Game of Life
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-289-game-of-life-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

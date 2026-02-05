@@ -1,8 +1,8 @@
+# LeetCode 295: Find Median from Data Stream
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-295-find-median-data-stream-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-295-find-median-data-stream-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-295-find-median-data-stream-icon.codex", alt: "Placeholder icon")
-# LeetCode 295: Find Median from Data Stream
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-295-find-median-data-stream-dsa-icon.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")

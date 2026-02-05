@@ -1,7 +1,7 @@
+# Backtracking Patterns
 
 @PageImage(purpose: card, source: "patterns-backtracking-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-backtracking-hero.codex", alt: "Placeholder hero")
-# Backtracking Patterns
 
 @Metadata {
   @TitleHeading("Browse Backtracking Patterns")

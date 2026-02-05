@@ -1,6 +1,6 @@
+# Pattern 04: Overlapping Intervals
 
 @Image(source: "pattern-overlapping-intervals-hero.codex", alt: "Placeholder hero")
-# Pattern 04: Overlapping Intervals
 
 @Metadata {
   @TitleHeading("Practice Overlapping Intervals")

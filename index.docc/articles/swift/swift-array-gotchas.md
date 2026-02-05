@@ -1,7 +1,8 @@
+# Arrays: Gotchas and Stack Usage
+
 @PageImage(purpose: card, source: "swift-swift-array-gotchas-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-array-gotchas-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-array-gotchas-icon.codex", alt: "Placeholder icon")
-# Arrays: Gotchas and Stack Usage
 
 @Metadata {
   @TitleHeading("Review Arrays: Gotchas and Stack Usage")

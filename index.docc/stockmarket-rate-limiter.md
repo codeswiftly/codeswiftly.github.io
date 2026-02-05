@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "stockmarket-rate-limiter-icon.codex", alt: "Placeholder icon")
 # Stockmarket Rate Limiter
+
+@PageImage(purpose: icon, source: "stockmarket-rate-limiter-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Stockmarket rate limiter")

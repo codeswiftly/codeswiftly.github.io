@@ -1,6 +1,6 @@
+# Pattern 14: Backtracking
 
 @Image(source: "pattern-backtracking-hero.codex", alt: "Placeholder hero")
-# Pattern 14: Backtracking
 
 @Metadata {
   @TitleHeading("Practice Backtracking")

@@ -1,8 +1,8 @@
+# LeetCode 51: N-Queens
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-51-n-queens-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-51-n-queens-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-51-n-queens-icon.codex", alt: "Placeholder icon")
-# LeetCode 51: N-Queens
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-51-n-queens-dsa-icon.codex", alt: "Hard problem - Pattern 14 (Backtracking)")

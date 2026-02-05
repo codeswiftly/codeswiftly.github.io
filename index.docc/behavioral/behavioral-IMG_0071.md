@@ -1,7 +1,8 @@
+# Leadership and Conflict Prompt Categories
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0071-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0071-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0071-icon.codex", alt: "Placeholder icon")
-# Leadership and Conflict Prompt Categories
 
 Senior behavioral rounds often focus on leadership situations and conflict navigation. Build stories
 that map to these categories.

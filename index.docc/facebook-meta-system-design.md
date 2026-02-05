@@ -1,6 +1,7 @@
+# Facebook Meta System Design
+
 @PageImage(purpose: card, source: "facebook-meta-system-design-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "facebook-meta-system-design-icon.codex", alt: "Placeholder icon")
-# Facebook Meta System Design
 
 @Metadata {
   @TitleHeading("Facebook-style system design (Meta)")

@@ -1,6 +1,6 @@
+# Pattern 13: Matrix Traversal
 
 @Image(source: "pattern-matrix-traversal-hero.codex", alt: "Placeholder hero")
-# Pattern 13: Matrix Traversal
 
 @Metadata {
   @TitleHeading("Practice Matrix Traversal")

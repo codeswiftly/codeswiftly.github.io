@@ -1,6 +1,7 @@
+# SwiftUI Common Types
+
 @PageImage(purpose: card, source: "snippets-swiftui-common-types-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "snippets-swiftui-common-types-icon.codex", alt: "Placeholder icon")
-# SwiftUI Common Types
 
 @Image(source: "snippets-swiftui-common-types-hero.codex", alt: "SwiftUI common types hero")
 

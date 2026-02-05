@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "linked-list-reversal-icon.codex", alt: "Placeholder icon")
 # Linked List Reversal (Iterative and Recursive)
+
+@PageImage(purpose: icon, source: "linked-list-reversal-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Linked List Reversal (Iterative and Recursive)")

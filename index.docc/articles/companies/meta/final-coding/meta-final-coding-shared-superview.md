@@ -1,7 +1,8 @@
+# Meta Final Coding: Shared Superview
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-shared-superview-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-shared-superview-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-shared-superview-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Shared Superview
 
 @Metadata {
   @TitleHeading("Shared superview in a UIView hierarchy")

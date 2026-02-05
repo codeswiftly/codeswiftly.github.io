@@ -1,7 +1,8 @@
+# Meta Final Coding: Valid Word Abbreviation
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-valid-word-abbreviation-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-valid-word-abbreviation-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-valid-word-abbreviation-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Valid Word Abbreviation
 
 @Metadata {
   @TitleHeading("Valid word abbreviation")

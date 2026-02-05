@@ -1,7 +1,8 @@
+# Meta Jedi Framework
+
 @PageImage(purpose: card, source: "companies-meta-meta-jedi-framework-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-meta-jedi-framework-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-meta-jedi-framework-icon.codex", alt: "Placeholder icon")
-# Meta Jedi Framework
 
 @Metadata {
   @TitleHeading("Mastering the Meta Behavioral (Jedi) Interview")

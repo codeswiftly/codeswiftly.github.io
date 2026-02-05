@@ -1,8 +1,8 @@
+# LeetCode 200: Number of Islands
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-200-number-of-islands-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-200-number-of-islands-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-200-number-of-islands-icon.codex", alt: "Placeholder icon")
-# LeetCode 200: Number of Islands
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-200-number-of-islands-dsa-icon.codex", alt: "Medium problem - Pattern 11 (DFS)")

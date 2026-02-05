@@ -1,8 +1,8 @@
+# LeetCode 353: Design Snake Game
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-353-design-snake-game-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-353-design-snake-game-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-353-design-snake-game-icon.codex", alt: "Placeholder icon")
-# LeetCode 353: Design Snake Game
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-353-design-snake-game-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

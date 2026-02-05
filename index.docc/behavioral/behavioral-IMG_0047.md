@@ -1,7 +1,8 @@
+# Resource Allocation Conflict (Manager Perspective)
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0047-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0047-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0047-icon.codex", alt: "Placeholder icon")
-# Resource Allocation Conflict (Manager Perspective)
 
 Resource conflicts are leadership tests. This example highlights balancing enterprise compliance
 risk against another mission-critical migration.

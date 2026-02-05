@@ -1,8 +1,8 @@
+# LeetCode 188: Best Time to Buy and Sell Stock IV
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-188-best-time-to-buy-and-sell-stock-iv-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-188-best-time-to-buy-and-sell-stock-iv-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-188-best-time-to-buy-and-sell-stock-iv-icon.codex", alt: "Placeholder icon")
-# LeetCode 188: Best Time to Buy and Sell Stock IV
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-188-best-time-to-buy-and-sell-stock-iv-dsa-icon.codex", alt: "Hard problem - Pattern 15 (Dynamic Programming)")

@@ -1,7 +1,8 @@
+# Meta Final Coding: Deep Copy Friends Graph
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-deep-copy-graph-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-deep-copy-graph-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-deep-copy-graph-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Deep Copy Friends Graph
 
 @Metadata {
   @TitleHeading("Deep copy a Friend graph")

@@ -1,6 +1,7 @@
+# Unity + AI/LLM Graphics and Video Guide
+
 @PageImage(purpose: card, source: "unity-ai-llm-graphics-guide-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "unity-ai-llm-graphics-guide-icon.codex", alt: "Placeholder icon")
-# Unity + AI/LLM Graphics and Video Guide
 
 @Image(source: "unity-ai-llm-graphics-guide-hero.codex", alt: "Unity + AI LLM graphics and video guide hero")
 

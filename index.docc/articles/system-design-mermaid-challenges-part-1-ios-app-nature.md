@@ -1,7 +1,8 @@
+# System Design Challenges (iOS App Nature)
+
 @PageImage(purpose: card, source: "system-design-mermaid-challenges-part-1-ios-app-nature-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-challenges-part-1-ios-app-nature-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-1-ios-app-nature-icon.codex", alt: "Placeholder icon")
-# System Design Challenges (iOS App Nature)
 
 @Metadata {
   @TitleHeading("iOS app nature: 10 challenge diagrams")

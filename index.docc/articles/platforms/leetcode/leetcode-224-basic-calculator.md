@@ -1,7 +1,8 @@
+# LeetCode 224: Basic Calculator
+
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-224-basic-calculator-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-224-basic-calculator-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-224-basic-calculator-icon.codex", alt: "Placeholder icon")
-# LeetCode 224: Basic Calculator
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-224-basic-calculator-dsa-icon.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")

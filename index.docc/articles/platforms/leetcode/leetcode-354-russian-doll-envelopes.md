@@ -1,8 +1,8 @@
+# LeetCode 354: Russian Doll Envelopes
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-354-russian-doll-envelopes-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-354-russian-doll-envelopes-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-354-russian-doll-envelopes-icon.codex", alt: "Placeholder icon")
-# LeetCode 354: Russian Doll Envelopes
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-354-russian-doll-envelopes-dsa-icon.codex", alt: "Hard problem - Pattern 4 (Overlapping Intervals)")

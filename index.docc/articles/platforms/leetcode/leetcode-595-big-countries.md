@@ -1,8 +1,8 @@
+# LeetCode 595: Big Countries (SQL)
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-595-big-countries-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-595-big-countries-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-595-big-countries-icon.codex", alt: "Placeholder icon")
-# LeetCode 595: Big Countries (SQL)
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-595-big-countries-dsa-icon.codex", alt: "Easy problem - Pattern 1 (Prefix Sum)")

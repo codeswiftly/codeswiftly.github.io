@@ -1,8 +1,8 @@
+# LeetCode 1691: Maximum Height by Stacking Cuboids
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1691-maximum-height-by-stacking-cuboids-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1691-maximum-height-by-stacking-cuboids-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1691-maximum-height-by-stacking-cuboids-icon.codex", alt: "Placeholder icon")
-# LeetCode 1691: Maximum Height by Stacking Cuboids
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1691-maximum-height-by-stacking-cuboids-dsa-icon.codex", alt: "Hard problem - Pattern 4 (Overlapping Intervals)")

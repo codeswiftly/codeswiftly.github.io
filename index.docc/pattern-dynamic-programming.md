@@ -1,6 +1,6 @@
+# Pattern 15: Dynamic Programming
 
 @Image(source: "pattern-dynamic-programming-hero.codex", alt: "Placeholder hero")
-# Pattern 15: Dynamic Programming
 
 @Metadata {
   @TitleHeading("Practice Dynamic Programming")

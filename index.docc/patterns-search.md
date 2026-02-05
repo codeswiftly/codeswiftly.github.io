@@ -1,7 +1,7 @@
+# Search Patterns
 
 @PageImage(purpose: card, source: "patterns-search-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-search-hero.codex", alt: "Placeholder hero")
-# Search Patterns
 
 @Metadata {
   @TitleHeading("Browse Search Patterns")

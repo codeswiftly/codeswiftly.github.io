@@ -1,8 +1,8 @@
+# LeetCode 348: Design Tic-Tac-Toe
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-348-design-tic-tac-toe-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-348-design-tic-tac-toe-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-348-design-tic-tac-toe-icon.codex", alt: "Placeholder icon")
-# LeetCode 348: Design Tic-Tac-Toe
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-348-design-tic-tac-toe-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

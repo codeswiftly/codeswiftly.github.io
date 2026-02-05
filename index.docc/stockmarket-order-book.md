@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "stockmarket-order-book-icon.codex", alt: "Placeholder icon")
 # Stockmarket Order Book
+
+@PageImage(purpose: icon, source: "stockmarket-order-book-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Stockmarket order book")

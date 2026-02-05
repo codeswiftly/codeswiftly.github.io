@@ -1,6 +1,6 @@
+# Pattern 03: Sliding Window
 
 @Image(source: "pattern-sliding-window-hero.codex", alt: "Placeholder hero")
-# Pattern 03: Sliding Window
 
 @Metadata {
   @TitleHeading("Practice Sliding Window")

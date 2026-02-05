@@ -1,8 +1,8 @@
+# LeetCode 273: Integer to English Words
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-273-integer-to-english-words-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-273-integer-to-english-words-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-273-integer-to-english-words-icon.codex", alt: "Placeholder icon")
-# LeetCode 273: Integer to English Words
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-273-integer-to-english-words-dsa-icon.codex", alt: "Hard problem - Pattern 2 (Two Pointers)")

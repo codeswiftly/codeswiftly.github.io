@@ -1,7 +1,8 @@
+# Chronological vs Thematic Action Structure
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0005-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0005-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0005-icon.codex", alt: "Placeholder icon")
-# Chronological vs Thematic Action Structure
 
 Long stories require a deliberate action structure. The goal is to make your story easy to follow
 and to control the signals the interviewer walks away with.

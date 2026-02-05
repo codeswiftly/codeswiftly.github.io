@@ -1,6 +1,7 @@
+# Snapsnap Excalidraw Templates
+
 @PageImage(purpose: card, source: "snap-snap-excalidraw-templates-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "snap-snap-excalidraw-templates-icon.codex", alt: "Placeholder icon")
-# Snapsnap Excalidraw Templates
 
 @Metadata {
   @TitleHeading("Mermaid templates for Excalidraw")

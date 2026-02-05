@@ -1,7 +1,8 @@
+# Swift Language Fundamentals
+
 @PageImage(purpose: card, source: "swift-swift-language-fundamentals-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-language-fundamentals-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-language-fundamentals-icon.codex", alt: "Placeholder icon")
-# Swift Language Fundamentals
 
 @Metadata {
   @TitleHeading("Swift Language Fundamentals")

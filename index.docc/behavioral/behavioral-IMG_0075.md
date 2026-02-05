@@ -1,7 +1,8 @@
+# The Halo Effect in TMAY
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0075-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0075-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0075-icon.codex", alt: "Placeholder icon")
-# The Halo Effect in TMAY
 
 Listing a concise set of achievements can create a positive halo effect, making you appear
 consistently high-performing across domains.

@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "algorithms-and-patterns-icon.codex", alt: "Placeholder icon")
 # Algorithms and Patterns
+
+@PageImage(purpose: icon, source: "algorithms-and-patterns-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @PageColor(orange)

@@ -1,8 +1,8 @@
+# LeetCode 657: Robot Return to Origin
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-657-robot-return-to-origin-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-657-robot-return-to-origin-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-657-robot-return-to-origin-icon.codex", alt: "Placeholder icon")
-# LeetCode 657: Robot Return to Origin
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-657-robot-return-to-origin-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")

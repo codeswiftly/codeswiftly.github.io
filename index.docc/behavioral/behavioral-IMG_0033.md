@@ -1,7 +1,8 @@
+# Common Conflict Story Patterns
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0033-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0033-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0033-icon.codex", alt: "Placeholder icon")
-# Common Conflict Story Patterns
 
 Conflict stories do not need to be dramatic. Most are everyday disagreements about process, scope,
 or technical direction. The key is how you handled them.

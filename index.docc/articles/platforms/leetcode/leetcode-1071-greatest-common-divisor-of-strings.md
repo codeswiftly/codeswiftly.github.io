@@ -1,8 +1,8 @@
+# LeetCode 1071: Greatest Common Divisor of Strings
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1071-greatest-common-divisor-of-strings-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1071-greatest-common-divisor-of-strings-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1071-greatest-common-divisor-of-strings-icon.codex", alt: "Placeholder icon")
-# LeetCode 1071: Greatest Common Divisor of Strings
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1071-greatest-common-divisor-of-strings-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")

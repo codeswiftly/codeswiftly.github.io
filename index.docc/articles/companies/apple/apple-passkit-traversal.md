@@ -1,7 +1,8 @@
+# PassKit Traversal Tracker (Sosumi.Ai)
+
 @PageImage(purpose: card, source: "companies-apple-apple-passkit-traversal-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-passkit-traversal-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-passkit-traversal-icon.codex", alt: "Placeholder icon")
-# PassKit Traversal Tracker (Sosumi.Ai)
 
 @Metadata {
   @TitleHeading("Review PassKit Traversal Tracker (Sosumi.Ai)")

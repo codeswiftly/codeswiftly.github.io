@@ -1,8 +1,8 @@
+# LeetCode 2034: Stock Price Fluctuation
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-2034-stock-price-fluctuation-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-2034-stock-price-fluctuation-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-2034-stock-price-fluctuation-icon.codex", alt: "Placeholder icon")
-# LeetCode 2034: Stock Price Fluctuation
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-2034-stock-price-fluctuation-dsa-icon.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")

@@ -1,6 +1,7 @@
+# Typing Practice: Script-46-permutations
+
 @PageImage(purpose: card, source: "typing-from-script-46-permutations-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "typing-from-script-46-permutations-icon.codex", alt: "Placeholder icon")
-# Typing Practice: Script-46-permutations
 
 @Metadata {
   @PageColor(blue)

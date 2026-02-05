@@ -1,8 +1,8 @@
+# LeetCode 29: Divide Two Integers
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-29-divide-two-integers-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-29-divide-two-integers-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-29-divide-two-integers-icon.codex", alt: "Placeholder icon")
-# LeetCode 29: Divide Two Integers
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-29-divide-two-integers-dsa-icon.codex", alt: "Medium problem - Pattern 5 (Modified Binary Search)")

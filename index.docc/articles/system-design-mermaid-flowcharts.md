@@ -1,7 +1,8 @@
+# Mermaid Flowcharts (System Design)
+
 @PageImage(purpose: card, source: "system-design-mermaid-flowcharts-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-flowcharts-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-flowcharts-icon.codex", alt: "Placeholder icon")
-# Mermaid Flowcharts (System Design)
 
 @Metadata {
   @TitleHeading("Mermaid flowcharts reference")

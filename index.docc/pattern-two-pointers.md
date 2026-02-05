@@ -1,6 +1,6 @@
+# Pattern 02: Two Pointers
 
 @Image(source: "pattern-two-pointers-hero.codex", alt: "Placeholder hero")
-# Pattern 02: Two Pointers
 
 @Metadata {
   @TitleHeading("Practice Two Pointers")

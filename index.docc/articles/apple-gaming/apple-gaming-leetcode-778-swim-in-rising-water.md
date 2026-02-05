@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 778: Swim in Rising Water
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-778-swim-in-rising-water-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-778-swim-in-rising-water-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-778-swim-in-rising-water-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 778: Swim in Rising Water
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 778 — Swim in Rising Water")

@@ -1,8 +1,8 @@
+# LeetCode 529: Minesweeper
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-529-minesweeper-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-529-minesweeper-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-529-minesweeper-icon.codex", alt: "Placeholder icon")
-# LeetCode 529: Minesweeper
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-529-minesweeper-dsa-icon.codex", alt: "Medium problem - Pattern 13 (Matrix Traversal)")

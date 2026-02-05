@@ -1,8 +1,8 @@
+# LeetCode 241: Different Ways to Add Parentheses
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-241-different-ways-to-add-parentheses-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-241-different-ways-to-add-parentheses-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-241-different-ways-to-add-parentheses-icon.codex", alt: "Placeholder icon")
-# LeetCode 241: Different Ways to Add Parentheses
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-241-different-ways-to-add-parentheses-dsa-icon.codex", alt: "Medium problem - Pattern 15 (Dynamic Programming)")

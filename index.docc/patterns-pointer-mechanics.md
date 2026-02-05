@@ -1,7 +1,7 @@
+# Pointer Mechanics
 
 @PageImage(purpose: card, source: "patterns-pointer-mechanics-card.codex", alt: "Placeholder card")
 @Image(source: "patterns-pointer-mechanics-hero.codex", alt: "Placeholder hero")
-# Pointer Mechanics
 
 @Metadata {
   @TitleHeading("Browse Pointer Mechanics")

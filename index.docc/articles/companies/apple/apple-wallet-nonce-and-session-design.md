@@ -1,7 +1,8 @@
+# Apple Wallet Nonce and Session Token Design
+
 @PageImage(purpose: card, source: "companies-apple-apple-wallet-nonce-and-session-design-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-wallet-nonce-and-session-design-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-wallet-nonce-and-session-design-icon.codex", alt: "Placeholder icon")
-# Apple Wallet Nonce and Session Token Design
 
 @Metadata {
   @TitleHeading("Review Apple Wallet Nonce and Session Token Design")

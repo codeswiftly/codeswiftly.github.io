@@ -1,7 +1,8 @@
+# Swift Skill Map
+
 @PageImage(purpose: card, source: "swift-swift-skill-map-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-skill-map-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-skill-map-icon.codex", alt: "Placeholder icon")
-# Swift Skill Map
 
 @Metadata {
   @PageColor(blue)

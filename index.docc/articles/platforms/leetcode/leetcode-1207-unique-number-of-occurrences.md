@@ -1,8 +1,8 @@
+# LeetCode 1207: Unique Number of Occurrences
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1207-unique-number-of-occurrences-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1207-unique-number-of-occurrences-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1207-unique-number-of-occurrences-icon.codex", alt: "Placeholder icon")
-# LeetCode 1207: Unique Number of Occurrences
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1207-unique-number-of-occurrences-dsa-icon.codex", alt: "Easy problem - Pattern 1 (Prefix Sum)")

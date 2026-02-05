@@ -1,6 +1,7 @@
+# Instagram Meta System Design
+
 @PageImage(purpose: card, source: "instagram-meta-system-design-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "instagram-meta-system-design-icon.codex", alt: "Placeholder icon")
-# Instagram Meta System Design
 
 @Metadata {
   @TitleHeading("Instagram-style system design (Meta)")

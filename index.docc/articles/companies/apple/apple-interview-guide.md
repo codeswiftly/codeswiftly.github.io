@@ -1,7 +1,8 @@
+# Apple Interview Guide
+
 @PageImage(purpose: card, source: "companies-apple-apple-interview-guide-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-interview-guide-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-interview-guide-icon.codex", alt: "Placeholder icon")
-# Apple Interview Guide
 
 @Metadata {
   @TitleHeading("Review Apple Interview Guide")

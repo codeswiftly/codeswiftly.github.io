@@ -1,7 +1,8 @@
+# LeetCode 127: Word Ladder
+
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-127-word-ladder-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-127-word-ladder-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-127-word-ladder-icon.codex", alt: "Placeholder icon")
-# LeetCode 127: Word Ladder
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-127-word-ladder-dsa-icon.codex", alt: "Hard problem - Pattern 12 (Graph BFS)")

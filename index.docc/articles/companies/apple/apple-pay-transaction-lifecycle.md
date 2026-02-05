@@ -1,7 +1,8 @@
+# Apple Pay Transaction Lifecycle
+
 @PageImage(purpose: card, source: "companies-apple-apple-pay-transaction-lifecycle-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-pay-transaction-lifecycle-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-pay-transaction-lifecycle-icon.codex", alt: "Placeholder icon")
-# Apple Pay Transaction Lifecycle
 
 @Metadata {
   @TitleHeading("Review Apple Pay Transaction Lifecycle")

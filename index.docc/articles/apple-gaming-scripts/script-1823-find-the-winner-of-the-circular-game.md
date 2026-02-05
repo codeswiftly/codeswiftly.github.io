@@ -1,7 +1,8 @@
+# Script — LeetCode 1823: Find the Winner of the Circular Game (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-1823-find-the-winner-of-the-circular-game-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-1823-find-the-winner-of-the-circular-game-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-1823-find-the-winner-of-the-circular-game-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 1823: Find the Winner of the Circular Game (3:00)
 
 @Metadata {
   @TitleHeading("Script — 1823 Find the Winner of the Circular Game")

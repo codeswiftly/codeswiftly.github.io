@@ -1,7 +1,8 @@
+# The Big Three Behavioral Questions (Why They Are Predictable)
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0018-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0018-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0018-icon.codex", alt: "Placeholder icon")
-# The Big Three Behavioral Questions (Why They Are Predictable)
 
 Most loops include the same three behavioral prompts. This is your chance to prepare answers that
 showcase your strongest signals without being surprised.

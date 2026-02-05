@@ -1,8 +1,8 @@
+# LeetCode - Roman to Integer (Apple-Style)
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-roman-to-integer-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-roman-to-integer-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-roman-to-integer-icon.codex", alt: "Placeholder icon")
-# LeetCode - Roman to Integer (Apple-Style)
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-roman-to-integer-dsa-icon.codex", alt: "Easy problem - Pattern 2 (Two Pointers)")

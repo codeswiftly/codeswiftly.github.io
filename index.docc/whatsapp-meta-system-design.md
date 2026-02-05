@@ -1,6 +1,7 @@
+# Whatsapp Meta System Design
+
 @PageImage(purpose: card, source: "whatsapp-meta-system-design-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "whatsapp-meta-system-design-icon.codex", alt: "Placeholder icon")
-# Whatsapp Meta System Design
 
 @Metadata {
   @TitleHeading("WhatsApp-style system design (Meta)")

@@ -1,8 +1,8 @@
+# LeetCode 42: Trapping Rain Water
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-42-trapping-rain-water-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-42-trapping-rain-water-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-42-trapping-rain-water-icon.codex", alt: "Placeholder icon")
-# LeetCode 42: Trapping Rain Water
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-42-trapping-rain-water-dsa-icon.codex", alt: "Hard problem - Pattern 8 (Monotonic Stack)")

@@ -1,6 +1,6 @@
+# Pattern 05: Modified Binary Search
 
 @Image(source: "pattern-modified-binary-search-hero.codex", alt: "Placeholder hero")
-# Pattern 05: Modified Binary Search
 
 @Metadata {
   @TitleHeading("Practice Modified Binary Search")

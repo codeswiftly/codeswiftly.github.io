@@ -1,7 +1,8 @@
+# Example Questions by Topic
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0061-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0061-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0061-icon.codex", alt: "Placeholder icon")
-# Example Questions by Topic
 
 Use these as templates to spark your own questions.
 

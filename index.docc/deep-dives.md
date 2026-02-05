@@ -1,6 +1,7 @@
+# Deep Dives
+
 @PageImage(purpose: card, source: "deep-dives-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "deep-dives-icon.codex", alt: "Placeholder icon")
-# Deep Dives
 
 @Metadata {
   @PageColor(purple)

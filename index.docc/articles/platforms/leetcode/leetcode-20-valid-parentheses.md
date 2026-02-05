@@ -1,8 +1,8 @@
+# LeetCode 20: Valid Parentheses
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-20-valid-parentheses-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-20-valid-parentheses-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-20-valid-parentheses-icon.codex", alt: "Placeholder icon")
-# LeetCode 20: Valid Parentheses
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-20-valid-parentheses-dsa-icon.codex", alt: "Easy problem - Pattern 8 (Monotonic Stack)")

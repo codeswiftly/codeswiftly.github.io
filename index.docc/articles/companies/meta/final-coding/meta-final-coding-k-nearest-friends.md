@@ -1,7 +1,8 @@
+# Meta Final Coding: K Nearest Friends
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-k-nearest-friends-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-k-nearest-friends-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-k-nearest-friends-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: K Nearest Friends
 
 @Metadata {
   @TitleHeading("K nearest friends by distance")

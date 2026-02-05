@@ -1,7 +1,8 @@
+# Meta Final Coding: Sum Root-to-Leaf Numbers
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-root-to-leaf-sum-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-root-to-leaf-sum-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-root-to-leaf-sum-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Sum Root-to-Leaf Numbers
 
 @Metadata {
   @TitleHeading("Sum of root-to-leaf numbers")

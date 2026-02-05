@@ -1,8 +1,8 @@
+# HackerRank -- Quicksort (Part 2)
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-quicksort-part-2-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-quicksort-part-2-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-quicksort-part-2-icon.codex", alt: "Placeholder icon")
-# HackerRank -- Quicksort (Part 2)
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Quicksort (Part 2)")

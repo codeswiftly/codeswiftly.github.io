@@ -1,8 +1,8 @@
+# LeetCode 733: Flood Fill
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-733-flood-fill-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-733-flood-fill-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-733-flood-fill-icon.codex", alt: "Placeholder icon")
-# LeetCode 733: Flood Fill
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-733-flood-fill-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")

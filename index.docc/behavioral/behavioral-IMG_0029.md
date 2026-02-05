@@ -1,7 +1,8 @@
+# Structuring and Defending the Favorite Project Story
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0029-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0029-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0029-icon.codex", alt: "Placeholder icon")
-# Structuring and Defending the Favorite Project Story
 
 The favorite project is large enough that a single CARL often feels cramped. Organize actions into
 clear themes and prepare for follow-up questions.

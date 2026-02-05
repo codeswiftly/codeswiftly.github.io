@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 1345: Jump Game IV
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1345-jump-game-iv-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-1345-jump-game-iv-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1345-jump-game-iv-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 1345: Jump Game IV
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1345 — Jump Game IV")

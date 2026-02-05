@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 1263: Minimum Moves to Move a Box to Their Target Location
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-1263-minimum-moves-to-move-a-box-to-their-target-location-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-1263-minimum-moves-to-move-a-box-to-their-target-location-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-1263-minimum-moves-to-move-a-box-to-their-target-location-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 1263: Minimum Moves to Move a Box to Their Target Location
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 1263 — Minimum Moves to Move a Box to Their Target Location")

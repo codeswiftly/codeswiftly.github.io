@@ -1,6 +1,7 @@
+# System Design Mermaid Prompts
+
 @PageImage(purpose: card, source: "system-design-mermaid-prompts-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "system-design-mermaid-prompts-icon.codex", alt: "Placeholder icon")
-# System Design Mermaid Prompts
 
 @Metadata {
   @TitleHeading("Sketch fast, explain tradeoffs")

@@ -1,7 +1,8 @@
+# Prototype, Learn, and Pivot
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0012-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0012-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0012-icon.codex", alt: "Placeholder icon")
-# Prototype, Learn, and Pivot
 
 Behavioral stories land when you show that you avoided overbuilding, learned quickly, and changed
 course with evidence.

@@ -1,8 +1,8 @@
+# HackerRank -- Array Left Rotation
 
 @PageImage(purpose: card, source: "platforms-hackerrank-hackerrank-rot-left-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-hackerrank-hackerrank-rot-left-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-hackerrank-hackerrank-rot-left-icon.codex", alt: "Placeholder icon")
-# HackerRank -- Array Left Rotation
 
 @Metadata {
   @TitleHeading("Review HackerRank -- Array Left Rotation")

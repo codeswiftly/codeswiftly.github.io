@@ -1,7 +1,8 @@
+# Mermaid Class Diagrams (System Design)
+
 @PageImage(purpose: card, source: "system-design-mermaid-class-diagrams-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-class-diagrams-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-class-diagrams-icon.codex", alt: "Placeholder icon")
-# Mermaid Class Diagrams (System Design)
 
 @Metadata {
   @TitleHeading("Mermaid class diagrams reference")

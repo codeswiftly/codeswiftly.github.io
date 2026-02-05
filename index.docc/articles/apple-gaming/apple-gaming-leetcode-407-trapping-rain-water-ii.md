@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 407: Trapping Rain Water II
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-407-trapping-rain-water-ii-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-407-trapping-rain-water-ii-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-407-trapping-rain-water-ii-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 407: Trapping Rain Water II
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 407 — Trapping Rain Water II")

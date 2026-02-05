@@ -1,8 +1,8 @@
+# LeetCode 1275: Find Winner on a Tic Tac Toe Game
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-1275-find-winner-on-a-tic-tac-toe-game-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-1275-find-winner-on-a-tic-tac-toe-game-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-1275-find-winner-on-a-tic-tac-toe-game-icon.codex", alt: "Placeholder icon")
-# LeetCode 1275: Find Winner on a Tic Tac Toe Game
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-1275-find-winner-on-a-tic-tac-toe-game-dsa-icon.codex", alt: "Easy problem - Pattern 13 (Matrix Traversal)")

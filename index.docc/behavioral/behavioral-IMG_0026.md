@@ -1,7 +1,8 @@
+# Positive Framing When Leaving a Role
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0026-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0026-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0026-icon.codex", alt: "Placeholder icon")
-# Positive Framing When Leaving a Role
 
 Interviewers want to hear why you are moving toward something, not why you are running away. Keep
 your narrative constructive and future-focused.

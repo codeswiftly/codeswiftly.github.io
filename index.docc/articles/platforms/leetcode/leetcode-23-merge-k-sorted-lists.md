@@ -1,7 +1,8 @@
+# LeetCode 23: Merge K Sorted Lists
+
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-23-merge-k-sorted-lists-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-23-merge-k-sorted-lists-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-23-merge-k-sorted-lists-icon.codex", alt: "Placeholder icon")
-# LeetCode 23: Merge K Sorted Lists
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-23-merge-k-sorted-lists-dsa-icon.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")

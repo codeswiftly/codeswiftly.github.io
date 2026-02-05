@@ -1,8 +1,8 @@
+# LeetCode 502: IPO
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-502-ipo-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-502-ipo-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-502-ipo-icon.codex", alt: "Placeholder icon")
-# LeetCode 502: IPO
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-502-ipo-dsa-icon.codex", alt: "Hard problem - Pattern 9 (Top-K Heap)")

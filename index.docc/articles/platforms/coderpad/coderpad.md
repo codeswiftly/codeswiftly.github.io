@@ -1,7 +1,8 @@
+# CoderPad Rounds (Apple, Meta)
+
 @PageImage(purpose: card, source: "platforms-coderpad-coderpad-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-coderpad-coderpad-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-coderpad-coderpad-icon.codex", alt: "Placeholder icon")
-# CoderPad Rounds (Apple, Meta)
 
 @Metadata {
   @TitleHeading("Review CoderPad Rounds (Apple, Meta)")

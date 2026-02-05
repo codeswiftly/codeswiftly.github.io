@@ -1,7 +1,8 @@
+# Choosing the Right Favorite Project
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0028-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0028-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0028-icon.codex", alt: "Placeholder icon")
-# Choosing the Right Favorite Project
 
 Your favorite project should be selected for signal quality, not personal sentiment. Optimize for
 impact, scope, and personal contribution.

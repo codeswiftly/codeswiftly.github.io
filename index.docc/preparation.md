@@ -1,5 +1,6 @@
-@PageImage(purpose: icon, source: "preparation-icon.codex", alt: "Placeholder icon")
 # Preparation
+
+@PageImage(purpose: icon, source: "preparation-icon.codex", alt: "Placeholder icon")
 
 @Metadata {
   @TitleHeading("Review Preparation")

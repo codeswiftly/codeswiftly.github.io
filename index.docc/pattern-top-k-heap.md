@@ -1,6 +1,6 @@
+# Pattern 09: Top K with Heap
 
 @Image(source: "pattern-top-k-heap-hero.codex", alt: "Placeholder hero")
-# Pattern 09: Top K with Heap
 
 @Metadata {
   @TitleHeading("Practice Top K with Heap")

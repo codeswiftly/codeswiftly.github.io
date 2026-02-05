@@ -1,7 +1,8 @@
+# Conflict Story Example: Results and Stakeholder Buy-in
+
 @PageImage(purpose: card, source: "behavioral-behavioral-img_0041-card.codex", alt: "Placeholder card")
 @Image(source: "behavioral-behavioral-img_0041-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "behavioral-behavioral-img_0041-icon.codex", alt: "Placeholder icon")
-# Conflict Story Example: Results and Stakeholder Buy-in
 
 A good conflict story ends with measurable results and a preserved working relationship.
 

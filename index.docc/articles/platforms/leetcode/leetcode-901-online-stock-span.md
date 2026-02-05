@@ -1,8 +1,8 @@
+# LeetCode 901: Online Stock Span
 
 @PageImage(purpose: card, source: "platforms-leetcode-leetcode-901-online-stock-span-card.codex", alt: "Placeholder card")
 @Image(source: "platforms-leetcode-leetcode-901-online-stock-span-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "platforms-leetcode-leetcode-901-online-stock-span-icon.codex", alt: "Placeholder icon")
-# LeetCode 901: Online Stock Span
 
 @Metadata {
   @PageImage(purpose: icon, source: "leetcode-901-online-stock-span-dsa-icon.codex", alt: "Medium problem - Pattern 8 (Monotonic Stack)")

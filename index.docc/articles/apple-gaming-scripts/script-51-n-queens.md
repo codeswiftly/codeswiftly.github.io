@@ -1,7 +1,8 @@
+# Script — LeetCode 51: N‑Queens (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-51-n-queens-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-51-n-queens-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-51-n-queens-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 51: N‑Queens (3:00)
 
 @Metadata {
   @TitleHeading("Script — 51 N‑Queens")

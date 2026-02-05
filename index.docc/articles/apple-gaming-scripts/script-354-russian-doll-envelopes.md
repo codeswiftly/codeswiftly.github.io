@@ -1,7 +1,8 @@
+# Script — LeetCode 354: Russian Doll Envelopes (3:00)
+
 @PageImage(purpose: card, source: "apple-gaming-scripts-script-354-russian-doll-envelopes-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-scripts-script-354-russian-doll-envelopes-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-scripts-script-354-russian-doll-envelopes-icon.codex", alt: "Placeholder icon")
-# Script — LeetCode 354: Russian Doll Envelopes (3:00)
 
 @Metadata {
   @TitleHeading("Script — 354 Russian Doll Envelopes")

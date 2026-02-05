@@ -1,7 +1,8 @@
+# Meta Final Coding: Set with Count
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-set-with-count-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-set-with-count-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-set-with-count-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Set with Count
 
 @Metadata {
   @TitleHeading("Implement a Set with count")

@@ -1,7 +1,8 @@
+# System Design Challenges (iOS App Complexity)
+
 @PageImage(purpose: card, source: "system-design-mermaid-challenges-part-2-ios-complexity-card.codex", alt: "Placeholder card")
 @Image(source: "system-design-mermaid-challenges-part-2-ios-complexity-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "system-design-mermaid-challenges-part-2-ios-complexity-icon.codex", alt: "Placeholder icon")
-# System Design Challenges (iOS App Complexity)
 
 @Metadata {
   @TitleHeading("iOS complexity: 7 challenge diagrams")

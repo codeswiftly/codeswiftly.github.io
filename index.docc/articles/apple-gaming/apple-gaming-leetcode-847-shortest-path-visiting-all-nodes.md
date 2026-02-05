@@ -1,7 +1,8 @@
+# Gaming Deep Dive — LeetCode 847: Shortest Path Visiting All Nodes
+
 @PageImage(purpose: card, source: "apple-gaming-apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-card.codex", alt: "Placeholder card")
 @Image(source: "apple-gaming-apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "apple-gaming-apple-gaming-leetcode-847-shortest-path-visiting-all-nodes-icon.codex", alt: "Placeholder icon")
-# Gaming Deep Dive — LeetCode 847: Shortest Path Visiting All Nodes
 
 @Metadata {
   @TitleHeading("Gaming Deep Dive: LeetCode 847 — Shortest Path Visiting All Nodes")

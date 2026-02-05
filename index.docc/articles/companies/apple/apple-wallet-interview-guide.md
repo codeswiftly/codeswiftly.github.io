@@ -1,7 +1,8 @@
+# Apple Wallet Interview Guide
+
 @PageImage(purpose: card, source: "companies-apple-apple-wallet-interview-guide-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-wallet-interview-guide-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-wallet-interview-guide-icon.codex", alt: "Placeholder icon")
-# Apple Wallet Interview Guide
 
 @Metadata {
   @PageColor(red)

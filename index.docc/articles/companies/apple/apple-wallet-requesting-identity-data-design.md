@@ -1,7 +1,8 @@
+# API Design: Requesting Identity Data from a Wallet Pass
+
 @PageImage(purpose: card, source: "companies-apple-apple-wallet-requesting-identity-data-design-card.codex", alt: "Placeholder card")
 @Image(source: "companies-apple-apple-wallet-requesting-identity-data-design-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-apple-apple-wallet-requesting-identity-data-design-icon.codex", alt: "Placeholder icon")
-# API Design: Requesting Identity Data from a Wallet Pass
 
 @Metadata {
   @TitleHeading("Review API Design: Requesting Identity Data from a Wallet Pass")

@@ -1,7 +1,8 @@
+# Meta Final Coding: Validate Number String
+
 @PageImage(purpose: card, source: "companies-meta-final-coding-meta-final-coding-validate-number-string-card.codex", alt: "Placeholder card")
 @Image(source: "companies-meta-final-coding-meta-final-coding-validate-number-string-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "companies-meta-final-coding-meta-final-coding-validate-number-string-icon.codex", alt: "Placeholder icon")
-# Meta Final Coding: Validate Number String
 
 @Metadata {
   @TitleHeading("Validate a numeric string")

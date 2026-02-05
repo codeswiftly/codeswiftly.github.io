@@ -1,6 +1,7 @@
+# Snapsnap Architecture Blueprint (First Attempt)
+
 @PageImage(purpose: card, source: "system-design-case-study-snapsnap-architecture-blueprint-card.codex", alt: "Placeholder card")
 @PageImage(purpose: icon, source: "system-design-case-study-snapsnap-architecture-blueprint-icon.codex", alt: "Placeholder icon")
-# Snapsnap Architecture Blueprint (First Attempt)
 
 @Metadata {
   @TitleHeading("Example case study: first attempt")

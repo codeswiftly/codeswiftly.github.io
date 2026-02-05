@@ -1,7 +1,8 @@
+# Swift Data Processing Pipelines in `Code/Mono`
+
 @PageImage(purpose: card, source: "swift-swift-data-processing-pipelines-in-mono-card.codex", alt: "Placeholder card")
 @Image(source: "swift-swift-data-processing-pipelines-in-mono-hero.codex", alt: "Placeholder hero")
 @PageImage(purpose: icon, source: "swift-swift-data-processing-pipelines-in-mono-icon.codex", alt: "Placeholder icon")
-# Swift Data Processing Pipelines in `Code/Mono`
 
 @Metadata {
   @TitleHeading("Review Swift Data Processing Pipelines in `Code/Mono`")
