@@ -13,13 +13,13 @@
 
 
 Mobile interviews emphasize behavioral depth, system design reasoning, and coding clarity.
-This guide currently anchors the Meta mobile track.
+This guide anchors the mobile track.
 
-Meta’s internal loop names:
+Common loop labels:
 
-- **Jedi**: behavioral interview (culture fit, leadership, workplace challenges)
-- **Ninja**: coding interview (problem solving, correctness, complexity)
-- **Pirate**: system design interview (tradeoffs, end-to-end flows, constraints)
+- **Behavioral**: culture fit, leadership, workplace challenges
+- **Coding**: problem solving, correctness, complexity
+- **System design**: tradeoffs, end-to-end flows, constraints
 
 ## 24-Hour Cram Plan
 
@@ -29,24 +29,24 @@ Meta’s internal loop names:
 
 One clean, repeatable rehearsal loop:
 
-1) **Jedi (behavioral)** — build and rehearse your story bank:
+1) **Behavioral** — build and rehearse your story bank:
    - <doc:meta-jedi-framework>
    - <doc:behavioral>
-2) **Ninja (coding)** — do a timed coding drill with narration:
+2) **Coding** — do a timed coding drill with narration:
    - <doc:algorithms-and-patterns>
    - <doc:swift-gotchas>
-3) **Pirate (system design)** — walk an end-to-end flow with explicit tradeoffs:
+3) **System design** — walk an end-to-end flow with explicit tradeoffs:
    - <doc:system-design-and-api>
 4) Capture gaps and update your plan:
    - <doc:preparation>
    - <doc:practice-platforms>
 
-## Recent Meta Interview Takeaways
+## Recent Interview Takeaways
 
 > [!IMPORTANT]
 > **Next Round Prep**: Use the <doc:meta-post-interview-1-cram> for the 20-minute review before your next interview.
 
-This section captures concrete takeaways from a Meta coding round (CGRect containment + i18n style
+This section captures concrete takeaways from a recent coding round (CGRect containment + i18n style
 pattern matching). The goal is to turn those misses into a repeatable checklist.
 
 ### CGRect Containment (CoreGraphics)
@@ -95,7 +95,7 @@ Accepted "I ran out of time" verbal script:
 - "For a number token, I require `j + n <= count` and advance by `n`."
 - "Return true only if `j == count`."
 
-### Tactics for Meta's No-typecheck Environment
+### Tactics for No-typecheck Environments
 
 - Focus on invariants first, then mechanics. Say the invariants out loud.
 - If you choose "tokenize + match," keep the phases separated so you can finish at least one.
@@ -139,19 +139,19 @@ Accepted "I ran out of time" verbal script:
 - End condition is input fully consumed.
 - Optional rule: disallow leading zero in numeric segments (clarify with interviewer).
 
-## Legacy Facebook Notes (Now Meta)
+## Legacy Notes (Archived)
 
-This section preserves the original Facebook-specific notes (Facebook is now Meta).
+This section preserves legacy mobile interview notes. Legacy file paths are retained for traceability.
 
 ## Study Plan
 
-- Source: `job-hunting/Facebook/Study Plan.md`.
-- Mix study time across: Coding HNs, Cracking the Coding Interview, Interview Cake, Objc.io, FB
+- Source: `job-hunting/Facebook/Study Plan.md` (legacy path name retained).
+- Mix study time across: Coding HNs, Cracking the Coding Interview, Interview Cake, Objc.io, legacy
   open source libraries.
 
 ## Interview Questions (CoderPad Heavy)
 
-- Source: `job-hunting/Facebook/FB Questions.md`.
+- Source: `job-hunting/Facebook/FB Questions.md` (legacy path name retained).
 - Prompts:
   - Print tree nodes level by level.
   - NSRange intersections; coderpad prompt on NSRange; find intersection between two NSRanges.
@@ -183,8 +183,8 @@ func findKClosestElements(_ nums: [Int], _ k: Int, _ x: Int) -> [Int] {
 ## Additional Artifacts
 
 - General study artifacts:
-  - `job-hunting/Facebook/Week 1 Coding Challenges.md`: weekly drills.
-  - `job-hunting/Facebook/FB Sample.swift`: sample Swift solutions.
+  - `job-hunting/Facebook/Week 1 Coding Challenges.md`: weekly drills (legacy path name retained).
+  - `job-hunting/Facebook/FB Sample.swift`: sample Swift solutions (legacy path name retained).
 - Interview-specific notes and retrospectives are kept in the private bundle.
 
 ## Topics

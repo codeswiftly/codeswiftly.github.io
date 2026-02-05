@@ -12,8 +12,8 @@
 }
 
 
-OS interviews (Apple + Google) emphasize clean reasoning, API design, and correctness under
-constraints. Use this guide to rehearse cross-platform fundamentals and platform-specific depth.
+OS interviews emphasize clean reasoning, API design, and correctness under constraints. Use this
+guide to rehearse cross-platform fundamentals and platform-specific depth.
 
 ## Quick Start
 
@@ -37,13 +37,13 @@ constraints. Use this guide to rehearse cross-platform fundamentals and platform
 3) Explain performance, tradeoffs, and failure modes.  
 4) Reflect, fix, and add drills.
 
-## Apple Focus
+## Platform API Focus
 
-- API design and wallet identity flows.
+- API design and identity flows.
 - Data processing, serialization, and correctness.
 - Concurrency and performance tradeoffs.
 
-## Google Focus
+## Problem-Solving Focus
 
 - Clean problem solving and correctness under constraints.
 - Clear communication and complexity reasoning.
@@ -84,7 +84,7 @@ func isCircular(array: [Int]) -> Bool {
 - <doc:apple>
 - <doc:system-design>
 
-### Apple System and API Design
+### Platform System and API Design
 
 - <doc:apple-wallet-credential-store-design>
 

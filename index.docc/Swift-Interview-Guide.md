@@ -34,6 +34,14 @@ A curated prep system for Swift interviews that scales as you add new content.
   This guide is treated like a handbook: sharpened over time, never bloated.
 }
 
+## Start With Swift Fundamentals
+
+- <doc:swift-language-fundamentals>
+- <doc:swift-main-data-structures>
+- <doc:swift-quick-sheet>
+- <doc:swift-strings-gotchas>
+- <doc:swift-array-gotchas>
+
 ## Quick Start
 
 Use this guide to prep for Swift developer interviews across iOS, macOS, and server Swift roles.

@@ -15,6 +15,14 @@ A practical Swift interview guide for Code Swiftly practice: algorithms, Swift l
 
 ## Topics
 
+### Swift Fundamentals
+
+- <doc:swift-language-fundamentals>
+- <doc:swift-main-data-structures>
+- <doc:swift-quick-sheet>
+- <doc:swift-strings-gotchas>
+- <doc:swift-array-gotchas>
+
 ### Start Here
 
 - <doc:swift-interview-guide>
