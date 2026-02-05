@@ -29,12 +29,17 @@ Company-specific prep checklists and phone screen guides.
 - <doc:apple-wallet-interview-guide>
 - <doc:mobile-interview-guide>
 - <doc:finance-interview-guide>
+- <doc:hospitality-interview-guide>
 }
 
 ## Topics
 
 ### Big Tech
 
+
+### Marketplaces and Travel
+
+- <doc:hospitality-interview-guide>
 
 ### Wallet and Identity
 

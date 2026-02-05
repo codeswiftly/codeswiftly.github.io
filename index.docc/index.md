@@ -102,3 +102,4 @@ A practical Swift interview guide for Code Swiftly practice: algorithms, Swift l
 - <doc:os-interview-guide>
 - <doc:mobile-interview-guide>
 - <doc:finance-interview-guide>
+- <doc:hospitality-interview-guide>
