@@ -26,18 +26,18 @@ swift build \
 
 ```bash
 xcrun docc convert \
-  code/mono/docc/private/host/local/swift-interview-guide.docc \
+  code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --fallback-display-name "Swift Interview Guide" \
   --fallback-bundle-identifier "me.rismay.swift.interview.guide" \
   --fallback-bundle-version "1.0.0" \
-  --output-path code/mono/docc/private/host/local/swift-interview-guide.docc/.docc-build
+  --output-path code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/.docc-build
 ```
 
 ## 3) Serve with the CLI
 
 ```bash
 code/mono/apple/spm/clis/docc-wrkstrm-cli/.build/release/docc-wrkstrm serve \
-  --bundle code/mono/docc/private/host/local/swift-interview-guide.docc \
+  --bundle code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --host 127.0.0.1 \
   --port 8101 \
   --stay
@@ -49,7 +49,7 @@ code/mono/apple/spm/clis/docc-wrkstrm-cli/.build/release/docc-wrkstrm serve \
 
 ```bash
 nohup code/mono/apple/spm/clis/docc-wrkstrm-cli/.build/release/docc-wrkstrm serve \
-  --bundle code/mono/docc/private/host/local/swift-interview-guide.docc \
+  --bundle code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --host 127.0.0.1 --port 8101 --stay --quiet \
   > .clia/tmp/docc-wrkstrm-swiftly.log 2>&1 &
 echo "http://127.0.0.1:8101/documentation/swift-interview-guide"
@@ -58,7 +58,7 @@ echo "http://127.0.0.1:8101/documentation/swift-interview-guide"
 ## Stop the Server
 
 - Press Ctrl+C in the terminal where it is running, or:
-- `pkill -f "docc-wrkstrm serve --bundle code/mono/docc/private/host/local/swift-interview-guide.docc"`
+- `pkill -f "docc-wrkstrm serve --bundle code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc"`
 
 Notes
 

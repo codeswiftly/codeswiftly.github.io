@@ -43,7 +43,7 @@ Use this guide to prep for Swift developer interviews across iOS, macOS, and ser
 Each article is a short checklist you can skim before a session.
 
 @Small {
-  Quick preview helper: see `code/mono/docc/private/host/local/swift-interview-guide.docc/quickstart.md`
+  Quick preview helper: see `code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/quickstart.md`
   for the exact serve commands and URL.
 }
 

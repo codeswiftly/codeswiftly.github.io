@@ -93,5 +93,5 @@ Use the `carrie-docs` CLI (under `.clia/agents/carrie/spm/local`) to keep this m
 
 These commands populate and maintain:
 
-- `code/mono/docc/private/host/local/swift-interview-guide.docc/apple-passkit-raw/passkit-index.json`
-- Raw mirrors under `code/mono/docc/private/host/local/swift-interview-guide.docc/apple-passkit-raw/`.
+- `code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/apple-passkit-raw/passkit-index.json`
+- Raw mirrors under `code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/apple-passkit-raw/`.

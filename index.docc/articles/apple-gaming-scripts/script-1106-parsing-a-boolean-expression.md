@@ -45,10 +45,10 @@ Re-render and inline the DocC CSS theme:
 
 ```bash
 npx -y @mermaid-js/mermaid-cli \
-  -i code/mono/docc/private/host/local/swift-interview-guide.docc/Resources/mermaid/ag-1106-boolean-expr-source.mmd \
-  -o code/mono/docc/private/host/local/swift-interview-guide.docc/Resources/ag-1106-boolean-expr.svg
+  -i code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/Resources/mermaid/ag-1106-boolean-expr-source.mmd \
+  -o code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/Resources/ag-1106-boolean-expr.svg
 swift code/scripts/mermaid-inline-css.swift \
-  --dir code/mono/docc/private/host/local/swift-interview-guide.docc/Resources \
+  --dir code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/Resources \
   --css code/mono/apple/spm/clis/docc-wrkstrm-cli/docs/mermaid/mermaid-docc-dark.css
 ```
 

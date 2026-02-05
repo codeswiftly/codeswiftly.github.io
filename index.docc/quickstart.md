@@ -22,18 +22,18 @@ Recommended: render the bundle
 
 ```bash
 xcrun docc convert \
-  code/mono/docc/private/host/local/swift-interview-guide.docc \
+  code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --fallback-display-name "Swift Interview Guide" \
   --fallback-bundle-identifier "com.todo3.job-hunting.swift-interview-guide" \
   --fallback-bundle-version "1.0.0" \
-  --output-path code/mono/docc/private/host/local/swift-interview-guide.docc/.docc-build
+  --output-path code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/.docc-build
 ```
 
 Serve (foreground)
 
 ```bash
 code/mono/apple/spm/clis/docc-wrkstrm-cli/.build/release/docc-wrkstrm serve \
-  --bundle code/mono/docc/private/host/local/swift-interview-guide.docc \
+  --bundle code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --host 127.0.0.1 --port 8101 --stay
 ```
 
@@ -43,7 +43,7 @@ Serve (background)
 
 ```bash
 nohup code/mono/apple/spm/clis/docc-wrkstrm-cli/.build/release/docc-wrkstrm serve \
-  --bundle code/mono/docc/private/host/local/swift-interview-guide.docc \
+  --bundle code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --host 127.0.0.1 --port 8101 --stay --quiet \
   > .clia/tmp/docc-wrkstrm-swiftly.log 2>&1 &
 ```

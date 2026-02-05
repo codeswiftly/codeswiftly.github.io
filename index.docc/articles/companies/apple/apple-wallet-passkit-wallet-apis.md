@@ -240,7 +240,7 @@ raw docs in `apple-passkit-raw/`.
 
 - **Tracking and automation notes:**
   - The raw PassKit mirrors live under
-    `code/mono/docc/private/host/local/swift-interview-guide.docc/apple-passkit-raw/` and are indexed by
+    `code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/apple-passkit-raw/` and are indexed by
     `passkit-index.json` (see `<doc:apple-passkit-traversal>` for CLI details).
   - If you want an always-up-to-date machine-readable list of “Wallet-related PassKit pages plus the
     `/documentation` and `/tutorials` links they reference”, you can extend the `carrie-docs
