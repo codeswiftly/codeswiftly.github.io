@@ -41,6 +41,12 @@ jobs:
             --transform-for-static-hosting \
             --hosting-base-path /
 
+          # Documentation index fallback (only when DocC didn't generate it).
+          if [ -f "documentation/index/index.html" ] && [ ! -f "${output_root}/documentation/index/index.html" ]; then
+            mkdir -p "${output_root}/documentation/index"
+            cp "documentation/index/index.html" "${output_root}/documentation/index/index.html"
+          fi
+
           # Root redirect
           echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url=/documentation/index/"></head></html>' > "${output_root}/index.html"
 
