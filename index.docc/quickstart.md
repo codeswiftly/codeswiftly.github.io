@@ -19,7 +19,7 @@ Recommended: render the bundle
 xcrun docc convert \
   code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc \
   --fallback-display-name "Swift Interview Guide" \
-  --fallback-bundle-identifier "com.todo3.job-hunting.swift-interview-guide" \
+  --fallback-bundle-identifier "com.codeswiftly.swift-interview-guide" \
   --fallback-bundle-version "1.0.0" \
   --output-path code/mono/orgs/codeswiftly/public/docc/pages/codeswiftly.github.io/index.docc/.docc-build
 ```

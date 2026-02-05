@@ -141,17 +141,16 @@ Accepted "I ran out of time" verbal script:
 
 ## Legacy Notes (Archived)
 
-This section preserves legacy mobile interview notes. Legacy file paths are retained for traceability.
+This section preserves legacy mobile interview notes. Source paths are archived in the private
+workspace for traceability.
 
 ## Study Plan
 
-- Source: `job-hunting/Facebook/Study Plan.md` (legacy path name retained).
 - Mix study time across: Coding HNs, Cracking the Coding Interview, Interview Cake, Objc.io, legacy
   open source libraries.
 
 ## Interview Questions (CoderPad Heavy)
 
-- Source: `job-hunting/Facebook/FB Questions.md` (legacy path name retained).
 - Prompts:
   - Print tree nodes level by level.
   - NSRange intersections; coderpad prompt on NSRange; find intersection between two NSRanges.
@@ -183,8 +182,6 @@ func findKClosestElements(_ nums: [Int], _ k: Int, _ x: Int) -> [Int] {
 ## Additional Artifacts
 
 - General study artifacts:
-  - `job-hunting/Facebook/Week 1 Coding Challenges.md`: weekly drills (legacy path name retained).
-  - `job-hunting/Facebook/FB Sample.swift`: sample Swift solutions (legacy path name retained).
 - Interview-specific notes and retrospectives are kept in the private bundle.
 
 ## Topics

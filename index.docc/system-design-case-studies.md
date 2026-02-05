@@ -29,8 +29,6 @@ Use these case studies to rehearse complete system design stories with diagrams 
 - Link any reusable diagrams or Excalidraw templates.
 - End with open questions and next-iteration deltas.
 
-> Note: Cantina system design lives in `docc/job-hunting.docc/cantina-system-design.md`.
-
 ## Topics
 
 - <doc:system-design-case-study-snapsnap-architecture-blueprint>
