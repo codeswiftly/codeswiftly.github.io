@@ -39,7 +39,8 @@ jobs:
           docc convert "index.docc" \
             --output-path "${output_root}" \
             --transform-for-static-hosting \
-            --hosting-base-path /
+            --hosting-base-path / \
+            --fallback-display-name "CodeSwiftly"
 
           # Documentation index fallback (only when DocC didn't generate it).
           if [ -f "documentation/index/index.html" ] && [ ! -f "${output_root}/documentation/index/index.html" ]; then
