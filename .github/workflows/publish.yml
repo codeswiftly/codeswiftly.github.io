@@ -40,6 +40,7 @@ jobs:
             --output-path "${output_root}" \
             --transform-for-static-hosting \
             --hosting-base-path / \
+            --experimental-enable-custom-templates \
             --fallback-display-name "CodeSwiftly"
 
           # Documentation index fallback (only when DocC didn't generate it).

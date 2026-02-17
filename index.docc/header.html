@@ -5,6 +5,20 @@
   Goal: allow in-page Article heroes (`@Image(source: \"...-hero\")` as first content)
   to render as full-bleed rather than constrained to the fixed-width text column.
 -->
+
+<script>
+  // Also: replace the default “Documentation” navigator header with the site brand.
+  document.addEventListener('DOMContentLoaded', () => {
+    const brand = 'CodeSwiftly'
+    for (const h of document.querySelectorAll('h2')) {
+      if (h.textContent && h.textContent.trim() === 'Documentation') {
+        h.textContent = brand
+        break
+      }
+    }
+  })
+</script>
+
 <!--
   [DISABLED] - This CSS forces 100vw which breaks layout when a sidebar is present.
   We rely on standard DocC layout + width="100%" in the SVG itself.
