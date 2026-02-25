@@ -51,6 +51,7 @@ Concurrency | <doc:concurrency-beginners-guide> | <tutorial:concurrency-quiz>
 Algorithms + data structures | <doc:swift-main-data-structures>, <doc:custom-data-structures-reference> | <doc:top-15-patterns>
 Performance + complexity | <doc:swift-quick-sheet> | <doc:stockmarket-rate-limiter>
 Networking + sessions | <doc:system-design-deep-dive-finance-trading> | <doc:apple-wallet-nonce-and-session-design>
+OS device depth | <doc:os-device-interview-prep> | <doc:os-interview-guide>
 
 ## Session Loop
 
@@ -111,6 +112,7 @@ Days 8-10 | Mixed Mocks | Combine coding + behavioral under timebox, refine succ
 ## Device, Tools, and Environment
 
 - Update Xcode and Swift toolchains; confirm simulator devices download.
+- Review <doc:os-device-interview-prep> and pick two device classes to rehearse out loud.
 - Prepare snippets for CommonShell/CommonProcess examples if subprocess execution arises.
 - Set up a clean branch or playground for on-the-spot coding; prefer Swift Testing over XCTest.
 - Validate build + tests before the interview so you can screen share with confidence.
