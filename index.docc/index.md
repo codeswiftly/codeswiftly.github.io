@@ -27,6 +27,7 @@ A practical Swift interview guide for Code Swiftly practice: algorithms, Swift l
 
 - <doc:swift-interview-guide>
 - <doc:preparation>
+- <doc:os-device-interview-prep>
 - <doc:coding-interview>
 - <doc:coding-interview-study-plan>
 - <doc:day-of>
@@ -100,6 +101,7 @@ A practical Swift interview guide for Code Swiftly practice: algorithms, Swift l
 
 - <doc:company-guides>
 - <doc:os-interview-guide>
+- <doc:os-device-interview-prep>
 - <doc:mobile-interview-guide>
 - <doc:finance-interview-guide>
 - <doc:hospitality-interview-guide>

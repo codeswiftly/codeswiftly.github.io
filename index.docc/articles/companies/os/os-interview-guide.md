@@ -26,6 +26,7 @@ guide to rehearse cross-platform fundamentals and platform-specific depth.
 - API design reasoning: <doc:system-design-and-api>, <doc:apple-wallet-api-design>
 - Concurrency and synchronization: <doc:concurrency-dispatch-design>
 - Data processing and correctness: <doc:apple-wallet-iso18013-data-processing>
+- Device-specific adaptation: <doc:os-device-interview-prep>
 - Clear reasoning and complexity awareness: <doc:coding-interview>
 - Behavioral clarity and decision-making: <doc:behavioral>
 - Rehearsal cadence and reflection: <doc:practice-platforms>, <doc:preparation>
@@ -82,6 +83,7 @@ func isCircular(array: [Int]) -> Bool {
 
 - <doc:company-guides>
 - <doc:apple>
+- <doc:os-device-interview-prep>
 - <doc:system-design>
 
 ### Platform System and API Design

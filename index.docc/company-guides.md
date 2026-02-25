@@ -26,6 +26,7 @@ Company-specific prep checklists and phone screen guides.
 @Links(visualStyle: detailedGrid) {
 
 - <doc:os-interview-guide>
+- <doc:os-device-interview-prep>
 - <doc:apple-wallet-interview-guide>
 - <doc:mobile-interview-guide>
 - <doc:finance-interview-guide>
@@ -36,6 +37,7 @@ Company-specific prep checklists and phone screen guides.
 
 ### Big Tech
 
+- <doc:os-device-interview-prep>
 
 ### Marketplaces and Travel
 

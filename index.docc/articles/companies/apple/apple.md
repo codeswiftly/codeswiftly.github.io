@@ -15,6 +15,13 @@
 
 - Scope: DocC stewardship patterns and interview prep pointers.
 
+## Device-First Prep
+
+- Use <doc:os-device-interview-prep> as your primary map for phone, tablet, desktop, wearable,
+  TV, and spatial interview drills.
+- Rehearse one shared feature and explain what changes per device versus what remains shared core
+  logic.
+
 ## Wallet Follow-up Plan
 
 - **Rounds:** 5 interviews (45-60 minutes each). Expect Webex sessions with two interviewers per
