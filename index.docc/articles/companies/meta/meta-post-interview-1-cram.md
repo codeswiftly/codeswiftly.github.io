@@ -99,10 +99,10 @@ Mentally run these 3 cases before verifying your code:
 If writing logic with complex boolean conditions (like Rect containment), unroll it:
 
 ```swift
-// ❌ Bad (Hard to debug/blame)
+// Bad (Hard to debug/blame)
 return A && B && C && D
 
-// ✅ Good (Blamable, distinct breakpoints)
+// Good (Blamable, distinct breakpoints)
 guard A else { return false }
 guard B else { return false }
 guard C else { return false }

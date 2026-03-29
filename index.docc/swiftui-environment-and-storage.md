@@ -67,7 +67,7 @@ struct StorageExample: View {
   @SceneStorage("lastTab") private var lastTab = "home"
 
   var body: some View {
-    Text("Theme: \(preferredTheme) · Tab: \(lastTab)")
+    Text("Theme: \(preferredTheme) - Tab: \(lastTab)")
   }
 }
 ```

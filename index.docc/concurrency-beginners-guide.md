@@ -177,14 +177,14 @@ In code, `sync` vs `async` looks like this:
 let queue = DispatchQueue(label: "com.example.sync-vs-async")
 
 queue.sync {
-  print("A – sync block started and finished before returning")
+  print("A - sync block started and finished before returning")
 }
 
 queue.async {
-  print("B – async block runs later on the queue")
+  print("B - async block runs later on the queue")
 }
 
-print("C – printed immediately after scheduling async work")
+print("C - printed immediately after scheduling async work")
 // Guaranteed order: A, C, then B (at some later time).
 ```
 

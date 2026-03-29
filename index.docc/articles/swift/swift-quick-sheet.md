@@ -581,14 +581,14 @@ final class TreeNode {
   }
 }
 
-// Inorder traversal — O(n) time, O(h) stack (h = tree height).
+// Inorder traversal - O(n) time, O(h) stack (h = tree height).
 func inorder(_ root: TreeNode?) -> [Int] {
   guard let node = root else { return [] }
   // Traverse left, visit self, then traverse right.
   return inorder(node.left) + [node.val] + inorder(node.right)  // LNR
 }
 
-// Level order (BFS) — O(n) time, O(w) space (w = tree width).
+// Level order (BFS) - O(n) time, O(w) space (w = tree width).
 func levelOrder(_ root: TreeNode?) -> [[Int]] {
   guard let root else { return [] }
   var q = Queue<TreeNode>()

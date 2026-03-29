@@ -166,7 +166,7 @@ print(value.debugText)
 ## `String` Indexing (Use `String.Index` Or Convert)
 
 ```swift
-let text = "👩‍💻swift"
+let text = "swift"
 let characters = Array(text)
 print(characters[0])
 ```

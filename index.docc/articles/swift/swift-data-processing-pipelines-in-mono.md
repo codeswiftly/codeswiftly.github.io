@@ -78,7 +78,7 @@ for dir in targets.sorted(by: { $0.path < $1.path }) {
       // Compare with pretty-printed original; write only if bytes differ
       if finalData != pretty(originalData) {
         changedCount += 1
-        print("[normalize] \(f.path) → will update")
+        print("[normalize] \(f.path) -> will update")
         if apply {
           if structuralRisk && !acknowledgeDataLoss {
             throw ValidationError("data-loss risk without acknowledgment")
@@ -476,7 +476,7 @@ filtered file set → combined representation (string, `Data`, or patch).
 struct DFlat: AsyncParsableCommand {
   static let configuration: CommandConfiguration = .init(
     commandName: "dflat",
-    abstract: "🗂️ Harmonize your project's text-based files into a single, unified score.",
+    abstract: "Harmonize your project's text-based files into a single, unified score.",
     version: "0.1.3"
   )
 

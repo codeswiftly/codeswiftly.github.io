@@ -38,7 +38,7 @@ Walkthrough article: <doc:leetcode-46-permutations>
 ## Swift Solution
 
 ```swift
-/// Backtracking: choose → explore → unchoose.
+/// Backtracking: choose -> explore -> unchoose.
 final class Solution {
   func permute(_ numbers: [Int]) -> [[Int]] {
     var allPermutations: [[Int]] = []

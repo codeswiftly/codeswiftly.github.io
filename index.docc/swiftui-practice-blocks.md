@@ -159,7 +159,7 @@ struct StorageBlock: View {
   @SceneStorage("lastTab") private var lastTab = "home"
 
   var body: some View {
-    Text("Accent: \(accentColor) · Tab: \(lastTab)")
+    Text("Accent: \(accentColor) - Tab: \(lastTab)")
   }
 }
 ```
